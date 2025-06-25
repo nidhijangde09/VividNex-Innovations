@@ -1,0 +1,143 @@
+.slider-container {
+  display: flex;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.slider-left img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.slider-right {
+  flex: 1;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.slider-right p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  color: #a020f0;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.read-more .arrow {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.controls button {
+  background: #222;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .slider-left img {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .slider-right {
+    margin-left: 0;
+  }
+
+  .controls {
+    justify-content: center;
+  }
+}
+/* Responsive for Mobile 📱 */
+/* ======================== */
+@media (max-width: 768px) {
+  .slider-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .slider-left img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .slider-right {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .slider-right h2 {
+    font-size: 1.5rem;
+  }
+
+  .slider-right p {
+    font-size: 0.95rem;
+  }
+
+  .read-more {
+    justify-content: center;
+    font-size: 0.95rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+  }
+
+  .controls button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .pagination {
+    justify-content: center;
+  }
+}

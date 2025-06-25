@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.home1-img{
+    width: 100%;
+    height: 90vh;
+}
+@media (max-width: 768px) {
+  .home1-img {
+    height: 50vh; /* or auto if you prefer natural scaling */
+  }
+}
+.head1-txt {
+  color: white;
+  margin-top: -550px;
+  font-size: 90px;
+  padding: 10px 100px;
+}
+/* Mobile view adjustment */
+@media (max-width: 768px) {
+  .head1-txt {
+    margin-top: -350px;
+    font-size: 36px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+
+.loading-text {
+  place-self: center;
+  margin-top: -530px;
+  font-size: 90px;
+  font-family: sans-serif;
+  padding-left: 5%;
+  color: transparent;
+  background: linear-gradient(90deg, #00f, #0ff, #00f) -100% / 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: relative;
+  animation: shimmer 2s linear infinite;
+}
+
+.head1-content {
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+  margin-right: 5%;
+  float: right;
+  position: relative;
+  margin-top: -250px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .loading-text {
+    font-size: 48px;
+    margin-top: -370px;
+    padding-left:0;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .head1-content {
+    font-size: 14px;
+    margin: 20px;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+.value {
+text-align: center;
+color: white;
+font-size: 70px;
+margin-top: 5%;
+padding: 20px 10px;
+}
+.value-content {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(252, 252, 252);
+  margin-top: -50%;
+}
+@media only screen and (max-width: 600px) {
+  .value {
+    font-size: 40px; /* reduce for better fit on small screens */
+    margin-top: 10%;
+    padding: 15px 8px;
+  }
+
+  .value-content {
+    font-size: 18px; /* slightly smaller font for readability */
+  }
+}
+.g-name{
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  padding: 40px;
+  margin-top: 200px;
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .g-name {
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+}
