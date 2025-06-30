@@ -14,9 +14,7 @@ export default function Home() {
       <Navbar />
       <div className='head-container'>
         <img src={h2} alt="Logo" className='home1-img' />
-        <h1 className='loading-text'><span>REINVENT WHAT</span> <br></br>
-          &nbsp; &nbsp;&nbsp;  &nbsp;  <span>YOUR BUSINESS</span> <br></br>
-           <span> COULD BE</span></h1>
+      
         <p className='head1-content' >The technology we use, the ideas we share,<br></br>
           the shows that inspire, the meals we enjoy,<br></br>
           the styles we wear, the roads we travel, <br></br>
