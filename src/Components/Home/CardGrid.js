@@ -4,54 +4,63 @@ import "./CardGrid.css";
 
 const cardData = [
   {
-    title: " Research Report",
-    description: "The race to reinvent with generative AI is well underway. The time to determine if you’re leading or being left behind is now. Discover the front-runners&#39; guide to scaling AI.",
-    image: "https://dynamicmedia.accenture.com/is/image/accenture/GS-The-Front-Runners-600x848:rad-card-full?ts=1741953762442&fit=constrain&dpr=off",
+    subtitle: "Want to lead the future? You must think smarter. And build bolder.", // 🔹 New subtitle
+    title: "Research Report",
+    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them? Step into the future with proven insights.",
+    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    title: "Japan",
-    description: "Experience the beauty of Mount Fuji and Sakura.",
-    image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRp4Y1xOYZA1JlF4AXuS-xzkl2G4DBavgYk26k7MTgGQPw0vYID",
+    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
+    title: "Research Report",
+    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient. Is AI-driven autonomy the next frontier?",
+    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
   {
-    title: "France",
-    description: "Discover Paris and the elegance of the Eiffel Tower.",
+    subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
+    title: "Research Report",
+    description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics, and what this means for people, businesses, and society.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/france"
   },
   {
-    title: "India",
-    description: "Uncover the spiritual vibrancy of Varanasi.",
+    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
+    title: "Research Report",
+    description: "AI is shifting from assistant to advisor, from helpful to deeply human. As change accelerates, resilient connections between people, brands, and AI will define who stands out—and who fades away.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
   {
-    title: "Australia",
-    description: "Dive into the wonders of the Great Barrier Reef.",
-    image: "https://www.shutterstock.com/image-photo/portrait-selfconfident-designer-creating-colourful-260nw-2204640691.jpg",
+    subtitle: "Safeguarding the Digital Frontier: Inside the Work of the UK’s National Cyber Security Centre",
+    title: "   Case Study",
+    description: "The latest phase of its Protective DNS blocks more than 350 million threats each month—strengthening the digital resilience of UK citizens, services, and organizations.",
+    image: "https://t3.ftcdn.net/jpg/12/53/26/80/360_F_1253268001_JcEeDW4SB2iLba0o6mCQZAeDjJBwX3SB.jpg",
     link: "/australia"
   },
   {
-    title: "Italy",
-    description: "Savor the art and cuisine of Rome and Venice.",
-    image: "https://dynamicmedia.accenture.com/is/image/accenture/NCSC-Glance-Skim-600x424:rad-card-half?ts=1746550318493&fit=constrain&dpr=off",
+    subtitle: "Mastering the Art of Dealmaking in the Age of AI",
+    title: "Research Report",
+    description: "Technology can reshape the M&A landscape—but only for firms that move past experimentation and apply it with discipline. Three traits set leading acquirers apart—and drive outsized returns.",
+    image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/italy"
   },
   {
-    title: "Canada",
-    description: "Discover stunning nature from coast to coast.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPlkhf0sKECx-GNkpv35Th46MJ6E4O_h1IhzUAzoneJG3z3WkN",
+    subtitle: "Transforming the Future of Payments in the UAE",
+    title: " Case Study",
+    description: "With a vision for digital innovation, the UAE is reshaping its financial services sector and rising as a prominent FinTech hub on the global stage.",
+    image: "https://images.stockcake.com/public/b/5/e/b5e8b748-c1db-416f-af57-d3d05a918c47_medium/neon-tech-nexus-stockcake.jpg",
     link: "/canada"
   },
   {
-    title: "Egypt",
-    description: "Walk among ancient pyramids and timeless history.",
-    image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMQty-pg65L54KNa2nb8XV7bxAjFnnB8ajXohNvcErxhQsuIJO",
+    subtitle: "Redefining Resilience: Shifting from Preparedness to Transformation",
+    title: "Research Report",
+    description: "While resilience is rebounding to pre-pandemic levels, the stability may be misleading. Heightened volatility demands a shift toward adaptive resilience to sustain growth and competitive edge.",
+    image: "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
     link: "/egypt"
   }
 ];
+
 
 const CardGrid = () => {
   return (
@@ -68,12 +77,15 @@ const CardGrid = () => {
             />
             <div className="card__content | flow">
               <div className="card__content--container | flow">
+
+                <p className="card__subtitle">{card.subtitle}</p>
                 <h2 className="card__title">{card.title}</h2>
-                <p className="card__subtitle">Research Report: Trying to scale AI? You are going to need to think big. And act bigger.</p> {/* 🔹 New subtitle */}
                 <p className="card__description">{card.description}</p>
+
               </div>
               <button className="card__button">Read more</button>
             </div>
+
           </article>
         </Link>
       ))}

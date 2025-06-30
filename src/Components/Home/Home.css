@@ -30,10 +30,11 @@ body{
 
 .loading-text {
   place-self: center;
-  margin-top: -530px;
-  font-size: 90px;
+  margin-top: -500px;
+  font-size: 70px;
   font-family: sans-serif;
-  padding-left: 5%;
+  padding-left: 6%;
+  padding-right: 2%;
   color: transparent;
   background: linear-gradient(90deg, #00f, #0ff, #00f) -100% / 200%;
   background-clip: text;
@@ -49,7 +50,7 @@ body{
   margin-right: 5%;
   float: right;
   position: relative;
-  margin-top: -250px;
+  margin-top: -280px;
 }
 
 /* Media query for mobile view */
