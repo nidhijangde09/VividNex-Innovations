@@ -1,14 +1,13 @@
 import React from 'react';
-import "./CareerPage.css";
-import girlCoffee from '../../assets/images/girl_with_coffee.jpg'
+import './CareerPage.css';
+import girlCoffee from '../../assets/images/girl with coffee.jpg';
 import sustainability from '../../assets/images/sustainability.jpg';
 import inclusion from '../../assets/images/inclusion_diversity.jpg';
 import ai from '../../assets/images/responsible_ai.jpg';
 import meeting from '../../assets/images/meeting.jpg';
-import alertIcon from '../../assets/images/orgainzation.jpg';
+import joinIcon from '../../assets/images/orgainzation.jpg';
 import eyeIcon from '../../assets/images/eye.jpg';
-import joinIcon from '../../assets/images/connection.jpg';
-
+import alertIcon from '../../assets/images/connection.jpg';
 
 const CareerPage = () => {
   return (

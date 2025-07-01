@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blue Navbar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+    }
+
+    .navbar {
+      background-color: #1f005c;
+      padding: 25px 50px;
+      display: flex;
+      justify-content: space-between; /* Pushes content to sides */
+      align-items: center;
+      color: white;
+    }
+
+    .navbar .left,
+    .navbar .right {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      
+      font-size: 20px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .main-heading{
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top: -5%;
+        padding-left: 12%;
+        padding-right: 12%;
+
+    }
+    .line{
+        color: #fff;
+        text-align: center;
+        margin-top: -50px;
+    }
+     .purple-bitton{
+        background-color: purple;
+        color: #fff;
+        padding: 12px 24px;
+        cursor:pointer;
+        transition: background-color 0.3 ease;
+        font-size: 16px;
+    
+    }
+
+    .button1{
+        padding-left: 45%;
+        align-items: center;
+    }
+    .purple-bitton1 :hover{
+        background-color:rgb(93, 14, 93);
+        transform: scale(1.05);
+    }
+    .line1{
+        color: #fff;
+        font-size: 50px;
+        padding-left: 8%;
+        padding-top: 5%;
+    }
+    .line2{
+        color: #fff;
+        font-size: 50px;
+        padding-left: 8%;
+        padding-top: 5%;
+    }
+    
+      body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color:white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      margin: 20px;
+    }
+
+    .left {
+      width: 60%;
+    }
+
+    .left h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .left ol {
+      list-style: dics;
+      padding: 0;
+      font-size: 18px;
+    }
+
+    .left ul li::marker {
+    color: purple;
+    }
+
+    .left ul li {
+      margin: 20px 0;
+      cursor: pointer;
+      color: gray;
+      font-size: 30px;
+    
+    }
+    
+
+    .left ul li:hover {
+      color:white;
+    }
+
+    .right {
+      width: 35%;
+    }
+
+    .right p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .right img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .y-b-h{
+      font-size: 100px;
+      margin-left: 4%;
+      padding: 10px;
+   
+    }
+    .y-b-h-text{
+      font-size: 30px;
+      margin-left: 5%;
+      margin-top: -90px;
+    }
+
+    .row {
+      display: flex;
+      gap: 40px;
+      margin: 70px;
+    }
+
+    .column {
+      text-align: left;
+    }
+
+    .column img {
+      width: 400px;      
+      height: auto;       
+      display: block;
+    }
+
+    .title {
+      font-size: 40px;
+      margin: 10px 0 5px;
+    }
+
+    .desc {
+      font-size: 18px;
+      color: #cccccc;
+    }
+
+    .link {
+      margin-top: 5px;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+    }
+    .button{
+      color: white;
+      background-color: purple;
+      margin: 10px;
+      padding: 5px;
+    }
+    .photo22{
+      width: 650px;      
+      height: auto;       
+    
+    }
+    .photos{
+     margin-left: 50%;
+     
+    }
+    .we-are{
+      font-size: 50px;
+      margin-left: 5%;
+    }
+
+    
+    .stats {
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      margin-right: 23%;
+    }
+
+    .stat-box {
+      flex: 1;
+      min-width: 200px;
+      padding: 60px;
+      margin-right: 40px;
+    }
+
+    .value {
+      font-size: 50px;
+      font-weight: bold;
+      color: #ffffff;
+      border-top: 4px solid #a566ff;
+      display: inline-block;
+      margin-top: 10px;
+    
+    }
+
+    .label {
+      font-size: 20px;
+      color: #cccccc;
+      margin-top: 10px;
+    }
+    .stay-c{
+      margin-left: 35px;
+      font-size: 50px;
+    }
+
+    .section {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 27%;
+      padding: 35px;
+    }
+
+    .block {
+      max-width: 300px;
+      text-align: left;
+      
+      margin-right: 20px;
+    }
+
+    .block img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .block h3 {
+      color: white;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+
+    .block p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .block a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .block a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="left">
+      <!-- Left side can be kept empty or add menu items here -->
+    </div>
+    <div class="right">
+      <a href="#">Job Search</a>
+      <a href="#">Saved Jobs</a>
+      <a href="#">Access Application</a>
+    </div>
+  </div>
+
+  <div class="main-heading">
+    <p><b>Work at the heart<br> of change</b></p>
+  </div>
+  
+  <div class="line">
+    <h1>This is a place to grow, learn and connect. Everything that makes you<br> who you are is welcome here.</h1>
+  </div>
+<div class="button1">
+    <button class="purple-bitton">Search Open Role</button>
+ </div>
+ <p class="line1"><b>Whatever you want to do</b></p>
+ <p class="line2">Wherever you are in your career</p>
+
+
+
+ <div>
+
+
+  <div class="container">
+    <div class="left">
+      <h1>Wherever you are in your career</h1>
+      <ul>
+        <li onmouseover="showContent(0)">Students</li>
+        <li onmouseover="showContent(1)">Apprenticeships</li>
+        <li onmouseover="showContent(2)">Early career professionals</li>
+        <li onmouseover="showContent(3)">Experienced professionals</li>
+        <li onmouseover="showContent(4)">Executive leaders</li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <p id="description">You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.</p>
+      <img id="careerImage" src="student.jpg" />
+    </div>
+  </div>
+
+  <div>
+    <p class="y-b-h"><b>You belong here</b></p>
+    <p class="y-b-h-text">No two people are the same. By prioritizing six areas of well-being,<br>
+       we foster an inclusive environment where we all feel valued,<br>
+        seen and heard—we call this Net Better Off.</p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <!-- Long photo -->
+      <img src="emotional.jpg" alt="Photo 1">
+      <div class="title">Relational</div>
+      <div class="desc">Ensuring a sense of belonging and connection for all</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+ 
+    <div class="column">
+      <!-- Shorter photo -->
+      <img src="3girls.webp" alt="Photo 2">
+      <div class="title">Inclusive</div>
+      <div class="desc">Celebrating diversity to drive innovation and progress</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+  </div>
+
+    <div class="photos">
+      <!-- Shorter photo -->
+      <img class="photo22" src="physical2.jpg" alt="Photo 2">
+      <div class="title">Physical</div>
+      <div class="desc">Supporting physical well-being</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <!-- Long photo -->
+      <img src="perpously.jpg" alt="Photo 1">
+      <div class="title">Relational</div>
+      <div class="desc">Ensuring a sense of belonging and connection for all</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+
+    <div class="column">
+      <!-- Shorter photo -->
+      <img src="employable.avif" alt="Photo 2">
+      <div class="title">Inclusive</div>
+      <div class="desc">Celebrating diversity to drive innovation and progress</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+  </div>
+
+<div class="photos">
+      <!-- Shorter photo -->
+      <img class="photo22" src="financial.webp" alt="Photo 2">
+      <div class="title">Physical</div>
+      <div class="desc">Supporting physical well-being</div>
+      <p class="link" >Explore our culture</p><button class="button">></button>
+    </div>
+  </div>
+
+  <p class="we-are"><b>We are everywhere</b></p>
+
+   <div class="stats">
+    <div class="stat-box">
+      <div class="value" data-target="791">0</div><span style="font-size: 32px;">K</span>
+      <div class="label">Accenture people worldwide</div>
+    </div>
+    <div class="stat-box">
+      <div class="value" data-target="200">0</div>
+      <div class="label">Cities with Accenture offices in 49 countries</div>
+    </div>
+    <div class="stat-box">
+      <div class="value" data-target="9000">0</div>
+      <div class="label">Clients served across more than 120 countries</div>
+    </div>
+  </div>
+
+  <p class="stay-c"><b>Stay connected</b></p>
+
+  <div class="section">
+    <div class="block">
+      <img src="orgainzation (1).png" alt="Join Icon">
+      <h3>Join us</h3>
+      <p>Explore open roles that match your interests and skills.</p>
+      <a href="#">Search jobs ></a>
+    </div>
+    <div class="block">
+      <img src="eye.png" alt="Touch Icon">
+      <h3>Stay in touch</h3>
+      <p>Get career tips and industry-leading insights.</p>
+      <a href="#">Learn more ></a>
+    </div>
+    <div class="block">
+      <img src="connection (1).png" alt="Alert Icon">
+      <h3>Get job alerts</h3>
+      <p>Receive notifications when we have open roles and get other relevant career news.</p>
+      <a href="#">Register for job alerts ></a>
+    </div>
+  </div>
+
+
+
+  <script>
+    const descriptions = [
+      "You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.",
+      "You love being on a team and have great communication skills — and you’re ready for hands-on experience to learn while you earn.",
+      "You're our future leaders. Bring your skills and passion to work with the latest technology to solve for some of the world's biggest challenges.",
+      "You see around corners and create solutions. Join our global innovators to help transform industries and change the world for the better.",
+      "You see endless possibilities and embrace challenges—and change. See how to use your ingenuity and expertise here."
+    ];
+
+    const images = [
+      "student.jpg",
+      "apprenticship.avif",
+      "carrer.jpg",
+      "experienced professionals.png",
+      "execative-leader.jpg"
+    ];
+
+    function showContent(index) {
+      document.getElementById("description").innerText = descriptions[index];
+      document.getElementById("careerImage").src = images[index];
+    }
+
+     const counters = document.querySelectorAll('.value');
+
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+        const increment = target / 100;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(updateCount, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCount();
+    });
+  </script>
+
+
+
+</body>
+</html>
