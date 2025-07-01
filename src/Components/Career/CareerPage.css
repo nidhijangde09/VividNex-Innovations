@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+  .section,
+  .container222 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .photo-row,
+  .section333,
+  .card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .photo-card,
+  .block,
+  .card {
+    width: 90% !important;
+    max-width: 100%;
+  }
+
+  .text-content,
+  .text-content1,
+  .text-section222 {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .w-w-p,
+  .b-p-cre,
+  .b-ynb,
+  .b-ynb2,
+  .work-wr,
+  .textafter,
+  .threeline {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+}
