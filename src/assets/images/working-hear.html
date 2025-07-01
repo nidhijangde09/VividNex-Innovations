@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Left, Text Right</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      gap: 120px;
+      flex-wrap: wrap;
+    }
+
+    .section img {
+      width: 650px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .text-content {
+      max-width: 600px;
+      font-size: 40px;
+    }
+
+    .text-content h1 {
+      font-size: 55px;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-size: 25px;
+      line-height: 1.4;
+      color: white;
+    }
+    .work-wr{
+        font-size: 60px;
+        margin-left: 40px;
+        margin-bottom: -25px;
+
+    }
+    .textafter{
+        font-size: 25px;
+      margin-left: 40px; 
+    }
+    .threeline{
+      font-size: 50px;
+      margin-left: 40px;
+    }
+
+    
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 70px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 360px;
+      height: 250px;
+      perspective: 1000px;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      padding: 20px;
+      color: white;
+      font-size: 16px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .card-front::before,
+    .card-back::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: inherit;
+      opacity: 0.08;
+      z-index: 0;
+    }
+
+    .card-front,
+    .card-back {
+      z-index: 1;
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+    }
+
+    .red { background-color: #E50058; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><circle cx="150" cy="100" r="90" stroke="white" stroke-opacity="0.1" stroke-width="4" fill="none"/></svg>'); }
+
+    .blue { background-color: blue; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><rect x="30" y="30" width="240" height="140" stroke="white" stroke-opacity="0.08" stroke-width="2" fill="none"/><circle cx="150" cy="100" r="60" stroke="white" stroke-opacity="0.1" stroke-width="3" fill="none"/></svg>'); }
+
+    .purple { background-color:purple; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><path d="M0,200 Q150,0 300,200" stroke="white" stroke-opacity="0.05" stroke-width="3" fill="none"/><circle cx="150" cy="100" r="40" stroke="white" stroke-opacity="0.08" stroke-width="2" fill="none"/></svg>'); }
+
+    .lightblue { background-color: purple; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><circle cx="100" cy="100" r="60" stroke="white" stroke-opacity="0.06" stroke-width="3" fill="none"/></svg>'); }
+
+    .darkpurple { background-color: blue; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><line x1="0" y1="200" x2="300" y2="0" stroke="white" stroke-opacity="0.07" stroke-width="2"/></svg>'); }
+
+    .darkred { background-color:#E50058 ; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200"><path d="M0,100 Q150,0 300,100" stroke="white" stroke-opacity="0.08" stroke-width="2" fill="none"/></svg>'); }
+
+     .w-w-p{
+        font-size: 50px;
+        margin-left: 70px;
+        padding: 30px;
+        margin-bottom: -20px;
+        margin-top: 90px;
+        
+    
+      }
+      .b-p-cre{
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top: 5px;
+       
+      }
+      .v-a-c{
+        margin-left: 90px;
+      }
+      .button0{
+        color: white;
+        background-color: purple;
+      }
+       .photo-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 40px;
+    }
+
+    .photo-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .photo-text {
+      margin-top: 10px;
+      text-align:left;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+    .b-ynb{
+        font-size: 50px;
+        margin-left: 60px;
+        margin: top -3px;
+    }
+    .b-ynb2{
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    .text-content1{
+        font-size: 20px;
+         max-width: 600px;
+    }
+     .container222 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      gap: 40px;
+    }
+
+    .text-section222 {
+      flex: 1;
+    }
+
+    .text-section222 h2 {
+      color: #b48cff; /* purple heading */
+    }
+
+    .text-section222 p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .text-section222 a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .image-section222 {
+      flex: 1;
+    }
+
+    .image-section222 img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+      .section333 {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 27%;
+      padding:2%;
+    }
+
+    .block {
+      max-width: 300px;
+      text-align: left;
+      
+      margin-right: 20px;
+    }
+
+    .block img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .block h3 {
+      color: white;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+
+    .block p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .block a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .block a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .container222 {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .image-section, .text-section {
+        flex: none;
+        width: 100%;
+      }
+    }
+    
+    @media (max-width: 900px) {
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <!-- Replace with your own image URL or file path -->
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" alt="Work Image">
+    
+    <div class="text-content">  
+      <h1>Grow with Purpose. <br>Build Your Expertise.</h1>
+      <p>
+        Join us and work at the heart of change. Innovate, collaborate, and make meaningful connections.
+        Create lasting value and reinvent with our clients.
+      </p>
+    </div>
+  </div>
+  <div>
+    <p class="work-wr">Work with reach</p>
+    <p class="textafter">Accenture is big. Really big. When you join us, you’ll work with the top</br> companies with leaders from every industry.</p>
+    <p class="threeline">From our I&D actions to our ethical<br> approach to business, Accenture is<br> recognized around the world.</p>
+
+</div>
+
+<div class="card-container">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front red">We're proud to be a great place to work.</div>
+        <div class="card-back red">Fortune and Great Place to Work® World’s Best Workplaces<br>
+            One of the World’s Best Workplaces™—and among the top 10 in 10 countries.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front blue">We embed inclusion, diversity and sustainabilit Inclusion is core to everything we do.</div>
+        <div class="card-back blue"> Fortune and Great Place to Work® World’s Best Workplaces
+One of the World’s Best Workplaces™—and among the top 10 in 10 countries.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front lightblue">Innovation comes from our different cultures and perspectives Diversity fuels creativity.</div>
+        <div class="card-back lightblue">JUST Capital and CNBC America’s Most JUST Companies
+Number one in our industry and fourth overall for our leadership on the issues that matter most to people.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front darkpurple">Responsibility and sustainability from the start Built with purpose from day one.</div>
+        <div class="card-back darkpurple">DIVERSITYINC Hall of Fame
+One of the top 50 companies for diversity in the U.S.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front purple">Responsibility and sustainability embedded from the start.</div>
+        <div class="card-back purple">fortune world's most Asmired Comanies <br>oN 1in Our industry, and No. 32 overall.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front darkred">Our responsibility is a sustainable tomorrow.</div>
+        <div class="card-back darkred">CDP Climate A List
+Seven years on the CDP Climate A list for leadership in climate change transparency and performance.</div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <p class="w-w-p"><b>Work with purpose</b></p>
+    <p class="b-p-cre">Be part of creating positive change and making the world better for our people,<br> our clients, and the communities where we live and work.</p>
+    <p class="v-a-c">View all communities <button class="button0">></button> </p>
+</div>
+
+  <div class="photo-row">
+    <div class="photo-card">
+      <img src="sustainability.jpg" alt="Photo 1">
+      <div class="photo-text">Sustainability</div>
+      <p>We embed sustainability to our client work and operate our business with a strong commitment to the environment, ethics and human rights. We work to create value in communities around the world. </p>
+    </div>
+    <div class="photo-card">
+      <img src="Inclusion & diversity.jpg" alt="Photo 2">
+      <div class="photo-text">Inclusion & Diversity</div>
+      <p>We actively hire and develop people who have different backgrounds, perspectives and lived experiences. This ensures that we have the cognitive diversity to deliver a variety of perspectives, observations, and insights—essential to drive the innovation needed to change.</p>
+    </div>
+    <div class="photo-card">
+      <img src="Responsible AI.jpg" alt="Photo 3">
+      <div class="photo-text">Responsible AI</div>
+      <p>Powerful AI tools like generative AI bring unprecedented opportunities as well as new risks. We help clients to take intentional actions to design, deploy and use AI to create value and build trust. </p>
+    </div>
+  </div>
+  <div>
+    <p class="b-ynb">Become your next best self</p>
+    <p class="b-ynb2">We value continuous learning and curiosity because <br>there’s always more to know, from new technologies to<br> skills that you’ll need as your career advances.
+
+</p>
+</div>
+
+
+  <div class="section">
+    <!-- Replace with your own image URL or file path -->
+    <img src="girl with coffee.jpg" alt="Work Image">
+    
+    <div class="text-content1">
+      <h1>Grow with Purpose</h1>
+      <p class="paragraph">
+        Whether this is your first full-time role or you're joining us as an executive, there’s space to grow. Our breadth and depth of expertise allows you to develop your skills and interests, carving a dynamic career path.
+      </p>
+      <p>Learn More <button class="button0">></button>
+    </div>
+  </div>
+
+ <div class="container222">
+    <div class="text-section222">
+      <h2>Keep learning</h2>
+      <p>
+        Continuous learning is essential for growth. That's why we invest $1B annually in learning and development for all of our people.
+        No matter your function, industry or business expertise, you'll get the skills you need for ongoing success.
+      </p>
+      <a href="#">Read more <button class="button0">></button></a>
+    </div>
+    <div class="image-section222">
+      <img src="meeting.jpg" alt="Meeting Image">
+    </div>
+  </div>
+
+  
+  <div class="section333">
+    <div class="block">
+      <img src="orgainzation (1).png" alt="Join Icon">
+      <h3>Join us</h3>
+      <p>Explore open roles that match your interests and skills.</p>
+      <a href="#">Search jobs ></a>
+    </div>
+    <div class="block">
+      <img src="eye.png" alt="Touch Icon">
+      <h3>Stay in touch</h3>
+      <p>Get career tips and industry-leading insights.</p>
+      <a href="#">Learn more ></a>
+    </div>
+    <div class="block">
+      <img src="connection (1).png" alt="Alert Icon">
+      <h3>Get job alerts</h3>
+      <p>Receive notifications when we have open roles and get other relevant career news.</p>
+      <a href="#">Register for job alerts ></a>
+    </div>
+  </div>
+
+</body>
+</html>
