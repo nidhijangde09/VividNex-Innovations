@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import vividlogo from './vivivdlogo.png';
+import CareerPage from '../Career/CareerPage';
 
 const megaMenuData = {
   Services: [
@@ -105,7 +106,7 @@ const megaMenuData = {
     {
       title: "Life at Vividnex",
       items: [
-        { label: "Working here", path: "/" },
+        { label: "Working here", path: "/CareerPage" },
           { label: "Benefits", path: "/" },
           { label: "Work environment", path: "/" },
           { label: "Career blog", path: "/" },
