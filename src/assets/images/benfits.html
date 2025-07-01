@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benefits Section</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    .section1 {
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      padding: 60px;
+      gap: 30px;
+    }
+
+    .image-container {
+      flex: 1;
+    }
+
+    .image-container img {
+      width: 100%;
+    }
+
+    .text-container {
+      flex: 1;
+    }
+
+    .text-container h2 {
+      font-size: 55px;
+      color: white; 
+      margin-bottom: -10px;
+    }
+
+    .text-container p {
+      font-size: 25px;
+      line-height: 1.2;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      margin: 20px;
+    }
+
+    .left {
+      width: 60%;
+    }
+
+    .left h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .left ol {
+      list-style: dics;
+      padding: 0;
+      font-size: 18px;
+    }
+
+    .left ul li::marker {
+    color: purple;
+    }
+
+    .left ul li {
+      margin: 20px 0;
+      cursor: pointer;
+      color: gray;
+      font-size: 30px;
+    
+    }
+    
+
+    .left ul li:hover {
+      color:white;
+    }
+
+    .right {
+      width: 35%;
+    }
+
+    .right p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .right img {
+      width: 100%;
+      border-radius: 10px;}
+
+      .main-hedding {
+      font-size: 90px;
+      padding: 20px;
+      margin: 20px;
+      }
+      .sub-heading{
+        font-size: 30px;
+        padding: 20px;
+        margin: 20px;
+        margin-top: -30px;
+      }
+      .y-t-o{
+        font-size: 60px;
+        margin: 20px;
+        padding: 20px;
+      }
+      
+    .section {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 45%;
+      
+      
+    }
+
+    .block {
+      max-width: 300px;
+      text-align: left;
+      margin-right: 30px;
+      padding: 30px;
+    }
+
+    .block img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .block h3 {
+      color: white;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+
+    .block p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .block a {
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+    }
+
+    .block a:hover {
+      text-decoration: underline;
+    }
+    .row {
+      display: flex;
+      gap: 40px;
+      margin: 70px;
+    }
+
+    .column {
+      text-align: left;
+    }
+
+    .column img {
+      width: 400px;      
+      height: auto;       
+      display: block;
+    }
+
+    .title {
+      font-size: 40px;
+      margin: 10px 0 5px;
+    }
+
+    .desc {
+      font-size: 18px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      gap: 2.6;
+    }
+   .photo22{
+      width: 650px;      
+      height: auto; 
+     
+    }
+    .photos{
+     margin-left: 95%;
+     
+    }
+    .H-W-P{
+      text-align: left;
+      margin: 40px;
+      font-size: 25px;
+  }
+  .head1{
+    font-size: 100px;
+    text-align: center;
+  }
+  .head2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -90px;
+  }
+  .photo-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 40px;
+    }
+
+    .photo-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .photo-text {
+      margin-top: 10px;
+      text-align:left;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+    .m-w-b-p{
+      text-align: left;
+      margin-left: 6%;
+      font-size: 60px;
+    }
+    .m-w-b-p2{
+      text-align: left;
+      margin-left: 6%;
+      font-size: 30px;
+    }
+    .your-growth{
+      text-align: left;
+      margin-left: 6%;
+      font-size: 60px;
+    }
+    .sub-head{
+      font-size: 30px;
+    }
+    .button{
+      color: white;
+      background-color: purple;
+      margin: 10px;
+      padding: 5px;
+    }
+
+       .section9 {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-right: 27%;
+      padding: 20px;
+    }
+
+    .block9 {
+      max-width: 300px;
+      text-align: left;
+      
+      margin-right: 20px;
+    }
+
+    .block9 img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .block9 h3 {
+      color: white;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+
+    .block9 p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .block9 a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .block9 a:hover {
+      text-decoration: underline;
+    }
+
+    /* ---------- Tablet (max-width: 992px) ---------- */
+@media (max-width: 992px) {
+  .section1, .container, .row, .photo-row, .section9 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-container, .text-container,
+  .left, .right,
+  .column, .photo-card, .block9, .block {
+    width: 90% !important;
+    margin: 10px 0;
+  }
+
+  .left ul {
+    padding: 0;
+  }
+
+  .photo22 {
+    width: 100% !important;
+  }
+
+  .photos {
+    margin-left: 0;
+  }
+
+  .section9 {
+    margin-right: 0;
+  }
+
+  .block9, .block {
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .main-hedding, .your-growth, .m-w-b-p {
+    font-size: 45px;
+  }
+
+  .head1 {
+    font-size: 60px;
+  }
+
+  .head2, .m-w-b-p2 {
+    font-size: 22px;
+  }
+
+  .photo-text, .block a {
+    font-size: 20px;
+  }
+}
+
+/* ---------- Mobile (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+  .section1, .container, .row, .photo-row, .section9 {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text-container h2, .head1 {
+    font-size: 40px;
+  }
+
+  .text-container p, .desc, .photo-text, .block p {
+    font-size: 18px;
+  }
+
+  .left ul li {
+    font-size: 22px;
+  }
+
+  .main-hedding, .your-growth, .m-w-b-p {
+    font-size: 32px;
+  }
+
+  .sub-heading, .head2, .m-w-b-p2 {
+    font-size: 18px;
+  }
+
+  .block, .block9, .photo-card, .column {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .right img, .photo22 {
+    width: 100%;
+  }
+
+  .photo-row {
+    gap: 20px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+}
+
+    
+   
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .image-container, .text-container {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <div class="section1">
+    <div class="image-container">
+      <img src="work from home.jpg" alt="Delivery Workers">
+    </div>
+    <div class="text-container">
+      <h2>Benefits for the whole you</h2>
+      <p>
+        We offer benefits that support your well-being both at work and at home to help you achieve your personal and professional aspirations.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h1>Wherever you are in your career</h1>
+      <ul>
+        <li onmouseover="showContent(0)">Students</li>
+        <li onmouseover="showContent(1)">Apprenticeships</li>
+        <li onmouseover="showContent(2)">Early career professionals</li>
+        <li onmouseover="showContent(3)">Experienced professionals</li>
+        <li onmouseover="showContent(4)">Executive leaders</li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <p id="description">You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.</p>
+      <img id="careerImage" src="student.jpg" />
+    </div>
+  </div>
+
+  <h1 class="y-t-o"> Your time off</h1>
+
+  <div class="section">
+    <div class="block">
+      <img src="orgainzation (1).png" alt="Join Icon">
+      <h3>Paid time off (PTO)</h3>
+      <p>You’ll be eligible for Paid time off (PTO) each year based on the state you are working in. PTO includes earned leave, sick leave & casual leave.</p>
+       
+    </div>
+    <div class="block">
+      <img src="eye.png" alt="Touch Icon">
+      <h3>Public Holidays</h3>
+      <p>You are entitled to ten public holidays in a calendar year that comprises eight fixed holidays and two floating holidays.</p>
+    </div>
+
+  <p class="main-hedding"><b>Your mental well-being</b></p>
+
+  <p class="sub-heading">You don't leave any part of yourself behind when you login. We offer support for the whole of you.</p>
+
+   <div class="row">
+    <div class="column">
+      <!-- Long photo -->
+      <img src="EPA.jpg" alt="Photo 1">
+      <div class="title">Employee Assistance Program (EAP)</div>
+      <div class="desc">Confidential, professional guidance for challenges that may arise including anxiety, depression, grief, relationship challenges, or legal and financial concerns.</div>
+      
+    </div>
+ 
+    <div class="column">
+      <!-- Shorter photo -->
+      <img src="apps $ tools.jpg" alt="Photo 2">
+      <div class="title">Apps and tools</div>
+      <div class="desc">A variety of apps and tools to help reduce stress or improve sleep, better manage your personal finances and get caregiving support. Based on your interests, you can access courses to help you build new habits and increase resilience, well-being and belonging. You’ll also have access to an online resource where you can get advice from a private, anonymous, and clinically safe 24/7 confidential chatbot.</div>
+     
+    </div>
+  </div>
+
+  <div class="photos">
+      <!-- Shorter photo -->
+      <img class="photo22" src="hand.avif" alt="Photo 2">
+      <div class="title">Mental Health Ally Network</div>
+      <div class="desc">Around the world, we’re here for each other. Talk with someone from our trained network of Accenture people.</div>
+     
+    </div>
+  </div>
+  <div class="H-W-P">
+<h1>Your family’s well-being</h1>
+<p>Families come in all shapes and sizes. Whether your family grows or <br>your caregiving role changes, we're here to support you.</p>
+ </div>
+
+ <p class="head1"><b>Your physical well-being</b></p>
+ <p class="head2">Feel your best at home and work and get the coverage<br> that’s best for you and your family.</p>
+
+ <div class="photo-row">
+    <div class="photo-card">
+      <img src="cetiscope.avif" alt="Photo 1">
+      <div class="photo-text">Medical coverage</div>
+      <p>You’ll have a choice of national plans (PPO, EPO, HDHP)—and a variety of providers—to cover a wide range of medical services and prescription drugs.</p>
+    </div>
+    <div class="photo-card">
+      <img src="vision insourance.jpg" alt="Photo 2">
+      <div class="photo-text">Vision insurance</div>
+      <p>You’ll have access to a vision care plan.</p>
+    </div>
+    <div class="photo-card">
+      <img src="braces.jpg" alt="Photo 3">
+      <div class="photo-text">Dental insurance</div>
+      <p>You can choose either a dental PPO or dental maintenance organization (DMO) plan. </p>
+    </div>
+  </div>
+  <div>
+    
+    <p class="m-w-b-p">More well-being perks  </p>
+    <p class="m-w-b-p2">You also have access to additional resources designed to save you time and money<br> and support your overall well-being.</p>
+
+  <p class="your-growth">Your growth</p>
+
+  <div class="section1">
+    <div class="image-container">
+      <img src="your-growth.jpg" alt="Delivery Workers">
+    </div>
+    <div class="text-container">
+      
+      <h2 class="sub-head">Learning and development</h2>
+      <p>
+       We invest more than $1 billion each year in continuous learning and professional development programs. Depending on your roles and goals, you’ll get access to specialized certifications, deep-tech training, workshops, online games, hackathons, virtual reality experiences and more.
+      </p>
+      
+      <p>Learn More <button class="button">></button>
+    </div>
+  </div>
+
+  
+  <div class="section9">
+    <div class="block9">
+      <img src="orgainzation (1).png" alt="Join Icon">
+      <h3>Join us</h3>
+      <p>Explore open roles that match your interests and skills.</p>
+      <a href="#">Search jobs ></a>
+    </div>
+    <div class="block9">
+      <img src="eye.png" alt="Touch Icon">
+      <h3>Stay in touch</h3>
+      <p>Get career tips and industry-leading insights.</p>
+      <a href="#">Learn more ></a>
+    </div>
+    <div class="block9">
+      <img src="connection (1).png" alt="Alert Icon">
+      <h3>Get job alerts</h3>
+      <p>Receive notifications when we have open roles and get other relevant career news.</p>
+      <a href="#">Register for job alerts ></a>
+    </div>
+  </div>
+   
+    </div>
+  </div>
+  <div>
+ <script>
+    const descriptions = [
+      "You'll join a great place to build your skills and launch your career. From summer internships to innovation-led opportunities, we welcome your curiosity.",
+      "You love being on a team and have great communication skills — and you’re ready for hands-on experience to learn while you earn.",
+      "You're our future leaders. Bring your skills and passion to work with the latest technology to solve for some of the world's biggest challenges.",
+      "You see around corners and create solutions. Join our global innovators to help transform industries and change the world for the better.",
+      "You see endless possibilities and embrace challenges—and change. See how to use your ingenuity and expertise here."
+    ];
+
+    const images = [
+      "student.jpg",
+      "apprenticship.avif",
+      "carrer.jpg",
+      "experienced professionals.png",
+      "execative-leader.jpg"
+    ];
+
+    function showContent(index) {
+      document.getElementById("description").innerText = descriptions[index];
+      document.getElementById("careerImage").src = images[index];
+    }
+
+     const counters = document.querySelectorAll('.value');
+
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+        const increment = target / 100;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(updateCount, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCount();
+    });
+  </script>
+</body>
+</html>
