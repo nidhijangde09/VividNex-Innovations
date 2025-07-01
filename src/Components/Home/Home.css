@@ -32,9 +32,9 @@ body{
   place-self: center;
   margin-top: -500px;
   font-size: 70px;
-  font-family: sans-serif;
-  padding-left: 3%;
-  padding-right: 5%;
+  font-family: sans-serif; 
+  padding-right: 4%;
+  padding-left: 2%;
   color: transparent;
   background: linear-gradient(90deg, #00f, #0ff, #00f) -100% / 200%;
   background-clip: text;
