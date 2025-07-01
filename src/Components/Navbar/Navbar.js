@@ -164,17 +164,17 @@ const Navbar = () => {
                 <div className="mega-menu">
                   {menu === "Services" && (
                     <Link to="/services" onClick={() => setIsMobileMenuOpen(false)}>
-                      <h3 className="mega-menu-heading">Services👉</h3>
+                      <h3 className="mega-menu-heading">Services</h3>
                     </Link>
                   )}
                   {menu === "About" && (
                     <Link to="/About" onClick={() => setIsMobileMenuOpen(false)}>
-                      <h3 className="mega-menu-heading">About Vividnex👉</h3>
+                      <h3 className="mega-menu-heading">About Vividnex</h3>
                     </Link>
                   )}
                     {menu === "Career" && (
                     <Link to="/Careert" onClick={() => setIsMobileMenuOpen(false)}>
-                      <h3 className="mega-menu-heading">Career👉</h3>
+                      <h3 className="mega-menu-heading">Career</h3>
                     </Link>
                   )}
                   {megaMenuData[menu].map((section, index) => (
