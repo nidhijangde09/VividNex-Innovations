@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Service from '../Service/What-we-do/Service';
+
 import vividlogo from './vivivdlogo.png';
 import CareerPage from '../Career/CareerPage';
 
@@ -137,7 +139,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="/Home">
         <img src={vividlogo} alt="Logo" />
       </Link>
 
@@ -164,7 +166,7 @@ const Navbar = () => {
               {activeMenu === menu && (
                 <div className="mega-menu">
                   {menu === "Services" && (
-                    <Link to="/services" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link to="/Service" onClick={() => setIsMobileMenuOpen(false)}>
                       <h3 className="mega-menu-heading">Services</h3>
                     </Link>
                   )}
@@ -174,7 +176,7 @@ const Navbar = () => {
                     </Link>
                   )}
                     {menu === "Career" && (
-                    <Link to="/Careert" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link to="/CareerPage" onClick={() => setIsMobileMenuOpen(false)}>
                       <h3 className="mega-menu-heading">Career</h3>
                     </Link>
                   )}

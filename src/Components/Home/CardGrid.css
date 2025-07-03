@@ -25,6 +25,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
+  background-color: black;
 }
 
 h2 {
@@ -81,7 +82,7 @@ p {
   grid-template-columns: repeat(4, 1fr);
   gap: 35px;
   padding: 2rem;
-  margin-top: 13%;
+  margin-top: 3%;
 }
 
 .card-link {
@@ -105,6 +106,7 @@ p {
   object-fit: cover;
   position: absolute;
   z-index: 0;
+  background-color: black;
 }
 
 .card__content {

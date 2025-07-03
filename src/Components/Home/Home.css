@@ -106,21 +106,3 @@ body {
     /* slightly smaller font for readability */
   }
 }
-
-.g-name {
-  text-align: center;
-  color: white;
-  font-size: 100px;
-  padding: 40px;
-  margin-top: 200px;
-  margin-bottom: 60px;
-}
-
-@media (max-width: 768px) {
-  .g-name {
-    font-size: 40px;
-    padding: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-  }
-}

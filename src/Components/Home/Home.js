@@ -4,7 +4,6 @@ import Navbar from '../Navbar/Navbar';
 import h2 from './h2.jpg';
 import CardGrid from './CardGrid';
 import Slider from './Slider';
-
 import Footer from '../Footer/Footer';
 
 export default function Home() {
@@ -32,8 +31,7 @@ export default function Home() {
           to our stakeholders across the globe.</p>
       </div>
       <Slider />
-      <h1 className='g-name'>Global recognition and awards</h1>
-
+   
 
       <Footer />
     </div>
