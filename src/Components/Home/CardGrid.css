@@ -245,9 +245,10 @@ p {
 @media (max-width: 600px) {
   .card-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1rem;
+    gap: 1.3rem;
+    padding: 0.9rem;
     margin-top: 20%;
+    margin-left: 30px;
   }
 
   .card {

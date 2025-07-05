@@ -5,18 +5,7 @@
   background: black;
   color: white;
   padding: 40px;
-}
-
-.slide {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 20px;
-}
-
-.logo {
-  width: 150px;
-  height: auto;
-  margin-bottom: 20px;
+  flex-wrap: wrap; /* ensures arrows stack properly on small screens */
 }
 
 .arrow {
@@ -25,18 +14,85 @@
   color: white;
   font-size: 40px;
   cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.arrow:hover {
+  color: #88a9f5;
+  transform: scale(1.2);
+}
+
+.slide {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 20px;
+  padding: 20px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 10px;
 }
 
 a {
-  color: white;
+  color: #88a9f5;
   text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Responsive design for tablets and mobiles */
+@media (max-width: 1024px) {
+  .slide {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
-  .slide {
-    max-width: 300px;
+  .slider-container {
+    flex-direction: column;
   }
+
+  .arrow {
+    font-size: 30px;
+  }
+
+  .slide {
+    max-width: 90%;
+    margin: 20px 0;
+    padding: 15px;
+  }
+
   .logo {
     width: 100px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
