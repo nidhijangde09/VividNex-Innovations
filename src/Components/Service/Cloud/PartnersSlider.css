@@ -1,0 +1,42 @@
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 40px;
+}
+
+.slide {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    max-width: 300px;
+  }
+  .logo {
+    width: 100px;
+  }
+}

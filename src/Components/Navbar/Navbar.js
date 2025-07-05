@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Service from '../Service/What-we-do/Service';
-
+import Home from '../Home/Home';
 import vividlogo from './vivivdlogo.png';
 import CareerPage from '../Career/CareerPage';
 
@@ -21,6 +21,7 @@ const megaMenuData = {
         { label: "Finance & Risk Management", path: "/" },
         { label: "Infrastructure and Capital Projects", path: "/" },
         { label: "Learning", path: "/" },
+        
       ],
     },
     {
@@ -76,6 +77,7 @@ const megaMenuData = {
         { label: "Leaders", path: "/" },
         { label: "Location", path: "/" },
         { label: "360° Value Report", path: "/" },
+        
       ],
     },
     {
@@ -160,7 +162,8 @@ const Navbar = () => {
                 className="dropdown-title"
                 onClick={() => toggleMegaMenu(menu)}
               >
-                {menu} <span className="arrow">▼</span>
+               {menu} <span className="arrow-down"></span>
+
               </div>
 
               {activeMenu === menu && (
@@ -172,7 +175,7 @@ const Navbar = () => {
                   )}
                   {menu === "About" && (
                     <Link to="/About" onClick={() => setIsMobileMenuOpen(false)}>
-                      <h3 className="mega-menu-heading">About Vividnex</h3>
+                      <h3 className="mega-menu-heading">About </h3>
                     </Link>
                   )}
                     {menu === "Career" && (

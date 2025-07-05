@@ -1,22 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  display: block;
+  overflow-x: hidden;
 }
 
-/* Navbar container */
+/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px;
   background-color: #000000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1000;
+
 }
 
-/* Logo */
+
+
 .logo {
   display: flex;
   align-items: center;
@@ -26,7 +27,6 @@ body {
 .logo img {
   height: 90px;
   width: auto;
-  display: block;
   object-fit: contain;
   transition: transform 0.3s ease;
   margin-left: 20%;
@@ -47,7 +47,7 @@ body {
   }
 }
 
-/* Nav items */
+/* Nav Items */
 .nav-items {
   display: flex;
   gap: 2rem;
@@ -67,21 +67,32 @@ body {
   color: #88a9f5;
 }
 
+/* Dropdown Title */
 .dropdown-title {
   cursor: pointer;
   font-weight: 500;
   color: #ffffff;
+  display: inline-flex;
+  align-items: center;
 }
 
-.arrow {
-  font-size: 0.6rem;
-  margin-left: 4px;
+.arrow-down {
+  display: inline-block;
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff; /* arrow color */
+  transition: transform 0.3s ease;
+  vertical-align: middle;
 }
 
-/* Dropdown and mega menu */
-.dropdown-wrapper {
-  position: relative;
+/* Rotate arrow when active */
+.dropdown-wrapper.active .arrow-down {
+  transform: rotate(180deg);
 }
+
 
 .dropdown-container {
   position: relative;
@@ -89,177 +100,55 @@ body {
 }
 
 .mega-menu {
-  position: absolute;
-  top: 3.5rem;
-  left: -450%;
-  width: 105
-  0px;
-  background: #585858;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-
-}
-.mega-menu-heading {
-  font-size: 22px;
-  font-weight: bold;
-  padding: 10px 20px;
-  color: #ffffff;
-  
-  margin-right: -150px;
-}
-
-
-
-.mega-column {
-  flex: 1;
-  padding: 1rem;
-  margin-top: 40px;
-}
-
-.mega-column h4 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  
-}
-
-.mega-column ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-.mega-column li {
-  margin-bottom: 0.5rem;
-  margin-top: 10px;
-}
-
-.mega-column a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: color 0.2s ease;
-}
-
-.mega-column a:hover {
-  color: #1d4ed8;
-}
-
-/* Hamburger icon */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-  z-index: 1100;
-  margin-left: auto;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #fffefe;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.hamburger.active span:nth-child(1) {
-  transform: rotate(45deg) translateY(8px);
-}
-
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-8px);
-}
-
-/* Responsive styles */
-/* Default Nav Items */
-.nav-items {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin-right: 550px;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-items a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-items a:hover {
-  color: #88a9f5;
-}
-
-.dropdown-title {
-  cursor: pointer;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.arrow {
-  font-size: 0.6rem;
-  margin-left: 4px;
-}
-
-/* Dropdown and mega menu */
-.dropdown-wrapper {
-  position: relative;
-}
-
-.dropdown-container {
-  position: relative;
-  display: inline-block;
-}
-
-.mega-menu {
-  position: absolute;
-  top: 3.5rem;
-  left: -420%;
-  width: 1050px;
+  position: fixed;
+  /* Changed from absolute */
+  top: 100px;
+  /* Adjust this based on navbar height */
+  left: 0;
+  width: 100vw;
+  height: 90vh;
   background: #0f0f0f;
   display: flex;
-  justify-content: space-between;
-  padding: 2rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  flex-wrap: wrap;
+  padding: 5rem 5rem;
+  box-sizing: border-box;
+  z-index: 999;
 }
 
 .mega-menu-heading {
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: bold;
-  padding: 10px 20px;
-  margin-bottom: 2rem;
+  padding-bottom: 20%;
   color: #ffffff;
   margin-top: -20px;
-  margin-right: -150px;
+  margin-left: 130%;
 }
 
-/* Mega menu columns */
+.mega-menu-heading:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .mega-column {
   flex: 1;
-  padding: 1rem;
+  min-width: 200px;
+  padding: 0 2rem;
+  padding-bottom: 5%;
 }
 
 .mega-column h4 {
-  font-size: 1rem;
+  font-size: 1.0rem;
   margin-bottom: 1rem;
+  margin-top: 10%;
   color: #ffffff;
+
 }
 
 .mega-column ul {
   list-style: none;
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+
 }
 
 .mega-column li {
@@ -275,10 +164,11 @@ body {
 }
 
 .mega-column a:hover {
-  color: #1d4ed8;
+  color: #063386;
+  text-decoration: underline;
 }
 
-/* Hamburger icon */
+/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -308,53 +198,27 @@ body {
   transform: rotate(-45deg) translateY(-8px);
 }
 
-/* ✅ Media Query for Mobile View */
 @media (max-width: 768px) {
-  .nav-items {
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: #181818;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    z-index: 100;
-    padding: 0;
-    margin: 0;
-  }
-
-  .nav-items.open {
-    max-height: 100vh;
-    padding: 1rem 0;
-  }
-
-  .nav-items li {
-    margin: 0.5rem 0;
-    text-align: center;
-  }
-
   .mega-menu {
-    position: static;
-    width: 100%;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem;
     box-shadow: none;
-    border-radius: 0;
-    transform: none;
+    overflow-y: auto;
   }
 
   .mega-column {
+    width: 100%;
     padding: 1rem 0;
     border-top: 1px solid #333;
   }
 
   .mega-menu-heading {
     font-size: 20px;
-    margin-right: 0;
-    margin-top: 0;
     text-align: center;
+    margin-bottom: 1rem;
   }
 
   .mega-column h4 {
@@ -366,23 +230,6 @@ body {
     font-size: 1rem;
     display: block;
     padding: 0.3rem 0;
-  }
 
-  .dropdown-title {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    background-color: #111;
-    border-bottom: 1px solid #222;
-  }
-
-  .arrow {
-    float: right;
-    margin-right: 10px;
-  }
-
-  .hamburger {
-    display: flex;
   }
 }

@@ -1,3 +1,64 @@
-.cl1{
-    color: rgb(255, 255, 255);
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cloud-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 40px; /* adds spacing between image and text */
+  padding: 20px 5%;
+}
+
+.cloud-image img {
+  max-width: 100%;
+  width: 650px;
+  height: auto;
+  margin-left: -40px;
+}
+
+.cloud-text {
+  max-width: 500px;
+  margin-left: 1px;
+}
+
+.cloud-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cloud-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .cloud-section {
+    flex-direction: column; /* stack image and text vertically */
+    align-items: center;    /* center items horizontally */
+    gap: 20px;              /* reduce gap on smaller screens */
+    padding: 30px 5%;
+    text-align: center;
+  }
+
+  .cloud-image img {
+    width: 100%;
+    margin-left: 0; /* reset margin for mobile view */
+  }
+
+  .cloud-text {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .cloud-text h1 {
+    font-size: 32px;
+  }
+
+  .cloud-text p {
+    font-size: 16px;
+  }
 }

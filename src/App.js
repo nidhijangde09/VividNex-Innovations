@@ -5,6 +5,8 @@ import Cloud from './Components/Service/Cloud/Cloud';
 import CareerPage from './Components/Career/CareerPage';
 import Service from './Components/Service/What-we-do/Service';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
