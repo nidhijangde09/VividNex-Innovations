@@ -1,0 +1,70 @@
+.careers-container {
+  background-color: black;
+  color: white;
+  padding: 60px 7rem;
+  font-family: Arial, sans-serif;
+
+}
+
+.careers-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.careers-header p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.join-btn {
+  background-color: rgb(96, 119, 248);
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: #a6abf7;
+  color: black;
+}
+
+.related-capabilities {
+  margin-top: 60px;
+}
+
+.related-capabilities h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.related-capabilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.related-capabilities li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  padding-left: 20rem;
+  font-weight: bold;
+}
+.related-capabilities li:hover {
+ 
+  color: rgb(96, 119, 248);
+  text-decoration: underline;
+
+}
+.related-capabilities li svg {
+  margin-right: 10px;
+  color: #0704c2;
+
+}

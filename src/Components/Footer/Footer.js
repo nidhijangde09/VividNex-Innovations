@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <h2 className="footer-title">Let there be change</h2>
+        <h2 className="footer-title">Let there be Vividnex</h2>
         <div className="footer-links">
           <ul>
             <li>Preference Center</li>
@@ -22,14 +22,14 @@ const Footer = () => {
             <li>Accessibility Statement</li>
           </ul>
         </div>
-        <p className="footer-copy">© 2025 Vividnex. All Rights Reserved.</p>
+        <p className="footer-copy">© {new Date().getFullYear()} Vividnex. All Rights Reserved.</p>
       </div>
       <div className="footer-right">
         <div className="footer-bg-text">
-          <span>CHANGE</span>
-          <span>CHANGE</span>
-          <span>CHANGE</span>
-          <span>CHANGE</span>
+          <span>VIVIDNEX</span>
+          <span>VIVIDNEX</span>
+          <span>VIVIDNEX</span>
+          <span>VIVIDNEX</span>
         </div>
       </div>
     </footer>

@@ -1,0 +1,44 @@
+import React from "react";
+import "./CyberSection.css";
+
+const leaders = [
+  {
+    name: "Jason Dess",
+    title: "Lead – CFO & Enterprise Value",
+    image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Jason-Dess-420x420%3Arad-3x4?ts=1693989717831&fit=constrain&dpr=off", // replace with real image
+    linkedin: "#",
+  },
+ 
+];
+
+const CyberSection = () => {
+ 
+     return (
+    <div className="leaders-section">
+      
+      <div className="leaders-container">
+        {leaders.map((leader, index) => (
+          <div className="leader-card" key={index}>
+            <img src={leader.image} alt={leader.name} className="leader-img" />
+            <div className="leader-details">
+              <h3>{leader.name}</h3>
+              <p>{leader.title}</p>
+              <a href={leader.linkedin} target="_blank" rel="noreferrer">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                  className="linkedin-icon"
+                />
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
+
+
+export default CyberSection;

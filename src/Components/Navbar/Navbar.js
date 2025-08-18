@@ -1,10 +1,39 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import vividlogo from './vivivdlogo.png';
 import Service from '../Service/What-we-do/Service';
 import Home from '../Home/Home';
-import vividlogo from './vivivdlogo.png';
 import CareerPage from '../Career/CareerPage';
+import CustomerService from '../Service/CustomerService/CustomerService';
+import Cybersecurity from '../Service/CyberSecurity/CyberSecurity';
+import Dataai from '../Service/DataAi//Dataai';
+import DigitalEngeneer from '../Service/DigitalE/DigitalEngeneer';
+import Ecosystem from '../Service/Ecosystem/Ecosystem';
+import EmergingTechnology from '../Service/EmergingTechnology/EmergingTechnology';
+import FinanceManagement from '../Service/FinanceManagement/FinanceManagement'; 
+import InfrastructureCapital from '../Service/InfrastructureCapitalProjects/InfrastructureCapital';
+import Learning from "../Service/Learning/Learning";
+import Managedservices from '../Service/ManagedServices/ManagedServices';
+import MarketingExperience from '../Service/MarketingExperience/MarketingExperience';
+import Metaverse from '../Service/Metaverse/Metaverse';
+import SalesCommerce from "../Service/SalesCommerce/SalesCommerce";
+import StrategyConsulting from '../Service/StrategyConsulting/StrategyConsulting';
+import SupplyChain from '../Service/SupplyChain/SupplyChain';
+import SustainabilityConsulting from '../Service/SustainabilityConsulting/SustainabilityConsulting';
+import TalentOrganization from '../Service/TalentOrganization/TalentOrganization';
+import TechnologyTransformation from '../Service/TechnologyTransformation/TechnologyTransformation';
+import Aerospaceanddefense from '../Service/1Industries/Aerospaceanddefense/Aerospace';
+import Whoweare from '../WhoWeAre/WhoWeAreIntro';
+import Automotive from '../Service/1Industries/Automotive/Automotive';
+import Banking from '../Service/1Industries/Banking/Banking';
+import Capital from '../Service/1Industries/Capital/Capital';
+import Chemicals from '../Service/1Industries/Chemicals/Chemicals';
+import CommunicationMedia from '../Service/1Industries/CommunicationMedia/CommunicationMedia';
+import ConsumerService from '../Service/1Industries/ConsumerGoods&Service/ConsumerService'
+import Energy from '../Service/1Industries/Energy/Energy';
+import Health from '../Service/1Industries/Health/Health';
+import HighTech from '../Service/1Industries/HighTech/HighTech';
 
 const megaMenuData = {
   Services: [
@@ -14,42 +43,42 @@ const megaMenuData = {
         { label: "Cloud", path: "/cloud" },
         { label: "Customer Service", path: "/CustomerService" },
         { label: "Cybersecurity", path: "/Cybersecurity" },
-        { label: "Data and AI", path: "/DataandAI" },
-        { label: "Digital engineering & manufacturing", path: "/DigitalEngineering" },
-        { label: "Ecosystem Partners", path: "/EcosystemPartners" },
+        { label: "Data and AI", path: "/Dataai" },
+        { label: "Digital engineering & manufacturing", path: "/DigitalEngeneer" },
+        { label: "Ecosystem Partners", path: "/Ecosystem" },
         { label: "Emerging Technology", path: "/EmergingTechnology" },
-        { label: "Finance & Risk Management", path: "/" },
-        { label: "Infrastructure and Capital Projects", path: "/" },
-        { label: "Learning", path: "/" },
+        { label: "Finance & Risk Management", path: "/FinanceManagement" },
+        { label: "Infrastructure and Capital Projects", path: "/InfrastructureCapital" },
+        { label: "Learning", path: "/Learning" },
         
       ],
     },
     {
       items: [
-        { label: "Managed Services", path: "/" },
-        { label: "Marketing & Experience", path: "/" },
-        { label: "Metaverses", path: "/" },
-        { label: "Sales & Commerce", path: "/" },
-        { label: "Strategy", path: "/" },
-        { label: "Supply Chain", path: "/" },
-        { label: "Sustainability", path: "/" },
-        { label: "Talent and Organization", path: "/" },
-        { label: "Technology Transformation", path: "/" },
+        { label: "Managed Services", path: "/ManagedServices" },
+        { label: "Marketing & Experience", path: "/MarketingExperience" },
+        { label: "Metaverses", path: "/Metaverse" },
+        { label: "Sales & Commerce", path: "/SalesCommerce" },
+        { label: "Strategy", path: "/StrategyConsulting" },
+        { label: "Supply Chain", path: "/SupplyChain" },
+        { label: "Sustainability", path: "/SustainabilityConsulting" },
+        { label: "Talent and Organization", path: "/TalentOrganization" },
+        { label: "Technology Transformation", path: "/TechnologyTransformation" },
       ],
     },
     {
       title: "Industries",
       items: [
-        { label: "Aerospace & defense", path: "/" },
-        { label: "Automotive", path: "/" },
-        { label: "Banking", path: "/" },
-        { label: "Capital Market", path: "/" },
-        { label: "Chemicals", path: "/" },
-        { label: "Communication & Media", path: "/" },
-        { label: "Consumer Goods & Service", path: "/" },
-        { label: "Energy", path: "/" },
-        { label: "Health", path: "/" },
-        { label: "High Tech", path: "/" },
+        { label: "Aerospace & defense", path: "/Aerospace" },
+        { label: "Automotive", path: "/Automotive" },
+        { label: "Banking", path: "/Banking" },
+        { label: "Capital Market", path: "/Capital" },
+        { label: "Chemicals", path: "/Chemicals" },
+        { label: "Communication & Media", path: "/CommunicationMedia" },
+        { label: "Consumer Goods & Service", path: "/ConsumerService" },
+        { label: "Energy", path: "/Energy" },
+        { label: "Health", path: "/Health" },
+        { label: "High Tech", path: "/HighTech" },
       ],
     },
     {
@@ -141,7 +170,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <Link className="logo" to="/Home">
+     <Link className="logo" to="/">
         <img src={vividlogo} alt="Logo" />
       </Link>
 
@@ -216,8 +245,8 @@ const Navbar = () => {
         ))}
 
         <li>
-          <Link to="/who-we-are" onClick={() => setIsMobileMenuOpen(false)}>
-            Who we are
+          <Link to="/WhoWeAreIntro" onClick={() => setIsMobileMenuOpen(false)}>
+           What we think
           </Link>
         </li>
       </ul>

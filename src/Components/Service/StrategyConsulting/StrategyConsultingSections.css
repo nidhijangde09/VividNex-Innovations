@@ -1,0 +1,110 @@
+/* Section Wrapper */
+.leaders-section {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 7%;
+}
+
+/* Section Heading */
+.leaders-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Grid Container */
+.leaders-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Always 2 cards per row */
+  gap: 40px;
+}
+
+
+/* Leader Card Layout */
+.leader-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.leader-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Leader Image */
+.leader-img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+/* Leader Details */
+.leader-details h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.leader-details p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.linkedin-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .leaders-section h2 {
+    font-size: 28px;
+  }
+
+  .leader-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leader-img {
+    margin-bottom: 12px;
+  }
+
+  .leader-details h3 {
+    font-size: 16px;
+  }
+
+  .leader-details p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leaders-section {
+    padding: 40px 5%;
+  }
+
+  .leaders-section h2 {
+    font-size: 24px;
+  }
+
+  .leader-img {
+    width: 90px;
+    height: 110px;
+  }
+
+  .linkedin-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

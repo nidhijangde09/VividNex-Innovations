@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px;
-  background-color: #000000;
+  background-color: #00000063;
   position: relative;
   z-index: 1000;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-items a:hover {
-  color: #88a9f5;
+  color: #ffffff;
 }
 
 /* Dropdown Title */

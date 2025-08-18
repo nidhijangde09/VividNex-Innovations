@@ -64,7 +64,7 @@
 @media (max-width: 768px) {
   .panel-container {
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
   }
 
   .left-menu {
@@ -105,4 +105,4 @@
   .right-panel img {
     margin: 20px auto 0 auto;
   }
-}
+} 

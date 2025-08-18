@@ -4,19 +4,19 @@ import './CloudStats.css';
 const stats = [
   {
     number: '86%',
-    text: 'of companies accelerated their cloud adoption in the last two years',
+    text: 'A growing number of companies accelerated their cloud initiatives over the past two years.',
   },
   {
     number: '57%',
-    text: 'of IT budgets still go to maintenance over innovation like cloud and AI',
+    text: 'A significant share of IT budgets still goes toward maintenance, not innovation through cloud or AI.',
   },
   {
     number: '2–3x',
-    text: 'Companies using cloud to transform see higher innovation potential.',
+    text: 'Cloud-driven organizations are significantly more likely to innovate across products and services.',
   },
   {
     number: '$10B+',
-    text: 'Major cloud providers collectively invest billions monthly to drive continuous innovation.',
+    text: 'Monthly innovation spend by leading cloud providers continues to rise sharply.',
   },
 ];
 

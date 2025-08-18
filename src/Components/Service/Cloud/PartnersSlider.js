@@ -1,7 +1,5 @@
-// PartnersSlider.js
-
 import React, { useState } from "react";
-import "./PartnersSlider.css";
+import "./PartnersSlider.css"; // renamed CSS file
 
 const data = [
   {
@@ -14,6 +12,14 @@ const data = [
   },
   {
     id: 2,
+    name: "Salesforce",
+    logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
+    description:
+      "Build solutions that transform industries, communities and lives for the better using Salesforce’s customer-centric innovations. Together, we drive transformation at scale.",
+    link: "#"
+  },
+  {
+    id: 3,
     name: "Google",
     logo: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEa8QECSRBmkBHGCiC_6wdgjPDj9A55BgVEghusoER1M0fI7JP",
     description:
@@ -21,11 +27,11 @@ const data = [
     link: "#"
   },
   {
-    id: 3,
+    id: 4,
     name: "Microsoft",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHoZVLhT34Vngk1wD-nWuzxsXDvFu28iS3JYqB_6Md2Ma1iPBh",
     description:
-      "Reinvent productivity and business processes with Microsoft powered solutions to drive your digital transformation journey.",
+      "Reinvent productivity and business processes with Microsoft-powered solutions to drive your digital transformation journey.",
     link: "#"
   }
 ];
@@ -46,17 +52,21 @@ const PartnersSlider = () => {
   };
 
   return (
-    <div className="slider-container">
-      <button onClick={prevSlide} className="arrow">
+    <div className="partners-container">
+      <button onClick={prevSlide} className="partners-arrow">
         &#8592;
       </button>
-      <div className="slide">
-        <img src={data[currentIndex].logo} alt={data[currentIndex].name} className="logo" />
+      <div className="partners-slide">
+        <img
+          src={data[currentIndex].logo}
+          alt={data[currentIndex].name}
+          className="partners-logo"
+        />
         <h2>{data[currentIndex].name}</h2>
         <p>{data[currentIndex].description}</p>
         <a href={data[currentIndex].link}>Learn more</a>
       </div>
-      <button onClick={nextSlide} className="arrow">
+      <button onClick={nextSlide} className="partners-arrow">
         &#8594;
       </button>
     </div>

@@ -1,0 +1,64 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+import './CyberSecurity.css';
+import cyber4 from '../../../assets/images/cyber4.jpg';
+import CybersecurityStats from './CybersecurityStats';
+import CyberCardSection from './CyberCardSection';
+import PartnersSection from './PartnersSection';
+import Navbar from '../../Navbar/Navbar';
+import SixGridHoverCards from './SixGridHoverCards';
+import customer3 from '../../../assets/images/customer3.jpg';
+import CyberSection from './CyberSection'; 
+import Footer from '../../Footer/Footer';
+import CybersSlider from './CybersSlider';
+export default function CyberSecurity() {
+  return (
+    <div>
+        <Navbar />
+       <div className="service-container">
+                <div className="service-image">
+                    <img src={cyber4} alt="Cloud consulting illustration" />
+                </div>
+                <div className="service-text">
+                    <h1>Cybersecurity consulting</h1>
+                    <p>
+                       Secure today. Thrive tomorrow. Infuse cybersecurity into your strategy to protect value, prevent threats, and build lasting trust.
+                    </p>
+                </div>
+            </div>
+            <CybersecurityStats />
+            <CyberCardSection />
+             <h1 className='headings-1'>What’s next in Customer service ? </h1>
+            <CybersSlider />
+               <h1 className='headings-1'> Partners in change</h1>
+            <PartnersSection />
+            <h1 className='headings-1'> Awards and recognition</h1>
+            <SixGridHoverCards />
+            <h1 className='headings-1'> Our leader</h1>
+            <CyberSection />
+            <div className='head-container-6'>
+                    <img src={customer3} alt="Logo" className='head-2-img' />
+                    <h1>Cybersecurity careers​</h1>
+                    <p>
+                  Combine deep expertise with agile thinking to empower clients to build secure, future-ready businesses in an unpredictable digital world.
+                    </p>
+                   <Link to="/" className="learn-more-btn">Learn More</Link>
+                  </div>
+                  <Footer />
+    </div>
+  )
+}
+                                                                                                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+

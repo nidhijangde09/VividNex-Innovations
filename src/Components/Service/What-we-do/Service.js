@@ -32,15 +32,18 @@ export default function Service() {
       <h3 className='head-2-p'>Unmatched industry expertise</h3>
       <InteractiveServicePanel />
 
-      <div className='head-container-6'>
-        <img src={Simg} alt="Logo" className='head-2-img' />
-        <h1>Reinventing every day</h1>
-        <p>
-          We help clients unlock their full potential through technology, data, AI, and modern ways of working—
-          pushing boundaries to reshape industries and define what’s next.
-        </p>
-       <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
+     <div className="head-container-6">
+  <img src={Simg} alt="Background" className="head-2-img" />
+  <div className="head-content">
+    <h1>Reinventing every day</h1>
+    <p>
+      We help clients unlock their full potential through technology, data, AI, and modern ways of working—
+      pushing boundaries to reshape industries and define what’s next.
+    </p>
+    <Link to="/" className="learn-more-btn">Learn More</Link>
+  </div>
+</div>
+
       <div className="award-section">
   <h1 className="award-heading">
     Innovation tailored for every industry.

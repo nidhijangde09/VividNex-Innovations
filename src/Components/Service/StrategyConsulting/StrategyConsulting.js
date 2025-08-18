@@ -1,0 +1,50 @@
+import React from 'react'
+import './StrategyConsulting.css';
+import StrategyConsultingImg from '../../../assets/images/StrategyConsultingImg.jpg';
+import customer3 from '../../../assets/images/customer3.jpg';
+import Navbar from '../../Navbar/Navbar';
+import StrategyConsultingStats from './StrategyConsultingStats';
+import StrategyConsultingCardSection from './StrategyConsultingCardSection';
+import StrategyConsultingSlider from './StrategyConsultingSlider';
+import StrategyConsultingSections from './StrategyConsultingSections';
+import Footer from '../../Footer/Footer';
+import { Link } from 'react-router-dom';
+
+function StrategyConsulting() {
+  return (
+    <div>
+          <Navbar />
+      <div className="service-container">
+        <div className="service-image">
+          <img src={StrategyConsultingImg} alt="Cloud consulting illustration" /> {/* Updated here */}
+        </div>
+        <div className="service-text">
+          <h1> Strategy Consulting Services</h1>
+          <p>
+            Embrace bold reinvention and join the forward-thinking few who are not only unlocking exceptional business growth, but also creating meaningful impact for society.
+          </p>
+        </div>
+      </div>
+      <h1 className='headings-1'>Metaverse now</h1>
+      <StrategyConsultingStats />
+       <h1 className='headings-1'>Reinvent with strategy</h1>
+      <StrategyConsultingCardSection />
+         <h1 className='headings-1'>What’s trending with strategy</h1>
+
+      <StrategyConsultingSlider />
+         <h1 className='headings-1'>Our leaders</h1>
+      <StrategyConsultingSections />
+      <div className='head-container-6'>
+        <img src={customer3} alt="Logo" className='head-2-img' />
+        <h1>Learning careers</h1>
+        <p>
+          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+        </p>
+        <Link to="/" className="learn-more-btn">Learn More</Link>
+      </div>
+      <Footer />
+    </div>
+  )
+}
+
+export default StrategyConsulting;
