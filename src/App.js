@@ -36,7 +36,7 @@ import CommunicationMedia from './Components/Service/1Industries/CommunicationMe
 import Energy from './Components/Service/1Industries/Energy/Energy';
 import Health from './Components/Service/1Industries/Health/Health';
 import HighTech from './Components/Service/1Industries/HighTech/HighTech'
-
+import Benefits from './Components/Career/LifeAtVividnex/Benefits/Benefits';
 
 const App = () => {
   return (
@@ -71,11 +71,12 @@ const App = () => {
         <Route path="/Banking" element={<Banking />} />
         <Route path="/Capital" element={<Capital />} />
         <Route path="/Chemicals" element={<Chemicals />} />
-      <Route path="/CommunicationMedia" element={<CommunicationMedia />} />
-        < Route path = "/ConsumerService" element = {<ConsumerService />} />
-          < Route path = "/Energy" element = {<Energy />} />
-            < Route path = "/Health" element = {<Health />} />
-                < Route path = "/HighTech" element = {<HighTech />} />
+        <Route path="/CommunicationMedia" element={<CommunicationMedia />} />
+        < Route path="/ConsumerService" element={<ConsumerService />} />
+        < Route path="/Energy" element={<Energy />} />
+        < Route path="/Health" element={<Health />} />
+        < Route path="/HighTech" element={<HighTech />} />
+        < Route path="/Benefits" element={<Benefits />} />
       </Routes >
     </Router >
   );
