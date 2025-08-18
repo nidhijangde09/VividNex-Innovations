@@ -1,0 +1,51 @@
+/* AIInfrastructureSection.css */
+.ai-infra-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-infra-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.ai-infra-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ai-infra-text {
+  flex: 1;
+  padding: 30px;
+  min-width: 300px;
+}
+
+.ai-infra-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.highlight-bar {
+  width: 30px;
+  height: 4px;
+  background-color: #a259ff; /* Purple accent */
+  margin-bottom: 20px;
+}
+
+.ai-infra-text h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.ai-infra-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+}

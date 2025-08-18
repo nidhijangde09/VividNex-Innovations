@@ -50,3 +50,41 @@
 .news-controls button:hover {
   background-color: #444;
 }
+
+/* ✅ Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .news-slider {
+    padding: 20px;
+  }
+
+  .news-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .news-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .news-date {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .news-content {
+    margin-bottom: 20px;
+  }
+
+  .news-controls {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .news-controls button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+}

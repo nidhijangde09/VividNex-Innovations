@@ -1,0 +1,76 @@
+/* SixGridCards.css */
+
+.six-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.six-grid-card {
+  position: relative;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.six-grid-card:hover {
+  transform: translateY(-5px);
+  filter: brightness(1.2);
+}
+
+.six-grid-card-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  opacity: 0.15;
+  background-size: cover;
+  filter: invert(1);
+}
+
+.six-grid-card-title {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 2;
+  margin-bottom: auto;
+}
+
+.six-grid-card-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.six-grid-card:hover .six-grid-card-description {
+  transform: translateY(0%);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .six-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .six-grid-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,76 @@
+.cybersecurityStatsSection {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 10%;
+}
+
+.cybersecurityStatsSection h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.cybersecurityStatsSection .highlight {
+  background-color: #a100ff;
+  color: #fff;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.cybersecurityStatsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.cybersecurityStatBox {
+  flex: 1 1 200px;
+  max-width: 240px;
+}
+
+.cybersecurityUnderline {
+  width: 40px;
+  height: 4px;
+  background-color: #a100ff;
+  margin-bottom: 12px;
+}
+
+.cybersecurityStatBox h3 {
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+
+.cybersecurityStatBox p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .cybersecurityStatsSection {
+    padding: 40px 20px;
+    text-align: left;
+  }
+
+  .cybersecurityStatsSection h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .cybersecurityStatsGrid {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .cybersecurityStatBox {
+    max-width: 100%;
+  }
+
+  .cybersecurityStatBox h3 {
+    font-size: 26px;
+  }
+
+  .cybersecurityStatBox p {
+    font-size: 14px;
+  }
+}
