@@ -63,51 +63,9 @@ body {
 
 .head-2-img {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   object-fit: cover;
 }
-
-.head-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: left;
-  padding: 20px;
-  width: 90%;
-  max-width: 800px;
-}
-
-.head-content h1 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.head-content p {
-  font-size: 18px;
-  margin-bottom: 30px;
-  text-align: justify;
-  line-height: 1.6;
-}
-
-.learn-more-btn {
-  padding: 14px 26px;
-  font-size: 16px;
-  background-color: #1148fc;
-  color: white;
-  border: none;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  display: inline-block;
-}
-
-.learn-more-btn:hover {
-  background-color: #abc1ff;
-  color: #000;
-}
-
 
 .award-heading {
   position: sticky;
