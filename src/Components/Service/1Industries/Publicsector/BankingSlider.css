@@ -1,0 +1,95 @@
+.ai-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.slider-btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.ai-slider {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+  max-width: 1200px;
+  gap: 30px;
+}
+
+.ai-slide-card {
+  flex: 1 1 calc(50% - 15px);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.ai-slide-card:hover {
+  transform: scale(1.03);
+}
+
+.ai-card-content {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 20px;
+}
+
+.ai-card-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ai-card-subtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ai-card-description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.ai-slide-card:hover .ai-card-description {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.slider-btn.left {
+  margin-right: 20px;
+}
+
+.slider-btn.right {
+  margin-left: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ai-slider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ai-slide-card {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+}

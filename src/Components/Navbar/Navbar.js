@@ -4,7 +4,7 @@ import "./Navbar.css";
 import vividlogo from './vivivdlogo.png';
 import Service from '../Service/What-we-do/Service';
 import Home from '../Home/Home';
-import CareerPage from '../Career/CareerPage';
+
 import CustomerService from '../Service/CustomerService/CustomerService';
 import Cybersecurity from '../Service/CyberSecurity/CyberSecurity';
 import Dataai from '../Service/DataAi//Dataai';
@@ -24,7 +24,7 @@ import SustainabilityConsulting from '../Service/SustainabilityConsulting/Sustai
 import TalentOrganization from '../Service/TalentOrganization/TalentOrganization';
 import TechnologyTransformation from '../Service/TechnologyTransformation/TechnologyTransformation';
 import Aerospaceanddefense from '../Service/1Industries/Aerospaceanddefense/Aerospace';
-import Whoweare from '../WhoWeAre/WhoWeAreIntro';
+import WhatWeThink from '../WhatWeThink/WhatWeThink';
 import Automotive from '../Service/1Industries/Automotive/Automotive';
 import Banking from '../Service/1Industries/Banking/Banking';
 import Capital from '../Service/1Industries/Capital/Capital';
@@ -34,7 +34,17 @@ import ConsumerService from '../Service/1Industries/ConsumerGoods&Service/Consum
 import Energy from '../Service/1Industries/Energy/Energy';
 import Health from '../Service/1Industries/Health/Health';
 import HighTech from '../Service/1Industries/HighTech/HighTech';
-import Benefits from '../Career/LifeAtVividnex/Benefits/Benefits';
+import Industrial from '../Service/1Industries/Industrial/Industrial';
+import Lifescience from '../Service/1Industries/LifeScience/Lifescience';
+import Naturalresources from '../Service/1Industries/Naturalresources/Naturalresources';
+import Privateequity  from '../Service/1Industries/Privateequity/Privateequity';
+import Insurance from '../Service/1Industries/Insurance2/Insurance';
+import Publicsector from '../Service/1Industries/Publicsector/Publicsector';
+import  Retail from '../Service/1Industries/Retail/Retail';
+import Softwareplatforms from '../Service/1Industries/Softwareplatforms/Softwareplatforms';
+import Utilities from '../Service/1Industries/Utilities/Utilities';
+import Travel from '../Service/1Industries/Travel/Travel';
+
 const megaMenuData = {
   Services: [
     {
@@ -83,16 +93,16 @@ const megaMenuData = {
     },
     {
       items: [
-        { label: "Industrial", path: "/" },
-        { label: "Insurance", path: "/" },
-        { label: "Life Science", path: "/" },
-        { label: "Natural Resource", path: "/" },
-        { label: "Public Service", path: "/" },
-        { label: "Private Equity", path: "/" },
-        { label: "Retail", path: "/" },
-        { label: "Software & Platforms", path: "/" },
-        { label: "Travel", path: "/" },
-        { label: "Utilities", path: "/" },
+        { label: "Industrial", path: "/Industrial" },
+        { label: "Insurance", path: "/Insurance" },
+        { label: "Life Science", path: "/Lifescience" },
+        { label: "Natural Resource", path: "/Naturalresources" },
+        { label: "Public Service", path: "/Publicsector" },
+        { label: "Private Equity", path: "/Privateequity" },
+        { label: "Retail", path: "/Retail" },
+        { label: "Software & Platforms", path: "/Softwareplatforms" },
+        { label: "Travel", path: "/Travel" },
+        { label: "Utilities", path: "/Utilities" },
       ],
     },
   ],
@@ -139,8 +149,8 @@ const megaMenuData = {
     {
       title: "Life at Vividnex",
       items: [
-        { label: "Working here", path: "/CareerPage" },
-          { label: "Benefits", path: "/Benefits" },
+        { label: "Working here", path: "/" },
+          { label: "Benefits", path: "/" },
           { label: "Work environment", path: "/" },
           { label: "Career blog", path: "/" },
       ],
@@ -245,8 +255,8 @@ const Navbar = () => {
         ))}
 
         <li>
-          <Link to="/WhoWeAreIntro" onClick={() => setIsMobileMenuOpen(false)}>
-           What we think
+          <Link to="/WhatWeThink" onClick={() => setIsMobileMenuOpen(false)}>
+          What We Think
           </Link>
         </li>
       </ul>

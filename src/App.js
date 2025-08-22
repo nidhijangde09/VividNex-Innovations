@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Cloud from './Components/Service/Cloud/Cloud';
-import CareerPage from './Components/Career/CareerPage';
+
 import Service from './Components/Service/What-we-do/Service';
 import CustomerService from './Components/Service/CustomerService/CustomerService';
 import DigitalEngeneer from './Components/Service/DigitalE/DigitalEngeneer';
@@ -21,7 +21,7 @@ import StrategyConsulting from './Components/Service/StrategyConsulting/Strategy
 import SustainabilityConsulting from './Components/Service/SustainabilityConsulting/SustainabilityConsulting';
 import SupplyChain from './Components/Service/SupplyChain/SupplyChain';
 import TalentOrganization from './Components/Service/TalentOrganization/TalentOrganization';
-import WhoWeAre from './Components/WhoWeAre/WhoWeAreIntro';
+import WhatWeThink from './Components/WhatWeThink/WhatWeThink';
 import Aerospaceanddefense from './Components/Service/1Industries/Aerospaceanddefense/Aerospace'
 import './App.css';
 import CyberSecurity from './Components/Service/CyberSecurity/CyberSecurity';
@@ -35,9 +35,17 @@ import ConsumerService from './Components/Service/1Industries/ConsumerGoods&Serv
 import CommunicationMedia from './Components/Service/1Industries/CommunicationMedia/CommunicationMedia';
 import Energy from './Components/Service/1Industries/Energy/Energy';
 import Health from './Components/Service/1Industries/Health/Health';
-import HighTech from './Components/Service/1Industries/HighTech/HighTech'
-import Benefits from './Components/Career/LifeAtVividnex/Benefits/Benefits';
-
+import HighTech from './Components/Service/1Industries/HighTech/HighTech';
+import Industrial from './Components/Service/1Industries/Industrial/Industrial';
+import Lifescience from './Components/Service/1Industries/LifeScience/Lifescience'
+import Naturalresources from './Components/Service/1Industries/Naturalresources/Naturalresources';
+import Publicsector from './Components/Service/1Industries/Publicsector/Publicsector';
+import Retail from './Components/Service/1Industries/Retail/Retail';
+import Softwareplatforms from './Components/Service/1Industries/Softwareplatforms/Softwareplatforms';
+import Travel from './Components/Service/1Industries/Travel/Travel';
+import Utilities from './Components/Service/1Industries/Utilities/Utilities';
+import Insurance from './Components/Service/1Industries/Insurance2/Insurance';
+import Privateequity from './Components/Service/1Industries/Privateequity/Privateequity';
 const App = () => {
   return (
     <Router>
@@ -45,7 +53,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Cloud" element={<Cloud />} />
-        <Route path="/CareerPage" element={<CareerPage />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/CustomerService" element={<CustomerService />} />
         <Route path="/CyberSecurity" element={<CyberSecurity />} />
@@ -67,7 +74,7 @@ const App = () => {
         <Route path="/TechnologyTransformation" element={<TechnologyTransformation />} />
         <Route path="/Aerospace" element={<Aerospaceanddefense />} />
         <Route path="/Automotive" element={<Automotive />} />
-        <Route path="/WhoWeAreIntro" element={<WhoWeAre />} />
+        <Route path="/WhatWeThink" element={<WhatWeThink />} />
         <Route path="/Banking" element={<Banking />} />
         <Route path="/Capital" element={<Capital />} />
         <Route path="/Chemicals" element={<Chemicals />} />
@@ -76,7 +83,17 @@ const App = () => {
         < Route path="/Energy" element={<Energy />} />
         < Route path="/Health" element={<Health />} />
         < Route path="/HighTech" element={<HighTech />} />
-        < Route path="/Benefits" element={<Benefits />} />
+        < Route path="/Industrial" element={<Industrial />} />
+          < Route path="/Insurance " element={< Insurance />} />
+           < Route path="/Privateequity" element={<Privateequity />} />
+        < Route path="/Lifescience" element={<Lifescience />} />
+        < Route path="/Naturalresources" element={<Naturalresources />} />
+        < Route path="/Publicsector" element={<Publicsector />} />
+        < Route path="/Retail" element={<Retail />} />
+        < Route path="/Softwareplatforms" element={<Softwareplatforms />} />
+        < Route path="/Utilities" element={<Utilities />} />
+        < Route path="/Travel" element={<Travel />} />
+      
       </Routes >
     </Router >
   );
