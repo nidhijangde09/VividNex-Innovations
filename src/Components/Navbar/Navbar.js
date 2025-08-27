@@ -44,6 +44,10 @@ import  Retail from '../Service/1Industries/Retail/Retail';
 import Softwareplatforms from '../Service/1Industries/Softwareplatforms/Softwareplatforms';
 import Utilities from '../Service/1Industries/Utilities/Utilities';
 import Travel from '../Service/1Industries/Travel/Travel';
+import SearchForJob from '../Careers/FindJob/SearchForJob/SearchForJob';
+import CareerArea from '../Careers/FindJob/CareerArea/CareerArea';
+import WorkingHere from '../Careers/LifeAtVividnex/WorkingHere/WorkingHere';
+import Benefits from '../Careers/LifeAtVividnex/Benefits/Benefits';
 
 const megaMenuData = {
   Services: [
@@ -142,15 +146,15 @@ const megaMenuData = {
     {
       title: "Find a job",
       items: [
-         { label: "Search for job", path: "/" },
-          { label: " Career areas", path: "/" },
+         { label: "Search for job", path: "/SearchForJob" },
+          { label: " Career areas", path: "/CareerArea" },
       ],
     },
     {
       title: "Life at Vividnex",
       items: [
-        { label: "Working here", path: "/" },
-          { label: "Benefits", path: "/" },
+        { label: "Working here", path: "/WorkingHere" },
+          { label: "Benefits", path: "/Benefits" },
           { label: "Work environment", path: "/" },
           { label: "Career blog", path: "/" },
       ],

@@ -1,0 +1,45 @@
+.career-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  padding: 3rem 7rem;
+  background: #000;
+  color: #fff;
+  gap: 0; /* no extra gap */
+}
+
+.career-left,
+.career-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.career-img {
+  width: 70%;       /* take full column width */
+  margin-bottom: 15px;
+
+}
+
+.career-text h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.career-text p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.career-link {
+  font-size: 0.95rem;
+  color: #2a1ceb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.career-link:hover {
+  text-decoration: underline;
+}

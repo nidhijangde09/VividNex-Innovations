@@ -1,0 +1,49 @@
+.workconnections-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  background: #000; /* black background */
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.workconnections-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.workconnections-item.left {
+  grid-column: 1;
+}
+
+.workconnections-item.right {
+  grid-column: 2;
+}
+
+.workconnections-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.workconnections-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.workconnections-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .workconnections-container {
+    grid-template-columns: 1fr;
+  }
+  .workconnections-item {
+    grid-column: auto;
+  }
+}

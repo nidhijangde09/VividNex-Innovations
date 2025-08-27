@@ -46,6 +46,15 @@ import Travel from './Components/Service/1Industries/Travel/Travel';
 import Utilities from './Components/Service/1Industries/Utilities/Utilities';
 import Insurance from './Components/Service/1Industries/Insurance2/Insurance';
 import Privateequity from './Components/Service/1Industries/Privateequity/Privateequity';
+import SearchForJob from './Components/Careers/FindJob/SearchForJob/SearchForJob';
+import CareerArea from './Components/Careers/FindJob/CareerArea/CareerArea';
+import WorkingHere from './Components/Careers/LifeAtVividnex/WorkingHere/WorkingHere';
+import Benefits from './Components/Careers/LifeAtVividnex/Benefits/Benefits';
+
+
+
+
+
 const App = () => {
   return (
     <Router>
@@ -84,8 +93,8 @@ const App = () => {
         < Route path="/Health" element={<Health />} />
         < Route path="/HighTech" element={<HighTech />} />
         < Route path="/Industrial" element={<Industrial />} />
-          < Route path="/Insurance " element={< Insurance />} />
-           < Route path="/Privateequity" element={<Privateequity />} />
+        < Route path="/Insurance " element={< Insurance />} />
+        < Route path="/Privateequity" element={<Privateequity />} />
         < Route path="/Lifescience" element={<Lifescience />} />
         < Route path="/Naturalresources" element={<Naturalresources />} />
         < Route path="/Publicsector" element={<Publicsector />} />
@@ -93,7 +102,10 @@ const App = () => {
         < Route path="/Softwareplatforms" element={<Softwareplatforms />} />
         < Route path="/Utilities" element={<Utilities />} />
         < Route path="/Travel" element={<Travel />} />
-      
+        < Route path="/SearchForJob" element={<SearchForJob />} />
+        < Route path="/CareerArea" element={<CareerArea />} />
+         < Route path="/WorkingHere" element={<WorkingHere />} />
+          < Route path="/Benefits" element={<Benefits />} />
       </Routes >
     </Router >
   );
