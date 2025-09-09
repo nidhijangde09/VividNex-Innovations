@@ -34,7 +34,11 @@ import ConsumerService from '../Service/1Industries/ConsumerGoods&Service/Consum
 import Energy from '../Service/1Industries/Energy/Energy';
 import Health from '../Service/1Industries/Health/Health';
 import HighTech from '../Service/1Industries/HighTech/HighTech';
-import Benefits from '../Career/LifeAtVividnex/Benefits/Benefits';
+import Benefits from '../Career/LifeAtVividnex/Benefit/Benefits';
+import CareerBlog from '../Career/LifeAtVividnex/CareerBlog/CareerBlog';
+
+
+
 const megaMenuData = {
   Services: [
     {
@@ -142,7 +146,7 @@ const megaMenuData = {
         { label: "Working here", path: "/CareerPage" },
           { label: "Benefits", path: "/Benefits" },
           { label: "Work environment", path: "/" },
-          { label: "Career blog", path: "/" },
+          { label: "Career blog", path: "/CareerBlog" },
       ],
     },
       {

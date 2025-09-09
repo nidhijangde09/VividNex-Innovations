@@ -36,7 +36,8 @@ import CommunicationMedia from './Components/Service/1Industries/CommunicationMe
 import Energy from './Components/Service/1Industries/Energy/Energy';
 import Health from './Components/Service/1Industries/Health/Health';
 import HighTech from './Components/Service/1Industries/HighTech/HighTech'
-import Benefits from './Components/Career/LifeAtVividnex/Benefits/Benefits';
+import Benefits from './Components/Career/LifeAtVividnex/Benefit/Benefits';
+import CareerBlog from './Components/Career/LifeAtVividnex/CareerBlog/CareerBlog';
 
 const App = () => {
   return (
@@ -77,6 +78,7 @@ const App = () => {
         < Route path="/Health" element={<Health />} />
         < Route path="/HighTech" element={<HighTech />} />
         < Route path="/Benefits" element={<Benefits />} />
+        < Route path="/CareerBlog" element={<CareerBlog />} />
       </Routes >
     </Router >
   );

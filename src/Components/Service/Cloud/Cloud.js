@@ -21,10 +21,9 @@ const CloudSection = () => {
           <img src={cloud2} alt="Cloud illustration" />
         </div>
         <div className="cloud-text">
-          <h1>Cloud consulting services</h1>
+          <h1>Similar cloud consulting offerings</h1>
           <p>
-            Empower your business with the cloud. Cloud computing is now central to transformation—enabling
-            innovation, agility, and continuous reinvention to meet the demands of a fast-evolving world.
+            Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
           </p>
         </div>
       </div>
