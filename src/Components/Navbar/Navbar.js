@@ -34,6 +34,10 @@ import ConsumerService from '../Service/1Industries/ConsumerGoods&Service/Consum
 import Energy from '../Service/1Industries/Energy/Energy';
 import Health from '../Service/1Industries/Health/Health';
 import HighTech from '../Service/1Industries/HighTech/HighTech';
+
+import Benefits from '../Career/LifeAtVividnex/Benefit/Benefits';
+import CareerBlog from '../Career/LifeAtVividnex/CareerBlog/CareerBlog';
+
 import Industrial from '../Service/1Industries/Industrial/Industrial';
 import Lifescience from '../Service/1Industries/LifeScience/Lifescience';
 import Naturalresources from '../Service/1Industries/Naturalresources/Naturalresources';
@@ -53,6 +57,7 @@ import CareerBlog from '../Careers/LifeAtVividnex/CareerBlog/CareerBlog';
 import HiringJourney from '../Careers/HowWeAre/HiringJourney/HiringJourney';
 import Protips from '../Careers/HowWeAre/Protips/Protips';
 import Career from '../Careers/Career';
+
 const megaMenuData = {
   Services: [
     {
@@ -159,7 +164,9 @@ const megaMenuData = {
       items: [
         { label: "Working here", path: "/WorkingHere" },
           { label: "Benefits", path: "/Benefits" },
+
           { label: "Work environment", path: "/WorkingEnvironment" },
+
           { label: "Career blog", path: "/CareerBlog" },
       ],
     },
