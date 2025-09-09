@@ -1,0 +1,61 @@
+.growth-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 3rem 7rem;
+  background-color: #000;
+}
+
+.growth-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.growth-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.growth-image img {
+  width: 500px;
+  max-width: 100%;
+ 
+}
+
+.growth-text {
+  flex: 1;
+  color: #fff;
+}
+
+.growth-text .line {
+  width: 25px;
+  height: 3px;
+  background: #2600ff;
+  margin-bottom: 15px;
+}
+
+.growth-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.growth-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.read-more {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2600ff;
+}
+
+.read-more .arrow {
+  color: #2600ff;
+  margin-left: 5px;
+}

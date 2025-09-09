@@ -1,0 +1,90 @@
+.dataai-card-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 7%;
+}
+
+.dataai-card-heading {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.dataai-card-grid {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.dataai-card {
+  background-color: #1e1e1e;
+  padding: 30px;
+  flex: 1 1 300px;
+  min-width: 350px;
+  height: 45vh;
+  position: relative;
+}
+
+.dataai-card-underline {
+  width: 30px;
+  height: 4px;
+  background-color: #1100ff;
+  margin-bottom: 12px;
+}
+
+.dataai-card-category {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.dataai-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dataai-card-link {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dataai-card-link .arrow {
+  background: #0400ff;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 2px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .dataai-card-grid {
+    flex-direction: column;
+  }
+}
+
+.dataai-card-content {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.dataai-card-hover-text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+  transform: translateY(10px);
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.dataai-card:hover .dataai-card-hover-text {
+  max-height: 100px;
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,50 @@
+.leaders-section {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 150px;
+}
+
+.leaders-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.leaders-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 90px;
+  float: right;
+  margin-bottom: 10%;
+  margin-left: 30%;
+}
+
+.leader-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.leader-img {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.leader-details h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.leader-details p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.linkedin-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 10px;
+}
