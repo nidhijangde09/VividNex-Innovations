@@ -50,11 +50,11 @@ import SearchForJob from './Components/Careers/FindJob/SearchForJob/SearchForJob
 import CareerArea from './Components/Careers/FindJob/CareerArea/CareerArea';
 import WorkingHere from './Components/Careers/LifeAtVividnex/WorkingHere/WorkingHere';
 import Benefits from './Components/Careers/LifeAtVividnex/Benefits/Benefits';
-
-
-
-
-
+import WorkingEnvironment from './Components/Careers/LifeAtVividnex/WorkingEnvironment/WorkingEnvironment';
+import CareerBlog from './Components/Careers/LifeAtVividnex/CareerBlog/CareerBlog';
+import HiringJourney from './Components/Careers/HowWeAre/HiringJourney/HiringJourney';
+import Protips from './Components/Careers/HowWeAre/Protips/Protips';
+import Career from './Components/Careers/Career';
 const App = () => {
   return (
     <Router>
@@ -104,8 +104,13 @@ const App = () => {
         < Route path="/Travel" element={<Travel />} />
         < Route path="/SearchForJob" element={<SearchForJob />} />
         < Route path="/CareerArea" element={<CareerArea />} />
-         < Route path="/WorkingHere" element={<WorkingHere />} />
-          < Route path="/Benefits" element={<Benefits />} />
+        < Route path="/WorkingHere" element={<WorkingHere />} />
+        < Route path="/Benefits" element={<Benefits />} />
+        < Route path="/WorkingEnvironment" element={<WorkingEnvironment />} />
+        < Route path="/CareerBlog" element={<CareerBlog />} />
+        < Route path="/HiringJourney" element={<HiringJourney />} />
+         < Route path="/Protips" element={<Protips />} />
+          < Route path="/Career" element={<Career />} />
       </Routes >
     </Router >
   );

@@ -48,7 +48,11 @@ import SearchForJob from '../Careers/FindJob/SearchForJob/SearchForJob';
 import CareerArea from '../Careers/FindJob/CareerArea/CareerArea';
 import WorkingHere from '../Careers/LifeAtVividnex/WorkingHere/WorkingHere';
 import Benefits from '../Careers/LifeAtVividnex/Benefits/Benefits';
-
+import WorkingEnvironment from '../Careers/LifeAtVividnex/WorkingEnvironment/WorkingEnvironment';
+import CareerBlog from '../Careers/LifeAtVividnex/CareerBlog/CareerBlog';
+import HiringJourney from '../Careers/HowWeAre/HiringJourney/HiringJourney';
+import Protips from '../Careers/HowWeAre/Protips/Protips';
+import Career from '../Careers/Career';
 const megaMenuData = {
   Services: [
     {
@@ -155,15 +159,15 @@ const megaMenuData = {
       items: [
         { label: "Working here", path: "/WorkingHere" },
           { label: "Benefits", path: "/Benefits" },
-          { label: "Work environment", path: "/" },
-          { label: "Career blog", path: "/" },
+          { label: "Work environment", path: "/WorkingEnvironment" },
+          { label: "Career blog", path: "/CareerBlog" },
       ],
     },
       {
       title: "How we hire",
       items: [
-        { label: "Hiring journey", path: "/" },
-          { label: "Pro tips", path: "/" },
+        { label: "Hiring journey", path: "/HiringJourney" },
+          { label: "Pro tips", path: "/Protips" },
          
       ],
     },
@@ -222,7 +226,7 @@ const Navbar = () => {
                     </Link>
                   )}
                     {menu === "Career" && (
-                    <Link to="/CareerPage" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link to="/Career" onClick={() => setIsMobileMenuOpen(false)}>
                       <h3 className="mega-menu-heading">Career</h3>
                     </Link>
                   )}
