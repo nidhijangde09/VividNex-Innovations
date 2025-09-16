@@ -29,11 +29,11 @@ export default function Dataai() {
             </div>
             <DataAIStats />
             <DataAICardSection />
-             <h1 className='headings-1'>What’s next in Data & AI ? </h1>
+             <h1 className='headings'>What’s next in Data & AI ? </h1>
             <AISlider/>
-             <h1 className='headings-1'>Partners in change </h1>
+             <h1 className='headings'>Partners in change </h1>
             <DataAIPartnersSection />
-              <h1 className='headings-1'>Awards and recognition </h1>
+              <h1 className='headings'>Awards and recognition </h1>
             <DataAIGridHoverCards />
            
               <div className='head-container-6'>

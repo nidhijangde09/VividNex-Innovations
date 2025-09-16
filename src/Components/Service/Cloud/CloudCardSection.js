@@ -47,7 +47,6 @@ const cardData = [
 const CloudCardSection = () => {
     return (
         <div className="cloud-card-section">
-            <h2 className="cloud-card-heading">Reinvent with cloud</h2>
             <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
                     <div className="cloud-card" key={index}>
@@ -72,4 +71,13 @@ const CloudCardSection = () => {
 };
 
 export default CloudCardSection;
+
+
+
+
+
+
+
+
+
 

@@ -69,7 +69,8 @@ body {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #fff; /* arrow color */
+  border-top: 5px solid #fff;
+  /* arrow color */
   transition: transform 0.3s ease;
   vertical-align: middle;
 }
@@ -181,24 +182,26 @@ body {
 }
 
 /* ===============================
-   Responsive adjustments
+   Mobile Styles (<=768px)
    =============================== */
 @media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  /* Logo smaller and aligned */
   .logo img {
     height: 60px;
-margin-left: -6rem;
-  
+    margin-left: -7rem; /* prevent shifting off-screen */
   }
 
-  .navbar {
-    padding: 15px 15px;
-  }
-}
-@media (max-width: 768px) {
+  /* Show hamburger menu */
   .hamburger {
     display: flex;
+    margin-left: auto;
   }
 
+  /* Collapse nav items */
   .nav-items {
     flex-direction: column;
     align-items: flex-start;
@@ -206,14 +209,15 @@ margin-left: -6rem;
     top: 100%;
     left: 0;
     width: 100%;
-    background: #000000;
+    background: #000;
     padding: 1rem;
     margin: 0;
-    display: none; /* initially hidden */
+    display: none; /* hidden by default */
   }
 
+  /* Show when active */
   .nav-items.open {
-    display: flex; /* show when active */
+    display: flex;
   }
 
   .nav-items li {
@@ -224,29 +228,29 @@ margin-left: -6rem;
   .nav-items a {
     width: 100%;
     display: block;
+    font-size: 1rem;
   }
 
+  /* Mega menu stacked for mobile */
   .mega-menu {
     position: relative !important;
     width: 100% !important;
     height: auto !important;
     flex-direction: column;
-    padding: 1.5rem;
-    box-shadow: none;
+    padding: 1.5rem 30px;
     overflow-y: auto;
-  }
-
-  .mega-column {
-    width: 100%;
-    padding: 1rem 0;
-    border-top: 1px solid #333;
   }
 
   .mega-menu-heading {
     font-size: 20px;
     text-align: center;
     margin-bottom: 1rem;
-    color: #fff;
+  }
+
+  .mega-column {
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
   }
 
   .mega-column h4 {

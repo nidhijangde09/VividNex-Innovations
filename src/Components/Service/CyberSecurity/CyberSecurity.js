@@ -28,11 +28,11 @@ export default function CyberSecurity() {
             </div>
             <CybersecurityStats />
             <CyberCardSection />
-             <h1 className='headings-1'>What’s next in Customer service ? </h1>
+             <h1 className='headings'>What’s next in Customer service ? </h1>
             <CybersSlider />
-               <h1 className='headings-1'> Partners in change</h1>
+               <h1 className='headings'> Partners in change</h1>
             <PartnersSection />
-            <h1 className='headings-1'> Awards and recognition</h1>
+            <h1 className='headings'> Awards and recognition</h1>
             <SixGridHoverCards />
             
             <div className='head-container-6'>

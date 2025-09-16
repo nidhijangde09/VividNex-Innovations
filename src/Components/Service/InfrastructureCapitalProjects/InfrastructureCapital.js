@@ -31,31 +31,29 @@ function InfrastructureCapital() {
           </p>
         </div>
       </div>
-      <h1 className='headings-1'>Why transform capital project delivery?</h1>
-      < CapitalProjects />
-      <h1 className='headings-1'>How AI is changing infrastructure and capital projects</h1>
+      <h1 className='headings'>Why transform capital project delivery?</h1>
+      <CapitalProjects />
+      <h1 className='headings'></h1>
       <AIInfrastructureSection />
-      <h1 className='headings-1'>What you can do</h1>
-      <AccordionSection />
-      <h1 className='headings-1'>What you’ll achieve</h1>
-      <AchievementSlider />
-      <h1 className='headings-1'>Awards & recognition</h1>
-      <InfrastructureCapitalHoverCards />
-      <h1 className='headings-1'>The future of infrastructure & capital<br></br> investments</h1>
+
+      <h1 className='headings'></h1>
+      < AccordionSection />
+      <h1 className='headings'>Awards and recognition</h1>
+      < InfrastructureCapitalHoverCards />
+
+      <h1 className='headings'></h1>
       <InfrastructureSlider />
-      <h1 className='headings-1'> Accelerate your journey</h1>
-      <SecondAchievementSlider />
-      <h1 className='headings-1'>Connected Construction</h1>
+
+      <h1 className='headings'></h1>
       <ConnectedConstruction />
-      <h1 className='headings-1'>Generative Design and Planning</h1>
+
+      <h1 className='headings'></h1>
       <GenerativeDesign />
 
-      <h1 className='headings-1'>Infrastructure & capital projects partners</h1>
-      < InfrastructurePartnersSection />
-      <h1 className='headings-1'>We're growing our expertise through<br></br>  targeted acquisitions</h1>
-      <AcquisitionSlider />
-      <CareersSection />
+   
 
+      <h1 className='headings'></h1>
+      <CareersSection />
       <Footer />
     </div>
   )

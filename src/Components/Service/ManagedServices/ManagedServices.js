@@ -25,11 +25,11 @@ function ManagedServices() {
           </p>
         </div>
       </div>
-       <h1 className='headings-1'>Metaverse now</h1>
+       <h1 className='headings'>Metaverse now</h1>
        <CloudStats />
-  <h1 className='headings-1'>Reinvent with managed services</h1>
+  <h1 className='headings'>Reinvent with managed services</h1>
        <CloudCardSection />
-<h1 className='headings-1'> areas we support</h1>
+<h1 className='headings'> areas we support</h1>
        <ServiceHoverPanel />
        <SixGridHoverCards />
           <div className='head-container-6'>

@@ -46,42 +46,24 @@ body {
   text-align: justify;
 }
 
-/* Headings */
 .headings {
   font-size: 55px;
   padding: 1rem 7rem;
   color: white;
-  font-weight: 300;
-  letter-spacing: -0.3px;
-  line-height: 1.1;
-}
-
-.headings-1 {
-  font-size: 55px;
-  padding: 1rem 7rem;
-  color: white;
-  font-weight: 300;
-  letter-spacing: -0.3px;
-  line-height: 1.1;
   text-align: left;
+  /* desktop */
 }
 
 @media (max-width: 768px) {
-  .headings-1 {
-    font-size: 32px;
-    padding: 1rem 2rem;
-    text-align: center;
+  .headings {
+    font-size: 20px;
+    padding: 0.5rem 20px;
+    text-align: left;
+    font-weight: bolder;
   }
+
 }
 
-/* Extra Small Mobile */
-@media (max-width: 480px) {
-  .headings-1 {
-    font-size: 28px;
-    padding: 1rem 1rem;
-    text-align: center;
-  }
-}
 
 /* Customer Image */
 .head-2-img {
@@ -190,10 +172,6 @@ body {
     font-size: 16px;
   }
 
-  .headings {
-    font-size: 38px;
-    padding: 1rem 2rem;
-  }
-
+ 
 
 }

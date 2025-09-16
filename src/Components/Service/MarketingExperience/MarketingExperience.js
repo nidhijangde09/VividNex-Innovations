@@ -24,11 +24,11 @@ function MarketingExperience() {
                     </p>
                 </div>
             </div>
-<h1 className='headings-1'>Marketing now</h1>
+<h1 className='headings'>Marketing now</h1>
             <CloudStats />
-<h1 className='headings-1'>Reinvent with Marketing services </h1>
+<h1 className='headings'>Reinvent with Marketing services </h1>
             <CloudCardSection />
-<h1 className='headings-1'>Partners in change</h1>
+<h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
                <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />

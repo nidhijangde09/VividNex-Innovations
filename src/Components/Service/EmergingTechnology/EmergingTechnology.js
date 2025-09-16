@@ -30,13 +30,13 @@ export default function EmergingTechnology() {
       </div>
       <EmergingStats />
       <EmergingCardSection />
-      <h1 className='headings-1'>How to innovate</h1>
+      <h1 className='headings'>How to innovate</h1>
       <EmergingHoverPanel />
-      <h1 className='headings-1'>Latest in Emerging Technology</h1>
+      <h1 className='headings'>Latest in Emerging Technology</h1>
       <EmergingSlider />
-      <h1 className='headings-1'>Partners in change </h1>
+      <h1 className='headings'>Partners in change </h1>
       <EmergingPartnersSection />
-      <h1 className='headings-1'>Awards and recognition</h1>
+      <h1 className='headings'>Awards and recognition</h1>
       <EmergingHoverCards />
       
       <div className='head-container-6'>

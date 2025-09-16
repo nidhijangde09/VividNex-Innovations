@@ -10,7 +10,7 @@ import SupplyChainSlider from './SupplyChainSlider';
 import SupplyChainPartnersSection from './SupplyChainPartnersSection';
 import PartnersCarouselSection from './PartnersCarouselSection';
 import SupplyChainGridHoverCard from './SupplyChainGridHoverCard';
-import SupplyChainLeader from './SupplyChainLeader';
+
 import SupplyChainHoverPanel  from './SupplyChainHoverPanel';
 
 
@@ -29,22 +29,21 @@ function SupplyChain() {
           </p>
         </div>
       </div>
-      <h1 className='headings-1'> Supply Chain now</h1>
+      <h1 className='headings'> Supply Chain now</h1>
       < SupplyChainStats />
-      <h1 className='headings-1'> How to reinvent</h1>
+      <h1 className='headings'> How to reinvent</h1>
       <SupplyChainCardSection />
-        <h1 className='headings-1'> Areas we support</h1>
+        <h1 className='heading'> Areas we support</h1>
       <SupplyChainHoverPanel />
-          <h1 className='headings-1'>What’s trending</h1>
+          <h1 className='headings'>What’s trending</h1>
       <SupplyChainSlider />
-       <h1 className='headings-1'>Extended partner ecosystem</h1> 
+       <h1 className='headings'>Extended partner ecosystem</h1> 
      <SupplyChainPartnersSection />
-       <h1 className='headings-1'>Partners in change</h1> 
+       <h1 className='headings'>Partners in change</h1> 
       <PartnersCarouselSection />
-         <h1 className='headings-1'>Awards & recognition</h1> 
+         <h1 className='headings'>Awards & recognition</h1> 
       <SupplyChainGridHoverCard />
-         <h1 className='headings-1'>Our leaders</h1> 
-      <SupplyChainLeader />
+       
        <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>

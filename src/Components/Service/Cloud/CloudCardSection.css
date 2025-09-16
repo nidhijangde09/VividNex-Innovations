@@ -138,6 +138,7 @@
   .cloud-card-grid {
     flex-direction: column;
     gap: 20px;
+    padding: 0 20px;
   }
 
   .cloud-card {
