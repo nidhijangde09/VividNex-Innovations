@@ -98,3 +98,16 @@
     padding: 15px;
   }
 }
+/* Remove underline from card links */
+.custom-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+
+
+
+
+

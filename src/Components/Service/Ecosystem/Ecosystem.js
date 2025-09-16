@@ -1,5 +1,5 @@
 import React from 'react'
-import ecosystempartner from '../../../assets/images/ecosystempartner.jpg';
+import emergimg from '../../../assets/images/emergimg.jpg';
 import Navbar from '../../Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import './Ecosystem.css';
@@ -16,7 +16,7 @@ export default function Ecosystem() {
       <Navbar />
       <div className="service-container">
         <div className="service-image">
-          <img src={ecosystempartner} alt="Cloud consulting illustration" />
+          <img src={emergimg} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
           <h1>Turn every customer interaction into a catalyst for growth.</h1>

@@ -10,7 +10,7 @@ const AIInfrastructureSection = () => {
         <img src={engeneer1} alt="Engineer at work" />
       </div>
       <div className="ai-infra-text">
-        <h2>How AI is changing infrastructure and capital projects</h2>
+        
         <div className="highlight-bar"></div>
         <h3>AI can get you closer to ‘on time’ and ‘on budget’</h3>
         <p>

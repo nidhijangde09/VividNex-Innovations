@@ -9,6 +9,7 @@ import PartnersCarousel from './PartnersCarousel';
 import Navbar from '../../Navbar/Navbar';
 import Footer from '../../Footer/Footer';
 import CustomerSlider from './CustomerSlider';
+
 export default function CustomerService() {
     return (
         <div>

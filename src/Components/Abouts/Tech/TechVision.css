@@ -1,0 +1,79 @@
+.techvision-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 7rem; /* side padding 7rem */
+  gap: 2rem;
+  background: #000;
+  color: white;
+}
+
+/* Image section */
+.techvision-image {
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+}
+
+.techvision-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #a020f0; /* purple */
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content section */
+.techvision-content {
+  flex: 1;
+}
+
+.techvision-content h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.techvision-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #ddd;
+}
+
+.read-more {
+  color: #a020f0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .techvision-container {
+    flex-direction: column;
+    padding: 2rem; /* reduce padding for mobile */
+    text-align: center;
+  }
+
+  .techvision-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .techvision-content p {
+    font-size: 0.95rem;
+  }
+}

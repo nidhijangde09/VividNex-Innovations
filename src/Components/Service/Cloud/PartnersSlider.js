@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./PartnersSlider.css"; // renamed CSS file
+import Partnersslidercards from '../../../View/Partnersslidercards/Partnersslidercards';
+import Partnersslidercards1 from '../../../View/Partnersslidercards/Partnersslidercards1';
+import Partnersslidercards2 from '../../../View/Partnersslidercards/Partnersslidercards2';
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -8,23 +12,16 @@ const data = [
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKDyl68b4_4k9XtONR43lox5I6qeblEqJsFbTa0Kh5vnMp7sIL",
     description:
       "Build solutions that transform industries, communities and lives for the better using AWS world-leading cloud technologies. Together, we empower organizations to modernize, optimize and innovate at scale.",
-    link: "#"
+    link: "/Partnersslidercards"
   },
-  {
-    id: 2,
-    name: "Salesforce",
-    logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
-    description:
-      "Build solutions that transform industries, communities and lives for the better using Salesforce’s customer-centric innovations. Together, we drive transformation at scale.",
-    link: "#"
-  },
+ 
   {
     id: 3,
     name: "Google",
     logo: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEa8QECSRBmkBHGCiC_6wdgjPDj9A55BgVEghusoER1M0fI7JP",
     description:
       "Achieve transformative results through scalable infrastructure, advanced data analytics, robust security, targeted advertising and cutting-edge generative AI. Foster a culture of continuous innovation.",
-    link: "#"
+    link: "/Partnersslidercards1"
   },
   {
     id: 4,
@@ -32,7 +29,7 @@ const data = [
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHoZVLhT34Vngk1wD-nWuzxsXDvFu28iS3JYqB_6Md2Ma1iPBh",
     description:
       "Reinvent productivity and business processes with Microsoft-powered solutions to drive your digital transformation journey.",
-    link: "#"
+    link: "/Partnersslidercards2"
   }
 ];
 

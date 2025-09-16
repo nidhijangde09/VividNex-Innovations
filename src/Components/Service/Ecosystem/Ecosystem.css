@@ -74,7 +74,8 @@ body {
   }
 
   .service-image {
-    min-width: 100%;
+   width: 50%;
+   
   }
 
   .service-text {

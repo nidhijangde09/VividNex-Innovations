@@ -1,0 +1,41 @@
+.sustainability-container {
+    background: #000;
+    color: #fff;
+    padding: 2rem 7rem;
+    margin-top: 5%;
+}
+
+.tabs {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tab {
+    cursor: pointer;
+    font-size: 19px;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+
+.content {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.text {
+    flex: 2;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+
+}

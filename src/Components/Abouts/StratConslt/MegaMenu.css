@@ -1,0 +1,72 @@
+.mega-container {
+  background: #000;
+  color: white;
+  padding: 2rem 7rem; /* 7rem side padding on desktop */
+}
+
+/* Top Menu */
+.mega-top {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.mega-item {
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.mega-item.active {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+.mega-item.active::before {
+  content: "▪";
+  color: #a020f0; /* purple dot */
+  position: absolute;
+  left: -1.2rem;
+}
+
+/* Submenu */
+.mega-submenu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.mega-link {
+  color: #bbb;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.mega-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .mega-container {
+    padding: 1.5rem;
+  }
+
+  .mega-top {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mega-item {
+    font-size: 1rem;
+  }
+
+  .mega-submenu {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+}

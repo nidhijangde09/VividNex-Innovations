@@ -1,12 +1,19 @@
 import React from 'react'
 import './ManagedServices.css';
-
+import Navbar from '../../Navbar/Navbar';
 import ManagedServicesImg from '../../../assets/images/ManagedService.jpg';
+import CloudStats from './CloudStats';
+import CloudCardSection from './CloudCardSection';
+import ServiceHoverPanel from './ServiceHoverPanel';
+import SixGridHoverCards from './SixGridHoverCards';
+import Footer from '../../Footer/Footer';
+import { Link } from 'react-router-dom';
+import customer3 from '../../../assets/images/customer3.jpg';
 
 function ManagedServices() {
   return (
     <div>
-     
+     <Navbar />
       <div className="service-container">
         <div className="service-image">
           <img src={ManagedServicesImg} alt="Cloud consulting illustration" /> {/* Updated here */}
@@ -19,8 +26,23 @@ function ManagedServices() {
         </div>
       </div>
        <h1 className='headings-1'>Metaverse now</h1>
+       <CloudStats />
+  <h1 className='headings-1'>Reinvent with managed services</h1>
+       <CloudCardSection />
+<h1 className='headings-1'> areas we support</h1>
+       <ServiceHoverPanel />
+       <SixGridHoverCards />
+          <div className='head-container-6'>
+        <img src={customer3} alt="Logo" className='head-2-img' />
+        <h1>Learning careers</h1>
+        <p>
+          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+        </p>
+        <Link to="/" className="learn-more-btn">Learn More</Link>
+      </div>
+       <Footer />
     </div>
   )
 }
 
-export default ManagedServices
+export default ManagedServices;

@@ -1,0 +1,30 @@
+.Careerhead {
+    padding: 1rem 7rem;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.Careerheadcontent {
+    color: white;
+    font-size: 25px;
+    padding: 1rem 7rem;
+    text-align: center;
+
+}
+
+.Careerhead1 {
+    padding: 1rem 7rem;
+    color: white;
+    font-size: 55px;
+
+    text-align: start;
+}
+
+.Careerheadcontent1 {
+    color: white;
+    font-size: 20px;
+    padding: 1rem 7rem;
+   
+    text-align: start;
+}

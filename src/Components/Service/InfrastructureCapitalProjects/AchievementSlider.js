@@ -59,7 +59,7 @@ const AchievementSlider = () => {
 
   return (
     <div className="achievement-section">
-      <h2 className="slider-title">What you’ll achieve</h2>
+      
       <div className="slider-wrapper">
         <div
           className="slider-track"

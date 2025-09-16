@@ -4,7 +4,6 @@ import "./Navbar.css";
 import vividlogo from './vivivdlogo.png';
 import Service from '../Service/What-we-do/Service';
 import Home from '../Home/Home';
-
 import CustomerService from '../Service/CustomerService/CustomerService';
 import Cybersecurity from '../Service/CyberSecurity/CyberSecurity';
 import Dataai from '../Service/DataAi//Dataai';
@@ -34,29 +33,42 @@ import ConsumerService from '../Service/1Industries/ConsumerGoods&Service/Consum
 import Energy from '../Service/1Industries/Energy/Energy';
 import Health from '../Service/1Industries/Health/Health';
 import HighTech from '../Service/1Industries/HighTech/HighTech';
-
-import Benefits from '../Career/LifeAtVividnex/Benefit/Benefits';
-import CareerBlog from '../Career/LifeAtVividnex/CareerBlog/CareerBlog';
-
+import Benefits from '../Careers/LifeAtVividnex/Benefits/Benefits';
+import CareerBlog from '../Careers/LifeAtVividnex/CareerBlog/CareerBlog';
 import Industrial from '../Service/1Industries/Industrial/Industrial';
 import Lifescience from '../Service/1Industries/LifeScience/Lifescience';
 import Naturalresources from '../Service/1Industries/Naturalresources/Naturalresources';
 import Privateequity  from '../Service/1Industries/Privateequity/Privateequity';
 import Insurance from '../Service/1Industries/Insurance2/Insurance';
 import Publicsector from '../Service/1Industries/Publicsector/Publicsector';
-import  Retail from '../Service/1Industries/Retail/Retail';
+import Retail from '../Service/1Industries/Retail/Retail';
 import Softwareplatforms from '../Service/1Industries/Softwareplatforms/Softwareplatforms';
 import Utilities from '../Service/1Industries/Utilities/Utilities';
 import Travel from '../Service/1Industries/Travel/Travel';
 import SearchForJob from '../Careers/FindJob/SearchForJob/SearchForJob';
 import CareerArea from '../Careers/FindJob/CareerArea/CareerArea';
 import WorkingHere from '../Careers/LifeAtVividnex/WorkingHere/WorkingHere';
-import Benefits from '../Careers/LifeAtVividnex/Benefits/Benefits';
 import WorkingEnvironment from '../Careers/LifeAtVividnex/WorkingEnvironment/WorkingEnvironment';
-import CareerBlog from '../Careers/LifeAtVividnex/CareerBlog/CareerBlog';
 import HiringJourney from '../Careers/HowWeAre/HiringJourney/HiringJourney';
 import Protips from '../Careers/HowWeAre/Protips/Protips';
 import Career from '../Careers/Career';
+import WhoWeAre from '../Abouts/WhoWeAre/WhoWeAre';
+import AwardsRecognition from '../Abouts/AwardsRecognition/AwardsRecognition';
+import Industries from '../Abouts/Industries/Industries';
+import Leadership from '../Abouts/Leadership/Leadership';
+import Locations from '../Abouts/Locations/Locations';
+import Sustainability from '../Abouts/Sustainability/Sustainability';
+import Value from '../Abouts/Value/Value';
+import InvestorRelation from '../Abouts/InvestorRelation/InvestorRelation';
+import MediaRelations from '../Abouts/MediaRelations/MediaRelations';
+import BoardofDirectors from '../Abouts/BoardofDirectors/BoardofDirectors';
+import StratConslt from '../Abouts/StratConslt/StratConslt';
+import Tech from '../Abouts/Tech/Tech';
+import Operation from '../Abouts/Operation/Operation';
+import IndustryX from '../Abouts/IndustryX/IndustryX';
+import Song from '../Abouts/IndustryX/IndustryX';
+// ... rest of your code stays same ...
+
 
 const megaMenuData = {
   Services: [
@@ -123,31 +135,31 @@ const megaMenuData = {
     {
       title: "Our Organization",
       items: [
-        { label: "Awards & Recognition", path: "/" },
-        { label: "Corpoprate Sustainability", path: "/" },
-        { label: "Industry Analyst Recognition", path: "/" },
-        { label: "Leaders", path: "/" },
-        { label: "Location", path: "/" },
-        { label: "360° Value Report", path: "/" },
+        { label: "Awards & Recognition", path: "/AwardsRecognition" },
+        { label: "Corpoprate Sustainability", path: "/Sustainability" },
+        { label: "Industry Analyst Recognition", path: "/Industries" },
+        { label: "Leaders", path: "/Leadership" },
+        { label: "Location", path: "/Locations" },
+        { label: "360° Value Report", path: "/Value" },
         
       ],
     },
     {
       title: "Media & Investor",
       items: [
-        { label: "Media Relations", path: "/" },
-        { label: "Investor Relation", path: "/" },
-        { label: "Board of Directors", path: "/" },
+        { label: "Media Relations", path: "/MediaRelations" },
+        { label: "Investor Relation", path: "/InvestorRelation" },
+        { label: "Board of Directors", path: "/BoardofDirectors" },
       ],
     },
     {
       title: "How we serve",
       items: [
-        { label: "Strategy & consulting", path: "/" },
-        { label: "Technology", path: "/" },
-        { label: "Operation", path: "/" },
-        { label: "Industry X", path: "/" },
-        { label: "Song", path: "/" },
+        { label: "Strategy & consulting", path: "/StratConslt" },
+        { label: "Technology", path: "/Tech" },
+        { label: "Operation", path: "/Operation" },
+        { label: "Industry X", path: "/IndustryX" },
+        { label: "Song", path: "/Song" },
       ],
     },
   ],
@@ -228,7 +240,7 @@ const Navbar = () => {
                     </Link>
                   )}
                   {menu === "About" && (
-                    <Link to="/About" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link to="/WhoWeAre" onClick={() => setIsMobileMenuOpen(false)}>
                       <h3 className="mega-menu-heading">About </h3>
                     </Link>
                   )}

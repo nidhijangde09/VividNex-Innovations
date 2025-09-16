@@ -36,7 +36,7 @@
 }
 
 .read-more {
-  color: #a020f0;
+  color: #4620f0;
   text-decoration: none;
   font-weight: bold;
   display: inline-flex;
@@ -46,6 +46,7 @@
 .read-more .arrow {
   margin-left: 5px;
   font-size: 1rem;
+  background-color: black;
 }
 
 .controls {

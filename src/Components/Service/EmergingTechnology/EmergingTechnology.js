@@ -11,7 +11,7 @@ import EmergingPartnersSection from './EmergingPartnersSection';
 import EmergingHoverCards from './EmergingHoverCards';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
-import EmergingSection from './EmergingSection';
+
 
 export default function EmergingTechnology() {
   return (
@@ -38,8 +38,7 @@ export default function EmergingTechnology() {
       <EmergingPartnersSection />
       <h1 className='headings-1'>Awards and recognition</h1>
       <EmergingHoverCards />
-      <h1 className='headings-1'>Our leaders</h1>
-<EmergingSection />
+      
       <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Technology careers​</h1>

@@ -50,14 +50,52 @@
   font-size: 14px;
 }
 
-/* Responsive adjustments */
+/* 📱 Mobile view (up to 768px) */
 @media (max-width: 768px) {
   .related-capabilities-container {
-    flex-direction: column;
+    flex-direction: column; /* stack vertically */
+    padding: 1rem 2rem;     /* reduce padding */
+    margin-top: 10%;        /* reduce spacing */
   }
 
   .related-capabilities-container h3 {
-    margin-bottom: 20px;
+    font-size: 28px;        /* smaller heading */
     margin-right: 0;
+    margin-bottom: 1rem;    /* spacing below heading */
+  }
+
+  .related-capabilities-container ul {
+    margin-top: 2%;
+    margin-left: 0;         /* remove side margin */
+  }
+
+  .related-capabilities-container li a {
+    font-size: 16px;        /* smaller links */
+    padding: 8px 1rem;      /* tighter padding */
+  }
+
+  .arrow {
+    font-size: 12px;
+    margin-right: 8px;
+  }
+}
+
+/* 📱 Extra small devices (up to 480px) */
+@media (max-width: 480px) {
+  .related-capabilities-container {
+    padding: 1rem;         /* even smaller padding */
+  }
+
+  .related-capabilities-container h3 {
+    font-size: 24px;
+  }
+
+  .related-capabilities-container li a {
+    font-size: 14px;
+    padding: 6px 0.5rem;
+  }
+
+  .arrow {
+    font-size: 10px;
   }
 }

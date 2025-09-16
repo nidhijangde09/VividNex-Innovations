@@ -38,7 +38,7 @@ function Learning() {
       <h1 className='headings'>Personalized Learning with AI</h1>
       <LearningSlider />
       <LearningPartnersSection />
-      <LearningSection />
+  
       <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Learning careers</h1>

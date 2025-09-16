@@ -1,0 +1,108 @@
+.Careerheadcontent {
+  color: white;
+  font-size: 25px;
+  padding: 0rem 7rem;
+  text-align: left;   /* force left alignment */
+  margin-bottom: 5%;
+}
+
+.Careerhead {
+  padding: 1rem 7rem;
+  color: white;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;   /* force left alignment */
+}
+
+.Careerhead1 {
+  padding: 0rem 15rem;
+  color: white;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.Careerheadcontent1 {
+  color: white;
+  font-size: 20px;
+  padding: 0rem 15rem;
+  text-align: center;
+}
+
+.ValueContainer {
+  background-color: rgb(31, 26, 26);
+  padding: 5rem 8rem;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.ValueContainer h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+.ValueContainer p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+/* ✅ Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .Careerhead,
+  .Careerhead1 {
+    font-size: 36px;
+    padding: 1rem 5rem;
+  }
+
+  .Careerheadcontent,
+  .Careerheadcontent1 {
+    font-size: 18px;
+    padding: 0rem 5rem;
+  }
+
+  .ValueContainer {
+    padding: 4rem 5rem;
+    margin-top: 10rem;
+  }
+
+  .ValueContainer h1 {
+    font-size: 38px;
+  }
+
+  .ValueContainer p {
+    font-size: 20px;
+  }
+}
+
+/* ✅ Mobile (≤768px) */
+@media (max-width: 768px) {
+  .Careerhead,
+  .Careerhead1 {
+    font-size: 28px;
+    padding: 1rem 2rem;
+    text-align: center;  /* force center on small screens */
+  }
+
+  .Careerheadcontent,
+  .Careerheadcontent1 {
+    font-size: 16px;
+    padding: 0rem 2rem;
+    text-align: center;
+  }
+
+  .ValueContainer {
+    padding: 3rem 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .ValueContainer h1 {
+    font-size: 28px;
+  }
+
+  .ValueContainer p {
+    font-size: 16px;
+  }
+}

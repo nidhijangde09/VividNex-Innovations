@@ -8,7 +8,7 @@ import PartnersSection from './PartnersSection';
 import Navbar from '../../Navbar/Navbar';
 import SixGridHoverCards from './SixGridHoverCards';
 import customer3 from '../../../assets/images/customer3.jpg';
-import CyberSection from './CyberSection'; 
+
 import Footer from '../../Footer/Footer';
 import CybersSlider from './CybersSlider';
 export default function CyberSecurity() {
@@ -34,8 +34,7 @@ export default function CyberSecurity() {
             <PartnersSection />
             <h1 className='headings-1'> Awards and recognition</h1>
             <SixGridHoverCards />
-            <h1 className='headings-1'> Our leader</h1>
-            <CyberSection />
+            
             <div className='head-container-6'>
                     <img src={customer3} alt="Logo" className='head-2-img' />
                     <h1>Cybersecurity careers​</h1>

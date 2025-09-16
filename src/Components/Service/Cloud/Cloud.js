@@ -8,7 +8,7 @@ import PartnersSlider from './PartnersSlider'
 import Footer from '../../Footer/Footer';
 import SixGridCards from './SixGridCards';
 import CloudSlider from './CloudSlider';
-import CloudfSection from './CloudfSection';
+
 import { Link } from 'react-router-dom';
 import customer3 from '../../../assets/images/customer3.jpg';
 
@@ -36,8 +36,7 @@ const CloudSection = () => {
       <SixGridCards />
       <h1 className='headings'>Partners in change</h1>
       <PartnersSlider />
-        <h1 className='headings-1'>Our leader</h1>
-      <CloudfSection />
+     
        <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>

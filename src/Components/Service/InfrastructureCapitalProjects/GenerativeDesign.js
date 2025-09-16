@@ -6,7 +6,7 @@ const GenerativeDesign = () => {
     <div className="generative-design">
       <div className="text-section">
         <div className="highlight-bar"></div>
-        <h2>Generative Design and Planning</h2>
+        
         <p>
           Imagine a solution that can instantly boost your capacity and optimize
           project timelines and resources. Generative Design and Planning makes

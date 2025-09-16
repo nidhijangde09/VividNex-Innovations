@@ -186,11 +186,12 @@ body {
 @media (max-width: 768px) {
   .logo img {
     height: 60px;
-    margin-left: 0;
+margin-left: -6rem;
+  
   }
 
   .navbar {
-    padding: 10px 20px;
+    padding: 15px 15px;
   }
 }
 @media (max-width: 768px) {

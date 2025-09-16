@@ -1,7 +1,10 @@
+
+
 body {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Home Image */
@@ -16,6 +19,7 @@ body {
     height: 50vh;
   }
 }
+
 .head1-container {
   display: flex;
   justify-content: space-between;
@@ -44,13 +48,14 @@ body {
   margin-top: -490px;
   margin-left: 10%;
   position: relative;
+font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
   .loading-text {
     font-size: 32px;
     text-align: center;
-padding-top: 25%;
+    padding-top: 25%;
   }
 }
 
@@ -59,19 +64,19 @@ padding-top: 25%;
   text-align: justify;
   color: white;
   max-width: 500px;
- float: right;
- margin-right: 10%;
- margin-top: -21%;
- position: relative;
+  float: right;
+  margin-right: 10%;
+  margin-top: -21%;
+  position: relative;
+  font-family:  'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
   .head1-content {
-    font-size: 16px;
-    margin: 20px 0 0 0;
+    font-size: 15px;
     text-align: center;
     margin-top: -50%;
-    margin-right: 13%;
+ 
   }
 }
 
@@ -85,13 +90,6 @@ padding-top: 25%;
   padding: 20px 10px;
 }
 
-@media (max-width: 768px) {
-  .value {
-    font-size: 40px;
-    margin-top: 10%;
-    padding: 15px 8px;
-  }
-}
 
 /* Value Content */
 .value-content {
@@ -102,13 +100,33 @@ padding-top: 25%;
   padding: 0 10%;
 }
 
+/* ✅ Responsive adjustments */
 @media (max-width: 768px) {
+  .value {
+    font-size: 40px;   /* smaller heading */
+    margin-top: 2rem;
+    padding: 10px;
+    margin-bottom: -10px;
+  }
+
   .value-content {
-    font-size: 18px;
-    margin-top: 10px;
-    padding: 0 20px;
+    font-size: 18px;   /* smaller text */
+    margin-top: 1rem; 
+    padding: 0 5%;     /* less side padding */
   }
 }
+
+@media (max-width: 480px) {
+  .value {
+    font-size: 32px;   /* even smaller on small mobiles */
+  }
+
+  .value-content {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+}
+
 
 /* General Name Heading Sticky */
 .g-name {

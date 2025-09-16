@@ -79,3 +79,95 @@
   opacity: 0.4;
   cursor: not-allowed;
 }
+/* 📱 Tablet view (≤1024px) */
+@media (max-width: 1024px) {
+  .slider-card {
+    flex: 0 0 50%; /* 2 cards per row */
+    padding: 15px;
+  }
+
+  .slider-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .slider-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .slider-card p {
+    font-size: 0.95rem;
+  }
+
+  .slider-controls button {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+}
+
+/* 📱 Mobile view (≤768px) */
+@media (max-width: 768px) {
+  .achievement-section {
+    padding: 30px 5%;
+  }
+
+  .slider-card {
+    flex: 0 0 100%; /* 1 card per row */
+    padding: 12px;
+    text-align: center; /* center-align on mobile */
+     padding: 0 5%;
+  }
+
+  .slider-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slider-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .slider-card h3 {
+    font-size: 1rem;
+  }
+
+  .slider-card p {
+    font-size: 0.9rem;
+  }
+
+  .slider-controls {
+    justify-content: center; /* center buttons */
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .slider-controls button {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+}
+
+/* 📱 Small mobile (≤480px) */
+@media (max-width: 480px) {
+  .achievement-section {
+    padding: 20px 10px;
+  }
+
+  .slider-title {
+    font-size: 1.5rem;
+  }
+
+  .slider-icon img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .slider-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .slider-card p {
+    font-size: 0.85rem;
+  }
+}
