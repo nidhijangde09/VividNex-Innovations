@@ -33,3 +33,30 @@
   font-size: 1rem;
   color: #ccc;
 }
+@media (max-width: 768px) {
+  .accordion-section {
+    padding: 20px; /* reduce padding for mobile */
+  }
+
+  .accordion-section h2 {
+    font-size: 1.8rem; /* smaller heading */
+    margin-bottom: 20px;
+  }
+
+  .accordion-item {
+    padding: 15px 0; /* less vertical padding */
+  }
+
+  .accordion-title {
+    font-size: 1rem; /* smaller title */
+  }
+
+  .accordion-icon {
+    font-size: 1.2rem; /* smaller icon */
+  }
+
+  .accordion-content {
+    font-size: 0.9rem; /* smaller text */
+    margin-top: 8px;
+  }
+}

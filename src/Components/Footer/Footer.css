@@ -30,11 +30,14 @@
 .footer-links ul {
   list-style: none;
   padding: 0;
+
 }
 
 .footer-links li {
   margin-bottom: 0.6rem;
   font-size: 0.95rem;
+  
+  color: #fff;
 }
 
 .footer-copy {
@@ -42,6 +45,16 @@
   color: #aaa;
   margin-top: 1rem;
 }
+.footer-links a {
+  color: #fff;              
+  text-decoration: none;    
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #aaa;          
+}
+
 
 .footer-right {
   display: flex;
@@ -62,28 +75,26 @@
   text-transform: uppercase;
   white-space: nowrap;
   color: transparent;
-  background: linear-gradient(
-    to right,
-    white 10%,
-    black 10%,
-    black 20%,
-    white 20%,
-    white 30%,
-    black 30%,
-    black 40%,
-    white 40%,
-    white 50%,
-    black 50%,
-    black 60%,
-    white 60%,
-    white 70%,
-    black 70%,
-    black 80%,
-    white 80%,
-    white 90%,
-    black 90%,
-    black 100%
-  );
+  background: linear-gradient(to right,
+      white 10%,
+      black 10%,
+      black 20%,
+      white 20%,
+      white 30%,
+      black 30%,
+      black 40%,
+      white 40%,
+      white 50%,
+      black 50%,
+      black 60%,
+      white 60%,
+      white 70%,
+      black 70%,
+      black 80%,
+      white 80%,
+      white 90%,
+      black 90%,
+      black 100%);
   background-size: 200% 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -100,6 +111,7 @@
   0% {
     background-position: 0% 0%;
   }
+
   100% {
     background-position: 100% 0%;
   }
@@ -147,5 +159,30 @@
     font-size: 2.5rem;
     white-space: normal;
     line-height: 1.2;
+  }
+}
+
+/* ✅ Social Media Icons */
+.footer-social {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #aaa;
+}
+
+/* ✅ Mobile View */
+@media (max-width: 768px) {
+  .footer-social {
+    justify-content: center;
+    margin-top: 1rem;
   }
 }

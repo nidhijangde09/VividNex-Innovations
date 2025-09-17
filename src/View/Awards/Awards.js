@@ -9,15 +9,15 @@ function Awards() {
     return (
         <div>
             <Navbar />
-            <h1 className='headings-1'> Areas we support</h1>
+            <h1 className='headings'> Areas we support</h1>
             <p className='Careerheadcontent'>We are honored to be recognized for our accomplishments as a global leader,  a great employer and a responsible company.</p>
 
 
-            <h1 className='headings-1'>Fostering a culture of belonging for <br></br> all our people to thrive</h1>
+            <h1 className='headings'>Fostering a culture of belonging for <br></br> all our people to thrive</h1>
 
             <SixGridCards />
 
-            <h1 className='headings-1'>Our brand strength continues <br></br> to drive value and success</h1>
+            <h1 className='headings'>Our brand strength continues <br></br> to drive value and success</h1>
 
             <CloudCardSection />
 <Footer />

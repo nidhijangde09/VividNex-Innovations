@@ -141,7 +141,7 @@
   }
 
   .cloud-card {
-    flex: 1 1 100%; /* Full width for mobile */
+    flex: 1 1 100%; 
     min-width: auto;
   }
 

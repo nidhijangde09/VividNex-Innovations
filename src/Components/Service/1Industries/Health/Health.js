@@ -27,7 +27,7 @@ function Health() {
         </div>
       </div>
 
-      <h1 className='headings-1'>Health  now</h1>
+      <h1 className='headings'>Health  now</h1>
       <BankingStats />
 
       <EnergyCardSection />

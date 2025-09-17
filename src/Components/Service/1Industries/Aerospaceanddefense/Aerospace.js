@@ -30,24 +30,23 @@ function Aerospace() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings-1'>Aerospace and defense now</h1>
+            <h1 className='headings'>Aerospace and defense now</h1>
             <AerospaceStats />
-            <h1 className='headings-1'>How to reinvent</h1>
+            <h1 className='headings'>How to reinvent</h1>
             <AerospaceCardSection />
-            <h1 className='headings-1'>Areas we support</h1>
+            <h1 className='headings'>Areas we support</h1>
             <AerospaceHoverPanel />
 
-            <h1 className='headings-1'>What’s trending</h1>
+            <h1 className='headings'>What’s trending</h1>
             <AerospaceSlider />
             
-            <h1 className='headings-1'>Our extended partner ecosystem</h1>
+            <h1 className='headings'>Our extended partner ecosystem</h1>
             <AerospacePartnersSection />
            
-            <h1 className='headings-1'>Partners in change</h1>
+            <h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
 
-             <h1 className='headings-1'>Our Leader</h1>
-             <AerospaceSection />
+           
                <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>

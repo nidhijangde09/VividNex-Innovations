@@ -76,8 +76,12 @@ import Partnersslidercards2 from './View/Partnersslidercards/Partnersslidercards
 import ResearchReportcard from './View/ResearchReportcard/ResearchReportcard';
 import Modernization from './View/Modernization/Modernization';
 import Modernization2 from './View/Modernization/Modernization2';
-
-
+import Modernization3 from './View/Modernization/Modernization3';
+import Modernization4 from './View/Modernization/Modernization4';
+import PrivacyStatement from './Components/Footer/PrivacyStatement/PrivacyStatement';
+import TermsConditions from './Components/Footer/TermsConditions/TermsConditions';
+import AccessibilityStatement from './Components/Footer/AccessibilityStatement/AccessibilityStatement';
+import CookiePolicy from './Components/Footer/CookiePolicy/CookiePolicy';
 
 const App = () => {
   return (
@@ -155,6 +159,12 @@ const App = () => {
         <Route path="/ResearchReportcard" element={<ResearchReportcard />} />
         <Route path="/Modernization" element={<Modernization />} />
         <Route path="/Modernization2" element={<Modernization2 />} />
+        <Route path="/Modernization3" element={<Modernization3 />} />
+        <Route path="/Modernization4" element={<Modernization4 />} />
+        <Route path="/PrivacyStatement" element={<PrivacyStatement />} />
+        <Route path="/TermsConditions" element={<TermsConditions />} />
+        <Route path="/AccessibilityStatement" element={<AccessibilityStatement />} />
+            <Route path="/CookiePolicy" element={<CookiePolicy />} />
       </Routes>
     </Router>
   );

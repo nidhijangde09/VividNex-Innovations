@@ -1,0 +1,29 @@
+.textp {
+  position: relative;
+  padding: 10px 7rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+/* ✅ Responsive for tablets and mobile */
+@media (max-width: 1024px) {
+  .textp {
+    padding: 10px 3rem;   /* reduce side padding */
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .textp {
+    padding: 10px 1.5rem; /* smaller padding for mobile */
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .textp {
+    padding: 10px 1rem;   /* minimal padding for small phones */
+    font-size: 1rem;
+  }
+}

@@ -1,7 +1,11 @@
 import React from 'react';
 import './CloudCardSection.css';
 import { Link } from 'react-router-dom';
+ import  Modernization from '../../../View/Modernization/Modernization';
 import Modernization2 from '../../../View/Modernization/Modernization2';
+import  Modernization3 from '../../../View/Modernization/Modernization3';
+import  Modernization4 from '../../../View/Modernization/Modernization4'
+
 const cardData = [
 
     {

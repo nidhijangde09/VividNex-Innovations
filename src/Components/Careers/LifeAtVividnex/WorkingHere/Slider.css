@@ -11,7 +11,6 @@
 
 .slider-image img {
   width: 100%;
-
 }
 
 .slider-text h3 {
@@ -56,4 +55,38 @@
   font-size: 1.2rem;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .slider-container {
+    grid-template-columns: 1fr;   /* stack image + text */
+    gap: 20px;
+    padding: 2rem 1.5rem;         /* reduce padding */
+    text-align: center;           /* center text */
+  }
+
+  .slider-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .slider-text p {
+    font-size: 0.95rem;
+  }
+
+  .slider-controls {
+    flex-direction: column;       /* stack pause + arrows */
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .arrows {
+    gap: 10px;
+  }
+
+  .pause,
+  .arrows button {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
 }

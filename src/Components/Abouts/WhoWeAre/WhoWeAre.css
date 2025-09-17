@@ -128,3 +128,28 @@ body {
  padding: 0 0rem;
  text-align: center;
 }
+@media (max-width: 768px) {
+  .Careerhead {
+    padding: 1rem 1rem; /* reduce side padding */
+    font-size: 35px; /* smaller font for mobile */
+    text-align: center; /* center on mobile */
+  }
+
+  .Careerheadcontent {
+    padding: 1rem 1rem; /* reduce side padding */
+    font-size: 18px; /* smaller font */
+    text-align: center;
+  }
+
+  .Careerhead1 {
+    padding: 1rem 0.5rem; /* reduce padding */
+    font-size: 35px; /* smaller font */
+    text-align: center;
+  }
+
+  .Careerheadcontent1 {
+    padding: 0 0.5rem; /* reduce padding */
+    font-size: 18px; /* smaller font */
+    text-align: center;
+  }
+}

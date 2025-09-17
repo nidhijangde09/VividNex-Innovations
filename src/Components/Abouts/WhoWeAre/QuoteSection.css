@@ -30,3 +30,30 @@
   font-size: 0.9rem;
   color: #ccc;
 }
+@media (max-width: 768px) {
+  .quote-container {
+    flex-direction: column; /* stack image and text */
+    padding: 2rem; /* reduce padding */
+    text-align: center; /* center text */
+  }
+
+  .quote-image img {
+    width: 100%; /* full width */
+    max-width: 300px; /* optional max width */
+    margin-bottom: 1.5rem; /* spacing below image */
+  }
+
+  .quote-text {
+    margin-left: 0; /* remove left margin */
+    max-width: 100%; /* full width */
+  }
+
+  .quote {
+    font-size: 1.2rem; /* smaller font */
+    line-height: 1.4;
+  }
+
+  .author {
+    font-size: 0.8rem; /* smaller author text */
+  }
+}
