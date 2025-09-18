@@ -12,7 +12,7 @@ const capabilities = [
 export default function RelatedCapabilities() {
   return (
     <div className="related-capabilities-container">
-      <h3>Related capabilities</h3>
+      <h3>Supporting Capabilities</h3>
       <ul>
         {capabilities.map((item, index) => (
           <li key={index}>

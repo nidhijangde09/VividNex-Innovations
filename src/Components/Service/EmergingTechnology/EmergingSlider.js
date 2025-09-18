@@ -4,16 +4,18 @@ import "./EmergingSlider.css";
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
+    subtitle: "Ready to shape the future? Think smarter. Act bolder.",
+    title: "Research Insights",
+    description: "Generative AI is redefining the competitive landscape. The frontrunners are moving fast. Will you join them?",
+
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
+    subtitle: "Lead the next era. Innovate smarter. Build bolder.",
+    title: "AI Research Report",
+    description: "Generative AI is transforming industries. The leaders are already taking action. Are you prepared to compete?",
+
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
@@ -53,9 +55,10 @@ const cardData = [
     link: "/germany"
   },
   {
-    subtitle: "Data-driven growth strategies for modern enterprises.",
-    title: "Research Report",
-    description: "Leading companies use data to drive decisions, growth, and market leadership.",
+    subtitle: "The future belongs to those who think smarter and act boldly.",
+    title: "Strategic Research",
+    description: "Generative AI is changing the rules of business. Leading organizations are acting now. Are you one of them?",
+  
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"
   },

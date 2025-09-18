@@ -36,9 +36,9 @@ export default function CustomerService() {
 
           <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Customer service careers</h1>
+        <h1>Build your future with a career in customer service.</h1>
         <p>
-      Craft magical moments and inspiring experiences that transform how people connect with your products and services.
+    Design inspiring experiences and lasting moments that transform customer relationships with your brand.
         </p>
        <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

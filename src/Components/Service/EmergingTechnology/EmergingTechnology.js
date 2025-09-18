@@ -22,9 +22,9 @@ export default function EmergingTechnology() {
           <img src={emerging1} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Turn every customer interaction into a catalyst for growth.</h1>
+          <h1>Transform every customer interaction into an opportunity for growth.</h1>
           <p>
-            Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
+            Disconnected and impersonal customer experiences prevent organizations from reaching their full potential. Achieving growth requires seamless, insight-driven experiences that feel proactive, not reactive.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function EmergingTechnology() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Technology careers​</h1>
         <p>
-          Combine deep expertise with agile thinking to empower clients to build secure, future-ready businesses in an unpredictable digital world.
+          Combine expert knowledge with agile strategies to empower clients to build resilient, future-ready businesses in an unpredictable digital world.
         </p>
         <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

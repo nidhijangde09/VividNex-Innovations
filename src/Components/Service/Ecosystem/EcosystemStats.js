@@ -3,27 +3,28 @@ import './EcosystemStats.css';
 
 const stats = [
   {
-    number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
+    number: '88%',
+    text: 'of executives say generative AI will be critical to driving future competitiveness.',
   },
   {
     number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
+    text: 'of executives agree generative AI adoption is essential for operational',
   },
   {
     number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
+    text: 'of organizations expect generative AI to significantly impact their business models.',
   },
   {
     number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
+      text: 'firms leveraging data-driven insights often realize greater revenue gains.',
+    
   },
 ];
 function EcosystemStats() {
   return (
     <div>
       <div className="dataaiStatsSection">
-      <h2>Why you need integrated partners</h2>
+      <h2>The Case for Integrated Partners</h2>
       <div className="dataaiStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="dataaiStatBox">
