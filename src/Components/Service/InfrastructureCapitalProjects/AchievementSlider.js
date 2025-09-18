@@ -5,39 +5,39 @@ import "./AchievementSlider.css";
 const slides = [
   {
     image: "https://cdn-icons-png.flaticon.com/128/17343/17343072.png",
-    title: "Decreased carbon",
-    description:
-      "Achieve your goals for sustainability and GHG emissions by using technology to embed sustainability in your strategy.",
+    title: "Smart Operations",
+    description: "Leverage automation and AI-driven workflows to optimize everyday business processes.",
+
   },
   {
     image: "/images/stakeholder.png",
-    title: "Stakeholder alignment",
-    description:
-      "Alignment with internal and external stakeholders, from large organizations or municipalities to communities, can reduce risks that can impact project schedule and budget.",
+    title: "Operational Excellence",
+    description: "Implement intelligent workflows and automation to drive consistent efficiency across operations.",
+
   },
   {
     image: "/images/carbon.png",
-    title: "Decreased carbon",
-    description:
-      "Achieve your goals for sustainability and GHG emissions by using technology to embed sustainability in your strategy.",
+    title: "Operational Efficiency",
+    description: "Harness automation and smart workflows to streamline daily operations.",
   },
   {
     image: "/images/stakeholder.png",
-    title: "Stakeholder alignment",
-    description:
-      "Alignment with internal and external stakeholders, from large organizations or municipalities to communities, can reduce risks that can impact project schedule and budget.",
+    title: "Efficiency in Action",
+    description: "Leverage automated processes and intelligent workflows to improve day-to-day operations.",
+
+
   },
   {
     image: "/images/cost.png",
-    title: "Cost optimization",
-    description:
-      "Knowledge and visibility of cost drivers improve financial planning and budgeting.",
+    title: "Optimize Operations",
+    description: "Use intelligent workflows and automation to maximize operational efficiency.",
+
   },
   {
     image: "/images/efficiency.png",
-    title: "Operational efficiency",
-    description:
-      "Leverage automation and intelligent workflows to optimize daily operations.",
+    title: "Operational Efficiency",
+    description: "Harness automation and smart workflows to streamline daily operations.",
+
   },
 ];
 

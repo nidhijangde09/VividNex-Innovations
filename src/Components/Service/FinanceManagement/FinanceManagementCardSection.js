@@ -8,33 +8,39 @@ const cardData = [
  
     {
         category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        title: "Prepare Your Data for the Next Wave of Generative AI",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Data & Analytics",
+        title: "Optimize Your Data for Generative AI Innovation",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "AI & Data Strategy",
+        title: "Ready Your Data to Unlock Generative AI Potential",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Advanced Data Solutions",
+        title: "Empower Your Business with Generative AI-Ready Data",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Intelligent Data Platforms",
+        title: "Transform Your Data for Generative AI Success",
+
         link: "#"
     },
 
     {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
+        category: "Enterprise Data Solutions",
+        title: "Enable Generative AI with Clean, Scalable Data",
+
         link: "#"
     }
 ];
@@ -42,7 +48,7 @@ const cardData = [
 const FinanceManagementCardSection = () => {
     return (
         <div className="cloud-card-section">
-            <h2 className="cloud-card-heading">Reinvent with cloud</h2>
+            <h2 className="cloud-card-heading">Transform with Cloud</h2>
             <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
                     <div className="cloud-card" key={index}>
@@ -54,7 +60,7 @@ const FinanceManagementCardSection = () => {
                                 Learn more <span className="arrow">➤</span>
                             </a>
                             <div className="cloud-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                                <p>"Explore how we guide clients in harnessing innovation and cloud to achieve meaningful transformation."</p>
                             </div>
                              
                         </div>

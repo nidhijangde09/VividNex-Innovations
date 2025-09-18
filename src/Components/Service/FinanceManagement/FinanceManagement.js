@@ -28,11 +28,11 @@ function FinanceManagement() {
             </div>
             <FinanceManagementStats />
             <FinanceManagementCardSection />
-           <h1 className='headings'>What’s trending in finance and risk <br></br> management</h1>
+           <h1 className='headings'>The latest insights in finance and risk <br></br> management</h1>
             <FinanceManagementSlider />
-            <h1 className='headings'>Awards and recognition</h1>
+            <h1 className='headings'>Awards & Accomplishments</h1>
             <FinanceSixGridCards />
-            <h1 className='headings'>Partners in change</h1>
+            <h1 className='headings'>Transforming Together</h1>
             <FinancePartnersSlider />
              
        <Footer />

@@ -4,30 +4,26 @@ import "./AcquisitionSlider.css";
 const slides = [
   {
     logo: "/images/anser-logo.png",
-    title: "Anser Advisory",
-    description:
-      "Specializing in capital program advisory and consulting services, as well as project and construction management, across transportation, energy, state/local government, water/sewer.",
-    link: "#",
+    title: "Horizon Advisory",
+    description: "Providing expert advisory and consulting services in capital programs, project and construction management across transportation, energy, government, and water/sewer sectors.",
+ link: "#",
   },
   {
     logo: "/images/comtech-logo.png",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
-    link: "#",
+    title: "Summit Advisory",
+    description: "Specialists in capital program consulting and project management, serving transportation, energy, local/state government, and water/sewer industries.",
+   link: "#",
   },
    {
     logo: "/images/comtech-logo.png",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
-    link: "#",
+    title: "Vertex Advisory",
+    description: "Offering capital program advisory, consulting, and project/construction management services across transportation, energy, government, and water/sewer sectors.",
+  link: "#",
   },
    {
     logo: "/images/comtech-logo.png",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
+    title: "Pinnacle Advisory",
+    description: "Delivering advisory and consulting expertise in capital programs, project management, and construction management for transportation, energy, government, and water/sewer projects.",
     link: "#",
   },
   // Add more acquisitions if needed

@@ -27,14 +27,13 @@ const ResilienceSection = () => {
         playsInline
       >
         <source src="https://videos.pexels.com/video-files/9240561/9240561-uhd_2560_1440_24fps.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+        unable to play the video. Your browser may not support this format
       </video>
 
       <div className="resilience-content">
         <h1>Enable people resilience</h1>
         <p>
-          Build a resilient organization, cultivate a workforce that is energized,
-          skilled and supported with a structure designed for speed, flexibility and accountability.
+         Create a resilient organization and empower a workforce that is motivated, skilled, and supported, with a structure built for agility, speed, and accountability.
         </p>
         <button className="read-more-btn">Read more</button>
       </div>

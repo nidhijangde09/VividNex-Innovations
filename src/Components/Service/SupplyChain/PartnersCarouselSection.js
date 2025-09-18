@@ -7,7 +7,7 @@ const data = [
     name: "AWS",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKDyl68b4_4k9XtONR43lox5I6qeblEqJsFbTa0Kh5vnMp7sIL",
     description:
-      "Build solutions that transform industries, communities and lives for the better using AWS world-leading cloud technologies. Together, we empower organizations to modernize, optimize and innovate at scale.",
+      "Using AWS cloud, we help organizations modernize, optimize, and innovate, creating solutions that positively impact industries and communities.",
     link: "#"
   },
   {
@@ -15,7 +15,7 @@ const data = [
     name: "Salesforce",
     logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
     description:
-      "Build solutions that transform industries, communities and lives for the better using AWS world-leading cloud technologies. Together, we empower organizations to modernize, optimize and innovate at scale.",
+      "Transform industries, communities, and lives with AWS cloud technologies—modernize, optimize, and innovate at scale.",
     link: "#"
   },
   {
@@ -23,7 +23,7 @@ const data = [
     name: "Google",
     logo: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEa8QECSRBmkBHGCiC_6wdgjPDj9A55BgVEghusoER1M0fI7JP",
     description:
-      "Achieve transformative results through scalable infrastructure, advanced data analytics, robust security, targeted advertising and cutting-edge generative AI. Foster a culture of continuous innovation.",
+      "Unlock transformative outcomes through scalable infrastructure, powerful data insights, strong security, precision marketing, and generative AI, while nurturing a culture of ongoing innovation",
     link: "#"
   },
   {
@@ -31,7 +31,7 @@ const data = [
     name: "Microsoft",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHoZVLhT34Vngk1wD-nWuzxsXDvFu28iS3JYqB_6Md2Ma1iPBh",
     description:
-      "Reinvent productivity and business processes with Microsoft powered solutions to drive your digital transformation journey.",
+      "Unlock new levels of productivity and innovation with Microsoft-powered solutions, fueling your digital transformation journey.",
     link: "#"
   }
 ];

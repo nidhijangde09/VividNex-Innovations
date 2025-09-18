@@ -4,25 +4,26 @@ import './LearningCardSection.css';
 const cardData = [
     
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "AI & Analytics Services",
+        title: "Power your generative AI initiatives with prepared data",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "Data-Driven AI Solutions",
+      title: "Ready your data to unlock generative AI potential",
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "Advanced Data Services",
+       title: "Equip your data for generative AI innovation",
         link: "#"
     },
 
 
     {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
+        category: "AI & Data Solutions",
+         title: "Prepare your data to fuel generative AI initiatives",
         link: "#"
     }
 ];
@@ -42,7 +43,7 @@ const LearningCardSection  = () => {
                                 Learn more <span className="arrow">➤</span>
                             </a>
                             <div className="cloud-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                                <p>EDiscover how VividNex drives client transformation with cutting-edge innovation and cloud solutions.</p>
                             </div>
                              
                         </div>

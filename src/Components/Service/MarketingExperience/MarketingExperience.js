@@ -18,10 +18,9 @@ function MarketingExperience() {
                     <img src={Marketingimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
-                    <h1>Similar cloud consulting offerings</h1>
+                    <h1>Cloud Transformation Consulting</h1>
                     <p>
-                        Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
-                    </p>
+                        Fuel innovation and adaptability with cloud computing—enabling your enterprise to continuously grow and excel in today’s dynamic digital landscape.                  </p>
                 </div>
             </div>
 <h1 className='headings'>Marketing now</h1>
@@ -34,7 +33,7 @@ function MarketingExperience() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Learning careers</h1>
         <p>
-          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+          Technology drives business reinvention, but people determine its success. Equip them with the skills to accelerate growth.
         </p>
         <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

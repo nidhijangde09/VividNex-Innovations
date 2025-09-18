@@ -7,7 +7,7 @@ const data = [
     name: "AWS",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKDyl68b4_4k9XtONR43lox5I6qeblEqJsFbTa0Kh5vnMp7sIL",
     description:
-      "Build solutions that transform industries, communities and lives for the better using AWS world-leading cloud technologies. Together, we empower organizations to modernize, optimize and innovate at scale.",
+      "Build solutions that reshape industries, strengthen communities, and enhance lives using AWS’s advanced cloud technologies. Together, we help organizations modernize, optimize, and innovate at scale.",
     link: "#"
   },
   {
@@ -15,7 +15,7 @@ const data = [
     name: "Salesforce",
     logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
     description:
-      "Build solutions that transform industries, communities and lives for the better using Salesforce’s customer-centric innovations. Together, we drive transformation at scale.",
+      "Build solutions that revolutionize industries, support communities, and impact lives positively through Salesforce’s customer-driven innovations. Together, we deliver transformation at scale.",
     link: "#"
   },
   {
@@ -23,7 +23,7 @@ const data = [
     name: "Google",
     logo: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEa8QECSRBmkBHGCiC_6wdgjPDj9A55BgVEghusoER1M0fI7JP",
     description:
-      "Achieve transformative results through scalable infrastructure, advanced data analytics, robust security, targeted advertising and cutting-edge generative AI. Foster a culture of continuous innovation.",
+      "Enable transformative impact with scalable infrastructure, advanced data insights, strong security, targeted marketing, and innovative generative AI. Encourage a culture of relentless innovation.",
     link: "#"
   },
   {
@@ -31,8 +31,7 @@ const data = [
     name: "Microsoft",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHoZVLhT34Vngk1wD-nWuzxsXDvFu28iS3JYqB_6Md2Ma1iPBh",
     description:
-      "Reinvent productivity and business processes with Microsoft-powered solutions to drive your digital transformation journey.",
-    link: "#"
+     "Enhance productivity and reinvent business processes with Microsoft-powered tools to advance your digital transformation.",
   }
 ];
 

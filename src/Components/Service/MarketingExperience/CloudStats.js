@@ -2,22 +2,23 @@ import React from 'react';
 import './CloudStats.css';
 
 const stats = [
-  {
-    number: '86%',
-    text: 'A growing number of companies accelerated their cloud initiatives over the past two years.',
-  },
-  {
-    number: '57%',
-    text: 'A significant share of IT budgets still goes toward maintenance, not innovation through cloud or AI.',
-  },
-  {
-    number: '2–3x',
-    text: 'Cloud-driven organizations are significantly more likely to innovate across products and services.',
-  },
-  {
-    number: '$10B+',
-    text: 'Monthly innovation spend by leading cloud providers continues to rise sharply.',
-  },
+{
+  number: '85%',
+  text: 'An increasing number of companies have accelerated their cloud initiatives over the past two years.',
+},
+{
+  number: '54%',
+  text: 'A significant portion of IT budgets still goes to maintenance rather than innovation through cloud or AI.',
+},
+{
+  number: '2–5x',
+  text: 'Cloud-driven organizations are 2–3 times more likely to innovate across products and services.',
+},
+{
+  number: '$10B+',
+  text: 'Leading cloud providers continue to increase monthly innovation spending sharply.',
+},
+
 ];
 
 export default function CloudStats() {

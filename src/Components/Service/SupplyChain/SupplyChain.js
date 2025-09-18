@@ -25,7 +25,7 @@ function SupplyChain() {
         <div className="service-text">
           <h1> Supply Chain </h1>
           <p>
-            Embrace bold reinvention and join the forward-thinking few who are not only unlocking exceptional business growth, but also creating meaningful impact for society.
+            Embrace bold reinvention and join the forward-thinking few driving exceptional business growth while creating meaningful societal impact.
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ function SupplyChain() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>
         <p>
-          Join our cloud team to help clients across industries build smarter, future-ready solutions.
+          Be part of our cloud team and empower clients to create intelligent, future-ready solutions across industries.
         </p>
         <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

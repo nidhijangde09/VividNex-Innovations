@@ -21,7 +21,7 @@ function StrategyConsulting() {
         <div className="service-text">
           <h1> Strategy Consulting Services</h1>
           <p>
-            Embrace bold reinvention and join the forward-thinking few who are not only unlocking exceptional business growth, but also creating meaningful impact for society.
+            Lead with bold reinvention—unlock remarkable business growth and make a lasting, positive impact on society.
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@ function StrategyConsulting() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Learning careers</h1>
         <p>
-          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+          While technology enables transformation, it’s people who make it succeed. Empower your workforce with the skills to drive rapid growth.
         </p>
         <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>
