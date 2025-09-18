@@ -1,0 +1,61 @@
+.slider-container {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 40px;
+  background: #000;
+  color: #fff;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-top: 4rem;
+}
+
+
+.slider-image img {
+  width: 100%;
+
+}
+
+.slider-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.slider-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pause {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.arrows button {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

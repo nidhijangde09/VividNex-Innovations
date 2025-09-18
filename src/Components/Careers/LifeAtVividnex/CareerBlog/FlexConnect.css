@@ -1,0 +1,60 @@
+.flexconnect-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  align-items: center;
+  gap: 40px;
+  background: #000;
+  color: #fff;
+  padding: 3rem 7rem;
+}
+
+.flexconnect-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heading-line {
+  width: 30px;
+  height: 4px;
+  background: #a020f0; /* purple line */
+  margin-bottom: 0.5rem;
+}
+
+.flexconnect-text h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.flexconnect-text p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.flexconnect-image img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+ margin-left: 20%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .flexconnect-container {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .flexconnect-text {
+    align-items: center;
+  }
+
+  .heading-line {
+    margin: 0 auto;
+  }
+
+  .flexconnect-image img {
+    width: 100%;
+  }
+}
