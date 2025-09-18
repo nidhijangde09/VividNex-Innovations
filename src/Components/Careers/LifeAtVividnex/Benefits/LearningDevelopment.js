@@ -1,6 +1,6 @@
 import React from "react";
 import "./LearningDevelopment.css";
-
+import Learning from '../../../Service/Learning/Learning';
 function LearningDevelopment() {
   return (
     <div className="learning-container">
@@ -21,7 +21,7 @@ function LearningDevelopment() {
           specialized certifications, deep-tech training, workshops, online
           games, hackathons, virtual reality experiences and more.
         </p>
-        <a href="#" className="read-more">
+        <a href="/Learning" className="read-more">
           Read more <span>➜</span>
         </a>
       </div>

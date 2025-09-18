@@ -3,34 +3,27 @@ import "./AcquisitionSlider.css";
 
 const slides = [
   {
-    logo: "/images/anser-logo.png",
+    logo: "https://cdn-icons-png.flaticon.com/128/17248/17248469.png",
     title: "Anser Advisory",
     description:
       "Specializing in capital program advisory and consulting services, as well as project and construction management, across transportation, energy, state/local government, water/sewer.",
-    link: "#",
+    link: "https://example.com/anser",
   },
   {
-    logo: "/images/comtech-logo.png",
+    logo: "https://dynamicmedia.accenture.com/is/content/accenture/Client_80x80-1?ts=1741760964920&fit=constrain&dpr=off",
     title: "Comtech",
     description:
       "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
-    link: "#",
+    link: "https://example.com/comtech",
   },
-   {
-    logo: "/images/comtech-logo.png",
+  {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     title: "Comtech",
     description:
       "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
-    link: "#",
+    link: "https://example.com/comtech2",
   },
-   {
-    logo: "/images/comtech-logo.png",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
-    link: "#",
-  },
-  // Add more acquisitions if needed
+ 
 ];
 
 const AcquisitionSlider = () => {
@@ -57,12 +50,12 @@ const AcquisitionSlider = () => {
       >
         {slides.map((slide, i) => (
           <div className="slider-card" key={i}>
-            <img src={slide.logo} alt={slide.title} className="logo" />
+            {/* ✅ Direct image as clickable link */}
+            <a href={slide.link} target="_blank" rel="noopener noreferrer">
+              <img src={slide.logo} alt={slide.title} className="logo" />
+            </a>
             <h3>{slide.title}</h3>
             <p>{slide.description}</p>
-            <a href={slide.link} className="learn-more">
-              Learn more →
-            </a>
           </div>
         ))}
       </div>

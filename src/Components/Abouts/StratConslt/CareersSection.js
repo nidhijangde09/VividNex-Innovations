@@ -40,7 +40,7 @@ const CareersSection = () => {
 
           <li>
             <a
-              href="/FinanceManagement"
+              href="/InfrastructureCapitalProjects"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,7 +51,7 @@ const CareersSection = () => {
 
           <li>
             <a
-              href="https://example.com/utilities-netzero"
+              href="/SupplyChain"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ const CareersSection = () => {
 
           <li>
             <a
-              href="https://example.com/utilities-netzero"
+              href="/SustainabilityConsulting "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,7 +73,7 @@ const CareersSection = () => {
 
           <li>
             <a
-              href="https://example.com/utilities-netzero"
+              href="/TalentOrganization"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,7 +84,7 @@ const CareersSection = () => {
 
           <li>
             <a
-              href="https://example.com/utilities-netzero"
+              href="/TechnologyTransformation"
               target="_blank"
               rel="noopener noreferrer"
             >

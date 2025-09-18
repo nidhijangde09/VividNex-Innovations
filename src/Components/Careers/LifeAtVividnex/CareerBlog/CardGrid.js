@@ -4,34 +4,7 @@ import "./CardGrid.css";
 
 
 const cardData = [
-  {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.", // 🔹 New subtitle
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them? Step into the future with proven insights.",
-    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
-    link: ""
-  },
-  {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient. Is AI-driven autonomy the next frontier?",
-    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
-    link: ""
-  },
-  {
-    subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
-    title: "Research Report",
-    description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics, and what this means for people, businesses, and society.",
-    image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
-    link: ""
-  },
-  {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. As change accelerates, resilient connections between people, brands, and AI will define who stands out—and who fades away.",
-    image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
-    link: ""
-  },
+  
   {
     subtitle: "Safeguarding the Digital Frontier: Inside the Work of the UK’s National Cyber Security Centre",
     title: "   Case Study",

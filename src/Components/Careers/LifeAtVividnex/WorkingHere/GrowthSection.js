@@ -1,5 +1,6 @@
 import React from "react";
 import "./GrowthSection.css";
+import CareerArea from "../../FindJob/CareerArea/CareerArea";
 
 const growthData = [
   {
@@ -33,7 +34,7 @@ function GrowthSection() {
             <div className="line"></div>
             <h2>{item.title}</h2>
             <p>{item.description}</p>
-            <a href="/" className="read-more">
+            <a href="/CareerArea" className="read-more">
               Read more <span className="arrow">➔</span>
             </a>
           </div>

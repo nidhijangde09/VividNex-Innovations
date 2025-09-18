@@ -2,6 +2,7 @@ import React from "react";
 import "./ConnectSection.css";
 import career1 from '../../../../assets/images/career1.png';
 import community from '../../../../assets/images/community.png';
+import CareerBlog from '../CareerBlog/CareerBlog';
 
 const ConnectSection = () => {
   return (
@@ -33,7 +34,7 @@ const ConnectSection = () => {
         </div>
         <h3>Stay in touch</h3>
         <p>Get career tips and industry-leading insights.</p>
-        <a href="#" className="connect-link">
+        <a href="/CareerBlog" className="connect-link">
           Learn more →
         </a>
       </div>
