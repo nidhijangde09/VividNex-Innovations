@@ -7,11 +7,11 @@ const stats = [
     text: 'Cybercrime to cost the world $10.5 trillion annually by 2025.',
   },
   {
-    number: '86%',
+    number: '82%',
     text: 'of business leaders foresee a catastrophic cyber event in the next two years due to geopolitical instability.',
   },
   {
-    number: '200% ',
+    number: '180% ',
     text: 'Disruption levels surged by 200% from 2017 to 2022.',
   },
   

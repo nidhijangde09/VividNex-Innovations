@@ -4,31 +4,31 @@ import "./DataAiSection.css";
 const leaders = [
   
     {
-    name: "Paul Zanker",
+    name: "Mustafa Suleyman",
     title: "Growth Markets Lead – CFO & Enterprise Value",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },
   {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    name: "Greg Corrado",
+    title: "CEO, Microsoft AI",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },
      {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    name: "Blaise Agüera y Arcas",
+    title: "Distinguished Scientist",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },
   {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    name: "Di (Roach) Mayze",
+    title: "Chief Data & AI Officer",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },   {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    name: "Dena Al Mansoori",
+    title: "Group Chief AI & Data Officer",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },

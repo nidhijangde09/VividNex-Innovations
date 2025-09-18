@@ -19,10 +19,9 @@ export default function Ecosystem() {
           <img src={emergimg} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Turn every customer interaction into a catalyst for growth.</h1>
+          <h1>Transform each client moment into an opportunity for success.</h1>
           <p>
-            Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
-          </p>
+            Inconsistent and impersonal touchpoints stop organizations from building lasting customer trust. Unlocking growth requires delivering unified, intelligent experiences that feel natural, not forced.</p>
         </div>
       </div>
       <EcosystemStats />
@@ -36,7 +35,7 @@ export default function Ecosystem() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Careers​</h1>
         <p>
-          Become part of our community of over 10,000 platform engineers and experts, and create long-term, meaningful connections with our partners and suppliers.
+          Join our community of 10,000+ platform engineers and specialists, and build lasting, impactful relationships with partners and suppliers.
         </p>
         <Link to="#" className="learn-more-btn">Learn More</Link>
 

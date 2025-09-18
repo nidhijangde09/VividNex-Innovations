@@ -24,7 +24,11 @@ export default function Stats() {
   return (
      
     <div className="stats-section">
+<<<<<<< HEAD
+      <h2>Customer service is evolving</h2>
+=======
 
+>>>>>>> 53e206d506894af4007c79d55a0acc866fceea5b
       <div className="stats-grid">
         {stats.map((item, index) => (
           <div key={index} className="stat-box">

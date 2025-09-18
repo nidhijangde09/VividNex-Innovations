@@ -3,19 +3,19 @@ import './DataAIStats.css';
 
 const stats = [
   {
-    number: '97%',
+    number: '95%',
     text: 'of executives agree generative AI will reshape their industry and company operations.',
   },
   {
-    number: '67%',
+    number: '63%',
     text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
   },
   {
-    number: '75%',
+    number: '71%',
     text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
   },
   {
-    number: '10-15%',
+    number: '15-20%',
     text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
   },
 ];

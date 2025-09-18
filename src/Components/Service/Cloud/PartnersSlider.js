@@ -11,8 +11,21 @@ const data = [
     name: "AWS",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKDyl68b4_4k9XtONR43lox5I6qeblEqJsFbTa0Kh5vnMp7sIL",
     description:
+<<<<<<< HEAD
+      "We develop transformative solutions that positively impact industries, communities, and lives by leveraging AWS’s world-leading cloud technologies. Together, we enable organizations to modernize, optimize, and innovate at scale.",
+    link: "#"
+  },
+  {
+    id: 2,
+    name: "Salesforce",
+    logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
+    description:
+      "Securely visualize enterprise-wide operations through an asset model that applies context to real-time processes, alarms, events, and historical data.",
+    link: "#"
+=======
       "Build solutions that transform industries, communities and lives for the better using AWS world-leading cloud technologies. Together, we empower organizations to modernize, optimize and innovate at scale.",
     link: "/Partnersslidercards"
+>>>>>>> 53e206d506894af4007c79d55a0acc866fceea5b
   },
  
   {
@@ -20,16 +33,26 @@ const data = [
     name: "Google",
     logo: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEa8QECSRBmkBHGCiC_6wdgjPDj9A55BgVEghusoER1M0fI7JP",
     description:
+<<<<<<< HEAD
+      "Achieve transformative outcomes with scalable infrastructure, advanced data analytics, robust security, targeted advertising, and cutting-edge generative AI—while fostering a culture of continuous innovation.",
+    link: "#"
+=======
       "Achieve transformative results through scalable infrastructure, advanced data analytics, robust security, targeted advertising and cutting-edge generative AI. Foster a culture of continuous innovation.",
     link: "/Partnersslidercards1"
+>>>>>>> 53e206d506894af4007c79d55a0acc866fceea5b
   },
   {
     id: 4,
     name: "Microsoft",
     logo: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHoZVLhT34Vngk1wD-nWuzxsXDvFu28iS3JYqB_6Md2Ma1iPBh",
     description:
+<<<<<<< HEAD
+      "Reinvent the way you work with Microsoft’s secure, agile, and AI-powered platforms and tools—purposefully designed to meet the evolving needs of your organization.",
+    link: "#"
+=======
       "Reinvent productivity and business processes with Microsoft-powered solutions to drive your digital transformation journey.",
     link: "/Partnersslidercards2"
+>>>>>>> 53e206d506894af4007c79d55a0acc866fceea5b
   }
 ];
 

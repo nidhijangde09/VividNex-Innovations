@@ -7,16 +7,17 @@ const stats = [
     text: 'of companies accelerated their cloud adoption in the last two years',
   },
   {
-    number: '57%',
-    text: 'of IT budgets still go to maintenance over innovation like cloud and AI',
+    number: '71%',
+    text: 'Cloud leaders invest billions every month to power continuous technological advancement.',
   },
   {
-    number: '2–3x',
-    text: 'Companies using cloud to transform see higher innovation potential.',
+    number: '2–4x',
+    text: 'rganizations leveraging cloud for transformation unlock greater innovation potential.',
   },
   {
-    number: '$10B+',
-    text: 'Major cloud providers collectively invest billions monthly to drive continuous innovation.',
+    number: "$10B+",
+     text: "Leading cloud providers invest billions each month to drive ongoing innovation.",
+
   },
 ];
 
