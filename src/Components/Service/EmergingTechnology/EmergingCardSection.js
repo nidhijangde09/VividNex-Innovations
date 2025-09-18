@@ -3,65 +3,77 @@ import './EmergingCardSection.css';
 
 const cardData = [
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Next-Gen Analytics",
+        title: "Turn Your Data into Generative AI-Ready Assets",
+ 
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+       category: "Data & Analytics",
+       title: "Optimize Your Data for Generative AI Innovation",
+
         link: "#"
     },
     
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "Data Transformation",
+      title: "Ready Your Data to Unlock Generative AI Potential",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "Advanced AI Solutions",
+      title: "Empower Your Business with Generative AI-Ready Data",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Intelligent Data Platforms",
+        title: "Transform Your Data for Generative AI Success",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+       category: "Data Modernization",
+       title: "Make Your Data Generative AI-Ready to Drive Innovation",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+       category: "Enterprise Data Solutions",
+       title: "Enable Generative AI with Clean, Scalable Data",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "AI-Powered Data",
+      title: "Future-Proof Your Data for Generative AI Applications",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+      category: "Data Intelligence",
+      title: "Harness Your Data to Unlock Generative AI Insights",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Data Modernization",
+        title: "Make Your Data Generative AI-Ready to Drive Innovation",
+
         link: "#"
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "AI & Data Strategy",
+        title: "Prepare Your Data for the Next Wave of Generative AI",
+
         link: "#"
     },
 
     {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
+        category: "Data & Analytics",
+        title: "Optimize Your Data for Generative AI Innovation",
+
         link: "#"
     }
 ];
@@ -69,7 +81,7 @@ const cardData = [
 const EmergingCardSection = () => {
     return (
         <div className="cloud-card-section">
-            <h2 className="cloud-card-heading">Reinvent with cloud</h2>
+            <h2 className="cloud-card-heading">Accelerate Innovation with Cloud</h2>
             <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
                     <div className="cloud-card" key={index}>
@@ -81,7 +93,7 @@ const EmergingCardSection = () => {
                                 Learn more <span className="arrow">➤</span>
                             </a>
                             <div className="cloud-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                                <p>"See how we help clients drive transformation using cutting-edge innovation and cloud solutions."</p>
                             </div>
                              
                         </div>

@@ -5,14 +5,14 @@ import ResearchReportcard from '../../../View/ResearchReportcard/ResearchReportc
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
+    subtitle: "Want to shape tomorrow? You must dream bigger. And act faster.",
     title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
+    description: "Generative AI is the new advantage. The winners aren’t waiting. Are you in?",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/ResearchReportcard "
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
+    subtitle: "Supply chains are evolving faster. Are you ready to lead the shift?",
     title: "Research Report",
     description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",

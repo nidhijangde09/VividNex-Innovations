@@ -4,8 +4,8 @@ import "./EmergingSection.css";
 const leaders = [
   
     {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    name: "virendra kamble",
+    title: "Growth Markets Lead – CEO ",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },
