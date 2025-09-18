@@ -8,7 +8,7 @@ import TalentOrganizationViedoSection from './TalentOrganizationViedoSection';
 import PartnersCarouselSection from './PartnersCarouselSection';
 import TalentOrganizationPartnersSection from './TalentOrganizationPartnersSection';
 import TalentOrganizationsHoverCards from './TalentOrganizationsHoverCards';
-import TalentOrganizationLeader from './TalentOrganizationLeader';
+
 import { Link } from 'react-router-dom';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
@@ -28,21 +28,20 @@ function TalentOrganization() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings-1'>Talent & Organization now</h1>
+            <h1 className='headings'>Talent & Organization now</h1>
             < TalentOrganizationStats />
-            <h1 className='headings-1'>Reinvent with Talent & Organization</h1>
+            <h1 className='headings'>Reinvent with Talent & Organization</h1>
             <TalentOrganizationCardSection />
-            <h1 className='headings-1'>What’s trending</h1>
+            <h1 className='headings'>What’s trending</h1>
             <TalentOrganizationSlider />
             <TalentOrganizationViedoSection />
-            <h1 className='headings-1'>Partners in change</h1>
+            <h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
-            <h1 className='headings-1'>See our extended partner ecosystem</h1>
+            <h1 className='headings'>See our extended partner ecosystem</h1>
             <TalentOrganizationPartnersSection />
-            <h1 className='headings-1'>Awards and recognition</h1>
+            <h1 className='headings'>Awards and recognition</h1>
             <TalentOrganizationsHoverCards />
-            <h1 className='headings-1'>Our leaders</h1>
-            <TalentOrganizationLeader />
+            
             <div className='head-container-6'>
                 <img src={customer3} alt="Logo" className='head-2-img' />
                 <h1>Cybersecurity careers​</h1>

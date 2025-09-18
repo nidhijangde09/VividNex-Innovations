@@ -6,23 +6,23 @@ body {
 }
 
 .Careerhead1 {
-    padding:0 7rem;
-    color: white;
-    font-size: 120px;
-   
-    text-align: center;
+  padding: 0 7rem;
+  color: white;
+  font-size: 120px;
+  text-align: center;
 }
 
 .Careerheadcontent1 {
-    color: white;
-    font-size: 30px;
-    text-align: center;
+  color: white;
+  font-size: 30px;
+  text-align: center;
 }
+
 .simple-btn {
   background-color: #9700ee;
   color: white;
   padding: 10px 50px;
-  border: none;     
+  border: none;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
@@ -30,16 +30,112 @@ body {
   margin-top: 4%;
   font-size: 20px;
 }
-.simple-btn:hover{
+
+.simple-btn:hover {
   background-color: #9700ee46;
 }
+
 .Careerhead {
-  padding:1rem 7rem;
+  padding: 1rem 7rem;
   color: white;
- font-size: 55px;
+  font-size: 55px;
 }
-.Careerheadcontent{
+
+.Careerheadcontent {
   color: white;
- font-size: 25px;
- padding: 0 7rem;
+  font-size: 25px;
+  padding: 0 7rem;
+}
+
+/* 📱 Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  body {
+    padding: 0 4rem;
+  }
+
+  .Careerhead1 {
+    font-size: 80px;
+    padding: 0 4rem;
+  }
+
+  .Careerheadcontent1 {
+    font-size: 24px;
+  }
+
+  .Careerhead {
+    font-size: 40px;
+    padding: 1rem 4rem;
+  }
+
+  .Careerheadcontent {
+    font-size: 20px;
+    padding: 0 4rem;
+  }
+
+  .simple-btn {
+    font-size: 18px;
+    padding: 10px 40px;
+  }
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  body {
+    padding: 0 2rem;
+  }
+
+  .Careerhead1 {
+    font-size: 50px;
+    padding: 0 2rem;
+  }
+
+  .Careerheadcontent1 {
+    font-size: 20px;
+  }
+
+  .Careerhead {
+    font-size: 28px;
+    padding: 1rem 2rem;
+  }
+
+  .Careerheadcontent {
+    font-size: 16px;
+    padding: 0 2rem;
+  }
+
+  .simple-btn {
+    font-size: 16px;
+    padding: 8px 30px;
+  }
+}
+
+/* 📱 Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .Careerhead1 {
+    font-size: 36px;
+    padding: 0 1rem;
+  }
+
+  .Careerheadcontent1 {
+    font-size: 16px;
+  }
+
+  .Careerhead {
+    font-size: 22px;
+    padding: 0.5rem 1rem;
+  }
+
+  .Careerheadcontent {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .simple-btn {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
 }

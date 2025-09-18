@@ -27,18 +27,17 @@ function Capital() {
           </p>
         </div>
       </div>
-      <h1 className='headings-1'>Capital  now</h1>
+      <h1 className='headings'>Capital  now</h1>
       <CapitalStats />
-      <h1 className='headings-1'>How to reinvent</h1>
+      <h1 className='headings'>How to reinvent</h1>
       <CapitalCardSection />
-      <h1 className='headings-1'>What’s trending </h1>
+      <h1 className='headings'>What’s trending </h1>
       <CapitalSlider />
-      <h1 className='headings-1'>Partners in change</h1>
+      <h1 className='headings'>Partners in change</h1>
       <CapitalPartnersSection />
-      <h1 className='headings-1'>Awards and recognition</h1>
+      <h1 className='headings'>Awards and recognition</h1>
       <CapitalGridHoverCard />
-      <h1 className='headings-1'>Our leaders</h1>
-      <CapitalSection />
+    
       <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>

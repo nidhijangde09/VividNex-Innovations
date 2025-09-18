@@ -24,16 +24,15 @@ function Softwareplatforms() {
           </p>
         </div>
       </div>
-      <h1 className='headings-1'>Chemical industry now</h1>
+      <h1 className='headings'>Chemical industry now</h1>
       <ChemicalsStats />
- <h1 className='headings-1'>How to reinvent </h1>
+ <h1 className='headings'>How to reinvent </h1>
       <ChemicalsCardSection />
- <h1 className='headings-1'>What’s trending </h1>
+ <h1 className='headings'>What’s trending </h1>
       <ChemicalsSlider />
- <h1 className='headings-1'>Awards and recognition</h1>
+ <h1 className='headings'>Awards and recognition</h1>
       <ChemicalsGridHoverCard />
- <h1 className='headings-1'>Our leaders</h1>
-      <ChemicalsSection />
+
       <div className='head-container-6'>
               <img src={customer3} alt="Logo" className='head-2-img' />
               <h1>Chemicals careers</h1>

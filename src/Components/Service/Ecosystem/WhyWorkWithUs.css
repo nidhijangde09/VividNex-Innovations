@@ -19,9 +19,9 @@
 }
 
 .whywork-underline {
-  width: 30px;
+  width: 40px;
   height: 3px;
-  background-color: #a100ff; /* purple underline */
+  background-color: #fff; /* ✅ changed from purple */
   margin-bottom: 20px;
 }
 
@@ -40,15 +40,35 @@
   border-radius: 5px;
 }
 
-/* Responsive */
-@media (max-width: 992px) {
+/* ✅ Responsive for screens ≤768px */
+@media (max-width: 768px) {
   .whywork-section {
     flex-direction: column;
-    text-align: left;
-    padding: 40px 20px;
+    text-align: center;
+    padding: 40px 5%;
+    gap: 20px;
   }
 
   .whywork-content h2 {
-    font-size: 32px;
+    font-size: 28px;
+  }
+
+  .whywork-content p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .whywork-underline {
+    width: 30px;
+    height: 2px;
+    margin: 0 auto 15px auto; /* center underline */
+  }
+
+  .whywork-image {
+    flex: 1 1 100%;
+  }
+
+  .whywork-image img {
+    border-radius: 4px;
   }
 }

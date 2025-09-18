@@ -68,3 +68,91 @@
   color: #0704c2;
 
 }
+/* 📱 Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .careers-container {
+    padding: 40px 3rem;
+  }
+
+  .careers-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .careers-header p {
+    font-size: 1rem;
+  }
+
+  .related-capabilities li {
+    padding-left: 5rem; /* reduce indentation */
+    font-size: 1rem;
+  }
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  .careers-container {
+    padding: 30px 1.5rem;
+    text-align: center;
+  }
+
+  .careers-header h1 {
+    font-size: 2rem;
+  }
+
+  .careers-header p {
+    font-size: 0.95rem;
+  }
+
+  .join-btn {
+    width: 100%; /* full width button */
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .related-capabilities {
+    margin-top: 40px;
+  }
+
+  .related-capabilities h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .related-capabilities li {
+    padding-left: 0; /* remove large left padding */
+    justify-content: center;
+    font-size: 0.95rem;
+  }
+
+  .related-capabilities li svg {
+    margin-right: 6px;
+  }
+}
+
+/* 📱 Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .careers-container {
+    padding: 20px 1rem;
+  }
+
+  .careers-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .careers-header p {
+    font-size: 0.9rem;
+  }
+
+  .join-btn {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .related-capabilities h2 {
+    font-size: 1.1rem;
+  }
+
+  .related-capabilities li {
+    font-size: 0.9rem;
+  }
+}

@@ -140,3 +140,20 @@ body {
   background-color: #abc1ff;
   color: #000;
 }
+.headings {
+  font-size: 55px;
+  padding: 1rem 7rem;
+  color: white;
+  text-align: left;
+  /* desktop */
+}
+
+@media (max-width: 768px) {
+  .headings {
+    font-size: 20px;
+    padding: 0.5rem 20px;
+    text-align: left;
+    font-weight: bolder;
+  }
+
+}

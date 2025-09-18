@@ -27,7 +27,7 @@ function Industrial() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings-1'>Chemical industry now</h1>
+            <h1 className='headings'>Chemical industry now</h1>
             <EnergyStats />
 
             <EnergyCardSection />
@@ -38,7 +38,6 @@ function Industrial() {
 
             <EnergyGridHoverCard />
 
-            <BankingSection />
             <div className='head-container-6'>
                 <img src={customer3} alt="Logo" className='head-2-img' />
                 <h1>Cloud careers</h1>

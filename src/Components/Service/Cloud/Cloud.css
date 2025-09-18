@@ -15,7 +15,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #000;
-  /* optional background */
 }
 
 /* Cloud Image */
@@ -46,42 +45,73 @@ body {
   text-align: justify;
 }
 
-/* Headings */
+/* === Mobile Styles (<=768px) === */
+@media (max-width: 768px) {
+  .cloud-section {
+    flex-direction: column;
+    /* stack image & text */
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    /* center align content */
+  }
+
+  .cloud-image img {
+    width: 100%;
+    /* make image responsive */
+    margin-left: 0;
+    /* remove negative margin */
+  }
+
+  .cloud-text {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .cloud-text h1 {
+    font-size: 28px;
+    /* smaller heading */
+    margin-bottom: 15px;
+  }
+
+  .cloud-text p {
+    font-size: 16px;
+    text-align: left;
+    /* left-align for readability */
+  }
+}
+
+/* === Extra Small (<=480px) === */
+@media (max-width: 480px) {
+  .cloud-text h1 {
+    font-size: 24px;
+  }
+
+  .cloud-text p {
+    font-size: 14px;
+  }
+}
+
+/* Headings (Desktop/Laptop default) */
 .headings {
   font-size: 55px;
   padding: 1rem 7rem;
   color: white;
-  font-weight: 300;
-  letter-spacing: -0.3px;
-  line-height: 1.1;
-}
-
-.headings-1 {
-  font-size: 55px;
-  padding: 1rem 7rem;
-  color: white;
-  font-weight: 300;
-  letter-spacing: -0.3px;
-  line-height: 1.1;
   text-align: left;
+  /* desktop */
 }
 
 @media (max-width: 768px) {
-  .headings-1 {
-    font-size: 32px;
-    padding: 1rem 2rem;
-    text-align: center;
+  .headings {
+    font-size: 20px;
+    padding: 0.5rem 20px;
+    text-align: left;
+    font-weight: bolder;
   }
+
 }
 
-/* Extra Small Mobile */
-@media (max-width: 480px) {
-  .headings-1 {
-    font-size: 28px;
-    padding: 1rem 1rem;
-    text-align: center;
-  }
-}
 
 /* Customer Image */
 .head-2-img {
@@ -89,17 +119,10 @@ body {
   height: 50vh;
   padding: 30px 0;
   object-fit: cover;
-
-}
-
-/* === Default Styles (Desktop) === */
-.customer-2-container h1 {
-  font-size: 40px;
-  color: #fff;
-  padding: 0 50px;
-  margin-top: -10%;
   position: relative;
 }
+
+
 
 .head-container-6 h1 {
   font-size: 40px;
@@ -127,73 +150,83 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
   margin-left: 7rem;
-  margin-top: 10px;
+  position: relative;
 }
 
-/* === Mobile (<=768px) === */
+
+/* ===============================
+   Mobile / Tablet (<=768px)
+   =============================== */
 @media (max-width: 768px) {
+  .head-container-6 {
+    position: relative;
+  }
+
   .head-2-img {
     height: 40vh;
+    /* keep image visible */
+    width: 100%;
+    object-fit: cover;
+    display: block;
   }
 
+  .head-container-6 h1,
+  .head-container-6 p,
+  .learn-more-btn {
+    position: absolute;
+    left: 1.5rem;
+    right: 1.5rem;
+    color: #fff;
+    z-index: 2;
+  }
 
   .head-container-6 h1 {
-    font-size: 28px;
-    padding: 20px 2rem;
-    margin-top: -250px;
-  }
-
-  .head-container-6 p {
-    font-size: 15px;
-    padding: 15px 2rem;
-    margin-top: -30px;
+    font-size: 22px;
+    top: 60%;
+    /* position inside image */
+    margin: 0;
     text-align: left;
   }
 
-  .learn-more-btn {
-    display: block;
+  .head-container-6 p {
     font-size: 14px;
-    padding: 10px;
-    margin-left: 40px;
+    top: 40%;
+    /* below heading */
+    text-align: left;
+    margin: 0;
+  }
+
+  .learn-more-btn {
+    top: 70%;
+    /* below paragraph */
+    font-size: 11px;
+    padding: 8px 15px;
+    background: #1148fc;
+    border-radius: 4px;
+    display: inline-block;
     width: fit-content;
+    margin-left: -2px;
   }
 }
 
-
-
-
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .cloud-section {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
+/* ===============================
+   Extra Small Devices (<=480px)
+   =============================== */
+@media (max-width: 480px) {
+  .head-container-6 h1 {
+    font-size: 20px;
+    /* smaller heading */
+    margin-top: -100px;
+    padding: 15px 1rem;
   }
 
-  .cloud-image img {
-    margin-left: 0;
-    width: 100%;
+  .head-container-6 p {
+    font-size: 14px;
+    padding: 8px 1rem;
   }
 
-  .cloud-text {
-    margin-left: 0;
-    max-width: 100%;
-    padding: 0 20px;
+  .learn-more-btn {
+    font-size: 13px;
+    padding: 10px 18px;
   }
-
-  .cloud-text h1 {
-    font-size: 36px;
-  }
-
-  .cloud-text p {
-    font-size: 16px;
-  }
-
-  .headings {
-    font-size: 38px;
-    padding: 1rem 2rem;
-  }
-
-
 }

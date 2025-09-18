@@ -43,3 +43,34 @@
 .career-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .career-container {
+    grid-template-columns: 1fr; /* stack in single column */
+    padding: 2rem 1.5rem; /* reduce side padding */
+    gap: 2rem; /* add spacing between stacked sections */
+  }
+
+  .career-left,
+  .career-right {
+    align-items: center; /* center content */
+    text-align: center;
+  }
+
+  .career-img {
+    width: 100%; /* full width on mobile */
+    margin-bottom: 1rem;
+  }
+
+  .career-text h3 {
+    font-size: 1rem; /* smaller heading */
+  }
+
+  .career-text p {
+    font-size: 0.85rem; /* slightly smaller text */
+    line-height: 1.4;
+  }
+
+  .career-link {
+    font-size: 0.9rem;
+  }
+}

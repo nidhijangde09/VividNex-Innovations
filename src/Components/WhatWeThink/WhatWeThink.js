@@ -8,11 +8,11 @@ import Footer from '../Footer/Footer';
 function WhatWeThink() {
   return (
     <div>
-   <Navbar />
-   < FilterSection />
-   <CardGrid />
-   <GetForesight/>
-   <Footer />
+      <Navbar />
+      <FilterSection />
+      <CardGrid />
+      <GetForesight />
+      <Footer />
     </div>
   );
 }

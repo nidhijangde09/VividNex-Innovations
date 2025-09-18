@@ -9,6 +9,7 @@ import PartnersCarousel from './PartnersCarousel';
 import Navbar from '../../Navbar/Navbar';
 import Footer from '../../Footer/Footer';
 import CustomerSlider from './CustomerSlider';
+
 export default function CustomerService() {
     return (
         <div>
@@ -24,13 +25,13 @@ export default function CustomerService() {
                     </p>
                 </div>
             </div>
-           
+               <h1 className='headings'> Customer service Now </h1>
             <Stats />
-             <h1 className='headings-1'>What’s next in Customer service ? </h1>
+             <h1 className='headings'>What’s next in Customer service ? </h1>
             <CustomerSlider/>
             
             <CustomerCardSection />
-             <h1 className='headings-1'>Partners in change</h1>
+             <h1 className='headings'>Partners in change</h1>
 
             <PartnersCarousel />
 

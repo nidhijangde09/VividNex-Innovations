@@ -26,13 +26,13 @@ function Metaverse() {
           </p>
         </div>
       </div>
-      <h1 className='headings-1'>Metaverse now</h1>
+      <h1 className='headings'>Metaverse now</h1>
       <MetaverseStats />
-      <h1 className='headings-1'>Reinvent with us</h1>
+      <h1 className='headings'>Reinvent with us</h1>
       <MetaverseCardSection />
-      <h1 className='headings-1'>What’s trending</h1>
+      <h1 className='headings'>What’s trending</h1>
       <MetaverseSlider />
-      <h1 className='headings-1'>Awards & recognition</h1>
+      <h1 className='headings'>Awards & recognition</h1>
       <MetaverseGridHoverCard />
       <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />

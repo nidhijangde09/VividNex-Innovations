@@ -1,0 +1,54 @@
+.Careerhead {
+    padding: 1rem 7rem;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.Careerheadcontent {
+    color: white;
+    font-size: 25px;
+    padding: 1rem 7rem;
+    text-align: center;
+}
+
+.Careerhead1 {
+    padding: 1rem 7rem;
+    color: white;
+    font-size: 55px;
+    text-align: start;
+}
+
+.Careerheadcontent1 {
+    color: white;
+    font-size: 20px;
+    padding: 1rem 7rem;
+    text-align: start;
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  .Careerhead {
+    padding: 1rem 1.5rem;   /* reduce side padding */
+    font-size: 30px;        /* smaller heading */
+    text-align: center;     /* keep centered */
+  }
+
+  .Careerheadcontent {
+    padding: 0.5rem 1.5rem; /* reduce padding */
+    font-size: 18px;        /* smaller content */
+    text-align: center;
+  }
+
+  .Careerhead1 {
+    padding: 1rem 1.5rem;
+    font-size: 28px;        /* smaller font */
+    text-align: start;      /* keep left aligned */
+  }
+
+  .Careerheadcontent1 {
+    padding: 0.5rem 1.5rem;
+    font-size: 16px;        /* smaller font */
+    text-align: start;
+  }
+}

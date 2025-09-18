@@ -2,10 +2,8 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  
   border-top: 1px solid #444;
   border-bottom: 1px solid #444;
- 
 }
 
 .filter-category {
@@ -26,7 +24,6 @@
   align-items: center;
   gap: 10px;
 }
-
 
 .filter-buttons {
   display: flex;
@@ -51,15 +48,129 @@
   font-size: 16px;
   cursor: pointer;
 }
+
 .filter-section {
   max-width: 1200px;
- margin-top: auto;
-  padding:2rem  7rem;
+  margin-top: auto;
+  padding: 2rem 7rem;
 }
-.filter-section h1{
+
+.filter-section h1 {
   font-size: 55px;
 }
-.filter-section p{
+
+.filter-section p {
   font-size: 20px;
   padding: 10px 2px;
+}
+
+/* 📱 Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .filter-section {
+    padding: 2rem 3rem;
+  }
+
+  .filter-section h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .filter-section p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .filters {
+    gap: 10px;
+  }
+
+  .filter-header {
+    font-size: 15px;
+  }
+
+  .filter-buttons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  .filter-section {
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+  }
+
+  .filter-section h1 {
+    font-size: 28px;
+  }
+
+  .filter-section p {
+    font-size: 16px;
+  }
+
+  .filters {
+    flex-direction: column;
+    border: none;
+    gap: 15px;
+  }
+
+  .filter-category {
+    border-right: none;
+    border-bottom: 1px solid #444;
+    padding: 15px 10px;
+  }
+
+  .filter-category:last-child {
+    border-bottom: none;
+  }
+
+  .filter-header {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .show-btn {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .clear-btn {
+    font-size: 14px;
+  }
+}
+
+/* 📱 Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .filter-section {
+    padding: 1rem;
+  }
+
+  .filter-section h1 {
+    font-size: 24px;
+  }
+
+  .filter-section p {
+    font-size: 14px;
+  }
+
+  .filter-header {
+    font-size: 13px;
+  }
+
+  .show-btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .clear-btn {
+    font-size: 13px;
+  }
 }

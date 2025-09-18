@@ -8,7 +8,7 @@ import FinanceManagementCardSection from './FinanceManagementCardSection';
 import FinanceManagementSlider from './FinanceManagementSlider';
 import FinancePartnersSlider from './FinancePartnersSlider';
 import FinanceSixGridCards from './FinanceSixGridCards';
-import LeadersSection from './LeadersSection';
+
 import Footer from '../../Footer/Footer';
 
 function FinanceManagement() {
@@ -28,14 +28,13 @@ function FinanceManagement() {
             </div>
             <FinanceManagementStats />
             <FinanceManagementCardSection />
-            <h2 className="Finance-card-heading">What’s trending in finance and risk <br></br> management</h2>
+           <h1 className='headings'>What’s trending in finance and risk <br></br> management</h1>
             <FinanceManagementSlider />
-            <h1 className='headings-1'>Awards and recognition</h1>
+            <h1 className='headings'>Awards and recognition</h1>
             <FinanceSixGridCards />
-            <h1 className='headings-1'>Partners in change</h1>
+            <h1 className='headings'>Partners in change</h1>
             <FinancePartnersSlider />
-               <h1 className='headings-1'>Our leaders</h1>
-            <LeadersSection />
+             
        <Footer />
     </div>
   )

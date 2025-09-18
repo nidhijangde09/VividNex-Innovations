@@ -49,3 +49,86 @@
   line-height: 1.6;
   color: #ccc;
 }
+/* 📱 Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .ai-infra-container {
+    padding: 40px 30px;
+  }
+
+  .ai-infra-text {
+    padding: 20px;
+  }
+
+  .ai-infra-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .ai-infra-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .ai-infra-text p {
+    font-size: 0.95rem;
+  }
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  .ai-infra-container {
+    flex-direction: column; /* stack image & text */
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .ai-infra-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .ai-infra-text {
+    padding: 15px;
+  }
+
+  .ai-infra-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .ai-infra-text h3 {
+    font-size: 1.1rem;
+    padding: 0 5%;
+  }
+
+  .ai-infra-text p {
+    font-size: 0.9rem;
+      padding: 0 5%;
+  }
+
+  .highlight-bar {
+    margin: 0 auto 15px; /* center highlight bar */
+  }
+}
+
+/* 📱 Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .ai-infra-container {
+    padding: 20px 15px;
+  }
+
+  .ai-infra-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .ai-infra-text h3 {
+    font-size: 1rem;
+  }
+
+  .ai-infra-text p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .highlight-bar {
+    width: 20px;
+    height: 3px;
+  }
+}

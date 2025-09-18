@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.techhead {
+  position: relative;
+}
+
+.techhead img {
+  width: 100%;
+  padding: 0;
+  height: 75vh;
+  margin-left: 17%; /* shifts image right */
+}
+
+.techhead h1 {
+  text-align: left;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 5%; /* keep some spacing from left edge */
+}
+
+/* ✅ Tablet */
+@media (max-width: 1024px) {
+  .techhead img {
+    margin-left: 0; /* center image */
+    height: 60vh;
+  }
+
+  .techhead h1 {
+    font-size: 50px;
+    margin-top: -40%;
+    text-align: left;
+  }
+}
+
+/* ✅ Mobile */
+@media (max-width: 768px) {
+  .techhead img {
+    margin-left: 0;
+    height: 30vh;
+  }
+
+  .techhead h1 {
+    font-size: 50px;
+    margin-top: -55%;
+    text-align: left;
+   
+  }
+}
+
+/* ✅ Small Mobile */
+@media (max-width: 480px) {
+  .techhead img {
+    height: 40vh;
+  }
+
+  .techhead h1 {
+    font-size: 24px;
+    margin-top: -60%;
+    padding: 0 10px;
+  }
+}
+.Careerhead1 {
+  padding: 1rem 7rem;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 10%;
+}
+
+.Careerheadcontent {
+  color: white;
+  font-size: 20px;
+  padding: 1.5rem 7rem;
+  text-align: justify;
+  margin-right: 35%;
+}
+
+/* 📱 Mobile View */
+@media (max-width: 768px) {
+  .Careerhead1 {
+    padding: 1rem 1.5rem;   /* reduce side padding */
+    font-size: 20px;        /* smaller heading */
+    margin-top: 5%;         /* reduce top margin */
+    margin-left: 0;         /* remove extra left margin */
+    text-align: center;     /* center align on mobile */
+  }
+
+  .Careerheadcontent {
+    padding: 1rem 1.5rem;   /* reduce padding */
+    font-size: 16px;        /* smaller font */
+    margin-right: 0;        /* remove large right margin */
+    text-align: left;       /* keep readable */
+  }
+}
+
+/* 📱 Extra Small (phones < 480px) */
+@media (max-width: 480px) {
+  .Careerhead1 {
+    font-size: 18px;
+  }
+
+  .Careerheadcontent {
+    font-size: 14px;
+  }
+}
+
+.headings-1 {
+  font-size: 55px;
+  padding: 1rem 7rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 1.1;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .headings-1 {
+    font-size: 32px;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+}

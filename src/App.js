@@ -165,8 +165,13 @@ const App = () => {
         <Route path="/PrivacyStatement" element={<PrivacyStatement />} />
         <Route path="/TermsConditions" element={<TermsConditions />} />
         <Route path="/AccessibilityStatement" element={<AccessibilityStatement />} />
+<<<<<<< HEAD
         <Route path="/CookiePolicy" element={<CookiePolicy />} />
         <Route path="/Technology5" element={<Technology5 />} />
+=======
+            <Route path="/CookiePolicy" element={<CookiePolicy />} />
+              <Route path="/Technology5" element={<Technology5 />} />
+>>>>>>> 53e206d506894af4007c79d55a0acc866fceea5b
       </Routes>
     </Router>
   );

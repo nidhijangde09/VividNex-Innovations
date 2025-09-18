@@ -32,3 +32,64 @@
   line-height: 1.5;
   color: #ddd;
 }
+.values-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  padding: 3rem 3rem;
+  background-color: #000;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  width: 300px;
+  text-align: left;
+  color: white;
+}
+
+.value-img {
+  width: 105%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.value-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.value-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .values-container {
+    flex-direction: column;   /* stack cards vertically */
+    align-items: center;      /* center the cards */
+    gap: 30px;                /* smaller gap */
+    padding: 2rem 1.5rem;     /* reduce padding */
+  }
+
+  .value-card {
+    width: 100%;              /* full width for mobile */
+    max-width: 350px;         /* optional: keep reasonable width */
+    text-align: center;       /* center text for mobile */
+  }
+
+  .value-img {
+    width: 100%;              /* prevent overflow */
+  }
+
+  .value-title {
+    font-size: 16px;
+  }
+
+  .value-desc {
+    font-size: 13px;
+  }
+}

@@ -57,3 +57,40 @@
   border-radius: 4px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .slider-container {
+    grid-template-columns: 1fr; /* stack image and text */
+    gap: 20px; /* smaller gap */
+    padding: 2rem 1.5rem; /* reduce padding */
+    margin-top: 2rem;
+    text-align: center; /* center text on mobile */
+  }
+
+  .slider-text h3 {
+    font-size: 1.2rem; /* smaller heading */
+  }
+
+  .slider-text p {
+    font-size: 0.9rem; /* smaller paragraph */
+    line-height: 1.4;
+  }
+
+  .slider-controls {
+    justify-content: center; /* center controls */
+    gap: 15px;
+  }
+
+  .pause {
+    padding: 8px 12px;
+    font-size: 1rem; /* smaller button */
+  }
+
+  .arrows {
+    gap: 10px;
+  }
+
+  .arrows button {
+    padding: 8px 12px;
+    font-size: 1rem; /* smaller arrows */
+  }
+}

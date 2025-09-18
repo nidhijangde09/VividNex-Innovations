@@ -1,0 +1,39 @@
+.insights-container {
+  background: #000;
+  color: #fff;
+  padding: 2rem 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.insight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.6;
+}
+
+.insight-bullet {
+  width: 10px;
+  height: 10px;
+  background: #3520f0; /* purple square */
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+.insight-item p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* ✅ Responsive for mobile */
+@media (max-width: 768px) {
+  .insights-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .insight-item p {
+    font-size: 14px;
+  }
+}

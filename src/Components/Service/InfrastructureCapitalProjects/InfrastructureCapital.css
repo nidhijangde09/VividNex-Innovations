@@ -75,6 +75,7 @@ body {
 
   .service-image {
     min-width: 100%;
+    padding: 0 5%;
   }
 
   .service-text {
@@ -83,10 +84,12 @@ body {
 
   .service-text h1 {
     font-size: 32px;
+     padding: 0 5%;
   }
 
   .service-text p {
     font-size: 15px;
+     padding: 0 5%;
   }
 }
 
@@ -105,8 +108,20 @@ body {
     font-size: 14px;
   }
 }
-.headings{
-  font-size: 45px;
+.headings {
+  font-size: 55px;
   padding: 1rem 7rem;
   color: white;
+  text-align: left;
+  /* desktop */
+}
+
+@media (max-width: 768px) {
+  .headings {
+    font-size: 20px;
+    padding: 0.5rem 20px;
+    text-align: left;
+    font-weight: bolder;
+  }
+
 }

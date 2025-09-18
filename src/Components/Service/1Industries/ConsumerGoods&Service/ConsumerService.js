@@ -27,20 +27,19 @@ function ConsumerService() {
           </p>
         </div>
       </div>
-   <h1 className='headings-1'>Consumer goods and services now</h1>
+   <h1 className='headings'>Consumer goods and services now</h1>
       <ConsumerStats />
-  <h1 className='headings-1'>How to reinvent</h1>
+  <h1 className='headings'>How to reinvent</h1>
       <ConsumerCardSection />
-  <h1 className='headings-1'>Segments we support</h1>
+  <h1 className='headings'>Segments we support</h1>
       <ConsumerHoverPanel />
-  <h1 className='headings-1'>What’s trending </h1>
+  <h1 className='headings'>What’s trending </h1>
       <ConsumerSlider  />
-  <h1 className='headings-1'>Awards and recognition</h1>
+  <h1 className='headings'>Awards and recognition</h1>
       <ConsumerGridHoverCard />
-  <h1 className='headings-1'>Partners in change</h1>
+  <h1 className='headings'>Partners in change</h1>
       <ConsumerPartnersSection />
-  <h1 className='headings-1'>Our leaders</h1>
-      < ConsumerSection  />
+  
         <div className='head-container-6'>
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>

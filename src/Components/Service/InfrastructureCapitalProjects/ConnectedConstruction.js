@@ -17,7 +17,7 @@ const ConnectedConstruction = () => {
 
       <div className="text-section">
         <div className="highlight-bar"></div>
-        <h2>Connected Construction</h2>
+    
         <p>
           Step into the future of Construction project management with Connected
           Construction. This platform is revolutionizing the industry by

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./CustomerSlider.css";
+import ResearchReportcard from '../../../View/ResearchReportcard/ResearchReportcard';
 
 const cardData = [
   {
@@ -8,56 +9,56 @@ const cardData = [
     title: "Research Report",
     description: "Generative AI is the new advantage. The winners aren’t waiting. Are you in?",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
-    link: "/colombia"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "Supply chains are evolving faster. Are you ready to lead the shift?",
     title: "Research Report",
     description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
-    link: "/japan"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
     title: "Research Report",
     description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics for business innovation.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
-    link: "/france"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
     title: "Research Report",
     description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
-    link: "/india"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "Cyber defense strategies for 2025 and beyond.",
     title: "Research Report",
     description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
-    link: "/usa"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "The next era of AI in healthcare innovation.",
     title: "Research Report",
     description: "How AI will transform diagnostics, treatment, and patient care experiences.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
-    link: "/uk"
+    link: "/ ResearchReportcard "
   },
   {
     subtitle: "Empowering industries through sustainable AI solutions.",
     title: "Research Report",
     description: "Building AI solutions that accelerate sustainability goals across sectors.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
-    link: "/germany"
+    link: "/ResearchReportcard "
   },
   {
     subtitle: "Data-driven growth strategies for modern enterprises.",
     title: "Research Report",
     description: "Leading companies use data to drive decisions, growth, and market leadership.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
-    link: "/canada"
+    link: "/ResearchReportcard "
   },
 ];
 

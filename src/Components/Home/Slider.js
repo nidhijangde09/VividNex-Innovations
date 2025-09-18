@@ -62,9 +62,7 @@ const Slider = () => {
             <div className="slider-right">
                 <h2>{title}</h2>
                 <p>{text}</p>
-                <a href={link} className="read-more">
-                    Read more <span className="arrow">▶</span>
-                </a>
+                
                 <div className="controls">
                     <button onClick={togglePlay}>{isPlaying ? "❚❚" : "▶"}</button>
                     <div className="pagination">

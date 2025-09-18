@@ -32,3 +32,68 @@
 .foresight-btn:hover {
   background-color: #8b1ce0; /* darker purple */
 }
+
+/* 📱 Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .foresight-container {
+    padding: 40px;
+    text-align: center; /* center align for cleaner layout */
+  }
+
+  .foresight-title {
+    font-size: 2rem;
+  }
+
+  .foresight-text {
+    font-size: 0.95rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foresight-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+/* 📱 Mobile (≤768px) */
+@media (max-width: 768px) {
+  .foresight-container {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .foresight-title {
+    font-size: 1.6rem;
+  }
+
+  .foresight-text {
+    font-size: 0.9rem;
+  }
+
+  .foresight-btn {
+    font-size: 0.9rem;
+    padding: 10px 18px;
+  }
+}
+
+/* 📱 Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .foresight-container {
+    padding: 20px 15px;
+  }
+
+  .foresight-title {
+    font-size: 1.4rem;
+  }
+
+  .foresight-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .foresight-btn {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
+}

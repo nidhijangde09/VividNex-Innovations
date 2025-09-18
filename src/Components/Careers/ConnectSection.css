@@ -41,3 +41,33 @@
 .connect-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .connect-container {
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 20px; /* smaller gap */
+    padding: 2rem 1.5rem; /* reduce side padding */
+  }
+
+  .connect-card {
+    align-items: center; /* center card content */
+    text-align: center;
+  }
+
+  .connect-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .connect-card h3 {
+    font-size: 1.1rem; /* smaller heading */
+  }
+
+  .connect-card p {
+    font-size: 0.9rem; /* smaller paragraph text */
+  }
+
+  .connect-link {
+    font-size: 0.9rem;
+  }
+}

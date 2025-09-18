@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0  ;
+  background: #000;
+  color: #fff;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: row;
+  /* side by side layout */
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 60px 0%;
+  flex-wrap: wrap;
+  /* allow wrapping on smaller screens */
+}
+
+.service-image {
+  flex: 1;
+  min-width: 570px;
+  max-width: 800px;
+}
+
+.service-image img {
+  width: 100%;
+  height: auto;
+}
+
+.service-text {
+  flex: 1;
+  font-size: 20px;
+}
+
+.service-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .service-container {
+    gap: 50px;
+    padding: 50px 5%;
+  }
+
+  .service-image {
+    min-width: 400px;
+  }
+
+  .service-text h1 {
+    font-size: 40px;
+  }
+
+  .service-text p {
+    font-size: 16px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .service-container {
+    flex-direction: column;
+    /* stack image and text */
+    gap: 40px;
+    padding: 40px 5%;
+  }
+
+  .service-image {
+    min-width: 100%;
+  }
+
+  .service-text {
+    text-align: center;
+  }
+
+  .service-text h1 {
+    font-size: 32px;
+  }
+
+  .service-text p {
+    font-size: 15px;
+  }
+}
+
+/* Optional: for very small screens */
+@media (max-width: 480px) {
+  .service-container {
+    padding: 30px 3%;
+    gap: 30px;
+  }
+
+  .service-text h1 {
+    font-size: 28px;
+  }
+
+  .service-text p {
+    font-size: 14px;
+  }
+}
+.Careerhead {
+  padding:1rem 7rem;
+  color: white;
+ font-size: 55px;
+}
+.Careerheadcontent{
+  color: white;
+ font-size: 25px;
+ padding: 1rem  7rem;
+ 
+}
+.Careerhead1 {
+  padding:1rem 0rem;
+  color: white;
+ font-size: 55px;
+ text-align: center;
+}
+.Careerheadcontent1 {
+  color: white;
+ font-size: 25px;
+ padding: 0 0rem;
+ text-align: center;
+}
+@media (max-width: 768px) {
+  .Careerhead {
+    padding: 1rem 1rem; /* reduce side padding */
+    font-size: 35px; /* smaller font for mobile */
+    text-align: center; /* center on mobile */
+  }
+
+  .Careerheadcontent {
+    padding: 1rem 1rem; /* reduce side padding */
+    font-size: 18px; /* smaller font */
+    text-align: center;
+  }
+
+  .Careerhead1 {
+    padding: 1rem 0.5rem; /* reduce padding */
+    font-size: 35px; /* smaller font */
+    text-align: center;
+  }
+
+  .Careerheadcontent1 {
+    padding: 0 0.5rem; /* reduce padding */
+    font-size: 18px; /* smaller font */
+    text-align: center;
+  }
+}

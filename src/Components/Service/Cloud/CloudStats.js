@@ -23,7 +23,6 @@ const stats = [
 export default function CloudStats() {
   return (
     <div className="cloud-stats-section">
-      <h2>Cloud now</h2>
       <div className="cloud-stats-grid">
         {stats.map((item, index) => (
           <div key={index} className="cloud-stat-box">

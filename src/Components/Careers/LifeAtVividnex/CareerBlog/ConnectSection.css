@@ -41,3 +41,35 @@
 .connect-link:hover {
   text-decoration: underline;
 }
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .connect-container {
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 25px;
+    padding: 2rem 1.5rem; /* reduce side padding */
+  }
+
+  .connect-card {
+    align-items: center;   /* center content */
+    text-align: center;
+  }
+
+  .connect-icon {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 12px;
+  }
+
+  .connect-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .connect-card p {
+    font-size: 0.9rem;
+  }
+
+  .connect-link {
+    font-size: 0.95rem;
+  }
+}
