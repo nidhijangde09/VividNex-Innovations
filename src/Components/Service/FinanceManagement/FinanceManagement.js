@@ -20,9 +20,9 @@ function FinanceManagement() {
                     <img src={risk1} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>Turn every customer interaction into a catalyst for growth.</h1>
+                    <h1>Transform every customer interaction into an opportunity for growth.</h1>
                     <p>
-                        Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
+                       "Fragmented and impersonal interactions hinder organizations from effectively serving their customers. Driving growth requires seamless, data-powered experiences that feel intuitive rather than reactive."
                     </p>
                 </div>
             </div>
