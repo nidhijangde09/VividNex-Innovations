@@ -83,6 +83,7 @@ import TermsConditions from './Components/Footer/TermsConditions/TermsConditions
 import AccessibilityStatement from './Components/Footer/AccessibilityStatement/AccessibilityStatement';
 import CookiePolicy from './Components/Footer/CookiePolicy/CookiePolicy';
 import Technology5 from './View/Modernization/Technology5';
+import IndustryX from './Components/Abouts/IndustryX/IndustryX';
 
 const App = () => {
   return (
@@ -165,6 +166,7 @@ const App = () => {
         <Route path="/PrivacyStatement" element={<PrivacyStatement />} />
         <Route path="/TermsConditions" element={<TermsConditions />} />
         <Route path="/AccessibilityStatement" element={<AccessibilityStatement />} />
+<<<<<<< HEAD
 
         <Route path="/CookiePolicy" element={<CookiePolicy />} />
         <Route path="/Technology5" element={<Technology5 />} />
@@ -172,6 +174,10 @@ const App = () => {
             <Route path="/CookiePolicy" element={<CookiePolicy />} />
               <Route path="/Technology5" element={<Technology5 />} />
 
+=======
+            <Route path="/CookiePolicy" element={<CookiePolicy />} />
+              <Route path="/Technology5" element={<Technology5 />} />
+>>>>>>> 14f9f82e0f3407e17504ea5101b8e09111af22b9
       </Routes>
     </Router>
   );

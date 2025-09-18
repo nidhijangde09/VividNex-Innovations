@@ -22,7 +22,7 @@ function FlexConnect() {
           src="https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Check-Clients%3Arad-3x2?ts=1721906763880&dpr=off"
           alt="Flex and connect"
         />
-        <button className="play-button">▶</button>
+     
       </div>
     </div>
   );
