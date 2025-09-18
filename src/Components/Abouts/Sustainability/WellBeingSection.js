@@ -1,5 +1,7 @@
 import React from "react";
 import "./WellBeingSection.css";
+import Value from '../Value/Value';
+import SustainabilityConsulting from '../../Service/SustainabilityConsulting/SustainabilityConsulting';
 
 function WellBeingSection() {
   return (
@@ -17,6 +19,9 @@ function WellBeingSection() {
             challenges that may arise including anxiety, depression, grief,
             relationship challenges, or legal and financial concerns.
           </p>
+          <a href="/Value" className="read-more">
+            Read more ➡
+          </a>
         </div>
       </div>
 
@@ -36,13 +41,14 @@ function WellBeingSection() {
             anonymous, and clinically validated support, including a confidential
             chatbot if you prefer not to speak with a person.
           </p>
+          <a href="/SustainabilityConsulting" className="read-more">
+            Read more ➡
+          </a>
         </div>
       </div>
-
-  
-     
     </div>
   );
 }
 
 export default WellBeingSection;
+

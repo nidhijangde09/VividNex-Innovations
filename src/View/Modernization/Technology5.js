@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Modernization.css';
 import Navbar from '../../Components/Navbar/Navbar';
 import Metaverseimg from '../../assets/images/Metaverse.jpg';
@@ -8,9 +8,9 @@ import AccordionSection from './AccordionSection';
 import SixGridCards from './SixGridCards';
 import Footer from '../../Components/Footer/Footer';
 
-function Modernization4() {
-    return (
-        <div>
+function Technology5() {
+  return (
+       <div>
             <Navbar />
             <div className="cloud-section">
                 <div className="cloud-image">
@@ -33,7 +33,7 @@ function Modernization4() {
             <SixGridCards />
             <Footer />
         </div>
-    )
+  )
 }
 
-export default Modernization4
+export default Technology5

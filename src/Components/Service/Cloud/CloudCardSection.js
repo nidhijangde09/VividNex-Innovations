@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
  import  Modernization from '../../../View/Modernization/Modernization';
 import Modernization2 from '../../../View/Modernization/Modernization2';
 import  Modernization3 from '../../../View/Modernization/Modernization3';
-import  Modernization4 from '../../../View/Modernization/Modernization4'
+import  Modernization4 from '../../../View/Modernization/Modernization4';
+import Technology5 from '../../../View/Modernization/Technology5';
 
 const cardData = [
 
@@ -24,13 +25,13 @@ const cardData = [
     {
         category: "Future-Ready Cloud Strategy",
         title: "Strategic Cloud Planning & Design",
-        link: "#",
+        link: "/Technology5",
         hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
     },
     {
         category: "Managed Cloud Infrastructure",
         title: "Manage IT Complexity for Seamless Transformation",
-        link: "#",
+        link: "/Modernization",
         hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
     },
     {
