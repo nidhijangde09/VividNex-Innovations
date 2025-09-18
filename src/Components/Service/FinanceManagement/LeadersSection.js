@@ -3,26 +3,27 @@ import "./LeadersSection.css";
 
 const leaders = [
   {
-    name: "Jason Dess",
+    name: "Alex Morgan",
     title: "Lead – CFO & Enterprise Value",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Jason-Dess-420x420%3Arad-3x4?ts=1693989717831&fit=constrain&dpr=off", // replace with real image
     linkedin: "#",
   },
   {
-    name: "Craig Richey",
-    title: "North America Lead – CFO & Enterprise Value",
+    name: "Samantha Lee",
+     title: "Head of Growth Markets – CFO & Enterprise Value",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Craig-Richey-1-420x420%3Arad-3x4?ts=1742323474776&fit=constrain&dpr=off",
     linkedin: "#",
   },
   {
-    name: "Paul Prendergast",
-    title: "Europe Lead – CFO & Enterprise Value",
+  name: "David Patel",
+   title: "Director, CFO & Enterprise Value",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/accenture-Paul-Prendergast-Headshot%3Arad-3x4?ts=1745300283952&fit=constrain&dpr=off",
     linkedin: "#",
   },
   {
-    name: "Paul Zanker",
-    title: "Growth Markets Lead – CFO & Enterprise Value",
+    
+   name: "Rachel Kim",
+    title: "CFO & Enterprise Value Lead",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Paul-Zanker-660x880%3Arad-3x4?ts=1720595330414&fit=constrain&dpr=off",
     linkedin: "#",
   },

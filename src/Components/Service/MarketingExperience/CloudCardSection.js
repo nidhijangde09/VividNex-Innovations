@@ -3,76 +3,81 @@ import './CloudCardSection.css';
 
 const cardData = [
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
+        category: "Data & AI",
+title: "Prepare Your Data for the Demands of Generative AI",
         link: "#",
-        hoverText: "Data-readiness is key—47% of CXOs say it’s their top challenge for Gen AI."
+        hoverText: "Data readiness is critical—47% of CXOs cite it as their top challenge for generative AI."
     },
     {
-        category: "Application Transformation",
-        title: "Lead with modern engineering practices and agile delivery",
+       category: "Digital Engineering",
+title: "Accelerate Innovation with Agile and Modern Practices",
         link: "#",
-        hoverText: "Legacy systems are holding 40% of companies back from realizing full cloud benefits. Modernization is the key to agility and growth."
+        hoverText: "With 40% of companies constrained by legacy systems, modernization has become essential to unlock cloud’s true potential, drive agility, and fuel growth."
     },
     {
-        category: "Application Modernization",
-        title: "Modernize your cloud to accelerate business impact",
+      category: "Cloud Modernization",
+title: "Unlock Agility and Growth with a Future-Ready Cloud",
         link: "#",
-        hoverText: "Modernization accounts for up to 40% of cloud spend—enabling enterprises to streamline operations, improve security, and accelerate innovation."
+        hoverText: "Modernization represents as much as 40% of cloud investments, helping enterprises streamline operations, strengthen security, and accelerate innovation."
     },
     {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
+       category: "Edge Computing",
+title: "Scalable, Localized, and Real-Time Processing",
         link: "#",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
+        hoverText: "Smart devices create nonstop data. Edge computing processes it at the source—boosting performance, reducing costs, and enhancing user experience."
+    },
+    {category: "Cloud Foundations",
+title: "Build a Scalable Cloud Core for Accelerated Growth",
+        link: "#",
+        hoverText: "Traditional infrastructure struggles to keep pace. Modern platforms provide the compute, network, and data capabilities needed to meet today’s demands and fuel tomorrow’s growth."
+
+    {
+       category: "Next-Gen Connectivity",
+title: "Build Secure and Scalable Networks for the Future",
+        link: "#",
+        hoverText: "Legacy networks can’t keep up with modern demands. Upgrading delivers enhanced performance, stronger security, and smarter collaboration."
+
+    },
+    {category: "Cloud Strategy & Innovation",
+title: "Design a Future-Ready Cloud for Business Growth",
+        link: "#",
+        hoverText: "Without a clear cloud strategy, opportunities are missed. Discover how to craft an approach that drives long-term growth and transformation."
+
     },
     {
-        category: "Cloud Foundations",
-        title: "Scalable Cloud Infrastructure for Dynamic Business Growth",
+        category: "Cloud Infrastructure Services",
+        title: "Simplify IT Complexity for Seamless Transformation",
         link: "#",
-        hoverText: "raditional infrastructure can’t keep up. Modern platforms offer the compute, network, and data power needed to meet today’s demands—and tomorrow’s growth."
+        hoverText: "82% of top-performing companies leverage managed services to achieve cloud success. Partnering with experts ensures resilient, scalable, and future-ready IT infrastructure."
+
     },
     {
-        category: "Network Infrastructure for the Future",
-        title: "Secure, Scalable Networks That Move at the Speed of Business",
+        category: "Intelligent App Management",
+        title: "Streamline Applictions with the Power of AI and Cloud",
         link: "#",
-        hoverText: "egacy networking can’t keep up with today’s demands. Upgrading enables better performance, stronger security, and smarter collaboration."
+        hoverText: "As applications grow more complex, integrating traditional managed services with cloud and generative AI accelerates value delivery."
+
     },
     {
-        category: "Future-Ready Cloud Strategy",
-        title: "Strategic Cloud Planning & Design",
+       category: "Cloud Security",
+        title: "Protect Your Data, Apps, and Infrastructure with End-to-End Security",
         link: "#",
-        hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
+        hoverText: "For 40% of companies, security remains a top cloud challenge. Implementing a modern security strategy enhances resilience and accelerates transformation."
+
     },
     {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
+        category: "Scalable Products & Platforms",
+         title: "Create AI-Powered Platforms to Transform Value Delivery and User Engagement",
         link: "#",
-        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
+        hoverText:"Leverage modern platforms to unlock breakthrough capabilities, accelerate revenue, and gain a competitive edge."
+
     },
     {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
+        category: "Mainframe Modernization",
+        title: "Integrate Mainframe with Cloud and AI to Unlock Flexibility and Innovation",
         link: "#",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-    {
-        category: "Secure the Cloud with Confidence",
-        title: "Safeguard everything in your cloud ecosystem with end-to-end protection for data, apps, and infrastructure.",
-        link: "#",
-        hoverText: "For 41% of companies, security is a major cloud hurdle. A modern security strategy supports resilience and accelerates transformation."
-    },
-    {
-        category: "Build Scalable Products and Platforms",
-        title: "Build modern, AI-powered platforms to transform how you deliver value, scale operations, and engage users.",
-        link: "#",
-        hoverText: "Leverage modern platforms to unlock disruptive capabilities, accelerate revenue, and drive competitive advantage."
-    },
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "#",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
+        hoverText: "Many companies struggle with legacy systems. Adopting cloud and generative AI accelerates mainframe modernization and unlocks greater agility."
+
     }
 ];
 

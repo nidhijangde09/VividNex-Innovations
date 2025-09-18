@@ -19,13 +19,12 @@ const ConnectedConstruction = () => {
         <div className="highlight-bar"></div>
     
         <p>
-          Step into the future of Construction project management with Connected
-          Construction. This platform is revolutionizing the industry by
-          providing real-time data and integrated tools that enhance every
-          aspect of your project. Reshape project planning, scheduling, and
-          execution through smart equipment monitoring, video analytics for
-          on-site progress, real-time site activity views, and material
-          tracking.
+          "Step into the future of construction project management with VividNex Connected
+           Construction. This platform is revolutionizing the industry by providing 
+           real-time data and integrated tools that enhance every aspect of your project. 
+           Reshape project planning, scheduling, and execution through smart equipment
+            monitoring, video analytics for on-site progress, real-time site activity
+             views, and material tracking."
         </p>
       </div>
     </div>

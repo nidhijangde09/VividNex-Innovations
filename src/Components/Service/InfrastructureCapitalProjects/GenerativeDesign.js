@@ -8,17 +8,11 @@ const GenerativeDesign = () => {
         <div className="highlight-bar"></div>
         
         <p>
-          Imagine a solution that can instantly boost your capacity and optimize
-          project timelines and resources. Generative Design and Planning makes
-          this a reality.
+        Envision a solution that enhances capacity and optimizes both timelines and resources. Generative Design and Planning turns this into reality.
         </p>
         <p>
-          Cutting-edge technology and project expertise come together to automate
-          tedious tasks and offer real-time insights into project progress, from
-          the initial planning stages through to commissioning. Minimize your
-          costs, avoid delays, and reduce changes, to complete projects on time
-          and within budget.
-        </p>
+          Cutting-edge technology and project expertise work together to automate tedious tasks and provide real-time insights into project progress, from initial planning through commissioning. Reduce costs, prevent delays, and minimize changes to ensure projects are completed on time and within budget."
+          </p>
       </div>
 
       <div className="video-section">

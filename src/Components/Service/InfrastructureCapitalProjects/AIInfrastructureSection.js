@@ -12,15 +12,12 @@ const AIInfrastructureSection = () => {
       <div className="ai-infra-text">
         
         <div className="highlight-bar"></div>
-        <h3>AI can get you closer to ‘on time’ and ‘on budget’</h3>
+        <h3>AI brings you closer to meeting your deadlines and budget goals.</h3>
         <p>
-          Imagine having reliable insights for quick decision making. Or
-          automation that improves efficiency in contracts, workflows, and
-          reporting. Picture being able to test different design and execution
-          options to perfect plans and solve construction issues before starting
-          work onsite. Think about the added security from better compliance and
-          risk detection. AI provides the necessary support to deliver project
-          performance.
+         "Leverage AI to gain real-time insights, automate contracts
+          and workflows, test different execution strategies, and 
+          strengthen compliance and risk detection—ensuring projects 
+          are delivered on time, on budget, and securely."
         </p>
       </div>
     </div>

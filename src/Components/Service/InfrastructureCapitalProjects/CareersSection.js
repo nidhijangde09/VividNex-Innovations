@@ -7,20 +7,20 @@ const CareersSection = () => {
     <div className="careers-container">
       <div className="careers-header">
         <h1>Careers</h1>
-        <p>Grow your careers at the heart of change</p>
+        <p>Build your career where innovation meets opportunity</p>
         <button className="join-btn">Join us</button>
       </div>
 
       <div className="related-capabilities">
-        <h2>Related capabilities</h2>
+        <h2>Discover Related Solutions</h2>
         <ul>
           <li>
             <ArrowUpRight size={18} strokeWidth={2} />
-            <span>Cities, transportation and infrastructure</span>
+            <span>Innovating Infrastructure & Urban Spaces</span>
           </li>
           <li>
             <ArrowUpRight size={18} strokeWidth={2} />
-            <span>Radically reinventing utilities for net zero</span>
+            <span>Reinventing the way utilities operate for a sustainable, net-zero world.</span>
           </li>
         </ul>
       </div>

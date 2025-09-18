@@ -3,27 +3,28 @@ import './FinanceManagementStats.css';
 
 const stats = [
   {
-    number: '86%',
-    text: 'of companies accelerated their cloud adoption in the last two years',
+   number: "84%",
+text: "of enterprises accelerated cloud adoption in the last two years to drive transformation.",
+
   },
   {
-    number: '57%',
-    text: 'of IT budgets still go to maintenance over innovation like cloud and AI',
+    number: '54%',
+    text: 'Most IT budgets are still spent on maintenance rather than innovation, including cloud and AI initiatives.',
   },
   {
-    number: '2–3x',
-    text: 'Companies using cloud to transform see higher innovation potential.',
+    number: '2–4x',
+    text: 'Businesses using cloud to modernize operations realize increased innovation opportunities.',
   },
   {
     number: '$10B+',
-    text: 'Major cloud providers collectively invest billions monthly to drive continuous innovation.',
+    text: 'Top cloud companies collectively spend billions monthly to accelerate continuous innovation.',
   },
 ];
 
 export default function FinanceManagementStats() {
   return (
     <div className="cloud-stats-section">
-      <h2>Finance and risk management now</h2>
+      <h2>Finance and Risk in the Present Landscape</h2>
       <div className="cloud-stats-grid">
         {stats.map((item, index) => (
           <div key={index} className="cloud-stat-box">

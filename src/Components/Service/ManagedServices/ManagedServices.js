@@ -21,7 +21,7 @@ function ManagedServices() {
         <div className="service-text">
           <h1>Metaverse services</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+            "The lines between physical and digital are blurring. The metaverse opens new opportunities to interact, innovate, and engage, creating a powerful space for designing inclusive, meaningful, and immersive experiences."
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ function ManagedServices() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Learning careers</h1>
         <p>
-          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+         Business reinvention is powered by technology, yet success depends on people. Give them the skills to drive growth
         </p>
         <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

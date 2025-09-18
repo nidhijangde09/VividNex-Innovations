@@ -25,20 +25,20 @@ function InfrastructureCapital() {
           <img src={project1} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Turn every customer interaction into a catalyst for growth.</h1>
+          <h1>Leverage every customer touchpoint to drive business growth.</h1>
           <p>
-            Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
+            Fragmented and impersonal customer interactions limit organizational impact. Growth comes from delivering intuitive, data-driven experiences that feel effortless and proactive.
           </p>
         </div>
       </div>
-      <h1 className='headings'>Why transform capital project delivery?</h1>
+      <h1 className='headings'>Why evolve your approach to capital project delivery?</h1>
       <CapitalProjects />
       <h1 className='headings'></h1>
       <AIInfrastructureSection />
 
       <h1 className='headings'></h1>
       < AccordionSection />
-      <h1 className='headings'>Awards and recognition</h1>
+      <h1 className='headings'>Celebrating Excellence</h1>
       < InfrastructureCapitalHoverCards />
 
       <h1 className='headings'></h1>

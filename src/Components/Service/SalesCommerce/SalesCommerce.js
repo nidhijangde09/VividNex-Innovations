@@ -21,7 +21,7 @@ function SalesCommerce() {
         <div className="service-text">
           <h1>Metaverse services</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+            As physical and digital worlds converge, the metaverse empowers organizations to design meaningful, inclusive, and immersive experiences that drive innovation and engagement.
           </p>
         </div>
       </div>
