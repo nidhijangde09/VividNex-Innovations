@@ -33,14 +33,7 @@ function Softwareplatforms() {
  <h1 className='headings'>Awards and recognition</h1>
       <ChemicalsGridHoverCard />
 
-      <div className='head-container-6'>
-              <img src={customer3} alt="Logo" className='head-2-img' />
-              <h1>Chemicals careers</h1>
-              <p>
-               Harness innovation-first thinking to enable chemical companies to achieve sustainable growth.
-              </p>
-              <Link to="/" className="learn-more-btn">Learn More</Link>
-            </div>
+      
       <Footer />
     </div>
   )

@@ -7,7 +7,6 @@ import CyberCardSection from './CyberCardSection';
 import PartnersSection from './PartnersSection';
 import Navbar from '../../Navbar/Navbar';
 import SixGridHoverCards from './SixGridHoverCards';
-import customer3 from '../../../assets/images/customer3.jpg';
 
 import Footer from '../../Footer/Footer';
 import CybersSlider from './CybersSlider';
@@ -35,14 +34,7 @@ export default function CyberSecurity() {
             <h1 className='headings'> Awards and recognition</h1>
             <SixGridHoverCards />
             
-            <div className='head-container-6'>
-                    <img src={customer3} alt="Logo" className='head-2-img' />
-                    <h1>Cybersecurity careers​</h1>
-                    <p>
-                  Combine deep expertise with agile thinking to empower clients to build secure, future-ready businesses in an unpredictable digital world.
-                    </p>
-                   <Link to="/" className="learn-more-btn">Learn More</Link>
-                  </div>
+        
                   <Footer />
     </div>
   )

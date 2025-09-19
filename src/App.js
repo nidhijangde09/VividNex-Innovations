@@ -5,7 +5,7 @@ import Home from './Components/Home/Home';
 import Cloud from './Components/Service/Cloud/Cloud';
 import Service from './Components/Service/What-we-do/Service';
 import CustomerService from './Components/Service/CustomerService/CustomerService';
-import DigitalEngeneer from './Components/Service/DigitalE/DigitalEngeneer';
+
 import Dataai from './Components/Service/DataAi/Dataai';
 import Ecosystem from './Components/Service/Ecosystem/Ecosystem';
 import EmergingTechnology from './Components/Service/EmergingTechnology/EmergingTechnology';
@@ -74,17 +74,71 @@ import Partnersslidercards from './View/Partnersslidercards/Partnersslidercards'
 import Partnersslidercards1 from './View/Partnersslidercards/Partnersslidercards1';
 import Partnersslidercards2 from './View/Partnersslidercards/Partnersslidercards2';
 import ResearchReportcard from './View/ResearchReportcard/ResearchReportcard';
+
 import Modernization from './View/Modernization/Modernization';
 import Modernization2 from './View/Modernization/Modernization2';
 import Modernization3 from './View/Modernization/Modernization3';
 import Modernization4 from './View/Modernization/Modernization4';
+
+import ModernizationCS from './Components/Service/CustomerService/Modernization/ModernizationCS';
+import Modernization2CS from './Components/Service/CustomerService/Modernization/Modernization2CS';
+import Modernization3CS from './Components/Service/CustomerService/Modernization/Modernization3CS';
+import Modernization4CS from './Components/Service/CustomerService/Modernization/Modernization4CS';
+
+import ModernizationCY from './Components/Service/CyberSecurity/Modernization/ModernizationCY';
+import Modernization2CY from './Components/Service/CyberSecurity/Modernization/Modernization2CY';
+import Modernization3CY from './Components/Service/CyberSecurity/Modernization/Modernization3CY';
+import Modernization4CY from './Components/Service/CyberSecurity/Modernization/Modernization4CY';
+
+import ModernizationDA from './Components/Service/DataAi/Modernization/ModernizationDA';
+import Modernization2DA from './Components/Service/DataAi/Modernization/Modernization2DA';
+import Modernization3DA from './Components/Service/DataAi/Modernization/Modernization3DA';
+import Modernization4DA from './Components/Service/DataAi/Modernization/Modernization4DA';
+
+import ModernizationD from './Components/Service/Digital/Modernization/ModernizationD';
+import Modernization2D from './Components/Service/Digital/Modernization/Modernization2D';
+import Modernization3D from './Components/Service/Digital/Modernization/Modernization3D';
+import Modernization4D from './Components/Service/Digital/Modernization/Modernization4D';
+
+import ModernizationET from './Components/Service/EmergingTechnology/Modernization/ModernizationET';
+import Modernization2ET from './Components/Service/EmergingTechnology/Modernization/Modernization2ET';
+import Modernization3ET from './Components/Service/EmergingTechnology/Modernization/Modernization3ET';
+import Modernization4ET from './Components/Service/EmergingTechnology/Modernization/Modernization4ET';
+
+import ModernizationFM from './Components/Service/FinanceManagement/Modernization/ModernizationFM';
+import Modernization2FM from './Components/Service/FinanceManagement/Modernization/Modernization2FM';
+import Modernization3FM from './Components/Service/FinanceManagement/Modernization/Modernization3FM';
+import Modernization4FM from './Components/Service/FinanceManagement/Modernization/Modernization4FM';
+
+import ModernizationL from './Components/Service/Learning/Modernization/ModernizationL';
+import Modernization2L from './Components/Service/Learning/Modernization/Modernization2L';
+import Modernization3L from './Components/Service/Learning/Modernization/Modernization3L';
+import Modernization4L from './Components/Service/Learning/Modernization/Modernization4L';
+
+
+import ModernizationSC from './Components/Service/SalesCommerce/Modernization/ModernizationSC';
+import Modernization2SC from './Components/Service/SalesCommerce/Modernization/Modernization2SC';
+import Modernization3SC from './Components/Service/SalesCommerce/Modernization/Modernization3SC';
+import Modernization4SC from './Components/Service/SalesCommerce/Modernization/Modernization4SC';
+
+
+import ModernizationME from './Components/Service/MarketingExperience/Modernization/ModernizationME';
+import Modernization2ME from './Components/Service/MarketingExperience/Modernization/Modernization2ME';
+import Modernization3ME from './Components/Service/MarketingExperience/Modernization/Modernization3ME';
+import Modernization4ME from './Components/Service/MarketingExperience/Modernization/Modernization4ME';
+
+import ModernizationM from './Components/Service/Metaverse/Modernization/ModernizationM';
+import Modernization2M from './Components/Service/Metaverse/Modernization/Modernization2M';
+import Modernization3M from './Components/Service/Metaverse/Modernization/Modernization3M';
+import Modernization4M from './Components/Service/Metaverse/Modernization/Modernization4M';
+
 import PrivacyStatement from './Components/Footer/PrivacyStatement/PrivacyStatement';
 import TermsConditions from './Components/Footer/TermsConditions/TermsConditions';
 import AccessibilityStatement from './Components/Footer/AccessibilityStatement/AccessibilityStatement';
 import CookiePolicy from './Components/Footer/CookiePolicy/CookiePolicy';
 import Technology5 from './View/Modernization/Technology5';
 import IndustryX from './Components/Abouts/IndustryX/IndustryX';
-
+import DigitalE from './Components/Service/Digital/DigitalE';
 const App = () => {
   return (
     <Router>
@@ -94,7 +148,7 @@ const App = () => {
         <Route path="/Service" element={<Service />} />
         <Route path="/CustomerService" element={<CustomerService />} />
         <Route path="/CyberSecurity" element={<CyberSecurity />} />
-        <Route path="/DigitalEngeneering" element={<DigitalEngeneer />} />
+        <Route path="/DigitalE" element={<DigitalE />} />
         <Route path="/Dataai" element={<Dataai />} />
         <Route path="/Ecosystem" element={<Ecosystem />} />
         <Route path="/EmergingTechnology" element={<EmergingTechnology />} />
@@ -159,15 +213,72 @@ const App = () => {
         <Route path="/Partnersslidercards1" element={<Partnersslidercards1 />} />
         <Route path="/Partnersslidercards2" element={<Partnersslidercards2 />} />
         <Route path="/ResearchReportcard" element={<ResearchReportcard />} />
+
         <Route path="/Modernization" element={<Modernization />} />
         <Route path="/Modernization2" element={<Modernization2 />} />
         <Route path="/Modernization3" element={<Modernization3 />} />
         <Route path="/Modernization4" element={<Modernization4 />} />
+
+        <Route path="/ModernizationCS" element={<ModernizationCS />} />
+        <Route path="/Modernization2CS" element={<Modernization2CS />} />
+        <Route path="/Modernization3CS" element={<Modernization3CS />} />
+        <Route path="/Modernization4CS" element={<Modernization4CS />} />
+
+        <Route path="/ModernizationCY" element={<ModernizationCY />} />
+        <Route path="/Modernization2CY" element={<Modernization2CY />} />
+        <Route path="/Modernization3CY" element={<Modernization3CY />} />
+        <Route path="/Modernization4CY" element={<Modernization4CY />} />
+
+        <Route path="/ModernizationDA" element={<ModernizationDA />} />
+        <Route path="/Modernization2DA" element={<Modernization2DA />} />
+        <Route path="/Modernization3DA" element={<Modernization3DA />} />
+        <Route path="/Modernization4DA" element={<Modernization4DA />} />
+
+        <Route path="/ModernizationD" element={<ModernizationD />} />
+        <Route path="/Modernization2D" element={<Modernization2D />} />
+        <Route path="/Modernization3D" element={<Modernization3D />} />
+        <Route path="/Modernization4D" element={<Modernization4D />} />
+
+
+        <Route path="/ModernizationET" element={<ModernizationET />} />
+        <Route path="/Modernization2ET" element={<Modernization2ET />} />
+        <Route path="/Modernization3ET" element={<Modernization3ET />} />
+        <Route path="/Modernization4ET" element={<Modernization4ET />} />
+
+        <Route path="/ModernizationFM" element={<ModernizationFM />} />
+        <Route path="/Modernization2FM" element={<Modernization2FM />} />
+        <Route path="/Modernization3FM" element={<Modernization3FM />} />
+        <Route path="/Modernization4FM" element={<Modernization4FM />} />
+
+        <Route path="/ModernizationL" element={<ModernizationL />} />
+        <Route path="/Modernization2L" element={<Modernization2L />} />
+        <Route path="/Modernization3L" element={<Modernization3L />} />
+        <Route path="/Modernization4L" element={<Modernization4L />} />
+
+        <Route path="/ModernizationSC" element={<ModernizationSC />} />
+        <Route path="/Modernization2SC" element={<Modernization2SC />} />
+        <Route path="/Modernization3SC" element={<Modernization3SC />} />
+        <Route path="/Modernization4SC" element={<Modernization4SC />} />
+
+
+        <Route path="/ModernizationME" element={<ModernizationME />} />
+        <Route path="/Modernization2ME" element={<Modernization2ME />} />
+        <Route path="/Modernization3ME" element={<Modernization3ME />} />
+        <Route path="/Modernization4ME" element={<Modernization4ME />} />
+
+
+        <Route path="/ModernizationM" element={<ModernizationM />} />
+        <Route path="/Modernization2M" element={<Modernization2M />} />
+        <Route path="/Modernization3M" element={<Modernization3M />} />
+        <Route path="/Modernization4M" element={<Modernization4M />} />
+
+
         <Route path="/PrivacyStatement" element={<PrivacyStatement />} />
         <Route path="/TermsConditions" element={<TermsConditions />} />
         <Route path="/AccessibilityStatement" element={<AccessibilityStatement />} />
-            <Route path="/CookiePolicy" element={<CookiePolicy />} />
-              <Route path="/Technology5" element={<Technology5 />} />
+        <Route path="/CookiePolicy" element={<CookiePolicy />} />
+        <Route path="/Technology5" element={<Technology5 />} />
+        <Route path="/IndustryX" element={<IndustryX />} />
       </Routes>
     </Router>
   );

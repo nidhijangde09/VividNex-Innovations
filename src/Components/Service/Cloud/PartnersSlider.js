@@ -13,7 +13,7 @@ const data = [
     description:
 
       "We develop transformative solutions that positively impact industries, communities, and lives by leveraging AWS’s world-leading cloud technologies. Together, we enable organizations to modernize, optimize, and innovate at scale.",
-    link: "#"
+    link: "/Partnersslidercards"
   },
   {
     id: 2,

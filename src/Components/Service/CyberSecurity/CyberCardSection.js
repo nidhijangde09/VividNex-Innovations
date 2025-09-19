@@ -1,56 +1,59 @@
 import React from 'react';
 import './CyberCardSection.css';
+import ModernizationCY from './Modernization/ModernizationCY';
+import Modernization2CY from './Modernization/Modernization2CY';
+import Modernization3CY from './Modernization/Modernization3CY';
+import Modernization4CY from './Modernization/Modernization4CY';
+
 
 const cardData = [
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-        {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    }
-];
 
+    {
+        category: "Modernization Services",
+        title: "Update your cloud foundation to power AI",
+        link: "/ModernizationCY",
+        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
+    },
+    {
+        category: "Edge Technology",
+        title: "Real-time Processing. Localized. Scalable.",
+        link: "/Modernization2CY",
+        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
+    },
+   
+   
+    {
+        category: "Managed Cloud Infrastructure",
+        title: "Manage IT Complexity for Seamless Transformation",
+        link: "/Modernization3CY",
+        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
+    },
+    {
+        category: "Modern App Management at Scale",
+        title: "Simplify Application Landscapes Using AI and Cloud",
+        link: "/Modernization4CY",
+        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
+    },
+  
+];
 const CyberCardSection = () => {
     return (
-        <div className="cyber-card-section">
-            <h2 className="cyber-card-heading">Reinvent with cybersecurity.</h2>
-            <div className="cyber-card-grid">
+       <div className="cloud-card-section">
+            <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
-                    <div className="cyber-card" key={index}>
-                        <div className="cyber-card-content">
-                            <div className="cyber-card-underline"></div>
-                            <p className="cyber-card-category">{card.category.toUpperCase()}</p>
-                            <h3 className="cyber-card-title">{card.title}</h3>
-                            <a href={card.link} className="cyber-card-link">
+                    <div className="cloud-card" key={index}>
+                        <div className="cloud-card-content">
+                            <div className="cloud-card-underline"></div>
+                            <p className="cloud-card-category">{card.category.toUpperCase()}</p>
+                            <h3 className="cloud-card-title">{card.title}</h3>
+                               <a href={card.link} className="cloud-card-link">
                                 Learn more <span className="arrow">➤</span>
                             </a>
-                            <div className="cyber-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                            <div className="cloud-card-hover-text">
+                                <p>{card.hoverText}</p>
                             </div>
+
+                         
                         </div>
                     </div>
                 ))}

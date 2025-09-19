@@ -31,15 +31,7 @@ export default function Ecosystem() {
       </div>
       <PartnersCard />
       <RelatedCapabilities />
-      <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Careers​</h1>
-        <p>
-          Join our community of 10,000+ platform engineers and specialists, and build lasting, impactful relationships with partners and suppliers.
-        </p>
-        <Link to="#" className="learn-more-btn">Learn More</Link>
-
-      </div>
+      
       <Footer />
     </div>
 

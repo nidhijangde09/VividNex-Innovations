@@ -126,9 +126,7 @@ const PartnersCards = () => {
             <h3>{partner.name}</h3>
           </div>
           <p>{partner.description}</p>
-          <a href={partner.link} className="partner-learn-more">
-            Learn more <span>➡</span>
-          </a>
+         
         </div>
       ))}
     </div>

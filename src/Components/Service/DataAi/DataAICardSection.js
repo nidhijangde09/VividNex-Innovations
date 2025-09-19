@@ -1,56 +1,59 @@
 import React from 'react';
 import './DataAICardSection.css';
-
+import ModernizationDA from './Modernization/ModernizationDA';
+import Modernization2DA from './Modernization/Modernization2DA';
+import Modernization3DA from './Modernization/Modernization3DA';
+import Modernization4DA from './Modernization/Modernization4DA';
 const cardData = [
+
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
+        category: "Modernization Services",
+        title: "Update your cloud foundation to power AI",
+        link: "/ModernizationDA",
+        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
     },
     {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
+        category: "Edge Technology",
+        title: "Real-time Processing. Localized. Scalable.",
+        link: "/Modernization2DA",
+        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
+    },
+   
+    
+    {
+        category: "Managed Cloud Infrastructure",
+        title: "Manage IT Complexity for Seamless Transformation",
+        link: "/Modernization3DA",
+        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
     },
     {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
+        category: "Modern App Management at Scale",
+        title: "Simplify Application Landscapes Using AI and Cloud",
+        link: "/Modernization4DA",
+        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    }
+  
+   
 ];
 
 const DataAICardSection = () => {
     return (
-        <div className="dataai-card-section">
-            <h2 className="dataai-card-heading">Reinvent with cybersecurity.</h2>
-            <div className="dataai-card-grid">
+        <div className="cloud-card-section">
+            <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
-                    <div className="dataai-card" key={index}>
-                        <div className="dataai-card-content">
-                            <div className="dataai-card-underline"></div>
-                            <p className="dataai-card-category">{card.category.toUpperCase()}</p>
-                            <h3 className="dataai-card-title">{card.title}</h3>
-                            <a href={card.link} className="dataai-card-link">
+                    <div className="cloud-card" key={index}>
+                        <div className="cloud-card-content">
+                            <div className="cloud-card-underline"></div>
+                            <p className="cloud-card-category">{card.category.toUpperCase()}</p>
+                            <h3 className="cloud-card-title">{card.title}</h3>
+                               <a href={card.link} className="cloud-card-link">
                                 Learn more <span className="arrow">➤</span>
                             </a>
-                            <div className="dataai-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                            <div className="cloud-card-hover-text">
+                                <p>{card.hoverText}</p>
                             </div>
+
+                         
                         </div>
                     </div>
                 ))}

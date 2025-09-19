@@ -32,14 +32,7 @@ function ManagedServices() {
 <h1 className='headings'> areas we support</h1>
        <ServiceHoverPanel />
        <SixGridHoverCards />
-          <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Learning careers</h1>
-        <p>
-          While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
-        </p>
-        <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
+     
        <Footer />
     </div>
   )

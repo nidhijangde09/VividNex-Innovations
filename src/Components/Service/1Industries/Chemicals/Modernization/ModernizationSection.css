@@ -1,0 +1,66 @@
+.modernization-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+  background: #000;
+  color: #fff;
+  gap: 2rem;
+}
+
+.modernization-image {
+  flex: 1;
+}
+
+.modernization-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.modernization-text {
+  flex: 1;
+}
+
+.modernization-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.modernization-text p {
+  font-size: 20px;
+  color: #d1d1d1;
+}
+
+/* ✅ Responsive for tablets & mobile */
+@media (max-width: 1024px) {
+  .modernization-section {
+    padding: 2rem 3rem;
+  }
+
+  .modernization-text h1 {
+    font-size: 36px;
+  }
+
+  .modernization-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modernization-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .modernization-text h1 {
+    font-size: 28px;
+  }
+
+  .modernization-text p {
+    font-size: 16px;
+  }
+}

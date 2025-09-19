@@ -33,15 +33,24 @@ function InfrastructureCapital() {
       </div>
       <h1 className='headings'>Why transform capital project delivery?</h1>
       <CapitalProjects />
-      <h1 className='headings'></h1>
+      <h1 className='headings'>How AI is changing infrastructure and capital projects</h1>
       <AIInfrastructureSection />
 
-      <h1 className='headings'></h1>
+      <h1 className='headings'>What you can do</h1>
       < AccordionSection />
       <h1 className='headings'>Awards and recognition</h1>
       < InfrastructureCapitalHoverCards />
 
-      <h1 className='headings'></h1>
+      <h1 className='headings'>What’s trending with infrastructure & capital projects
+
+
+
+
+
+
+
+
+      </h1>
       <InfrastructureSlider />
 
       <h1 className='headings'></h1>
@@ -50,7 +59,7 @@ function InfrastructureCapital() {
       <h1 className='headings'></h1>
       <GenerativeDesign />
 
-   
+
 
       <h1 className='headings'></h1>
       <CareersSection />

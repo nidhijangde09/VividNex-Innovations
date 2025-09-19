@@ -7,7 +7,7 @@ import Home from '../Home/Home';
 import CustomerService from '../Service/CustomerService/CustomerService';
 import Cybersecurity from '../Service/CyberSecurity/CyberSecurity';
 import Dataai from '../Service/DataAi//Dataai';
-import DigitalEngeneer from '../Service/DigitalE/DigitalEngeneer';
+import DigitalE from '../Service/Digital/DigitalE';
 import Ecosystem from '../Service/Ecosystem/Ecosystem';
 import EmergingTechnology from '../Service/EmergingTechnology/EmergingTechnology';
 import FinanceManagement from '../Service/FinanceManagement/FinanceManagement'; 
@@ -79,7 +79,7 @@ const megaMenuData = {
         { label: "Customer Service", path: "/CustomerService" },
         { label: "Cybersecurity", path: "/Cybersecurity" },
         { label: "Data and AI", path: "/Dataai" },
-        { label: "Digital engineering & manufacturing", path: "/DigitalEngeneer" },
+        { label: "Digital engineering & manufacturing", path: "/DigitalE "},
         { label: "Ecosystem Partners", path: "/Ecosystem" },
         { label: "Emerging Technology", path: "/EmergingTechnology" },
         { label: "Finance & Risk Management", path: "/FinanceManagement" },

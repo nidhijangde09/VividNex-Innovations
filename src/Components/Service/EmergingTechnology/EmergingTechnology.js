@@ -39,14 +39,7 @@ export default function EmergingTechnology() {
       <h1 className='headings'>Awards and recognition</h1>
       <EmergingHoverCards />
       
-      <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Technology careers​</h1>
-        <p>
-          Combine expert knowledge with agile strategies to empower clients to build resilient, future-ready businesses in an unpredictable digital world.
-        </p>
-        <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
+   
       <Footer />
 
     </div>

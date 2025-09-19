@@ -1,5 +1,9 @@
 import React from 'react';
 import './CloudCardSection.css';
+import ModernizationME from './Modernization/ModernizationME';
+import Modernization2ME from './Modernization/Modernization2ME';
+import Modernization3ME from './Modernization/Modernization3ME';
+import Modernization4ME from './Modernization/Modernization4ME';
 
 const cardData = [
     {

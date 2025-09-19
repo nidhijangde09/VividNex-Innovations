@@ -36,14 +36,7 @@ export default function Dataai() {
               <h1 className='headings'>Awards and recognition </h1>
             <DataAIGridHoverCards />
            
-              <div className='head-container-6'>
-                                <img src={customer3} alt="Logo" className='head-2-img' />
-                                <h1>Data careers​</h1>
-                                <p>
-                             Harness AI and data to transform every part of your business responsibly.
-                                </p>
-                               <Link to="/" className="learn-more-btn">Learn More</Link>
-                              </div>
+        
                               <Footer />
     </div>
   )

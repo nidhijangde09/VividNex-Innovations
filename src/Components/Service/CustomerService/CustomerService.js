@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CustomerService2 from '../../../assets/images/CustomerService2.jpg';
 import './CustomerService.css';
 import Stats from './Stats';
-import customer3 from '../../../assets/images/customer3.jpg';
+
 import CustomerCardSection from './CustomerCardSection';
 import PartnersCarousel from './PartnersCarousel';
 import Navbar from '../../Navbar/Navbar';
@@ -35,14 +35,7 @@ export default function CustomerService() {
 
             <PartnersCarousel />
 
-          <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Build your future with a career in customer service.</h1>
-        <p>
-    Design inspiring experiences and lasting moments that transform customer relationships with your brand.
-        </p>
-       <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
+  
       <Footer />
         </div>
     );

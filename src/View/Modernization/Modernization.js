@@ -17,9 +17,9 @@ function Modernization() {
                     <img src={Metaverseimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
-                    <h1>Similar cloud consulting offerings</h1>
+                    <h1>Cloud Transformation</h1>
                     <p>
-                        Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
+                       Unlock business value with a modernized cloud approach
                     </p>
                 </div>
             </div>
@@ -29,7 +29,7 @@ function Modernization() {
             <ModernizationSection />
             <h1 className='headings-1'>What you can do</h1>
             <AccordionSection />
- <h1 className='headings-1'>Awards & recognition</h1>
+            <h1 className='headings-1'>Awards & recognition</h1>
             <SixGridCards />
             <Footer />
         </div>

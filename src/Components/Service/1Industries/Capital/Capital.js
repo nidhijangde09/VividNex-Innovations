@@ -38,14 +38,7 @@ function Capital() {
       <h1 className='headings'>Awards and recognition</h1>
       <CapitalGridHoverCard />
     
-      <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Cloud careers</h1>
-        <p>
-          Join our cloud team to help clients across industries build smarter, future-ready solutions.
-        </p>
-        <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
+      
       <Footer />
     </div>
   )

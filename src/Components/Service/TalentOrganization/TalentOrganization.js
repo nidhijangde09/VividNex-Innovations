@@ -41,15 +41,7 @@ function TalentOrganization() {
             <TalentOrganizationPartnersSection />
             <h1 className='headings'>Awards and recognition</h1>
             <TalentOrganizationsHoverCards />
-            
-            <div className='head-container-6'>
-                <img src={customer3} alt="Logo" className='head-2-img' />
-                <h1>Cybersecurity careers​</h1>
-                <p>
-                    Combine deep expertise with agile thinking to empower clients to build secure, future-ready businesses in an unpredictable digital world.
-                </p>
-                <Link to="/" className="learn-more-btn">Learn More</Link>
-            </div>
+       
             <Footer />
         </div>
     )
