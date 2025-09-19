@@ -17,15 +17,16 @@ function Modernization() {
                     <img src={Metaverseimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
-                    <h1>Cloud Transformation</h1>
+                    <h1>Similar cloud consulting offerings</h1>
                     <p>
-                       Unlock business value with a modernized cloud approach
+                        Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
                     </p>
                 </div>
             </div>
-            <h1 className='headings-1'>Why reinvent capital projects?</h1>
+            <h1 className='headings-1'>Why rethink and transform capital projects??</h1>
             <CapitalProjects />
-            <h1 className='headings-1'>How AI is changing infrastructure <br></br> and capital projects</h1>
+            <h1 className='headings-1'><p>AI-driven change in infrastructure <br> </br>and capital projects</p>
+            </h1>
             <ModernizationSection />
             <h1 className='headings-1'>What you can do</h1>
             <AccordionSection />

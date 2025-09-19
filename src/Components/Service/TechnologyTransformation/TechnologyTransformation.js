@@ -22,7 +22,7 @@ function TechnologyTransformation() {
         <div className="service-text">
           <h1>Technology consulting</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+            As physical and digital realities converge, the metaverse becomes a platform for innovation, interaction, and engagement—helping organizations craft immersive, inclusive experiences.
           </p>
         </div>
       </div>
@@ -34,9 +34,16 @@ function TechnologyTransformation() {
       <TechnologyTransformationSlider />
       <h1 className='headings'>Partners in change</h1>
       <TechnologyTransformationSection />
-
-
-      <Footer />
+      
+       <div className='head-container-6'>
+               <img src={customer3} alt="Logo" className='head-2-img' />
+               <h1>Learning careers</h1>
+               <p>
+                 While technology drives business reinvention, it’s people who determine its success. Empower them with the skills needed to accelerate growth.
+               </p>
+               <Link to="/" className="learn-more-btn">Learn More</Link>
+             </div>
+             <Footer />
     </div>
 
   )

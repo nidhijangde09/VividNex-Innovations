@@ -14,9 +14,9 @@ function HiringJourney() {
                     <img src={aboutimg} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>About recruiting at <br></br>Accenture</h1>
+                    <h1>About recruiting process <br></br> at Vividnex Accenture</h1>
                     <p>
-                       Here’s what happens after you apply for a role:
+                       After applying, this is what your Vividnex journey looks like:
                     </p>
                 </div>
             </div>

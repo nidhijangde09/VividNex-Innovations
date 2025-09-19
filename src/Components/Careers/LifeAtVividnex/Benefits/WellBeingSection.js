@@ -46,10 +46,10 @@ function WellBeingSection() {
           alt="Mental Health Ally Network"
         />
         <div className="wellbeing-text">
-          <h3>Mental Health Ally Network</h3>
+          <h3>Vividnex Mental Wellness Allies</h3>
           <p>
-            Around the world, we’re here for each other. Talk with someone from
-            our trained network of Accenture people.
+            Wherever you are, Vividnex is here. Talk with someone from our 
+            network of trained professionals to get support and advice.
           </p>
         </div>
       </div>

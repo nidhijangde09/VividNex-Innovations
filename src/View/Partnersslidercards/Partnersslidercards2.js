@@ -17,13 +17,14 @@ function Partnersslidercards2() {
                     <img src={CustomerService2} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>Accenture + Microsoft</h1>
+                    <h1>Vividnex Consulting</h1>
                     <p>
-                        Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
+                    Inconsistent, impersonal interactions stall progress. Unlock opportunities by providing seamless, predictive, and data-driven customer experiences.
+
                     </p>
                 </div>
             </div>
-            <h1 className='headings-1'>Why transform capital project delivery?</h1>
+            <h1 className='headings-1'><p>Why modernize the way capital projects are delivered?</p></h1>
             <CapitalProjects />
             <h1 className='headings-1'>Reinvent your industry</h1>
             <AccordionSection />

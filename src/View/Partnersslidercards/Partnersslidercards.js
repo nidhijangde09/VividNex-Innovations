@@ -18,17 +18,18 @@ function Partnersslidercards() {
                     <img src={CustomerService2} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>Turn every customer interaction into a catalyst for growth.</h1>
+                    <h1>Transform every customer engagement into an opportunity to drive growth.</h1>
                     <p>
-                        Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
-                    </p>
+                        Inconsistent, impersonal interactions can stall growth. Unlock opportunities by providing seamless, predictive, and data-driven customer experiences.
+                        </p>
+
                 </div>
             </div>
-            <h1 className='headings-1'>Why transform capital project delivery?</h1>
+            <h1 className='headings-1'><p>Why revolutionize capital project delivery to drive better outcomes?</p>?</h1>
             <CapitalProjects />
             <h1 className='headings-1'>Reinvent your industry</h1>
             <AccordionSection />
-            <h1 className='headings-1'>Awards & recognition</h1>
+            <h1 className='headings-1'>Honors & Achievements</h1>
             <SixGridCards />
             <Footer />
         </div>

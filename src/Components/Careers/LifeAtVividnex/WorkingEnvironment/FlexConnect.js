@@ -9,10 +9,9 @@ function FlexConnect() {
         <div className="heading-line"></div>
         <h2>Flex and connect</h2>
         <p>
-          Flexibility extends beyond where you work—to what you do and when and
-          how you do it. For all of us, making connections is a key part of
-          flexible working. We believe in its power to build strong relationships
-          and innovate to create change.
+          Work your way at Vividnex. Flexibility means freedom
+           in how you work and the connections you build—driving
+            stronger relationships and innovation that creates change.
         </p>
       </div>
 

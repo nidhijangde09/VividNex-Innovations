@@ -21,10 +21,9 @@ function Benefits() {
           <img src={benefitsimg} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Here, possibilities have no limits.</h1>
+          <h1>Here at Vividnex, there are no limits to what you can achieve.</h1>
           <p>
-            Be part of the change. Drive impact, deliver value, and help build a
-            sustainable, connected future.
+            At Vividnex, your ideas fuel change—create impact, unlock value, and help build a sustainable, connected world.
           </p>
         </div>
       </div>
@@ -38,16 +37,15 @@ function Benefits() {
 
       <h1 className="Careerhead">Your mental well-being</h1>
       <p className="Careerheadcontent">
-        You don't leave any part of yourself behind when you login. <br />
-        We offer support for the whole of you.
+       Vividnex embraces the whole you—because growth, creativity, and impact happen when you can be yourself fully.
       </p>
 <WellBeingSection />
   <h1 className='Careerhead'>Work with reach</h1>
-      <p className='Careerheadcontent'>From industries to individuals, across continents, you’ll apply ingenuity and <br></br>innovation to make lasting impact.</p>
+      <p className='Careerheadcontent'>At Vividnex, your creativity and innovation reach every corner of <br></br>the globe—driving impact that lasts.</p>
       <Slider />
     
      <h1 className='Careerhead'>Work with purpose</h1>
-          <p className='Careerheadcontent'>Be part of creating positive change and making the world better for our people, our clients, and the communities where we live and work.</p>
+          <p className='Careerheadcontent'>Be part of creating positive change at Vividnex—making the world better for our people, clients, and the communities where we live and work</p>
           <ValuesSection />
            <h1 className='Careerhead'>Your growth</h1>
           <LearningDevelopment />

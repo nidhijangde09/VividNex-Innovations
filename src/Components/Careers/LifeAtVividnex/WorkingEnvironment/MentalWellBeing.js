@@ -13,9 +13,10 @@ function MentalWellBeing() {
         <div className="wellbeing-text">
           <h3>Employee Assistance Program (EAP)</h3>
           <p>
-            You’ll have access to confidential, professional guidance for
-            challenges that may arise including anxiety, depression, grief,
-            relationship challenges, or legal and financial concerns.
+            At Vividnex, you’ll have access to confidential, professional
+             guidance for life’s challenges—from anxiety, depression, and 
+             grief to relationship, legal, and financial concerns. We’re here 
+             to support your whole self, every step of the way.
           </p>
         </div>
       </div>
@@ -28,13 +29,10 @@ function MentalWellBeing() {
         <div className="wellbeing-text">
           <h3>Apps and tools</h3>
           <p>
-            The Calm app offers stress-reduction and sleep improvement tips.
-            Nudge provides personalized financial education and RethinkCare
-            gives support to parents and guardians. Thrive Global courses help
-            build new habits to boost resilience, well-being, and a sense of
-            belonging. Additionally, you’ll have access to Wysa for 24/7 private,
-            anonymous, and clinically validated support, including a confidential
-            chatbot if you prefer not to speak with a person.
+            Vividnex gives you access to well-being tools like Calm for
+             stress relief, Nudge for financial learning, RethinkCare for 
+             parents, and Thrive Global for resilience. For round-the-clock
+              support, Wysa offers private, anonymous, clinically validated guidance.
           </p>
         </div>
       </div>
@@ -48,8 +46,8 @@ function MentalWellBeing() {
         <div className="wellbeing-text">
           <h3>Mental Health Ally Network</h3>
           <p>
-            Around the world, we’re here for each other. Talk with someone from
-            our trained network of Accenture people.
+           We’re here for each other worldwide. Reach out to a trained member of our
+            Accenture network for support whenever you need it.
           </p>
         </div>
       </div>

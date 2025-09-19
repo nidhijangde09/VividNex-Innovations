@@ -4,30 +4,33 @@ import './CloudCardSection.css';
 const cardData = [
    
     
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "#",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-    {
-        category: "Secure the Cloud with Confidence",
-        title: "Safeguard everything in your cloud ecosystem with end-to-end protection for data, apps, and infrastructure.",
-        link: "#",
-        hoverText: "For 41% of companies, security is a major cloud hurdle. A modern security strategy supports resilience and accelerates transformation."
-    },
-    {
-        category: "Build Scalable Products and Platforms",
-        title: "Build modern, AI-powered platforms to transform how you deliver value, scale operations, and engage users.",
-        link: "#",
-        hoverText: "Leverage modern platforms to unlock disruptive capabilities, accelerate revenue, and drive competitive advantage."
-    },
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "#",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
-    }
+    [
+  {
+    category: "Modern App Management at Scale",
+    title: "Simplify Application Landscapes with AI and Cloud",
+    link: "#",
+    hoverText: "As application complexity grows, Vividnex combines managed services, cloud, and generative AI to accelerate value delivery."
+  },
+  {
+    category: "Secure the Cloud with Confidence",
+    title: "Protect Your Cloud Ecosystem End-to-End",
+    link: "#",
+    hoverText: "For 41% of companies, security is a major cloud challenge. Vividnex’s modern security strategies enhance resilience and speed up transformation."
+  },
+  {
+    category: "Build Scalable Products and Platforms",
+    title: "Create AI-Powered Platforms to Transform Value Delivery",
+    link: "#",
+    hoverText: "Vividnex helps organizations leverage modern platforms to unlock disruptive capabilities, accelerate revenue, and gain a competitive edge."
+  },
+  {
+    category: "Cloud-Enabled Mainframe Transformation",
+    title: "Modernize Mainframes with Cloud and AI",
+    link: "#",
+    hoverText: "Legacy systems slow innovation. Vividnex integrates cloud and generative AI to accelerate mainframe modernization and boost agility."
+  }
+]
+
 ];
 
 const CloudCardSection = () => {

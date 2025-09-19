@@ -15,9 +15,10 @@ const CapitalProjects = () => {
     <div className="capital-section">
       <div className="capital-text">
        
-        <p>
-        Shifting regulations, advances in manufacturing, the global energy transition, and aging infrastructure are driving a surge in project demand. However, fragmented systems, labor shortages, and disconnected workflows are making it increasingly difficult for organizations to meet their project goals. By aligning strategy with real-time data and providing hands-on support in the field, companies can overcome these challenges and lay the foundation for a more resilient and sustainable future.
-        </p>
+        
+        <p>Growing project demands, fueled by regulatory changes, manufacturing advances, and the global energy transition, are colliding with fragmented systems and labor shortages. Vividnex helps organizations align strategy with real-time insights and provide hands-on field support, turning challenges into opportunities for resilience and sustainable growth.</p>
+
+
       </div>
 
       <div className="capital-card">
@@ -27,21 +28,20 @@ const CapitalProjects = () => {
             {isExpanded ? <FaMinus /> : <FaPlus />}
           </button>
         </div>
-        <h2>9 of 10</h2>
-        <p>construction projects have cost overruns — regularly up to 50%</p>
+        <h2>8 of 10</h2>
+        <p>Construction projects frequently experience</p>
 
         {isExpanded && (
           <div className="expanded-data">
             <div className="data-item">
-              <h3>11%</h3>
-              <p>
-           A portion of every dollar is lost to poor project performance.
-              </p>
+              <h3>13%</h3>
+          <p>Inefficiencies and mismanagement cause a chunk of every project dollar to go to waste.</p>
+
             </div>
             <div className="data-item">
               <h3>47%</h3>
               <p>
-                Many organizations still record infrastructure/capex performance data manually in spreadsheets.
+              Organizations often rely on spreadsheets to capture infrastructure and CAPEX performance, limiting efficiency and insight.
               </p>
             </div>
           </div>

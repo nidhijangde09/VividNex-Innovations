@@ -26,7 +26,8 @@ const FilterSection = () => {
   return (
     <div className="filter-section">
       <h1>Stay ahead of change</h1>
-      <p>Explore our research, insights, and examples of real client impact, designed to help you embrace the key forces of change and get to value faster.</p>
+      <p>Explore our research, insights, and examples of client impact to seize the forces of change and deliver results faster.</p>
+
       
       <div className="filters">
         <FilterCategory

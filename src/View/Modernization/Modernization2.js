@@ -22,13 +22,14 @@ function Modernization2() {
                     <div className="cloud-text">
                         <h1>Similar cloud consulting offerings</h1>
                         <p>
-                            Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
+                        Unlock agility and innovation with cloud computing. Vividnex enables your business to continuously transform and succeed in a digital-first world.
                         </p>
                     </div>
                 </div>
-                <h1 className='headings-1'>Why reinvent capital projects?</h1>
+                <h1 className='headings-1'>Why rethink the way capital projects are delivered</h1>
                 <CapitalProjects />
-                <h1 className='headings-1'>How AI is changing infrastructure <br></br> and capital projects</h1>
+                <h1 className='headings-1'><p>Reimagining infrastructure and capital projects <br></br> through AI</p>
+</h1>
                 <ModernizationSection />
                 <h1 className='headings-1'>What you can do</h1>
                 <AccordionSection />

@@ -28,13 +28,13 @@ function WellBeingSection() {
         <div className="wellbeing-text">
           <h3>Apps and tools</h3>
           <p>
-            The Calm app offers stress-reduction and sleep improvement tips.
-            Nudge provides personalized financial education and RethinkCare
-            gives support to parents and guardians. Thrive Global courses help
-            build new habits to boost resilience, well-being, and a sense of
-            belonging. Additionally, you’ll have access to Wysa for 24/7 private,
-            anonymous, and clinically validated support, including a confidential
-            chatbot if you prefer not to speak with a person.
+        Access a wide range of tools designed to support your well-being. The Calm 
+        app helps reduce stress and improve sleep, while Nudge offers personalized 
+        financial education. RethinkCare provides resources for parents and guardians,
+        and Thrive Global courses help you build habits that boost resilience,
+         well-being, and belonging. Plus, with Wysa, you’ll have 24/7 private, 
+         anonymous, and clinically validated support—including a confidential 
+         chatbot if you prefer not to speak with a person
           </p>
         </div>
       </div>
@@ -48,8 +48,8 @@ function WellBeingSection() {
         <div className="wellbeing-text">
           <h3>Mental Health Ally Network</h3>
           <p>
-            Around the world, we’re here for each other. Talk with someone from
-            our trained network of Accenture people.
+           Wherever you are, support is always close at hand. Connect
+            with someone from our trained Accenture network.
           </p>
         </div>
       </div>
