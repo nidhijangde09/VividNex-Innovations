@@ -4,39 +4,34 @@ import "./CardGrid.css";
 
 const cardData = [
   {
-    subtitle:
-      "Safeguarding the Digital Frontier: Inside the Work of the UK’s National Cyber Security Centre",
+    subtitle: "Protecting the Digital World with Vividnex",
     title: "Case Study",
-    description:
-      "The latest phase of its Protective DNS blocks more than 350 million threats each month—strengthening the digital resilience of UK citizens, services, and organizations.",
+    description: "Through advanced Protective DNS, Vividnex prevents hundreds of millions of cyber threats monthly, strengthening security for people, services, and organizations.",
     image:
       "https://t3.ftcdn.net/jpg/12/53/26/80/360_F_1253268001_JcEeDW4SB2iLba0o6mCQZAeDjJBwX3SB.jpg",
     link: "/australia",
   },
   {
-    subtitle: "Mastering the Art of Dealmaking in the Age of AI",
+    subtitle: "Dealmaking in the Age of AI",
     title: "Research Report",
-    description:
-      "Technology can reshape the M&A landscape—but only for firms that move past experimentation and apply it with discipline. Three traits set leading acquirers apart—and drive outsized returns.",
+    description: "Vividnex research reveals how disciplined AI adoption in M&A enables firms to outperform, delivering strategic advantage and superior returns.",
     image:
       "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/italy",
   },
   {
-    subtitle: "Transforming the Future of Payments in the UAE",
+   subtitle: "Digital Payments Transformation",
     title: "Case Study",
-    description:
-      "With a vision for digital innovation, the UAE is reshaping its financial services sector and rising as a prominent FinTech hub on the global stage.",
+    description: "Vividnex helps the UAE revolutionize its payments landscape, creating a connected, innovative, and globally competitive FinTech ecosystem.",
     image:
       "https://images.stockcake.com/public/b/5/e/b5e8b748-c1db-416f-af57-d3d05a918c47_medium/neon-tech-nexus-stockcake.jpg",
     link: "/canada",
   },
   {
-    subtitle: "Redefining Resilience: Shifting from Preparedness to Transformation",
-    title: "Research Report",
-    description:
-      "While resilience is rebounding to pre-pandemic levels, the stability may be misleading. Heightened volatility demands a shift toward adaptive resilience to sustain growth and competitive edge.",
-    image:
+     subtitle: "From Preparedness to Transformation",
+     title: "Research Report",
+     description: "Vividnex research shows that thriving in volatile times demands adaptive resilience—helping organizations grow stronger and stay ahead of the curve.",
+     image:
       "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
     link: "/egypt",
   },

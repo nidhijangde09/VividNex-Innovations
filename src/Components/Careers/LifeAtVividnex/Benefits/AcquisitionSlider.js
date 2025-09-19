@@ -4,23 +4,21 @@ import "./AcquisitionSlider.css";
 const slides = [
   {
     logo: "https://cdn-icons-png.flaticon.com/128/17248/17248469.png",
-    title: "Anser Advisory",
-    description:
-      "Specializing in capital program advisory and consulting services, as well as project and construction management, across transportation, energy, state/local government, water/sewer.",
+   title: "Vividnex Advisory",
+   description: "Delivering strategic advisory and project management solutions to drive efficiency and growth across multiple sectors."
+,
     link: "https://example.com/anser",
   },
   {
     logo: "https://dynamicmedia.accenture.com/is/content/accenture/Client_80x80-1?ts=1741760964920&fit=constrain&dpr=off",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
+    title: "Vividnex Comtech",
+    description: "Empowering organizations with advanced project management, digitization, and engineering solutions that drive efficiency and innovation.",
     link: "https://example.com/comtech",
   },
   {
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    title: "Comtech",
-    description:
-      "Specializing in capital program management, construction management, project digitization, facility and manufacturing engineering, and process control automation.",
+    title: "Vividnex Comtech",
+    description: "Providing advanced solutions in capital program management, construction, project digitization, and engineering across facilities and manufacturing.",
     link: "https://example.com/comtech2",
   },
  

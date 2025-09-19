@@ -17,7 +17,7 @@ const ConnectSection = () => {
           />
         </div>
         <h3>Join us</h3>
-        <p>Explore open roles that match your interests and skills.</p>
+        <p>Find your next role with Vividnex and apply your skills where they make the biggest impact.</p>
         <a href="#" className="connect-link">
           Search jobs →
         </a>
@@ -33,7 +33,7 @@ const ConnectSection = () => {
           />
         </div>
         <h3>Stay in touch</h3>
-        <p>Get career tips and industry-leading insights.</p>
+        <p>Stay ahead with Vividnex—career tips, trends, and insights that empower your growth.</p>
         <a href="/CareerBlog" className="connect-link">
           Learn more →
         </a>

@@ -12,11 +12,11 @@ const Opportunities = () => {
           className="career-img"
         />
         <div className="career-text">
-          <h3>Early career professionals</h3>
+          <h3>Aspiring Professionals</h3>
           <p>
-            If you’re at the start of your professional journey, this is the
-            program for you. From engineers to strategists, across Accenture,
-            our analysts learn, grow and contribute to success.
+         Starting your professional journey? The Vividne program welcomes you. 
+         From engineers to strategists, our analysts learn,
+          grow, and make an impact every day.
           </p>
            <a href="#" className="career-link">
             Explore opportunities →
@@ -34,9 +34,9 @@ const Opportunities = () => {
         <div className="career-text">
           <h3>Experienced professionals</h3>
           <p>
-            We welcome your skills and expertise, your ability to find
-            solutions to challenges and your desire to keep learning. Join
-            our global innovators to help our clients reinvent and grow.
+            Your skills, solutions, and curiosity are welcome here. 
+            Join our global innovators to shape the future and 
+            empower our clients.
           </p>
           <a href="#" className="career-link">
             Explore opportunities →
