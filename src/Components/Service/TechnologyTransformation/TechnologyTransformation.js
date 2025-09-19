@@ -5,7 +5,6 @@ import TechnologyConsultingimg from '../../../assets/images/TechnologyConsulting
 import TechnologyTransformationCardSection from './TechnologyTransformationCardSection';
 import TechnologyTransformationSlider from './TechnologyTransformationSlider';
 import TechnologyTransformationSection from './TechnologyTransformationSection';
-
 import Navbar from '../../Navbar/Navbar';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
@@ -31,13 +30,13 @@ function TechnologyTransformation() {
       <TechnologyTransformationStats />
       <h1 className='headings'>Reinvent with strategy</h1>
       <TechnologyTransformationCardSection />
-         <h1 className='headings'>What’s trending with strategy</h1>
+      <h1 className='headings'>What’s trending with strategy</h1>
       <TechnologyTransformationSlider />
-       <h1 className='headings'>Partners in change</h1>
+      <h1 className='headings'>Partners in change</h1>
       <TechnologyTransformationSection />
-      
-      
-             <Footer />
+
+
+      <Footer />
     </div>
 
   )

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FinancePartnersSlider.css"; // renamed CSS file
+import "./PartnersSlider.css"; // renamed CSS file
 import Partnersslidercards from '../../../View/Partnersslidercards/Partnersslidercards';
 import Partnersslidercards1 from '../../../View/Partnersslidercards/Partnersslidercards1';
 import Partnersslidercards2 from '../../../View/Partnersslidercards/Partnersslidercards2';
@@ -41,7 +41,8 @@ const data = [
 
   }
 ];
-const FinancePartnersSlider = () => {
+
+const PartnersSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -78,4 +79,4 @@ const FinancePartnersSlider = () => {
   );
 };
 
-export default FinancePartnersSlider;
+export default PartnersSlider;

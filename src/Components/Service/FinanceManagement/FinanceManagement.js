@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from '../../Navbar/Navbar'
 import risk1 from'../../../assets/images/risk1.jpg';
 import  './FinanceManagement.css';
-
+import PartnersSlider from './PartnersSlider';
 import FinanceManagementStats from './FinanceManagementStats';
 import FinanceManagementCardSection from './FinanceManagementCardSection';
 import FinanceManagementSlider from './FinanceManagementSlider';
-import FinancePartnersSlider from './FinancePartnersSlider';
+
 import FinanceSixGridCards from './FinanceSixGridCards';
 
 import Footer from '../../Footer/Footer';
@@ -28,12 +28,12 @@ function FinanceManagement() {
             </div>
             <FinanceManagementStats />
             <FinanceManagementCardSection />
-           <h1 className='headings'>What’s trending in finance and risk <br></br> management</h1>
+           <h1 className='headings'>The latest insights in finance and risk <br></br> management</h1>
             <FinanceManagementSlider />
-            <h1 className='headings'>Awards and recognition</h1>
+            <h1 className='headings'>Awards & Accomplishments</h1>
             <FinanceSixGridCards />
-            <h1 className='headings'>Partners in change</h1>
-            <FinancePartnersSlider />
+            <h1 className='headings'>Transforming Together</h1>
+            <PartnersSlider />
              
        <Footer />
     </div>

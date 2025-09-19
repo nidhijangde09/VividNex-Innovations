@@ -25,7 +25,7 @@ function SupplyChain() {
         <div className="service-text">
           <h1> Supply Chain </h1>
           <p>
-            Embrace bold reinvention and join the forward-thinking few who are not only unlocking exceptional business growth, but also creating meaningful impact for society.
+            Embrace bold reinvention and join the forward-thinking few driving exceptional business growth while creating meaningful societal impact.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ function SupplyChain() {
          <h1 className='headings'>Awards & recognition</h1> 
       <SupplyChainGridHoverCard />
        
-    
+       
       <Footer />
     </div>
   )

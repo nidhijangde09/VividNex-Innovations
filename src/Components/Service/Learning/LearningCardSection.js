@@ -9,6 +9,7 @@ import Modernization4L from './Modernization/Modernization4L';
 
 const cardData = [
 
+
     {
         category: "Modernization Services",
         title: "Update your cloud foundation to power AI",
@@ -36,6 +37,7 @@ const cardData = [
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
   
+
 ];
 
 const LearningCardSection  = () => {
@@ -52,7 +54,11 @@ const LearningCardSection  = () => {
                                 Learn more <span className="arrow">➤</span>
                             </a>
                             <div className="cloud-card-hover-text">
+
                                 <p>{card.hoverText}</p>
+=======
+                                <p>EDiscover how VividNex drives client transformation with cutting-edge innovation and cloud solutions.</p>
+
                             </div>
 
                          

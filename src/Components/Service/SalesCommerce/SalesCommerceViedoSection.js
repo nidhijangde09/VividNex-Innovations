@@ -33,8 +33,7 @@ const SalesCommerceViedoSection = () => {
       <div className="resilience-content">
         <h1>Enable people resilience</h1>
         <p>
-          Build a resilient organization, cultivate a workforce that is energized,
-          skilled and supported with a structure designed for speed, flexibility and accountability.
+          Create a resilient organization with a workforce that is empowered, skilled, and supported—driving speed, flexibility, and accountability at every level.
         </p>
         <button className="read-more-btn">Read more</button>
       </div>

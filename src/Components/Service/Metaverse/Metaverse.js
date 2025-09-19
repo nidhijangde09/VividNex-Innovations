@@ -22,7 +22,7 @@ function Metaverse() {
         <div className="service-text">
           <h1>Metaverse services</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+           The lines between physical and digital are fading. The metaverse opens new opportunities to interact, innovate, and engage, creating inclusive and immersive experiences.
           </p>
         </div>
       </div>
@@ -34,7 +34,8 @@ function Metaverse() {
       <MetaverseSlider />
       <h1 className='headings'>Awards & recognition</h1>
       <MetaverseGridHoverCard />
-     
+      
+
       <Footer />
     </div>
   );

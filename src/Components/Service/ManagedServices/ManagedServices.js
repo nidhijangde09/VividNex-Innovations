@@ -21,7 +21,7 @@ function ManagedServices() {
         <div className="service-text">
           <h1>Metaverse services</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+            "The lines between physical and digital are blurring. The metaverse opens new opportunities to interact, innovate, and engage, creating a powerful space for designing inclusive, meaningful, and immersive experiences."
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ function ManagedServices() {
 <h1 className='headings'> areas we support</h1>
        <ServiceHoverPanel />
        <SixGridHoverCards />
-     
+
        <Footer />
     </div>
   )

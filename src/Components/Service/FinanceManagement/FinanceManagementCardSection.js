@@ -9,6 +9,7 @@ import Modernization4FM from './Modernization/Modernization4FM';
 
 const cardData = [
 
+
     {
         category: "Modernization Services",
         title: "Update your cloud foundation to power AI",
@@ -36,11 +37,17 @@ const cardData = [
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
   
+
 ];
 
 const FinanceManagementCardSection = () => {
     return (
+
      <div className="cloud-card-section">
+
+        <div className="cloud-card-section">
+            <h2 className="cloud-card-heading">Transform with Cloud</h2>
+
             <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
                     <div className="cloud-card" key={index}>
@@ -52,7 +59,11 @@ const FinanceManagementCardSection = () => {
                                 Learn more <span className="arrow">➤</span>
                             </a>
                             <div className="cloud-card-hover-text">
+
                                 <p>{card.hoverText}</p>
+
+                                <p>"Explore how we guide clients in harnessing innovation and cloud to achieve meaningful transformation."</p>
+
                             </div>
 
                          
@@ -61,7 +72,7 @@ const FinanceManagementCardSection = () => {
                 ))}
             </div>
         </div>
-
+</div>
     );
 };
 

@@ -24,7 +24,7 @@ function Learning() {
           <img src={learning} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Digital learning solutions</h1>
+          <h1>Online Learning Solutions</h1>
           <p>
             While technology accelerates transformation, it’s your people who drive lasting impact. Vividnex Innovations LearnHub empowers you to cultivate the skills your teams need—and your business demands—to grow smarter, faster, and stronger.
 
@@ -35,11 +35,13 @@ function Learning() {
       <ResilienceSection />
       <LearningStats />
       <LearningCardSection />
-      <h1 className='headings'>Personalized Learning with AI</h1>
+      <h1 className='headings'>AI-Enhanced Learning Experiences</h1>
       <LearningSlider />
       <LearningPartnersSection />
   
-    
+
+     
+
       <Footer />
     </div>
   )

@@ -8,33 +8,51 @@ import Modernization4 from './Modernization/Modernization4';
 
 const cardData = [
 
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationCS",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2CS",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
-   
+    
    
     {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3CS",
+        category: "AI & Data Solutions",
+        title: "Prepare your data for the demands of generative AI",
+        link: "#",
+        hoverText: "egacy networking can’t keep up with today’s demands. Upgrading enables better performance, stronger security, and smarter collaboration."
+    },
+    {
+        category: "Advanced Data Services",
+        title: "Ready your data to meet generative AI challenges",
+        link: "#",
+        hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
+    },
+    {
+        category: "Data & AI Services",
+        title: "Equip your data for next-generation generative AI",
+        link: "#",
         hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
     },
     {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4CS",
+        category: "AI-Driven Data Solutions",
+        title: "Get your data ready for generative AI innovation",
+        link: "#",
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
-  
+    {
+        category: "Data Innovation",
+        title: "Prepare your data to power generative AI initiatives",
+        link: "#",
+        hoverText: "For 41% of companies, security is a major cloud hurdle. A modern security strategy supports resilience and accelerates transformation."
+    },
+    {
+        category: "Data Innovation",
+        title: "Prepare your data to power generative AI initiatives",
+        link: "#",
+        hoverText: "Leverage modern platforms to unlock disruptive capabilities, accelerate revenue, and drive competitive advantage."
+    },
+    {
+        category: "Data-Driven AI Solutions",
+        title: "Prepare and power your data for generative AI success",
+        link: "#",
+        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
+    }
+
 ];
 
 const CloudCardSection = () => {

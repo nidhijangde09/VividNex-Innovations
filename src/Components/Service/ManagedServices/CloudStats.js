@@ -3,21 +3,22 @@ import './CloudStats.css';
 
 const stats = [
   {
-    number: '86%',
-    text: 'A growing number of companies accelerated their cloud initiatives over the past two years.',
-  },
-  {
-    number: '57%',
-    text: 'A significant share of IT budgets still goes toward maintenance, not innovation through cloud or AI.',
-  },
-  {
-    number: '2–3x',
-    text: 'Cloud-driven organizations are significantly more likely to innovate across products and services.',
-  },
-  {
-    number: '$10B+',
-    text: 'Monthly innovation spend by leading cloud providers continues to rise sharply.',
-  },
+  number: '85%',
+  text: 'Most companies accelerated their cloud initiatives over the past two years.',
+},
+{
+  number: '54%',
+  text: 'A large portion of IT budgets still goes to maintenance instead of cloud or AI-driven innovation.',
+},
+{
+  number: '2–4x',
+  text: 'Organizations leveraging cloud are 2–3 times more likely to innovate across products and services.',
+},
+{
+  number: '$11B+',
+  text: 'Leading cloud providers continue to invest over $10B monthly to drive continuous innovation.',
+},
+
 ];
 
 export default function CloudStats() {

@@ -10,6 +10,7 @@ const accordionData = [
   { title: "Gain total project visibility with data", content: "Track performance, monitor risks, and make informed decisions in real time." }
 ];
 
+
 const AccordionSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
 

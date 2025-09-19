@@ -8,6 +8,7 @@ import Modernization4 from './Modernization/Modernization4';
 
 const cardData = [
 
+
     {
         category: "Modernization Services",
         title: "Update your cloud foundation to power AI",
@@ -35,8 +36,7 @@ const cardData = [
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
   
-];
-
+]
 const StrategyConsultingCardSection = () => {
     return (
         <div className="cloud-card-section">

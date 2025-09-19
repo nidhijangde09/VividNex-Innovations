@@ -18,10 +18,9 @@ function MarketingExperience() {
                     <img src={Marketingimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
-                    <h1>Similar cloud consulting offerings</h1>
+                    <h1>Cloud Transformation Consulting</h1>
                     <p>
-                        Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
-                    </p>
+                        Fuel innovation and adaptability with cloud computing—enabling your enterprise to continuously grow and excel in today’s dynamic digital landscape.                  </p>
                 </div>
             </div>
 <h1 className='headings'>Marketing now</h1>
@@ -30,7 +29,8 @@ function MarketingExperience() {
             <CloudCardSection />
 <h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
-        
+
+          
             <Footer />
         </div>
     )

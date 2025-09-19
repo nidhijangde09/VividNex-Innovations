@@ -3,7 +3,6 @@ import './EnergyCardSection.css';
 
 
 import { Link } from 'react-router-dom';
-
 import Modernization from '../../../../View/Modernization/Modernization';
 import Modernization2 from '../../../../View/Modernization/Modernization2';
 import Modernization3 from '../../../../View/Modernization/Modernization3';
@@ -52,23 +51,25 @@ const cardData = [
         hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
     }
 ];
-const EnergyCardSection = () => {
+
+const EnergyCardSection= () => {
     return (
-        <div className="dataai-card-section">
-    
-            <div className="dataai-card-grid">
+           <div className="cloud-card-section">
+            <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
-                    <div className="dataai-card" key={index}>
-                        <div className="dataai-card-content">
-                            <div className="dataai-card-underline"></div>
-                            <p className="dataai-card-category">{card.category.toUpperCase()}</p>
-                            <h3 className="dataai-card-title">{card.title}</h3>
-                            <a href={card.link} className="dataai-card-link">
+                    <div className="cloud-card" key={index}>
+                        <div className="cloud-card-content">
+                            <div className="cloud-card-underline"></div>
+                            <p className="cloud-card-category">{card.category.toUpperCase()}</p>
+                            <h3 className="cloud-card-title">{card.title}</h3>
+                               <a href={card.link} className="cloud-card-link">
                                 Learn more <span className="arrow">➤</span>
                             </a>
-                            <div className="dataai-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                            <div className="cloud-card-hover-text">
+                                <p>{card.hoverText}</p>
                             </div>
+
+                         
                         </div>
                     </div>
                 ))}

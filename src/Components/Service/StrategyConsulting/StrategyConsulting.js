@@ -21,7 +21,7 @@ function StrategyConsulting() {
         <div className="service-text">
           <h1> Strategy Consulting Services</h1>
           <p>
-            Embrace bold reinvention and join the forward-thinking few who are not only unlocking exceptional business growth, but also creating meaningful impact for society.
+            Lead with bold reinvention—unlock remarkable business growth and make a lasting, positive impact on society.
           </p>
         </div>
       </div>
@@ -32,8 +32,9 @@ function StrategyConsulting() {
          <h1 className='headings'>What’s trending with strategy</h1>
 
       <StrategyConsultingSlider />
-         
-      
+
+     
+
       <Footer />
     </div>
   )
