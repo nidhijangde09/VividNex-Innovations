@@ -12,13 +12,13 @@ const cardData = [
     {
         category: "Modernization Services",
         title: "Update your cloud foundation to power AI",
-        link: "/ModernizationCS",
+        link: "/Modernization",
         hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
     },
     {
         category: "Edge Technology",
         title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2CS",
+        link: "/Modernization2",
         hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
     },
    
@@ -26,13 +26,13 @@ const cardData = [
     {
         category: "Managed Cloud Infrastructure",
         title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3CS",
+        link: "/Modernization3",
         hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
     },
     {
         category: "Modern App Management at Scale",
         title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4CS",
+        link: "/Modernization4",
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
   

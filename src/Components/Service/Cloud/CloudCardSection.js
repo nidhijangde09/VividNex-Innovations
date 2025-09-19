@@ -12,7 +12,7 @@ const cardData = [
     {
         category: "Modernization Services",
         title: "Update your cloud foundation to power AI",
-        link: "/Modernization",
+        link: "/Modernization2",
         hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
     },
     {

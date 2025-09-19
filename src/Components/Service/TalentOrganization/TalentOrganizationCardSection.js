@@ -11,32 +11,32 @@ const cardData = [
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization4"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization2"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization3"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization3"
     }
 ];
 const TalentOrganizationCardSection = () => {

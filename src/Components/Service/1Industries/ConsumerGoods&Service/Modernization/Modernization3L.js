@@ -1,12 +1,12 @@
 import React from 'react'
 import './Modernization.css';
-import Navbar from '../../../Navbar/Navbar';
-import Metaverseimg from '../../../../assets/images/Metaverse.jpg';
+import Navbar from '../../../../Navbar/Navbar';
+import Metaverseimg from '../../../../../assets/images/Metaverse.jpg';
 import ModernizationSection from './ModernizationSection';
 import CapitalProjects from './CapitalProjects';
 import AccordionSection from './AccordionSection';
 import SixGridCards from './SixGridCards';
-import Footer from '../../../Footer/Footer';
+import Footer from '../../../../Footer/Footer';
 
 function Modernization3L() {
     return (

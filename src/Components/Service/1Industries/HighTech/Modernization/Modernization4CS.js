@@ -1,13 +1,12 @@
 import React from 'react'
 import './Modernization.css';
-import Navbar from '../../../Navbar/Navbar';
-import MEETimg from '../../../../assets/images/MEET.jpg';
+import Navbar from '../../../../Navbar/Navbar';
+import Metaverseimg from '../../../../../assets/images/Metaverse.jpg';
 import ModernizationSection from './ModernizationSection';
 import CapitalProjects from './CapitalProjects';
 import AccordionSection from './AccordionSection';
 import SixGridCards from './SixGridCards';
-import Footer from '../../../Footer/Footer';
-
+import Footer from '../../../../Footer/Footer';
 
 
 
@@ -17,7 +16,7 @@ function Modernization4() {
             <Navbar />
             <div className="cloud-section">
                 <div className="cloud-image">
-                    <img src={MEETimg} alt="Cloud illustration" />
+                    <img src={Metaverseimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
                     <h1>Cloud strategy and design</h1>

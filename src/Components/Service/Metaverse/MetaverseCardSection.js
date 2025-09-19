@@ -1,6 +1,6 @@
 import React from 'react';
 import './MetaverseCardSection.css';
-
+import Modernization from '../../../View/Modernization/Modernization';
 import ModernizationM from './Modernization/ModernizationM';
 import Modernization2M from './Modernization/Modernization2M';
 import Modernization3M from './Modernization/Modernization3M';
@@ -11,32 +11,32 @@ const cardData = [
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: " /ModernizationM"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization2M"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: ""
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: " /Modernization3M"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization4M"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/ Modernization"
     }
 ]
 

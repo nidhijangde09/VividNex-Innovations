@@ -4,40 +4,40 @@ import ModernizationSC from './Modernization/ModernizationSC';
 import Modernization2SC from './Modernization/Modernization2SC';
 import Modernization3SC from './Modernization/Modernization3SC';
 import Modernization4SC from './Modernization/Modernization4SC';
-
+import Modernization2 from '../../../View/Modernization/Modernization2'
 
 const cardData = [
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/ModernizationSC"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization2SC"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization3SC"
     },
    
    
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization4SC"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization5SC"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization2"
     }
 ];
 

@@ -11,33 +11,29 @@ const cardData = [
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization2"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "/Modernization3"
     },
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "#"
+        link: "/Modernization4"
     },
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: "#"
+        link: "Modernization4"
     },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    }
+   
 ];
 
 const SustainabilityConsultingCardSection = () => {

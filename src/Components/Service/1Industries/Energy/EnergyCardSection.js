@@ -3,11 +3,10 @@ import './AutomotiveCardSection.css';
 
 
 import { Link } from 'react-router-dom';
-import Modernization from '../../../../View/Modernization/Modernization';
-import Modernization2 from '../../../../View/Modernization/Modernization2';
-import Modernization3 from '../../../../View/Modernization/Modernization3';
-import Modernization4 from '../../../../View/Modernization/Modernization4';
-import Technology5 from '../../../../View/Modernization/Technology5';
+import Modernization from './Modernization/Modernization';
+import Modernization2 from './Modernization/Modernization2';
+import Modernization3 from './Modernization/Modernization3';
+import Modernization4 from './Modernization/Modernization4';
 
 
 const cardData = [
@@ -28,19 +27,19 @@ const cardData = [
     {
         category: "Future-Ready Cloud Strategy",
         title: "Strategic Cloud Planning & Design",
-        link: "/Technology5",
+        link: "/Modernization3",
         hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
     },
     {
         category: "Managed Cloud Infrastructure",
         title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization",
+        link: "/Modernization3",
         hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
     },
     {
         category: "Modern App Management at Scale",
         title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization",
+        link: "/Modernization4",
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
 
