@@ -2,23 +2,25 @@ import React from 'react';
 import './TechnologyTransformationStats.css';
 
 const stats = [
+  [
   {
     number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
+    text: 'of executives believe generative AI will fundamentally transform their industries and business operations.',
   },
   {
     number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
+    text: 'of organizations are ramping up technology investments, prioritizing AI and data-driven initiatives.',
   },
   {
     number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
+    text: 'of leaders highlight high-quality data as essential to realizing generative AI’s full potential.',
   },
   {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
-];
+    number: '10–15%',
+    text: 'additional revenue growth is observed in companies effectively leveraging data-driven strategies.',
+  }
+],
+]
 
 export default function TechnologyTransformationStats() {
   return (

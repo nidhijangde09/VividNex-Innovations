@@ -4,20 +4,20 @@ import './SustainabilityConsultingStats.css';
 const stats = [
   {
     number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
+    text: 'agree generative AI will be a disruptive force across industries..',
   },
   {
-    number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
-  },
-  {
-    number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
-  },
-  {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
+  number: '67%',
+  text: 'of organizations are increasing tech budgets with a strong focus on data and AI.',
+},
+{
+  number: '75%',
+  text: 'of business leaders identify high-quality data as critical to unlocking AI’s full potential.',
+},
+{
+  number: '10–15%',
+  text: 'typical revenue growth advantage for companies leveraging data-driven strategies.',
+},
 ];
 
 export default function SustainabilityConsultingStats() {

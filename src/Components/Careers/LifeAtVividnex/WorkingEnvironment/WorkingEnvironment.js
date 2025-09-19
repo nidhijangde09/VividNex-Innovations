@@ -20,8 +20,8 @@ function WorkingEnvironment() {
         <div className="service-text">
           <h1>Here, possibilities have no limits.</h1>
           <p>
-            Be part of the change. Drive impact, deliver value, and help build a
-            sustainable, connected future.
+           Join us in driving impact, delivering value, and
+            building a sustainable, connected future.
           </p>
         </div>
       </div>
@@ -30,25 +30,24 @@ function WorkingEnvironment() {
 
       <h1 className="Careerhead">Your mental well-being</h1>
       <p className="Careerheadcontent">
-        You don't leave any part of yourself behind when you login. 
-        We offer support for the whole of you.
+      When you log in, you don’t leave any part of yourself behind. 
+      We provide support for the whole you.
       </p>
       <WellBeingSection />
       <h1 className="Careerhead">Working with integrity</h1>
       <p className="Careerheadcontent">
-        We share a commitment to working with the highest ethical standards and making positive change
-        in all we do.   Here are three essential parts of our code.
+       We are committed to upholding the highest ethical standards and driving positive change in everything we do. Here are three core principles of our code
       </p>
       <ConductSection />
       <h1 className="Careerhead">Awards & recognition</h1>
       <DataAIGridHoverCard />
       <h1 className="Careerhead">Designed for belonging, built for innovation</h1>
       <p className="Careerheadcontent">
-        Our offices are more than just places to plug in—they're environments designed to support connection,
-         creativity and well-being. With a mix of private offices, open spaces, social areas,
-         and flexible meeting rooms, you can flex where you work.
-        Working with our suppliers, partners and our people, we strive to make each office more
-         accessible, inclusive and sustainable.
+       Our offices are more than just places to work—they’re designed to foster connection, 
+       creativity, and well-being. With a blend of private offices, open spaces, social hubs,
+        and flexible meeting rooms, you can choose how and where you work. Together with our
+         people, partners, and suppliers, we’re making every office more accessible,
+          inclusive, and sustainable.
       </p>
 
 <MentalWellBeing />

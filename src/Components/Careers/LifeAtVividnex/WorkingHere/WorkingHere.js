@@ -20,17 +20,17 @@ function WorkingHere() {
         <div className="service-text">
           <h1>Here, possibilities have no limits.</h1>
           <p>
-            Be part of the change. Drive impact, deliver value, and help build a sustainable, connected future.
+            Drive impact. Deliver value. Build a sustainable, connected future.
           </p>
         </div>
       </div>
       <h1 className='Careerhead'>Work with reach</h1>
-      <p className='Careerheadcontent'>From industries to individuals, across continents, you’ll apply ingenuity and <br></br>innovation to make lasting impact.</p>
+      <p className='Careerheadcontent'>Across continents and industries, your ingenuity and innovation drive meaningful, lasting change</p>
       <Slider />
-      <h1 className='Careerhead'>From our I&D actions to our ethical approach to business,Accenture is recognized around the world.</h1>
+      <h1 className='Careerhead'>Vividnex is celebrated globally for its commitment to inclusion, diversity, and ethical business practices.</h1>
       <DataAIGridHoverCard />
       <h1 className='Careerhead'>Work with purpose</h1>
-      <p className='Careerheadcontent'>Be part of creating positive change and making the world better for our people, our clients, and the communities where we live and work.</p>
+      <p className='Careerheadcontent'>Drive change. Improve lives—for our people, clients, and communities worldwide.</p>
       <a href="/Value" className="read-more">
         &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  View all commitments ➔
       </a>
@@ -38,7 +38,7 @@ function WorkingHere() {
 
       <ValuesSection />
       <h1 className='Careerhead'>Become your next best self</h1>
-      <p className='Careerheadcontent'>We value continuous learning and curiosity because there’s always more to know, from new technologies to skills that you’ll need as your career advances.</p>
+      <p className='Careerheadcontent'>We value continuous learning and curiosity—there’s always more to explore, from emerging technologies to the skills you’ll need to advance your career..</p>
       <GrowthSection />
       <h1 className='Careerhead'>Stay connected</h1>
       <ConnectSection />

@@ -6,20 +6,19 @@ const slides = [
     id: 1,
     image: "https://media.istockphoto.com/id/858430316/photo/board-room-meeting.jpg?s=612x612&w=0&k=20&c=BdvLkSq7Ytpy69-qv9fqaB9pWMEIlJPDpjsmlzjsU2A=", // replace with your illustration
     title: "Sam heads out",
-    description:
-      "Sam has a big day ahead and gets in their car to run some errands. They drive a Land Rover Sport – and we supported the launch."
+    description: "Sam starts the day by getting into their Land Rover Sport to run errands—one of many launches we’ve proudly supported."
   },
   {
     id: 2,
     image: "https://media.istockphoto.com/id/2214127693/photo/thoughtful-manager-talking-smartphone-working-on-laptop-at-home-office-closeup.jpg?s=612x612&w=0&k=20&c=u1AYR3A4909NByctyfp6hINrZgYhj0GUcm0s4gpy1lA=",
-    title: "Morning routine",
-    description: "Sam starts the day with coffee and checks their phone for updates."
+   title: "Morning routine",
+   description: "Sam begins the day with a cup of coffee while catching up on the latest updates on their phone."
   },
   {
     id: 3,
     image: "https://via.placeholder.com/600x300",
     title: "Work begins",
-    description: "Sam heads into the office, collaborating with their team to solve problems."
+    description: "Sam arrives at the office and collaborates with their team, tackling challenges and finding solutions together."
   }
 ];
 

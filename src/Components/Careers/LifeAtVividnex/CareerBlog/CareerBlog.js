@@ -22,10 +22,10 @@ function CareerBlog() {
           <img src={CareerBlogimg} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>Here, possibilities have no limits.</h1>
+          <h1>With Vividnex, your possibilities are limitless.</h1>
           <p>
-            Be part of the change. Drive impact, deliver value, and help build a
-            sustainable, connected future.
+            Join Vividnex to drive impact, create value, and shape a 
+            sustainable, connected tomorrow
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ function CareerBlog() {
         <img src={customer3} alt="Logo" className='head-2-img' />
         <h1>Cloud careers</h1>
         <p>
-    Join our cloud team to help clients across industries build smarter, future-ready solutions.
+    Join the Vividnex Cloud Team to help clients across industries build smarter, future-ready solutions..
         </p>
        <Link to="/" className="learn-more-btn">Learn More</Link>
       </div>

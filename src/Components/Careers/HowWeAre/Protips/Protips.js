@@ -19,15 +19,14 @@ function Protips() {
                     <img src={Protipsimg} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>Here, possibilities have no limits.</h1>
+                    <h1>With Vividnex, your possibilities are limitless.</h1>
                     <p>
-                        Be part of the change. Drive impact, deliver value, and help build a
-                        sustainable, connected future.
+                        Join Vividnex to drive impact, deliver lasting value, and build a sustainable, connected tomorrow.
                     </p>
                 </div>
             </div>
             
-<h1 className="Careerhead">Find your role and get noticed</h1>
+<h1 className="Careerhead">Explore opportunities at Vividnex and let your talent shine.</h1>
             <CardGrid />
             <h1 className="Careerhead">Get advice for interviews</h1>
             <Insights />

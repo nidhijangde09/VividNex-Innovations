@@ -17,15 +17,16 @@ function Modernization4() {
                     <img src={Metaverseimg} alt="Cloud illustration" />
                 </div>
                 <div className="cloud-text">
-                    <h1>Cloud strategy and design</h1>
+                    <h1>Cloud Transformation Planning</h1>
                     <p>
-                        Cloud computing fuels business innovation and adaptability. Empower your enterprise to continuously evolve and thrive in a fast-paced digital world.
+                    Harness cloud technology to innovate, adapt, and grow. With Vividnex, your enterprise can evolve seamlessly and succeed in a fast-paced digital era.
                     </p>
                 </div>
             </div>
             <h1 className='headings-1'>Why reinvent capital projects?</h1>
             <CapitalProjects />
-            <h1 className='headings-1'>How AI is changing infrastructure <br></br> and capital projects</h1>
+            <h1 className='headings-1'><p>The impact of AI on infrastructure <br></br> and capital project delivery</p>
+</h1>
             <ModernizationSection />
             <h1 className='headings-1'>What you can do</h1>
             <AccordionSection />

@@ -14,8 +14,8 @@ const ModernizationSection = () => {
 
       {/* Right: Text */}
       <div className="modernization-text">
-        <h1>Modernization services</h1>
-        <p>Drive value with modernized cloud</p>
+        <h1>Modernization for the Future-Ready Enterprise</h1>
+        <p>Modern cloud, smarter business: Drive innovation and value.</p>
       </div>
     </div>
   );

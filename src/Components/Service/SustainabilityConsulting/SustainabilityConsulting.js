@@ -25,11 +25,10 @@ function SustainabilityConsulting() {
         <div className="service-text">
           <h1>Sustainability Consulting</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
-          </p>
+           As the boundary between physical and digital blurs, the metaverse enables organizations to design innovative, engaging, and inclusive experiences.        </p>
         </div>
       </div>
-      <h1 className='headings'>Sustainability now</h1>
+      <h1 className='headings'>Content for a webpage or section</h1>
       <SustainabilityConsultingStats />
        <h1 className='headings'>Reinvent with sustainability</h1>
        <SustainabilityConsultingCardSection />

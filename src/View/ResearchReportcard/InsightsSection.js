@@ -2,21 +2,24 @@ import React from "react";
 import "./InsightsSection.css";
 
 const insights = [
+  [
   {
-    title: "One-off pilots won’t decarbonize industry fast enough",
+    title: "Standardization reduces complexity and cost",
     description:
-      "With heavy industry lagging on 2050 climate goals, companies must shift from isolated projects to a multigenerational, portfolio-driven approach that compounds learnings, standardizes and modularizes components and encourages innovation.",
+      "Developing modular, repeatable components across projects simplifies adoption, lowers costs, and ensures consistent performance across the industrial landscape."
   },
   {
-    title: "Scaling up unlocks cost efficiencies",
+    title: "Data-driven insights enable smarter decisions",
     description:
-      "Our research confirms that early low-carbon investments, though expensive, become cost-competitive as continuous learning and efficiencies take hold.",
+      "Continuous collection and analysis of operational data helps organizations identify inefficiencies, optimize energy use, and prioritize high-impact decarbonization initiatives."
   },
   {
-    title: "AI drives compounding efficiencies",
+    title: "Workforce innovation powers sustainable growth",
     description:
-      "Beyond accelerating projects, AI preserves institutional knowledge and ensures every initiative builds on past insights to drive sustained cost reductions.",
-  },
+      "Equipping teams with AI tools, advanced analytics, and cross-functional skills ensures they can execute low-carbon projects effectively and sustainably."
+  }
+]
+
 ];
 
 const InsightsSection = () => {

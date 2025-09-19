@@ -17,7 +17,7 @@ const ConnectSection = () => {
           />
         </div>
         <h3>Join us</h3>
-        <p>Explore open roles that match your interests and skills.</p>
+        <p>Join us in driving impact, delivering value, and building a sustainable, connected future.</p>
         <a href="#" className="connect-link">
           Search jobs →
         </a>
@@ -33,7 +33,7 @@ const ConnectSection = () => {
           />
         </div>
         <h3>Stay in touch</h3>
-        <p>Get career tips and industry-leading insights.</p>
+        <p>Discover career tips and insights to help you lead in your field.</p>
         <a href="/CareerBlog" className="connect-link">
           Learn more →
         </a>

@@ -2,36 +2,36 @@ import React from 'react';
 import './TalentOrganizationCardSection.css';
 
 const cardData = [
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    }
+     {
+    category: "AI & Data",
+    title: "Unlock the full potential of generative AI with trusted data",
+    link: "#"
+  },
+  {
+    category: "Digital Engineering",
+    title: "Build next-generation software products with speed and scale",
+    link: "#"
+  },
+  {
+    category: "Cloud Innovation",
+    title: "Modernize your business with agile, secure cloud platforms",
+    link: "#"
+  },
+  {
+    category: "Cybersecurity",
+    title: "Protect your enterprise with end-to-end digital resilience",
+    link: "#"
+  },
+  {
+    category: "Customer Experience",
+    title: "Design personalized, human-centered experiences that inspire loyalty",
+    link: "#"
+  },
+  {
+    category: "Sustainability",
+    title: "Harness technology to accelerate sustainable growth and impact",
+    link: "#"
+  }
 ];
 
 const TalentOrganizationCardSection = () => {

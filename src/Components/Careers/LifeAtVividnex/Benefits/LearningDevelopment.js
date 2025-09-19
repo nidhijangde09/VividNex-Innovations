@@ -16,10 +16,9 @@ function LearningDevelopment() {
       <div className="learning-text">
         <h2>Learning and development</h2>
         <p>
-          We invest each year in continuous learning and professional development
-          programs. Depending on your roles and goals, you’ll get access to
-          specialized certifications, deep-tech training, workshops, online
-          games, hackathons, virtual reality experiences and more.
+          From certifications to immersive VR experiences, Vividnex
+           provides the tools and programs you need to
+            learn, grow, and excel in your career every year.
         </p>
         <a href="/Learning" className="read-more">
           Read more <span>➜</span>
