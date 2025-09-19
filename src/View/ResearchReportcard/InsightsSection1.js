@@ -5,18 +5,18 @@ const insights = [
   {
     title: "One-off pilots won’t decarbonize industry fast enough",
     description:
-      "With heavy industry lagging on 2050 climate goals, companies must shift from isolated projects to a multigenerational, portfolio-driven approach that compounds learnings, standardizes and modularizes components and encourages innovation.",
+      "Heavy industry is falling behind on 2050 climate goals. Companies must shift from isolated projects to a multigenerational, portfolio-driven approach that standardizes components, compounds learnings, and fosters continuous innovation."
   },
   {
     title: "Scaling up unlocks cost efficiencies",
     description:
-      "Our research confirms that early low-carbon investments, though expensive, become cost-competitive as continuous learning and efficiencies take hold.",
+      "Early low-carbon investments may seem costly, but our research shows they become cost-competitive as organizations embrace continuous learning and operational efficiencies."
   },
   {
     title: "AI drives compounding efficiencies",
     description:
-      "Beyond accelerating projects, AI preserves institutional knowledge and ensures every initiative builds on past insights to drive sustained cost reductions.",
-  },
+      "AI accelerates projects while preserving institutional knowledge, ensuring every initiative builds on prior insights to deliver sustained cost reductions and smarter outcomes."
+  }
 ];
 
 

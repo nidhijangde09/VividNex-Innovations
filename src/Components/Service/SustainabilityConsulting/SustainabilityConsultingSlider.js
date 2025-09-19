@@ -4,16 +4,16 @@ import "./SustainabilityConsultingSlider.css";
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
+    Subtitle: "To shape tomorrow, you need to outthink the competition and outbuild the status quo.",
+    Title: "The Future of Innovation",
+    Description: "Generative AI is reshaping industries at lightning speed. Visionary leaders are already seizing the moment. Will you rise to the challenge?",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
+    Subtitle: "Supply chains are evolving faster than ever. Are you ready to stay ahead?",
+    Title: "The Future of Supply Chain Intelligence",
+    Description: "Old models of efficiency can't keep up. To lead, your supply chains must be agile, adaptive, and future-ready.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
@@ -25,36 +25,36 @@ const cardData = [
     link: "/france"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
+    Subtitle: "Me, My Brand, and AI: Pioneering the Next Era of Consumer Connection",
+    Title: "The Future of Brand-Consumer Relationships",
+    Description: "AI is evolving from a tool to a trusted partner. Building genuine, adaptive connections between brands, consumers, and AI will set the leaders apart in tomorrow's market.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
   {
-    subtitle: "Cyber defense strategies for 2025 and beyond.",
-    title: "Research Report",
-    description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
+    Subtitle: "Cybersecurity for the Future: Preparing for 2025 and Beyond",
+    Title: "The Evolving Cyber Defense Landscape",
+    Description: "Stay ahead of emerging threats with cutting-edge defense strategies that will safeguard your organization well into the future.",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/usa"
   },
   {
-    subtitle: "The next era of AI in healthcare innovation.",
-    title: "Research Report",
-    description: "How AI will transform diagnostics, treatment, and patient care experiences.",
+    subtitle: "Shaping the future of sustainable energy.",
+    title: "Industry Report",
+    description: "Exploring innovations driving cleaner power, efficiency, and global impact.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/uk"
   },
   {
-    subtitle: "Empowering industries through sustainable AI solutions.",
+    subtitle: "Driving progress with responsible AI innovation.",
     title: "Research Report",
-    description: "Building AI solutions that accelerate sustainability goals across sectors.",
+    description: "How AI can help organizations achieve sustainability while creating long-term value.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/germany"
   },
   {
     subtitle: "Data-driven growth strategies for modern enterprises.",
-    title: "Research Report",
+    title: "Data Advantage Report",
     description: "Leading companies use data to drive decisions, growth, and market leadership.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"

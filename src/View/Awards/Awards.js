@@ -10,14 +10,15 @@ function Awards() {
         <div>
             <Navbar />
             <h1 className='headings'> Areas we support</h1>
-            <p className='Careerheadcontent'>We are honored to be recognized for our accomplishments as a global leader,  a great employer and a responsible company.</p>
+            <p className='Careerheadcontent'>Vividnex is honored to be acknowledged as a global leader, a top employer, and a company committed to responsibility and impact.</p>
 
 
-            <h1 className='headings'>Fostering a culture of belonging for <br></br> all our people to thrive</h1>
+
+            <h1 className='headings'>Building a culture of belonging to help <br></br> every team member thrive and succeed.</h1>
 
             <SixGridCards />
 
-            <h1 className='headings'>Our brand strength continues <br></br> to drive value and success</h1>
+            <h1 className='headings'>Leveraging our brand strength <br></br> to deliver impact and drive growth.</h1>
 
             <CloudCardSection />
 <Footer />

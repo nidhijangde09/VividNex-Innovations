@@ -16,7 +16,7 @@ const CapitalProjects = () => {
       <div className="capital-text">
        
         <p>
-        Shifting regulations, advances in manufacturing, the global energy transition, and aging infrastructure are driving a surge in project demand. However, fragmented systems, labor shortages, and disconnected workflows are making it increasingly difficult for organizations to meet their project goals. By aligning strategy with real-time data and providing hands-on support in the field, companies can overcome these challenges and lay the foundation for a more resilient and sustainable future.
+        The convergence of regulatory shifts, manufacturing innovation, the energy transition, and aging infrastructure is driving project growth—but fragmented systems and labor shortages pose major challenges. Vividnex aligns strategy with real-time insights and provides hands-on support to help companies achieve resilient, sustainable outcomes.
         </p>
       </div>
 
@@ -27,22 +27,24 @@ const CapitalProjects = () => {
             {isExpanded ? <FaMinus /> : <FaPlus />}
           </button>
         </div>
-        <h2>9 of 10</h2>
+        <h2>8 of 10</h2>
         <p>construction projects have cost overruns — regularly up to 50%</p>
 
         {isExpanded && (
           <div className="expanded-data">
             <div className="data-item">
-              <h3>11%</h3>
+              <h3>13%</h3>
               <p>
-           A portion of every dollar is lost to poor project performance.
+           Inefficiencies and mismanagement result in a chunk of every project dollar being wasted.
+
               </p>
             </div>
             <div className="data-item">
               <h3>47%</h3>
-              <p>
-                Many organizations still record infrastructure/capex performance data manually in spreadsheets.
-              </p>
+           <p>
+            Despite modern tools, much of infrastructure and CAPEX data is still captured manually in spreadsheets, slowing decision-making.
+            </p>
+
             </div>
           </div>
         )}

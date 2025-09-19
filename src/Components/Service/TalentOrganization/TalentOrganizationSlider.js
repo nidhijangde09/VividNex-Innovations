@@ -4,16 +4,18 @@ import "./TalentOrganizationSlider.css";
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
+    subtitle: "Think smarter. Act faster. Lead the change.",
+title: "Generative AI Insights",
+description: "Generative AI is rewriting business rules. The advantage goes to those who move first.",
+
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
+    subtitle: "The future of supply chains is intelligent. Are you prepared?",
+title: "Supply Chain Innovation Insights",
+description: "To thrive in today’s market, supply chains must move beyond traditional models and become responsive, predictive, and resilient.",
+
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
@@ -25,37 +27,42 @@ const cardData = [
     link: "/france"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
+    subtitle: "AI, Identity, and Engagement: Shaping Tomorrow’s Consumer Experience",
+title: "AI & Consumer Insights",
+description: "AI is evolving from a tool to a trusted advisor. Strong, human-centered connections between people, brands, and AI will drive market leadership.",
+
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
   {
-    subtitle: "Cyber defense strategies for 2025 and beyond.",
-    title: "Research Report",
-    description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
+    subtitle: "Next-generation cyber defense for the years ahead",
+title: "Cybersecurity Research Report",
+description: "Protect your organization with forward-looking strategies and advanced defense techniques to stay resilient against emerging threats.",
+
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/usa"
   },
   {
-    subtitle: "The next era of AI in healthcare innovation.",
-    title: "Research Report",
-    description: "How AI will transform diagnostics, treatment, and patient care experiences.",
+    subtitle: "Transforming care through intelligent innovation.",
+title: "Next-Gen Healthcare AI Report",
+description: "AI is reshaping how healthcare is delivered—from diagnosis to treatment—enabling better outcomes and personalized care.",
+
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/uk"
   },
   {
-    subtitle: "Empowering industries through sustainable AI solutions.",
-    title: "Research Report",
-    description: "Building AI solutions that accelerate sustainability goals across sectors.",
+    subtitle: "Driving sustainable growth with AI innovation.",
+title: "Sustainable AI Research Report",
+description: "Harness AI solutions to accelerate environmental, social, and governance goals across industries.",
+
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/germany"
   },
   {
-    subtitle: "Data-driven growth strategies for modern enterprises.",
-    title: "Research Report",
-    description: "Leading companies use data to drive decisions, growth, and market leadership.",
+    subtitle: "Unlock the power of data to lead.",
+title: "Enterprise Data Strategies Report",
+description: "Leading organizations use data to drive smarter decisions, scalable growth, and competitive advantage.",
+
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"
   },

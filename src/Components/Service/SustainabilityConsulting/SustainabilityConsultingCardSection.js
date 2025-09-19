@@ -2,36 +2,38 @@ import React from 'react';
 import './SustainabilityConsultingCardSection.css';
 
 const cardData = [
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    },
-    {
-        category: "Data Services",
-        title: "Ready your data for the new demands generative AI",
-        link: "#"
-    },
-    {
-        category: "Application Transformation",
-        title: "Become a world-class software organization",
-        link: "#"
-    }
+   [
+  {
+    category: "Data & AI",
+    title: "Prepare Your Data for Generative AI Demands",
+    link: "#"
+  },
+  {
+    category: "Application Transformation",
+    title: "Become a World-Class Software Organization",
+    link: "#"
+  },
+  {
+    category: "Cloud & Infrastructure",
+    title: "Modernize Cloud for Scalable Business Impact",
+    link: "#"
+  },
+  {
+    category: "Edge & IoT",
+    title: "Leverage Edge Computing for Real-Time Insights",
+    link: "#"
+  },
+  {
+    category: "Cybersecurity",
+    title: "Secure Your Digital Ecosystem End-to-End",
+    link: "#"
+  },
+  {
+    category: "Intelligent Platforms",
+    title: "Build Scalable, AI-Powered Solutions",
+    link: "#"
+  }
+]
 ];
 
 const SustainabilityConsultingCardSection = () => {

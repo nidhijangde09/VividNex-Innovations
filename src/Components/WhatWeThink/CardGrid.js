@@ -4,16 +4,16 @@ import "./CardGrid.css";
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.", // 🔹 New subtitle
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them? Step into the future with proven insights.",
+    subtitle: "Want to lead the future? Think smarter. Build bolder. Act now.",
+    title: "Generative AI Leadership Report",
+    description: "Generative AI is rewriting the rules of competition. Forward-thinking companies are taking decisive action today. Are you ready to join them? Step into the future with proven insights and strategies.",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient. Is AI-driven autonomy the next frontier?",
+    subtitle: "Supply chains are getting smarter. Are you ready to lead?",
+    title: "Intelligent Supply Chain Research Report",
+    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient. AI-driven autonomy is shaping the next frontier—are you prepared to embrace it?",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
@@ -25,9 +25,9 @@ const cardData = [
     link: "/france"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. As change accelerates, resilient connections between people, brands, and AI will define who stands out—and who fades away.",
+    subtitle: "Redefining Engagement in the Age of AI",
+    title: "Generative AI & Brand Strategy Report",
+    description: "As AI evolves, human-centered, AI-enabled engagement becomes critical. The strongest brands will be those that adapt, personalize, and connect at every customer touchpoint.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
@@ -40,50 +40,50 @@ const cardData = [
   },
   {
     subtitle: "Mastering the Art of Dealmaking in the Age of AI",
-    title: "Research Report",
-    description: "Technology can reshape the M&A landscape—but only for firms that move past experimentation and apply it with discipline. Three traits set leading acquirers apart—and drive outsized returns.",
+    title: "AI-Driven M&A Research Report",
+    description: "Technology is transforming the M&A landscape—but only firms that move beyond experimentation and apply AI with discipline capture its full potential. Three defining traits set leading acquirers apart and drive outsized returns.",
     image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/italy"
   },
   {
     subtitle: "Transforming the Future of Payments in the UAE",
-    title: " Case Study",
-    description: "With a vision for digital innovation, the UAE is reshaping its financial services sector and rising as a prominent FinTech hub on the global stage.",
+    title: "FinTech Case Study",
+    description: "Driven by a bold vision for digital innovation, the UAE is revolutionizing its financial services sector and emerging as a leading global FinTech hub.",
     image: "https://images.stockcake.com/public/b/5/e/b5e8b748-c1db-416f-af57-d3d05a918c47_medium/neon-tech-nexus-stockcake.jpg",
     link: "/canada"
   },
   {
-    subtitle: "Mastering the Art of Dealmaking in the Age of AI",
-    title: "Research Report",
-    description: "Technology can reshape the M&A landscape—but only for firms that move past experimentation and apply it with discipline. Three traits set leading acquirers apart—and drive outsized returns.",
+    subtitle: "AI and the Future of Strategic Acquisitions",
+    title: "Generative AI M&A Insights",
+    description: "Firms that leverage AI strategically in M&A unlock greater value. Leading acquirers combine discipline, foresight, and agility to achieve exceptional returns.",
     image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/italy"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. As change accelerates, resilient connections between people, brands, and AI will define who stands out—and who fades away.",
+    subtitle: "AI, Identity, and Engagement: Shaping Tomorrow’s Consumer Experience",
+    title: "AI-Powered Consumer Insights",
+    description: "As AI shifts from tool to trusted partner, brands that foster meaningful, human-centered interactions will define the market leaders of tomorrow.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
   {
-    subtitle: "Safeguarding the Digital Frontier: Inside the Work of the UK’s National Cyber Security Centre",
-    title: "   Case Study",
-    description: "The latest phase of its Protective DNS blocks more than 350 million threats each month—strengthening the digital resilience of UK citizens, services, and organizations.",
+    subtitle: "Protecting the UK’s Digital Landscape",
+    title: "National Cyber Security Centre Case Study",
+    description: "With Protective DNS, the UK blocks hundreds of millions of threats each month, fortifying the digital safety of citizens, organizations, and critical services.",
     image: "https://t3.ftcdn.net/jpg/12/53/26/80/360_F_1253268001_JcEeDW4SB2iLba0o6mCQZAeDjJBwX3SB.jpg",
     link: "/australia"
   },
   {
-    subtitle: "Mastering the Art of Dealmaking in the Age of AI",
-    title: "Research Report",
-    description: "Technology can reshape the M&A landscape—but only for firms that move past experimentation and apply it with discipline. Three traits set leading acquirers apart—and drive outsized returns.",
+   subtitle: "Driving M&A Excellence in the Age of AI",
+   title: "AI-Powered M&A Research",
+    description: "The future of dealmaking favors firms that move beyond experimentation. Discipline, insight, and AI-driven strategies define the acquirers who outperform the market.",
     image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/italy"
   },
   {
-    subtitle: "Redefining Resilience: Shifting from Preparedness to Transformation",
-    title: "Research Report",
-    description: "While resilience is rebounding to pre-pandemic levels, the stability may be misleading. Heightened volatility demands a shift toward adaptive resilience to sustain growth and competitive edge.",
+    subtitle: "Building True Resilience in an Unpredictable World",
+    title: "Resilience & Transformation Report",
+    description: "Surface-level stability is not enough. Organizations must shift toward adaptive resilience to navigate volatility and secure long-term growth.",
     image: "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
     link: "/egypt"
   }
