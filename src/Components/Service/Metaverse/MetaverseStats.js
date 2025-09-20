@@ -25,7 +25,7 @@ const stats = [
 
 export default function MetaverseStats() {
   return (
-    <div className="dataaiStatsSection">
+       <div className="dataaiStatsSection">
     
       <div className="dataaiStatsGrid">
         {stats.map((item, index) => (

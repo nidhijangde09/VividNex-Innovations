@@ -1,7 +1,7 @@
 import React from 'react';
 import './HoverCards.css';
 import { Link } from "react-router-dom"; // ✅ Import Link
-
+import AwardsRecognition from '../Abouts/AwardsRecognition/AwardsRecognition';
 const cardData = [
   {
     title: "A Great Place To Work",
@@ -10,7 +10,7 @@ const cardData = [
     image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
     direction: "left",
     alignment: "flex-start",
-    link: "/Awards", // ✅ link
+    link: "/AwardsRecognition", // ✅ link
   },
   {
     title: "The Top Consulting Frim",
@@ -19,7 +19,7 @@ const cardData = [
     image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
     direction: "right",
     alignment: "flex-end",
-    link: "/Awards", // ✅ added link
+    link: "/AwardsRecognition", // ✅ added link
   },
   {
     title: "An Influential Innovator",
@@ -28,7 +28,7 @@ const cardData = [
     image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
     direction: "left",
     alignment: "flex-start",
-    link: "/Awards", // ✅ added link
+    link: "/AwardsRecognition", // ✅ added link
   },
 ];
 

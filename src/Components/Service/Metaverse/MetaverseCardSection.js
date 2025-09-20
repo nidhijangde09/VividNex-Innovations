@@ -5,13 +5,12 @@ import ModernizationM from './Modernization/ModernizationM';
 import Modernization2M from './Modernization/Modernization2M';
 import Modernization3M from './Modernization/Modernization3M';
 import Modernization4M from './Modernization/Modernization4M';
-
+import { Link } from 'react-router-dom';
 const cardData = [
-    [
     {
         category: "Data Services",
         title: "Ready your data for the new demands generative AI",
-        link: " /ModernizationM"
+        link: "/ModernizationM"
     },
     {
         category: "Application Transformation",
@@ -26,7 +25,7 @@ const cardData = [
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: " /Modernization3M"
+        link: "/Modernization3M"
     },
     {
         category: "Data Services",
@@ -36,29 +35,26 @@ const cardData = [
     {
         category: "Application Transformation",
         title: "Become a world-class software organization",
-        link: "/ Modernization"
+        link: "/Modernization"
     }
-]
-
 ];
-
 
 const MetaverseCardSection = () => {
     return (
-        <div className="dataai-card-section">
-
-            <div className="dataai-card-grid">
+        <div className="cloud-card-section">
+            <h2 className="cloud-card-heading">Reinvent with cloud</h2>
+            <div className="cloud-card-grid">
                 {cardData.map((card, index) => (
-                    <div className="dataai-card" key={index}>
-                        <div className="dataai-card-content">
-                            <div className="dataai-card-underline"></div>
-                            <p className="dataai-card-category">{card.category.toUpperCase()}</p>
-                            <h3 className="dataai-card-title">{card.title}</h3>
-                            <a href={card.link} className="dataai-card-link">
+                    <div className="cloud-card" key={index}>
+                        <div className="cloud-card-content">
+                            <div className="cloud-card-underline"></div>
+                            <p className="cloud-card-category">{card.category.toUpperCase()}</p>
+                            <h3 className="cloud-card-title">{card.title}</h3>
+                            <a href={card.link} className="cloud-card-link">
                                 Learn more <span className="arrow">➤</span>
                             </a>
-                            <div className="dataai-card-hover-text">
-                                <p>Explore how we help clients transform with innovation and cloud technology.</p>
+                            <div className="cloud-card-hover-text">
+                                <p>{card.hoverText}</p>
                             </div>
                         </div>
                     </div>

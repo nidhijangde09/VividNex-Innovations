@@ -9,7 +9,7 @@ function WellBeingSection() {
       {/* Row 1 */}
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Professional-guidance-challenges%3Arad-2x3?ts=1720594207413&dpr=off"
+          src="https://images.pexels.com/photos/3951672/pexels-photo-3951672.jpeg"
           alt="Employee Assistance"
         />
         <div className="wellbeing-text">
@@ -27,7 +27,7 @@ function WellBeingSection() {
 
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/The-Calm-app-help-reduce-stress%3Arad-3x2?ts=1720594206322&dpr=off"
+          src="https://images.pexels.com/photos/6953835/pexels-photo-6953835.jpeg"
           alt="Apps and tools"
         />
         <div className="wellbeing-text">

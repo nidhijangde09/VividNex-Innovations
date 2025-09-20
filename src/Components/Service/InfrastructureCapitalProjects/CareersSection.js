@@ -5,11 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 const CareersSection = () => {
   return (
     <div className="careers-container">
-      <div className="careers-header">
-        <h1>Careers</h1>
-        <p>Build your career where innovation meets opportunity</p>
-        <button className="join-btn">Join us</button>
-      </div>
+      
 
       <div className="related-capabilities">
         <h2>Discover Related Solutions</h2>
