@@ -3,7 +3,8 @@ import './HiringJourney.css';
 import Navbar from '../../../Navbar/Navbar';
 import aboutimg from '../../../../assets/images/aboutimg.jpg';
 import BankingHoverPanel from './BankingHoverPanel';
-
+import ConnectSection from './ConnectSection';
+import Footer from '../../../Footer/Footer';
 function HiringJourney() {
     return (
         <div>
@@ -21,6 +22,10 @@ function HiringJourney() {
                 </div>
             </div>
         <BankingHoverPanel />
+
+        <ConnectSection />
+
+        <Footer />
         </div>
     )
 }

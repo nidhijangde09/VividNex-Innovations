@@ -14,7 +14,7 @@ import Footer from '../../../Footer/Footer';
 function CareerBlog() {
   return (
     <div>
-       <Navbar />
+      <Navbar />
 
       {/* Service section */}
       <div className="service-container">
@@ -24,28 +24,22 @@ function CareerBlog() {
         <div className="service-text">
           <h1>With Vividnex, your possibilities are limitless.</h1>
           <p>
-            Join Vividnex to drive impact, create value, and shape a 
+            Join Vividnex to drive impact, create value, and shape a
             sustainable, connected tomorrow
           </p>
         </div>
       </div>
 
 
-<h1 className="Careerhead">Career advice</h1>
-<CardGrid />
-<h1 className="Careerhead">Insider views</h1>
-<CaseStudies />
-<h1 className="Careerhead">Students & interns</h1>
-<Insights />
-  <div className='head-container-6'>
-        <img src={customer3} alt="Logo" className='head-2-img' />
-        <h1>Cloud careers</h1>
-        <p>
-    Join the Vividnex Cloud Team to help clients across industries build smarter, future-ready solutions..
-        </p>
-       <Link to="/" className="learn-more-btn">Learn More</Link>
-      </div>
-    <h1 className='Careerhead'>Stay connected</h1>
+      <h1 className="Careerhead">Career advice</h1>
+      <CardGrid />
+      <h1 className="Careerhead">Insider views</h1>
+      <CaseStudies />
+      <h1 className="Careerhead">Students & interns</h1>
+      <Insights />
+
+
+      <h1 className='Careerhead'>Stay connected</h1>
       <ConnectSection />
       <Footer />
     </div>
@@ -53,4 +47,4 @@ function CareerBlog() {
   )
 }
 
-export default CareerBlog ;
+export default CareerBlog;

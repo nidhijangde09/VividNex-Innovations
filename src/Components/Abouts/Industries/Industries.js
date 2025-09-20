@@ -24,7 +24,7 @@ function Industries() {
 
       <h1 className='Careerhead'>Featured recognition</h1>
       <DataAIGridHoverCard />
- <p className='Careerheadcontent'>AWARDS BY ORGANIZATION</p>
+ 
       <h1 className='Careerhead'>Leading industry-wide reinvention</h1>
 <BankingHoverPanel />
 <Footer />
