@@ -4,7 +4,7 @@ import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
 import supplyChainImg from '../../../assets/images/supplyChainImg.jpg';
 import Navbar from '../../Navbar/Navbar';
-import SupplyChainStats from './SupplyChainStats';
+import CloudStats  from './CloudStats';
 import SupplyChainCardSection from './SupplyChainCardSection';
 import SupplyChainSlider from './SupplyChainSlider';
 import SupplyChainPartnersSection from './SupplyChainPartnersSection';
@@ -30,7 +30,7 @@ function SupplyChain() {
         </div>
       </div>
       <h1 className='headings'> Supply Chain now</h1>
-      < SupplyChainStats />
+      <CloudStats/>
       <h1 className='headings'> How to reinvent</h1>
       <SupplyChainCardSection />
         <h1 className='headings'> Areas we support</h1>
