@@ -18,7 +18,10 @@ const cardData = [
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
+<<<<<<< HEAD
+=======
   
+>>>>>>> 6c0a72721a2bd634aeb87ba75768c601395a383b
     {
   subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
   title: "The Future of Work: Human-AI-Robotics Collaboration",
