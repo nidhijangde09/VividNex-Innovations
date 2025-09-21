@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding: 0;
@@ -37,7 +35,7 @@ body {
 }
 
 .loading-text {
-  font-size: 70px;
+  font-size: 75px;
   font-family: sans-serif;
   color: transparent;
   background: linear-gradient(90deg, #00f, #0ff, #00f) -100% / 200%;
@@ -45,10 +43,10 @@ body {
   -webkit-background-clip: text;
   animation: shimmer 2s linear infinite;
   float: left;
-  margin-top: -490px;
-  margin-left: 10%;
+  margin-top: -450px;
+  margin-left: 7%;
   position: relative;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -56,19 +54,20 @@ font-family: 'Poppins', sans-serif;
     font-size: 32px;
     text-align: center;
     padding-top: 25%;
+    margin-left: 18%;
   }
 }
 
 .head1-content {
-  font-size: 20px;
+  font-size: 22px;
   text-align: justify;
   color: white;
   max-width: 500px;
   float: right;
   margin-right: 10%;
-  margin-top: -21%;
+  margin-top: -32%;
   position: relative;
-  font-family:  'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -76,7 +75,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 15px;
     text-align: center;
     margin-top: -50%;
- 
+
   }
 }
 
@@ -103,22 +102,26 @@ font-family: 'Poppins', sans-serif;
 /* ✅ Responsive adjustments */
 @media (max-width: 768px) {
   .value {
-    font-size: 40px;   /* smaller heading */
+    font-size: 40px;
+    /* smaller heading */
     margin-top: 2rem;
     padding: 10px;
     margin-bottom: -10px;
   }
 
   .value-content {
-    font-size: 18px;   /* smaller text */
-    margin-top: 1rem; 
-    padding: 0 5%;     /* less side padding */
+    font-size: 18px;
+    /* smaller text */
+    margin-top: 1rem;
+    padding: 0 5%;
+    /* less side padding */
   }
 }
 
 @media (max-width: 480px) {
   .value {
-    font-size: 32px;   /* even smaller on small mobiles */
+    font-size: 32px;
+    /* even smaller on small mobiles */
   }
 
   .value-content {
@@ -151,5 +154,142 @@ font-family: 'Poppins', sans-serif;
 @keyframes shimmer {
   to {
     background-position: 200% center;
+  }
+}
+
+
+/* Section Container */
+.cloud-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 5%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  margin-top: 10%;
+}
+
+/* Cloud Image */
+.cloud-image img {
+  max-width: 100%;
+  width: 650px;
+  height: auto;
+  margin-left: -40px;
+}
+
+/* Text Container */
+.cloud-text {
+  max-width: 500px;
+  margin-left: 1px;
+  color: white;
+}
+
+.cloud-text h1 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: -0.3px;
+}
+
+.cloud-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* === Mobile Styles (<=768px) === */
+@media (max-width: 768px) {
+  .cloud-section {
+    flex-direction: column;
+    /* stack image & text */
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    /* center align content */
+  }
+
+  .cloud-image img {
+    width: 100%;
+    /* make image responsive */
+    margin-left: 0;
+    /* remove negative margin */
+  }
+
+  .cloud-text {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .cloud-text h1 {
+    font-size: 28px;
+    /* smaller heading */
+    margin-bottom: 15px;
+  }
+
+  .cloud-text p {
+    font-size: 16px;
+    text-align: left;
+    /* left-align for readability */
+  }
+}
+
+/* === Extra Small (<=480px) === */
+@media (max-width: 480px) {
+  .cloud-text h1 {
+    font-size: 24px;
+  }
+
+  .cloud-text p {
+    font-size: 14px;
+  }
+}
+.read-more {
+  /* purple accent */
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  transition: background 0.3s;
+}
+.read-more {
+  /* purple accent */
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  transition: background 0.3s;
+}
+
+/* ===============================
+   Mobile Styles (<=768px)
+   =============================== */
+@media (max-width: 768px) {
+  .read-more {
+    padding: 5px 10px;
+    font-size: 12px;
+    gap: 3px;
+    color: #00f;
+  }
+}
+
+@media (max-width: 480px) {
+  .read-more {
+    padding: 4px 8px;
+    font-size: 11px;
+    gap: 2px;
   }
 }

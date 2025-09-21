@@ -87,7 +87,7 @@ const items = [
   },
 
      {
-    label: "",
+    label: "Industrial",
     title: "",
     description:
       "",
@@ -106,9 +106,8 @@ const items = [
     {
     label: "",
     title: "",
-    description:
-      "",
-    image: "a",
+    description: "",
+    image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-Life-Sciences-16x9?ts=1754596500738&&fmt=webp-alpha&qlt=75&dpr=off",
     link: "#",
   },
 
