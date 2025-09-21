@@ -10,7 +10,7 @@ import SupplyChainHoverPanel from './SupplyChainHoverPanel';
 import DataAIGridHoverCard from './DataAIGridHoverCard';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
-
+import DigitalCareer from './DigitalCareer';
 function DigitalE() {
     return (
         <div>
@@ -37,8 +37,8 @@ function DigitalE() {
             <h1 className='headings'>Awards and recognition </h1>
             <DataAIGridHoverCard />
 
-
-      <Footer />
+            <DigitalCareer />
+            <Footer />
 
         </div>
     )

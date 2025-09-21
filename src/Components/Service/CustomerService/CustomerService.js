@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CustomerService2 from '../../../assets/images/CustomerService2.jpg';
 import './CustomerService.css';
 import Stats from './Stats';
-
+import CustomerServiceCareer from './CustomerServiceCareer';
 import CustomerCardSection from './CustomerCardSection';
 import PartnersCarousel from './PartnersCarousel';
 import Navbar from '../../Navbar/Navbar';
@@ -25,18 +25,20 @@ export default function CustomerService() {
                     </p>
                 </div>
             </div>
-               <h1 className='headings'> Customer service Now </h1>
+            <h1 className='headings'> Customer service </h1>
             <Stats />
-             <h1 className='headings'>What’s next in Customer service ? </h1>
-            <CustomerSlider/>
-            
+            <h1 className='headings'>Innovate with Customer service</h1>
             <CustomerCardSection />
-             <h1 className='headings'>Partners in change</h1>
 
+            <h1 className='headings'>What’s next in Customer service ? </h1>
+            <CustomerSlider />
+
+
+            <h1 className='headings'>Partners in change</h1>
             <PartnersCarousel />
 
-  
-      <Footer />
+            <CustomerServiceCareer />
+            <Footer />
         </div>
     );
 }

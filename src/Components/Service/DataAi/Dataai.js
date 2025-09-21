@@ -9,6 +9,7 @@ import DataAIPartnersSection from './DataAIPartnersSection';
 import DataAIGridHoverCards from './DataAIGridHoverCard';
 import customer3 from '../../../assets/images/customer3.jpg';
 import AISlider from './AISlider';
+import DataAiCareer from './DataAiCareer';
 
 import Footer from '../../Footer/Footer';
 
@@ -36,7 +37,7 @@ export default function Dataai() {
               <h1 className='headings'>Awards and recognition </h1>
             <DataAIGridHoverCards />
            
-        
+        <DataAiCareer/>
                               <Footer />
     </div>
   )

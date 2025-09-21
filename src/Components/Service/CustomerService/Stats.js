@@ -25,13 +25,10 @@ export default function Stats() {
      
     <div className="stats-section">
 
-      <h2>Customer service is evolving</h2>
-
-
       <div className="stats-grid">
         {stats.map((item, index) => (
           <div key={index} className="stat-box">
-            <div className="underline" />
+              <div className="cloud-card-underline"/>
             <h3>{item.number}</h3>
             <p>{item.text}</p>
           </div>
