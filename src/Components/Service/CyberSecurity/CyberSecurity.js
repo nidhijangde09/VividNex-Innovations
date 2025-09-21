@@ -25,7 +25,9 @@ export default function CyberSecurity() {
           </p>
         </div>
       </div>
+         <h1 className='headings'>Customer service </h1>
       <CybersecurityStats />
+   <h1 className='headings'>Innovate with Customer service  </h1>
       <CyberCardSection />
       <h1 className='headings'>What’s next in Customer service ? </h1>
       <CybersSlider />

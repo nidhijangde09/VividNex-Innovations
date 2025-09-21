@@ -14,7 +14,7 @@ import GenerativeDesign from './GenerativeDesign';
 import InfrastructurePartnersSection from './InfrastructurePartnersSection';
 import AcquisitionSlider from './AcquisitionSlider';
 import CareersSection from './CareersSection';
-
+import InfrastructureCapitalProjectsCareer from './InfrastructureCapitalProjectsCareer';
 import Footer from '../../Footer/Footer';
 function InfrastructureCapital() {
   return (
@@ -63,6 +63,8 @@ function InfrastructureCapital() {
 
       <h1 className='headings'></h1>
       <CareersSection />
+
+      <InfrastructureCapitalProjectsCareer/>
       <Footer />
     </div>
   )

@@ -11,8 +11,8 @@ import LearningSection from './LearningSection';
 import { Link } from 'react-router-dom';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
-
-
+import LearningCareer from './LearningCareer';
+import NewsSlider from './NewsSlider';
 
 
 function Learning() {
@@ -33,13 +33,17 @@ function Learning() {
         </div>
       </div>
       <ResilienceSection />
+      <h1 className='headings'> Learning </h1>
       <LearningStats />
+      <h1 className='headings'>Innovate with  Learning </h1>
       <LearningCardSection />
       <h1 className='headings'>AI-Enhanced Learning Experiences</h1>
       <LearningSlider />
+      <h1 className='headings'>Partners in change</h1>
       <LearningPartnersSection />
+      <NewsSlider />
   
-
+<LearningCareer />
      
 
       <Footer />

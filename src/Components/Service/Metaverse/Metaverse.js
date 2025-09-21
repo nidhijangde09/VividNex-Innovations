@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
 import CloudStats from './CloudStats';
+import MetaverseCareer from './MetaverseCareer';
 
 function Metaverse() {
   return (
@@ -21,20 +22,20 @@ function Metaverse() {
         <div className="service-text">
           <h1>Metaverse services</h1>
           <p>
-           The lines between physical and digital are fading. The metaverse opens new opportunities to interact, innovate, and engage, creating inclusive and immersive experiences.
+            The lines between physical and digital are fading. The metaverse opens new opportunities to interact, innovate, and engage, creating inclusive and immersive experiences.
           </p>
         </div>
       </div>
-      <h1 className='headings'>Metaverse now</h1>
+      <h1 className='headings'>Metaverse </h1>
       <CloudStats />
-      <h1 className='headings'>Reinvent with us</h1>
+      <h1 className='headings'>Innovate with Metaverse</h1>
       <MetaverseCardSection />
       <h1 className='headings'>What’s trending</h1>
       <MetaverseSlider />
       <h1 className='headings'>Awards & recognition</h1>
       <MetaverseGridHoverCard />
-      
 
+      <MetaverseCareer />
       <Footer />
     </div>
   );

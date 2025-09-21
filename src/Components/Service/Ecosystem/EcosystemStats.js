@@ -24,7 +24,7 @@ function EcosystemStats() {
   return (
     <div>
       <div className="dataaiStatsSection">
-      <h2>The Case for Integrated Partners</h2>
+      
       <div className="dataaiStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="dataaiStatBox">

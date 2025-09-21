@@ -21,7 +21,7 @@ const partners = [
 export default function LearningPartnersSection() {
   return (
     <div className="dataai-partners-section">
-      <h2>Partners in change</h2>
+      
       <div className="dataai-partners-grid">
         {partners.map((partner, index) => (
           <div key={index} className="dataai-partner-card">

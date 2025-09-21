@@ -9,6 +9,7 @@ import Footer from '../../Footer/Footer';
 import customer3 from '../../../assets/images/customer3.jpg';
 import PartnersCarouselSection from './PartnersCarouselSection';
 import { Link } from 'react-router-dom';
+import SalesCommerceCareer from './SalesCommerceCareer';
 import './SalesCommerce.css'
 function SalesCommerce() {
   return (
@@ -25,16 +26,18 @@ function SalesCommerce() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Sales & Commerce now</h1>
+      <h1 className='headings'>Sales & Commerce </h1>
       <CloudStats />
-        <h1 className='headings'>Reinvent with strategy</h1>
+        <h1 className='headings'>Innovate with Sales & Commerce</h1>
       <SalesCommerceCardSection />
             <h1 className='headings'>What’s trending with strategy</h1>
       <SalesCommerceSlider />
+
       <SalesCommerceViedoSection />
         <h1 className='headings'>Partners in change</h1>
       <PartnersCarouselSection />
-       
+
+       <SalesCommerceCareer />
       <Footer />
     </div>
   )

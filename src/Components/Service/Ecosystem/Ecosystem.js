@@ -9,7 +9,7 @@ import PartnersCard from './PartnersCards';
 import RelatedCapabilities from './RelatedCapabilities';
 import customer3 from '../../../assets/images/customer3.jpg';
 import Footer from '../../Footer/Footer';
-
+import EcosystemCareer from './EcosystemCareer';
 export default function Ecosystem() {
   return (
     <div>
@@ -24,14 +24,14 @@ export default function Ecosystem() {
             Inconsistent and impersonal touchpoints stop organizations from building lasting customer trust. Unlocking growth requires delivering unified, intelligent experiences that feel natural, not forced.</p>
         </div>
       </div>
+      <h1 className='headings'>Ecosystem</h1>
       <EcosystemStats />
       <WhyWorkWithUs />
-      <div className='head-container-5'>
-        <h1>Our Partners</h1>
-      </div>
+
+      <h1 className='headings'>Our Partners</h1>
       <PartnersCard />
       <RelatedCapabilities />
-      
+      <EcosystemCareer />
       <Footer />
     </div>
 

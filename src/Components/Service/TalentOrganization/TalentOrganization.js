@@ -4,13 +4,13 @@ import sustainabilityImg from '../../../assets/images/sustainability.jpg';
 import TalentOrganizationStats from './TalentOrganizationStats';
 import TalentOrganizationCardSection from './TalentOrganizationCardSection';
 import TalentOrganizationSlider from './TalentOrganizationSlider';
-import TalentOrganizationViedoSection from './TalentOrganizationViedoSection';
+
 import PartnersCarouselSection from './PartnersCarouselSection';
 import TalentOrganizationPartnersSection from './TalentOrganizationPartnersSection';
 import TalentOrganizationsHoverCards from './TalentOrganizationsHoverCards';
-
+import TalentOrganizationCareer from './TalentOrganizationCareer';
 import { Link } from 'react-router-dom';
-import customer3 from '../../../assets/images/customer3.jpg';
+
 import Footer from '../../Footer/Footer';
 
 function TalentOrganization() {
@@ -28,28 +28,20 @@ function TalentOrganization() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings'>Talent & Organization now</h1>
+            <h1 className='headings'>Talent & Organization </h1>
             < TalentOrganizationStats />
-            <h1 className='headings'>Reinvent with Talent & Organization</h1>
+            <h1 className='headings'>Innovate with  Talent & Organization</h1>
             <TalentOrganizationCardSection />
             <h1 className='headings'>What’s trending</h1>
             <TalentOrganizationSlider />
-            <TalentOrganizationViedoSection />
+           
             <h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
             <h1 className='headings'>See our extended partner ecosystem</h1>
             <TalentOrganizationPartnersSection />
             <h1 className='headings'>Awards and recognition</h1>
             <TalentOrganizationsHoverCards />
-            
-            <div className='head-container-6'>
-                <img src={customer3} alt="Logo" className='head-2-img' />
-                <h1>Cybersecurity careers​</h1>
-                <p>
-                    Combine deep expertise with agile thinking to empower clients to build secure, future-ready businesses in an unpredictable digital world.
-                </p>
-                <Link to="/" className="learn-more-btn">Learn More</Link>
-            </div>
+          <TalentOrganizationCareer />
             <Footer />
         </div>
     )

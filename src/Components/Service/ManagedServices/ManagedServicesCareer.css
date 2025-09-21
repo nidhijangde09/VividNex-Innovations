@@ -1,0 +1,109 @@
+/* Full width section with background image */
+.cloud-sections {
+    width: 100%;
+    min-height: 70vh;
+    background: url("https://media.istockphoto.com/id/984824408/photo/3d-topographic-map-background-concept-topo-contour-map-rendering-abstract-illustration-valleys.jpg?b=1&s=612x612&w=0&k=20&c=iL7ElKnw-ni1XdeMNCM6WlQQLEurURBB9sZT7JqYVcI=") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark overlay for readability */
+.cloud-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+/* Left aligned content */
+.cloud-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.cloud-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cloud-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+    font-weight: 400;
+}
+
+.cloud-button {
+    background: #1b03ee;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cloud-button:hover {
+    background: #3f5de5;
+}
+
+/* ===============================
+   Responsive Design
+   =============================== */
+@media (max-width: 1024px) {
+    .cloud-overlay {
+        padding: 60px 50px;
+    }
+
+    .cloud-heading {
+        font-size: 32px;
+    }
+
+    .cloud-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cloud-overlay {
+        padding: 40px 20px;
+    }
+
+    .cloud-heading {
+        font-size: 28px;
+    }
+
+    .cloud-text {
+        font-size: 15px;
+    }
+
+    .cloud-button {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cloud-heading {
+        font-size: 24px;
+    }
+
+    .cloud-text {
+        font-size: 14px;
+    }
+
+    .cloud-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}

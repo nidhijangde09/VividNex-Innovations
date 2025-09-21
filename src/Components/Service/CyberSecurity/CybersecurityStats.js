@@ -20,7 +20,7 @@ const stats = [
 export default function CybersecurityStats() {
   return (
     <div className="cybersecurityStatsSection">
-      <h2>Cybersecurity now</h2>
+     
       <div className="cybersecurityStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="cybersecurityStatBox">

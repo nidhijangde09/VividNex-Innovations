@@ -7,7 +7,7 @@ import SustainabilityConsultingSlider from './SustainabilityConsultingSlider';
 import SustainabilityConsultingViedoSection from './SustainabilityConsultingViedoSection';
 import PartnersCarouselSection from './PartnersCarouselSection';
 import SustainabilityConsultingGridHoverCard from './SustainabilityConsultingGridHoverCard';
-
+import SustainabilityConsultingCareer from './SustainabilityConsultingCareer';
 import SustainabilityConsultingHoverPanel from './SustainabilityConsultingHoverPanel';
 import Footer from '../../Footer/Footer';
 
@@ -28,9 +28,9 @@ function SustainabilityConsulting() {
            As the boundary between physical and digital blurs, the metaverse enables organizations to design innovative, engaging, and inclusive experiences.        </p>
         </div>
       </div>
-      <h1 className='headings'>Content for a webpage or section</h1>
+      <h1 className='headings'>sustainability</h1>
       <SustainabilityConsultingStats />
-       <h1 className='headings'>Reinvent with sustainability</h1>
+       <h1 className='headings'>Innovate with  sustainability</h1>
        <SustainabilityConsultingCardSection />
             <h1 className='headings'>What’s trending </h1>
        <SustainabilityConsultingSlider />
@@ -41,7 +41,7 @@ function SustainabilityConsulting() {
        <SustainabilityConsultingGridHoverCard />
         <h1 className='headings'>Areas we support</h1>
        <SustainabilityConsultingHoverPanel />
-    
+    <SustainabilityConsultingCareer />
        <Footer />
     </div>
   )

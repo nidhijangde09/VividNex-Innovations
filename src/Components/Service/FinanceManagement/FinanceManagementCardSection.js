@@ -46,7 +46,7 @@ const FinanceManagementCardSection = () => {
      <div className="cloud-card-section">
 
         <div className="cloud-card-section">
-            <h2 className="cloud-card-heading">Transform with Cloud</h2>
+           
 
             <div className="cloud-card-grid">
                 {cardData.map((card, index) => (

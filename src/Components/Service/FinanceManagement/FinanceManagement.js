@@ -6,7 +6,7 @@ import PartnersSlider from './PartnersSlider';
 import FinanceManagementStats from './FinanceManagementStats';
 import FinanceManagementCardSection from './FinanceManagementCardSection';
 import FinanceManagementSlider from './FinanceManagementSlider';
-
+import FinanceManagementCareer from './FinanceManagementCareer';
 import FinanceSixGridCards from './FinanceSixGridCards';
 
 import Footer from '../../Footer/Footer';
@@ -26,7 +26,9 @@ function FinanceManagement() {
                     </p>
                 </div>
             </div>
+              <h1 className='headings'>Finance Management</h1>
             <FinanceManagementStats />
+              <h1 className='headings'>Innovate with Finance Management</h1>
             <FinanceManagementCardSection />
            <h1 className='headings'>The latest insights in finance and risk <br></br> management</h1>
             <FinanceManagementSlider />
@@ -34,7 +36,7 @@ function FinanceManagement() {
             <FinanceSixGridCards />
             <h1 className='headings'>Transforming Together</h1>
             <PartnersSlider />
-             
+             <FinanceManagementCareer />
        <Footer />
     </div>
   )

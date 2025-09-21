@@ -31,9 +31,9 @@ const SalesCommerceViedoSection = () => {
       </video>
 
       <div className="resilience-content">
-        <h1>Enable people resilience</h1>
+        <h1>Your next-generation sales and commerce partne</h1>
         <p>
-          Create a resilient organization with a workforce that is empowered, skilled, and supported—driving speed, flexibility, and accountability at every level.
+          empowering businesses with tech-driven innovation.
         </p>
         <button className="read-more-btn">Read more</button>
       </div>

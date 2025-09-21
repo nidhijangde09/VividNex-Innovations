@@ -6,7 +6,7 @@ import Navbar from '../../Navbar/Navbar';
 import CloudStats from './CloudStats';
 import StrategyConsultingCardSection from './StrategyConsultingCardSection';
 import StrategyConsultingSlider from './StrategyConsultingSlider';
-
+import StrategyConsultingCareer from './StrategyConsultingCareer';
 import Footer from '../../Footer/Footer';
 import { Link } from 'react-router-dom';
 
@@ -25,15 +25,15 @@ function StrategyConsulting() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Strategy Consulting now</h1>
+      <h1 className='headings'>Strategy Consulting</h1>
       <CloudStats />
-       <h1 className='headings'>Reinvent with strategy</h1>
+       <h1 className='headings'>Innovate with strategy</h1>
       <StrategyConsultingCardSection />
          <h1 className='headings'>What’s trending with strategy</h1>
 
       <StrategyConsultingSlider />
 
-     
+     <StrategyConsultingCareer />
 
       <Footer />
     </div>

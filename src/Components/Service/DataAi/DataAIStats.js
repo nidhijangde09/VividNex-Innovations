@@ -23,7 +23,7 @@ const stats = [
 export default function DataAIStats() {
   return (
     <div className="dataaiStatsSection">
-      <h2>Cybersecurity now</h2>
+      
       <div className="dataaiStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="dataaiStatBox">

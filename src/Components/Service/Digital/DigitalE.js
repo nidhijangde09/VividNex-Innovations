@@ -26,9 +26,9 @@ function DigitalE() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings'>Digital engineering now</h1>
+            <h1 className='headings'>Digital engineering </h1>
             <DataAIStats />
-            <h1 className='headings'>Reinvent with cloud</h1>
+            <h1 className='headings'>Innovate with Digital engineering </h1>
             <DataAICardSection />
             <h1 className='headings'>Partners in change </h1>
             <DataAIPartnersSection />

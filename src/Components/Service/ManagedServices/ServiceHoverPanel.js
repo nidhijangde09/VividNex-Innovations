@@ -3,33 +3,7 @@ import React, { useState } from 'react';
 import './ServiceHoverPanel.css';
 
 const items = [
-    {
-        label: "Cloud",
-title: "Empower the World Through Cloud",
-description: "From startups to enterprises, the cloud drives transformation, enabling organizations to meet evolving business and human needs in real time.",
-
-        image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-Cloud-16x9?ts=1749798304054&&fmt=webp-alpha&qlt=75&dpr=off", // Replace with your image URL
-        link: "#",
-    },
-    {
-       label: "Cloud",
-title: "Transform with Cloud",
-description: "Whether for startups or global enterprises, cloud technology fuels reinvention and adapts to changing business and human demands instantly.",
-      image: "https://dynamicmedia.accenture.com/is/content/accenture/Customer-Service-Solutions-Illustrations-640x360?ts=1749798304086&&fmt=webp-alpha&qlt=75&dpr=off",
-    },
-    {
-        label: "Cloud",
-title: "Harness the Power of Cloud",
-description: "Cloud solutions empower organizations of all sizes to reinvent operations and respond to evolving business and human needs in real time.",
-       image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-Cybersecurity-16x9?ts=1749798304118&&fmt=webp-alpha&qlt=75&dpr=off",
-    },
-    {
-      label: "Cloud",
-title: "Cloud-Driven Transformation",
-description: "From small businesses to large enterprises, cloud enables reinvention and delivers real-time solutions to meet dynamic business and human demands.",
-     image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-Data-AI-16x9?ts=1749798304150&&fmt=webp-alpha&qlt=75&dpr=off", // Replace with your image URL
-        link: "#"
-    },
+ 
     {
         label: "Cloud",
 title: "Innovate Faster with Cloud",

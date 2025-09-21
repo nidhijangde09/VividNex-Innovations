@@ -10,7 +10,7 @@ import SupplyChainSlider from './SupplyChainSlider';
 import SupplyChainPartnersSection from './SupplyChainPartnersSection';
 import PartnersCarouselSection from './PartnersCarouselSection';
 import SupplyChainGridHoverCard from './SupplyChainGridHoverCard';
-
+import SupplyChainCareer from './SupplyChainCareer';
 import SupplyChainHoverPanel  from './SupplyChainHoverPanel';
 
 
@@ -29,9 +29,9 @@ function SupplyChain() {
           </p>
         </div>
       </div>
-      <h1 className='headings'> Supply Chain now</h1>
+      <h1 className='headings'> Supply Chain </h1>
       <CloudStats/>
-      <h1 className='headings'> How to reinvent</h1>
+      <h1 className='headings'>Innovate with Supply Chain</h1>
       <SupplyChainCardSection />
         <h1 className='headings'> Areas we support</h1>
       <SupplyChainHoverPanel />
@@ -44,7 +44,7 @@ function SupplyChain() {
          <h1 className='headings'>Awards & recognition</h1> 
       <SupplyChainGridHoverCard />
        
-       
+       <SupplyChainCareer />
       <Footer />
     </div>
   )

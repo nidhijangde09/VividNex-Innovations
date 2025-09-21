@@ -28,7 +28,9 @@ export default function Dataai() {
                     </p>
                 </div>
             </div>
+              <h1 className='headings'> Data & AI  </h1>
             <DataAIStats />
+              <h1 className='headings'>Innovate with Data & AI ? </h1>
             <DataAICardSection />
              <h1 className='headings'>What’s next in Data & AI ? </h1>
             <AISlider/>
