@@ -5,34 +5,33 @@ import './ConsumerHoverPanel.css';
 const items = [
 
      {
-        label: "Sales and Commerce",
-        title: "Move at the speed of your customers",
-        description:"In a world of instant influence and shifting demand, relevance means delivering seamless experiences that match the pace of life.",
+       label: "Customer Experience",
+       title: "Deliver seamless, personalized journeys",
+        description: "In today’s fast-paced market, customer loyalty depends on intuitive, tailored experiences that meet expectations at every touchpoint.",
         image: "https://dynamicmedia.accenture.com/is/image/accenture/Two-man-discussing-drawing:rad-16x9?ts=1749490438465&fit=constrain&dpr=on,0.8999999761581421&wid=480",
          link: "#",
     },
      {
-        label: "Strategy",
-        title: "Lead with purpose. Grow with impact.",
-        description:"Embrace continuous reinvention to achieve sustainable growth—delivering long-term value for your business, your customers, and the world.",
+        label: "Business Strategy",
+        title: "Drive innovation with purpose and agility",
+        description:"Adopt dynamic strategies that empower your business to adapt, lead, and create lasting value in a rapidly changing world.",
         image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-utilities-image4:rad-16x9?ts=1749490438491&fit=constrain&dpr=on,0.8999999761581421&wid=480",
          link: "#",
     },
      {
-        label: "Supply Chain",
-        title: "Build supply chains that think, adapt, and grow",
-        description:"Supply chains are no longer just operational backbones—they’re strategic drivers of growth. Reinvent your supply chain to be more adaptive, data-driven, and sustainable, ensuring agility and resilience in an unpredictable world",
+        label: "Supply Chain Innovation",
+    title: "Create resilient, data-driven supply networks",
+    description: "Transform your supply chain into a competitive advantage by leveraging real-time data, automation, and sustainability principles.",
         image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-software-platforms-image7:rad-16x9?ts=1749490438519&fit=constrain&dpr=on,0.8999999761581421&wid=480",
          link: "#",
     },
      {
-        label: "Sustainability",
-        title: "Accelerate impact. Drive value.",
-        description:"Sustainability is no longer optional—it’s essential. From environmental responsibility to social equity and governance, organizations must lead with purpose to remain competitive and resilient.",
+       label: "Sustainability Leadership",
+    title: "Integrate purpose into every business decision",
+    description: "Lead the way with sustainable practices that drive growth, meet stakeholder expectations, and build a resilient future.",
         image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-cyber-protection-1707x1138:rad-16x9?ts=1749490438545&fit=constrain&dpr=on,0.8999999761581421&wid=480",
          link: "#",
     },
-     
     
 ];
 

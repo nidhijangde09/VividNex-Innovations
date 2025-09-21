@@ -10,45 +10,43 @@ import Modernization4D from './Modernization/Modernization4D';
 
 
 const cardData = [
+     {
+  category: "Cloud Modernization",
+  title: "Rebuild Your Cloud Foundation for AI Excellence",
+      link: "/ModernizationD",
+  hoverText: "Modernizing your cloud is key to unlocking AI’s full potential—boost efficiency, enhance security, and drive transformative growth."
+},
+{
+  category: "Edge Computing",
+  title: "Process Data Instantly, Wherever It’s Generated",
+  link: "/Modernization2D",
+  hoverText: "By bringing computing closer to data sources, edge technology improves speed, reduces latency, and cuts operational costs."
+},
+{
+  category: "Cloud Strategy & Innovation",
+  title: "Design Smart Cloud Plans for Lasting Impact",
+  link: "/Modernization2D",
+  hoverText: "A tailored cloud strategy aligns technology with business goals to fuel sustained growth and competitive advantage."
+},
+{
+  category: "Cloud Infrastructure Management",
+  title: "Simplify IT with Expert Managed Cloud Services",
+  link: "/Modernization2D",
+  hoverText: "Top companies trust managed cloud services to ensure resilient, scalable infrastructure that adapts to evolving needs."
+},
+{
+  category: "AI-Driven Application Management",
+  title: "Streamline Complex App Ecosystems Using AI and Cloud",
+    link: "/Modernization4D",
+  hoverText: "Combining AI with cloud management helps simplify app landscapes, accelerating deployment and maximizing value."
+},
+{
+  category: "Mainframe Modernization",
+  title: "Integrate Mainframes with Cloud and AI for Agility",
+   link: "/Modernization2D",
+  hoverText: "Modernizing mainframes with cloud and generative AI unlocks flexibility, reduces risks, and drives innovation."
+}
 
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationD",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2D",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
-
-    {
-        category: "Future-Ready Cloud Strategy",
-        title: "Strategic Cloud Planning & Design",
-        link: "/Modernization2D",
-        hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
-    },
-    {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3D",
-        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
-    },
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4D",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "/Modernization2D",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
-    }
 ];
 const CapitalCardSection= () => {
     return (

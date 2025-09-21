@@ -21,8 +21,7 @@ function CommunicationMedia() {
         <div className="service-text">
           <h1>Communication Media consulting</h1>
           <p>
-           Change is the catalyst in the chemical industry. To capture emerging opportunities—from achieving net zero to launching breakthrough products—chemical companies must embrace innovation at every step.
-          </p>
+           "Change is the catalyst driving the chemical industry forward. To seize emerging opportunities—ranging from achieving net zero emissions to developing breakthrough products—chemical companies must embed innovation at every stage of their journey."</p>
         </div>
       </div>
       <h1 className='headings-1'>Communication Media now</h1>

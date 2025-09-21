@@ -8,32 +8,32 @@ import Modernization4CS from './Modernization/Modernization4CS';
 
 const cardData = [
 
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationCS",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2CS",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
 
     {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization3CS",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
+  category: "Sustainability in Cloud",
+  title: "Make your cloud greener, smarter, and more efficient",
+  link: "/ModernizationCS",
+  hoverText: "Optimizing workloads, reducing carbon footprints, and adopting sustainable architectures make cloud a driver of both growth and responsibility."
+},
+{
+  category: "Cloud Security",
+  title: "Build resilience and trust in the cloud era",
+  link: "/Modernization2CS",
+  hoverText: "Advanced security frameworks powered by AI and automation safeguard data, ensure compliance, and defend against evolving threats."
+},
+{
+  category: "Data & AI Integration",
+  title: "Turn cloud data into intelligence at scale",
+   link: "/Modernization3CS",
+  hoverText: "By embedding AI into cloud platforms, organizations unlock predictive insights, accelerate decision-making, and fuel continuous innovation."
+},
+{
+  category: "Cloud Migration",
+  title: "Move faster, scale smarter",
+   link: "/Modernization4CS",
+  hoverText: "Seamless migration strategies help organizations reduce costs, minimize downtime, and set a foundation for future-ready operations."
+}
 
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "/Modernization4CS",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
-    }
 ];
 
 const AerospaceCardSection = () => {

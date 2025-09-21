@@ -21,9 +21,9 @@ function ConsumerService() {
           <img src={ConsumergoodsImg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>CPG consulting</h1>
+          <h1>Driving Excellence in CPG</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
+            The boundary between physical and digital worlds is dissolving. The metaverse opens unprecedented opportunities to connect, innovate, and engage—creating inclusive, immersive, and meaningful experiences like never before.
           </p>
         </div>
       </div>

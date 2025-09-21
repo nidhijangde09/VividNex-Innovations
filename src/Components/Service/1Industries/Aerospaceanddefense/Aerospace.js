@@ -26,24 +26,24 @@ function Aerospace() {
                 <div className="service-text">
                     <h1>Aerospace and defense services</h1>
                     <p>
-                        The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+                        The lines between physical and digital are fading. The metaverse opens new opportunities to interact, innovate, and engage—unlocking a powerful space to design inclusive, meaningful, and immersive experiences.
                     </p>
                 </div>
             </div>
-            <h1 className='headings'>Aerospace and defense now</h1>
+            <h1 className='headings'>Financial services now</h1>
             <AerospaceStats />
-            <h1 className='headings'>How to reinvent</h1>
+            <h1 className='headings'>How to innovate</h1>
             <AerospaceCardSection />
-            <h1 className='headings'>Areas we support</h1>
+            <h1 className='headings'>Support That Matters</h1>
             <AerospaceHoverPanel />
 
-            <h1 className='headings'>What’s trending</h1>
+            <h1 className='headings'>What’s trending now</h1>
             <AerospaceSlider />
             
-            <h1 className='headings'>Our extended partner ecosystem</h1>
+            <h1 className='headings'>Powered by our partner ecosystem</h1>
             <AerospacePartnersSection />
            
-            <h1 className='headings'>Partners in change</h1>
+            <h1 className='headings'>Alliances that accelerate change</h1>
             <PartnersCarouselSection />
 
           

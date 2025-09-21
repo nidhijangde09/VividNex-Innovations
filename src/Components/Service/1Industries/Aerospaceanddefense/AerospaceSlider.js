@@ -20,45 +20,46 @@ const cardData = [
   {
     subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
     title: "Research Report",
-    description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics for business innovation.",
-    image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
+    description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics for business innovation.",    image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
+    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/france"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
-    image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
+      subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
+      title: "Research Report",
+      description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
+      image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
-  },
-  {
-    subtitle: "Cyber defense strategies for 2025 and beyond.",
-    title: "Research Report",
-    description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
-    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
-    link: "/usa"
-  },
-  {
-    subtitle: "The next era of AI in healthcare innovation.",
-    title: "Research Report",
-    description: "How AI will transform diagnostics, treatment, and patient care experiences.",
-    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
-    link: "/uk"
   },
   {
     subtitle: "Empowering industries through sustainable AI solutions.",
     title: "Research Report",
     description: "Building AI solutions that accelerate sustainability goals across sectors.",
+    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
+    link: "/usa"
+  },
+  {
+    subtitle: "The rise of intelligent automation across industries.",
+    title: "Research Report",
+    description: "Automation powered by AI and cloud is reshaping how businesses innovate and scale.",
+    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
+    link: "/uk"
+  },
+  {
+     subtitle: "Reinventing finance in the digital era.",
+    title: "Research Report",
+    description: "Explore how AI, blockchain, and data are transforming the finance function for resilience and growth.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/germany"
   },
   {
-    subtitle: "Data-driven growth strategies for modern enterprises.",
+    subtitle: "Sustainability and competitiveness go hand in hand.",
     title: "Research Report",
-    description: "Leading companies use data to drive decisions, growth, and market leadership.",
+    description: "Organizations leading in sustainability are proving that purpose and profitability can grow together.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"
   },
+  
 ];
 
 const AerospaceSlider = () => {

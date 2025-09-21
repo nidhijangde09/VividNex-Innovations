@@ -13,32 +13,34 @@ import Modernization4CY from './Modernization/Modernization4CY';
 const cardData = [
 
     {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
+        category: "Cloud Modernization",
+        title: "Reinvent Your Cloud Foundation to Unlock AI Potential",
         link: "/ModernizationCY",
         hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
     },
     {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
+        category: "Edge Computing",
+        title: "Real-Time Insights. Locally Processed. Globally Scaled.",
         link: "/ModernizationCY",
         hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
     },
 
     
     {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
+        category: "Application Innovation",
+        title: "Streamline Applications with AI and Cloud Innovation",
         link: "/Modernization4CY",
         hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
     },
 
     {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
+        category: "Mainframe Transformation",
+        title: "Transform Your Mainframe: Integrate Cloud and AI for Next-Level Agility",
         link: "/Modernization2CY",
         hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
     }
+
+
 ];
 
 const AutomotiveCardSection= () => {

@@ -21,9 +21,9 @@ function Capital() {
           <img src={CapitalMarketImg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Aerospace and defense services</h1>
+          <h1>Modernizing Legacy Systems</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
+            The boundaries between physical and digital are blurring. The metaverse opens doors to fresh ways to interact, innovate, and engage—creating inclusive, immersive experiences that drive meaningful impact.
           </p>
         </div>
       </div>

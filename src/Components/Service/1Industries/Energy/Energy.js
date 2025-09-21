@@ -21,9 +21,9 @@ function Energy() {
           <img src={energyimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Energy consulting</h1>
+          <h1>Energy consulting at Vividnex</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
+            As the boundaries between physical and digital worlds blur, the metaverse emerges as a dynamic space for interaction, innovation, and engagement. It offers new possibilities to craft immersive, inclusive, and purpose-driven experiences.
           </p>
         </div>
       </div>

@@ -3,17 +3,17 @@ import "./ContentTabs.css";
 
 const tabData = {
   communications: {
-    title: "Communications",
-    heading: "Communications",
+    title: "Accelerating Digital Communications",
+    heading: "Accelerating Digital Communications",
     description:
-      "We help communication companies innovate faster, scale efficiently, and stay competitive in the digital era.",
+      "We help communication firms embrace digital transformation, delivering scalable solutions that enhance customer experience and drive sustainable growth",
     image: "https://media.istockphoto.com/id/2216481617/photo/ai-coding-assistant-interface-with-vibe-coding-aesthetics.jpg?b=1&s=612x612&w=0&k=20&c=jsyusLVDzCVgBw-WkOukgxFhQ7-EyqZGqatOIDrn1sE=",
   },
   media: {
     title: "Media",
-    heading: "Media",
+    heading: "Unlocking Media’s Next Wave",
     description:
-      "We help media companies use the new investment cycle to capture the next wave of growth and innovation. We unlock the power of data and AI to improve their efficiencies and open new opportunities.",
+      "We help media organizations leverage data-driven insights and AI to accelerate innovation, optimize operations, and seize emerging growth opportunities.",
     image: "https://media.istockphoto.com/id/866600030/photo/abstract-cyberspace-concept.jpg?b=1&s=612x612&w=0&k=20&c=fFZN0kRHhnzBKp2ge0ZbYYKmsMloPrAbny_GLiWZ-io=",
   },
 };

@@ -22,7 +22,7 @@ function Health() {
         <div className="service-text">
           <h1>Health consulting</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
+            The boundaries between physical and digital are disappearing. The metaverse presents transformative opportunities to interact, innovate, and engage in entirely new ways. It's a dynamic space for designing inclusive, immersive, and meaningful experiences that connect people across realities.
           </p>
         </div>
       </div>

@@ -2,22 +2,23 @@ import React from 'react';
 import './AerospaceStats.css';
 
 const stats = [
-  {
-    number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
-  },
-  {
-    number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
-  },
-  {
-    number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
-  },
-  {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
+ {
+  number: '80%',
+  text: 'of organizations adopting AI at scale report faster innovation cycles.',
+},
+{
+  number: '60%',
+  text: 'of business leaders say AI integration is critical to staying competitive over the next 3 years.',
+},
+{
+  number: '40%',
+  text: 'reduction in operational costs is achievable through AI-powered automation and analytics.',
+},
+{
+  number: '$15B+',
+  text: 'in annual investment is projected for generative AI innovation by leading enterprises.',
+}
+
 ];
 
 export default function AerospaceStats() {
