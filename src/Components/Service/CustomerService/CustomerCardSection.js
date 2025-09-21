@@ -8,31 +8,29 @@ import Modernization4CS from './Modernization/Modernization4CS';
 const cardData = [
 
     {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationCS",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2CS",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
-
-
-    {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3CS",
-        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
-    },
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4CS",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
+    category: "Cloud Security & Compliance",
+    title: "Protect Data, Ensure Compliance, Build Trust",
+    link: "/ModernizationCS",
+    hoverText: "Robust cloud security and regulatory compliance safeguard critical data, reduce risk, and foster trust while enabling digital transformation at scale."
+},
+{
+    category: "Data & Analytics Modernization",
+    title: "Unlock Insights with Cloud-Driven Analytics",
+    link: "/Modernization2CS",
+    hoverText: "Modern data platforms and cloud analytics turn raw data into actionable insights, driving smarter decisions, operational efficiency, and competitive advantage."
+},
+{
+    category: "Hybrid & Multi-Cloud Solutions",
+    title: "Seamlessly Integrate Across Cloud Environments",
+    link: "/Modernization3CS",
+    hoverText: "Hybrid and multi-cloud strategies offer flexibility, scalability, and resilience, enabling organizations to optimize workloads across multiple platforms efficiently."
+},
+{
+    category: "Cloud AI & Automation",
+    title: "Accelerate Innovation with Intelligent Cloud",
+     link: "/Modernization4CS",
+    hoverText: "Integrating AI and automation into cloud operations streamlines processes, reduces costs, and enables faster, smarter business outcomes."
+}
 
 ];
 
