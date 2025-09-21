@@ -88,11 +88,7 @@ const items = [
 
      {
     label: "Industrial",
-<<<<<<< HEAD
     title: "Shaping the Future of Industry, Faster",
-=======
-    title: "",
->>>>>>> 6c0a72721a2bd634aeb87ba75768c601395a383b
     description:
       "A wave of trends—from technology disruption to changing B2B expectations, software-driven products, and value-rich services—is fueling the need for continuous reinvention. Today is the time to reimagine and redefine industrial business models.",
     image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-industrial-equipment-index-illustration-hero-image-1?ts=1754596500670&&fmt=webp-alpha&qlt=30&dpr=off",
@@ -117,7 +113,7 @@ const items = [
     label: "",
     title: "",
     description: "",
->>>>>>> 6c0a72721a2bd634aeb87ba75768c601395a383b
+>
     image: "https://dynamicmedia.accenture.com/is/content/accenture/Accenture-Life-Sciences-16x9?ts=1754596500738&&fmt=webp-alpha&qlt=75&dpr=off",
     link: "#",
   },
