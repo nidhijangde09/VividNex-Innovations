@@ -7,7 +7,7 @@ const cardData = [
     title: "A Great Place To Work",
     description:
       "We are proud to be ranked No. 6 on the Great Place To Work® World's Best Workplaces™ list, a recognition based on our people’s feedback about trust, pride, and camaraderie at Vividnex.",
-    image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
+    image: "https://media.istockphoto.com/id/1192639016/vector/fashionable-abstract-technological-background-for-design.jpg?s=612x612&w=0&k=20&c=wNGUYeINFyN__XjXBDC2QZxQjiAPJbdlxG5bEJSLD44=",
     direction: "left",
     alignment: "flex-start",
     link: "/AwardsRecognition", // ✅ link
@@ -15,8 +15,8 @@ const cardData = [
   {
     title: "The Top Consulting Frim",
     description:
-      "Ranked No. 1 among the World’s Best Management Consulting Firms.Forbes honored Accenture as the top firm most recommended globally by consultants and clients across all industries and functions.",
-    image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
+      "Ranked among the Top Global Technology Solutions Providers. Vividnex has been recognized for delivering innovative and impactful digital solutions, earning high recommendations from clients and partners across industries worldwide.",
+    image: "https://media.istockphoto.com/id/1192639016/vector/fashionable-abstract-technological-background-for-design.jpg?s=612x612&w=0&k=20&c=wNGUYeINFyN__XjXBDC2QZxQjiAPJbdlxG5bEJSLD44=",
     direction: "right",
     alignment: "flex-end",
     link: "/AwardsRecognition", // ✅ added link
@@ -24,8 +24,8 @@ const cardData = [
   {
     title: "An Influential Innovator",
     description:
-      "Julie Sweet, our Chair and CEO, ranked No. 2 on Fortune’s Most Powerful Women in Business 2025, was named to the TIME100 Most Influential People of 2024, and received the Anti-Defamation League’s Courage Against Hate Award in 2024. At Accenture, she leads our teams in helping companies continuously reinvent with innovation and people at the center.",
-    image: "https://images.pexels.com/photos/3137052/pexels-photo-3137052.jpeg",
+      "Virendra Kamble, Founder & CEO of Vividnex, is a visionary leader driving innovation and digital transformation. Under his guidance, Vividnex delivers cutting-edge solutions that empower businesses to adapt and thrive in a rapidly evolving digital world, fostering a culture of collaboration and people-first leadership.",
+    image: "https://media.istockphoto.com/id/1192639016/vector/fashionable-abstract-technological-background-for-design.jpg?s=612x612&w=0&k=20&c=wNGUYeINFyN__XjXBDC2QZxQjiAPJbdlxG5bEJSLD44=",
     direction: "left",
     alignment: "flex-start",
     link: "/AwardsRecognition", // ✅ added link

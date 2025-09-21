@@ -4,7 +4,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -15,10 +14,20 @@ body {
   z-index: 1000;
 }
 
+/* Aligning logo - nav - search */
 .logo {
+  flex: 1;
+}
+
+.nav-items {
+  flex: 2; /* center */
   display: flex;
-  align-items: center;
-  text-decoration: none;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding-right: 5rem;
+ 
 }
 
 .logo img {
@@ -33,13 +42,39 @@ body {
   transform: scale(1.05);
 }
 
-/* Nav Items */
-.nav-items {
+/* Right side icons container */
+.right-icons {
   display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin-right: 550px;
-  transition: all 0.3s ease-in-out;
+  align-items: center;
+  gap: 1.2rem;
+  margin-left: auto;
+  padding-right: 5rem;
+}
+
+/* Individual icons */
+.search-icon,
+.globe-icon {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-icon:hover,
+.globe-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .right-icons {
+    gap: 0.8rem;
+  }
+
+  .search-icon,
+  .globe-icon {
+    font-size: 1.1rem;
+  }
 }
 
 .nav-items a {
@@ -190,10 +225,14 @@ body {
   }
 
   /* Logo smaller and aligned */
+ 
+  /* Logo smaller and properly aligned */
   .logo img {
     height: 60px;
-    margin-left: -7rem; /* prevent shifting off-screen */
+    margin-left: 0;       /* reset negative margin */
+    display: block;
   }
+
 
   /* Show hamburger menu */
   .hamburger {

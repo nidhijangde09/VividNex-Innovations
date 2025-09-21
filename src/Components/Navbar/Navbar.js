@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { FaSearch, FaGlobe } from "react-icons/fa"; 
 import vividlogo from './vivivdlogo.png';
 import Service from '../Service/What-we-do/Service';
 import Home from '../Home/Home';
@@ -193,33 +194,23 @@ const megaMenuData = {
   ],
 };
 
+
 const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMegaMenu = (menu) => {
-    if (activeMenu === menu) {
-      setActiveMenu(null);
-    } else {
-      setActiveMenu(menu);
-    }
+    setActiveMenu(activeMenu === menu ? null : menu);
   };
 
   return (
     <nav className="navbar">
-     <Link className="logo" to="/">
+      {/* Left Logo */}
+      <Link className="logo" to="/">
         <img src={vividlogo} alt="Logo" />
       </Link>
 
-      <div
-        className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
+      {/* Center Nav Items */}
       <ul className={`nav-items ${isMobileMenuOpen ? "open" : ""}`}>
         {Object.keys(megaMenuData).map((menu) => (
           <li key={menu} className="dropdown-wrapper">
@@ -228,24 +219,32 @@ const Navbar = () => {
                 className="dropdown-title"
                 onClick={() => toggleMegaMenu(menu)}
               >
-               {menu} <span className="arrow-down"></span>
-
+                {menu} <span className="arrow-down"></span>
               </div>
 
               {activeMenu === menu && (
                 <div className="mega-menu">
                   {menu === "Services" && (
-                    <Link to="/Service" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link
+                      to="/Service"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
                       <h3 className="mega-menu-heading">Services</h3>
                     </Link>
                   )}
                   {menu === "About" && (
-                    <Link to="/WhoWeAre" onClick={() => setIsMobileMenuOpen(false)}>
-                      <h3 className="mega-menu-heading">About </h3>
+                    <Link
+                      to="/WhoWeAre"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <h3 className="mega-menu-heading">About</h3>
                     </Link>
                   )}
-                    {menu === "Career" && (
-                    <Link to="/Career" onClick={() => setIsMobileMenuOpen(false)}>
+                  {menu === "Career" && (
+                    <Link
+                      to="/Career"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
                       <h3 className="mega-menu-heading">Career</h3>
                     </Link>
                   )}
@@ -255,21 +254,12 @@ const Navbar = () => {
                       <ul>
                         {section.items.map((item, i) => (
                           <li key={i}>
-                            {typeof item === "string" ? (
-                              <Link
-                                to={`/${item.replace(/\s+/g, "-").toLowerCase()}`}
-                                onClick={() => setIsMobileMenuOpen(false)}
-                              >
-                                {item}
-                              </Link>
-                            ) : (
-                              <Link
-                                to={item.path}
-                                onClick={() => setIsMobileMenuOpen(false)}
-                              >
-                                {item.label}
-                              </Link>
-                            )}
+                            <Link
+                              to={item.path}
+                              onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                              {item.label}
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -283,12 +273,35 @@ const Navbar = () => {
 
         <li>
           <Link to="/WhatWeThink" onClick={() => setIsMobileMenuOpen(false)}>
-          What We Think
+            What We Think
           </Link>
         </li>
       </ul>
+
+   {/* Right Icons (Search + Globe) */}
+<div className="right-icons">
+  <Link to="/search" className="search-icon">
+    <FaSearch />
+  </Link>
+  <Link to="/global" className="globe-icon">
+    <FaGlobe />
+  </Link>
+</div>
+
+
+      {/* Hamburger for mobile */}
+      <div
+        className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
+
+

@@ -14,7 +14,7 @@
   width: 400px;
   height: 440px;
   background-color: #f2f2f2;
-  border-radius: 10px;
+
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
   transition: transform 0.3s;
@@ -34,8 +34,8 @@
   left: 0;
   width: 100%;
   text-align: center;
-  color: #000; /* black */
-  font-size: 22px;
+  color: #ffffff; /* black */
+  font-size: 25px;
   font-weight: bold;
   padding: 10px;
   z-index: 2;
