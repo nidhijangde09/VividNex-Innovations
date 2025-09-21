@@ -12,44 +12,42 @@ import Modernization4ME from './Modernization/Modernization4ME';
 
 const cardData = [
 
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationME",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2ME",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
-
-    {
-        category: "Future-Ready Cloud Strategy",
-        title: "Strategic Cloud Planning & Design",
-        link: "/ModernizationME",
-        hoverText: "Without the right cloud strategy, value gets lost. Learn how to tailor your approach for long-term growth and transformation."
-    },
-    {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3ME",
-        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
-    },
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4ME",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "/Modernization2ME",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
-    }
+   {
+  category: "AI-Enabled Cloud Transformation",
+  title: "Rebuild Your Cloud to Unlock AI Innovation",
+    link: "/ModernizationET",
+  hoverText: "25–40% of enterprise cloud budgets go to modernization. A unified approach transforms infrastructure, boosts security, and accelerates innovation."
+},
+{
+  category: "Intelligent Edge Solutions",
+  title: "Enable Real-Time Performance at the Edge",
+  link: "/Modernization2ET",
+  hoverText: "Edge computing brings intelligence closer to data sources—reducing latency, improving efficiency, and elevating user experiences."
+},
+{
+  category: "Strategic Cloud Architecture",
+  title: "Design Future-Ready Cloud Strategies",
+  link: "/Modernization4ET",
+  hoverText: "Misaligned cloud strategies drain value. Tailor cloud architectures that support scalability, resilience, and long-term business growth."
+},
+{
+  category: "Cloud Operations & Automation",
+  title: "Streamline Complex IT with Expert Management",
+  link: "/Modernization4ET",
+  hoverText: "82% of high-performing firms rely on managed services to scale operations, ensure resilience, and reduce time-to-value in the cloud."
+},
+{
+  category: "AI-Powered Application Services",
+  title: "Simplify and Scale Your App Ecosystem",
+  link: "/Modernization3ET",
+  hoverText: "As apps grow in complexity, AI and cloud-native tools help manage them at scale—accelerating deployment and improving performance."
+},
+{
+  category: "Legacy System Modernization",
+  title: "Unlock Agility with Cloud-Connected Mainframes",
+    link: "/Modernization2ET",
+  hoverText: "Modernizing legacy systems with cloud and generative AI enables faster innovation, better integration, and future-ready agility."
+}
 ];
 
 const EnergyCardSection= () => {

@@ -3,21 +3,21 @@ import './EnergyStats.css';
 
 const stats = [
   {
-    number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
+    number: "91%",
+    text: "of companies report that AI adoption has improved operational efficiency."
   },
   {
-    number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
+    number: "70%",
+    text: "of organizations are prioritizing data security alongside AI investments."
   },
   {
-    number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
+    number: "78%",
+    text: "of executives see AI-driven insights as key to better decision-making."
   },
   {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
+    number: "15-20%",
+    text: "increase in customer satisfaction for businesses using AI-powered personalization."
+  }
 ];
 
 export default function EnergyStats() {

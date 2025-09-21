@@ -21,23 +21,24 @@ function Automotive() {
           <img src={Automotiveimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Aerospace and defense services</h1>
+          <h1>Telecommunications & Media</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+          As the physical and digital worlds converge, the metaverse opens doors to interactive, innovative, and engaging experiences that are inclusive and transformative.
+
           </p>
         </div>
       </div>
       <h1 className='headings'>Automotive now</h1>
       <AutomotiveStats />
-      <h1 className='headings'>How to reinvent </h1>
+      <h1 className='headings'>Shape What’s Next </h1>
       <AutomotiveCardSection />
-      <h1 className='headings'>Ares we support</h1>
+      <h1 className='headings'>Expertise Across Industries</h1>
       <AutomotiveHoverPanel />
       <h1 className='headings'>What’s trending</h1>
       <AutomotiveSlider />
-      <h1 className='headings'>Awards and recognition</h1>
+      <h1 className='headings'>Milestones & Achievements</h1>
       <AutomotiveGridHoverCard />
-      <h1 className='headings'>Partners in change</h1>
+      <h1 className='headings'>Transformative Partnerships</h1>
       <PartnersCarouselSection />
   
       <Footer />

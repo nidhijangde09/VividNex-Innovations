@@ -4,16 +4,16 @@ import "./AutomotiveSlider.css";
 
 const cardData = [
   {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
+    subtitle: "Shape the future with smarter thinking and bolder actions.",
     title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
+    description: "Generative AI is transforming the rules of competition. Leaders are acting decisively—are you ready to join them?",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
   },
   {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
+    subtitle: "Intelligent supply chains are the key to staying ahead—are you ready?",
     title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
+    description: "Efficiency alone won’t cut it anymore. Modern supply chains must be smart, adaptive, and resilient to drive competitive advantage.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
   },
@@ -25,37 +25,37 @@ const cardData = [
     link: "/france"
   },
   {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
+    subtitle: "Me, My Brand, and AI: Shaping the Next Era of Consumer Connections",
     title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
+    description: "AI is evolving from assistant to advisor, creating more human, meaningful interactions. Brands that build resilient, AI-powered relationships will lead the market.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
   },
   {
-    subtitle: "Cyber defense strategies for 2025 and beyond.",
+    subtitle: "Next-Gen Cyber Defense: Preparing for 2025 and Beyond",
     title: "Research Report",
-    description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
+    description: "Protect your organization with cutting-edge cybersecurity strategies designed to anticipate threats, enhance resilience, and secure long-term growth.",
     image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/usa"
   },
   {
-    subtitle: "The next era of AI in healthcare innovation.",
+    subtitle: "AI in Healthcare: Transforming Care for the Next Era",
     title: "Research Report",
-    description: "How AI will transform diagnostics, treatment, and patient care experiences.",
+    description: "Discover how AI is reshaping diagnostics, treatment, and patient experiences—enabling smarter, faster, and more personalized healthcare solutions.",
     image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/uk"
   },
   {
-    subtitle: "Empowering industries through sustainable AI solutions.",
+    subtitle: "Sustainable AI: Driving Industry Transformation",
     title: "Research Report",
-    description: "Building AI solutions that accelerate sustainability goals across sectors.",
+    description: "Harness AI to accelerate sustainability initiatives, creating measurable impact across industries while driving innovation and long-term value.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/germany"
   },
   {
-    subtitle: "Data-driven growth strategies for modern enterprises.",
+    subtitle: "Data-Driven Growth: Unlocking Enterprise Potential",
     title: "Research Report",
-    description: "Leading companies use data to drive decisions, growth, and market leadership.",
+    description: "Top organizations leverage data insights to guide strategy, accelerate growth, and maintain a competitive edge in dynamic markets.",
     image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"
   },

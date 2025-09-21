@@ -3,62 +3,63 @@ import { Link } from "react-router-dom";
 import "./ChemicalsSlider.css";
 
 const cardData = [
-  {
-    subtitle: "Want to lead the future? You must think smarter. And build bolder.",
-    title: "Research Report",
-    description: "Generative AI is rewriting the rules of competition. The leaders are acting now. Are you one of them?",
-    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
+  
+   {
+  subtitle: "Lead the future by thinking smarter and building bolder.",
+  title: "The Generative AI Advantage",
+  description: "Generative AI is reshaping competitive landscapes. Industry leaders are already taking action—are you ready to join them?",
+   image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/colombia"
-  },
-  {
-    subtitle: "Supply chains are getting smarter. Are you prepared to keep up?",
-    title: "Research Report",
-    description: "Traditional efficiency models are no longer enough. To stay competitive, supply chains must be intelligent, responsive, and resilient.",
-    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
+},
+{
+  subtitle: "Smart supply chains: Are you ready to evolve?",
+  title: "The Rise of Intelligent Supply Networks",
+  description: "Outdated efficiency models won’t cut it. Modern supply chains must be intelligent, adaptable, and resilient to thrive.",
+  image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/japan"
-  },
-  {
-    subtitle: "Transforming the workplace through synergy between humans, AI, and robotics.",
-    title: "Research Report",
-    description: "VividNex is collaborating with Wharton to research how human strengths can integrate with AI and robotics for business innovation.",
+},
+{
+  subtitle: "Human, AI, and robotics: Creating tomorrow’s workplace today.",
+  title: "The Future of Work Is Hybrid Intelligence",
+  description: "Vividnex partners with Wharton to explore how blending human skills with AI and robotics drives business innovation.",
     image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/france"
-  },
-  {
-    subtitle: "Me, My Brand, and AI: Redefining the Future of Consumer Engagement",
-    title: "Research Report",
-    description: "AI is shifting from assistant to advisor, from helpful to deeply human. Resilient connections between people, brands, and AI will define market leadership.",
-    image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
+},
+{
+  subtitle: "AI and brands: Redefining consumer connections.",
+  title: "Reimagining Consumer Engagement with AI",
+  description: "From assistant to advisor, AI is deepening human-brand relationships that will shape future market leaders.",
+  image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/india"
-  },
-  {
-    subtitle: "Cyber defense strategies for 2025 and beyond.",
-    title: "Research Report",
-    description: "Future-proof your organization with advanced cyber defense techniques and strategies.",
-    image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
+},
+{
+  subtitle: "Cyber defense strategies for a dynamic future.",
+  title: "Next-Gen Cybersecurity: Defend, Adapt, Evolve",
+  description: "Stay ahead with advanced cyber defense methods designed for the challenges of 2025 and beyond.",
+  image: "https://img.freepik.com/premium-photo/blue-butterfly-purple-flower_1254813-81868.jpg",
     link: "/usa"
-  },
-  {
-    subtitle: "The next era of AI in healthcare innovation.",
-    title: "Research Report",
-    description: "How AI will transform diagnostics, treatment, and patient care experiences.",
-    image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
+},
+{
+  subtitle: "AI’s transformative role in healthcare innovation.",
+  title: "Healthcare Reimagined Through AI",
+  description: "Discover how AI is revolutionizing diagnostics, treatment, and patient care experiences across the industry.",
+   image: "https://img.freepik.com/premium-photo/woman-is-walking-front-orange-light-purple-walls_674594-12542.jpg",
     link: "/uk"
-  },
-  {
-    subtitle: "Empowering industries through sustainable AI solutions.",
-    title: "Research Report",
-    description: "Building AI solutions that accelerate sustainability goals across sectors.",
-    image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
+},
+{
+  subtitle: "Driving sustainability with AI-powered solutions.",
+  title: "Sustainable AI: Innovation for a Greener Future",
+  description: "Developing AI technologies that accelerate environmental and social goals across diverse industries.",
+   image: "https://dynamicmedia.accenture.com/is/image/accenture/Gland-and-Skim-300x212:rad-card-half?fit=constrain&ts=1748917304083",
     link: "/germany"
-  },
-  {
-    subtitle: "Data-driven growth strategies for modern enterprises.",
-    title: "Research Report",
-    description: "Leading companies use data to drive decisions, growth, and market leadership.",
-    image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
+},
+{
+  subtitle: "Harnessing data for enterprise growth and leadership.",
+  title: "Data-Driven Growth in the AI Economy",
+  description: "Top companies leverage data-driven strategies to fuel decisions, growth, and maintain competitive advantage.",
+      image: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--1487ca38-19b9-4e5d-b08d-5c1a90a7c58b/ey-female-hand-interacting-with-chatbot-technology-on-a-digital-screen.jpg?quality=85&preferwebp=true",
     link: "/canada"
-  },
+}
 ];
 
 const ChemicalsSlider = () => {

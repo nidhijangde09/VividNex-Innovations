@@ -19,9 +19,9 @@ function Chemicals() {
           <img src={chemicalimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Chemical consulting</h1>
+          <h1>Chemical Consulting Services</h1>
           <p>
-           Change is the catalyst in the chemical industry. To capture emerging opportunities—from achieving net zero to launching breakthrough products—chemical companies must embrace innovation at every step.
+           Innovation is the catalyst for transformation in the chemical industry. To seize emerging opportunities—from net-zero goals to groundbreaking products—leaders must embed innovation across the entire value chain.
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Chemicals() {
               <img src={customer3} alt="Logo" className='head-2-img' />
               <h1>Chemicals careers</h1>
               <p>
-               Harness innovation-first thinking to enable chemical companies to achieve sustainable growth.
+              Vividnex empowers chemical companies to rethink operations, adopt cleaner technologies, and accelerate product innovation—building a resilient, future-ready business.
               </p>
               <Link to="/" className="learn-more-btn">Learn More</Link>
             </div>

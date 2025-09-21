@@ -10,35 +10,30 @@ import Modernization4L from './Modernization/Modernization4L';
 
 
 const cardData = [
-
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationL",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2L",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
-
-    
-    {
-        category: "Managed Cloud Infrastructure",
-        title: "Manage IT Complexity for Seamless Transformation",
-        link: "/Modernization3L",
-        hoverText: "82% of top-performing companies use managed services to unlock cloud success. Partnering with experts ensures resilient, scalable IT infrastructure."
-    },
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization4L",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-
-   
+{
+  category: "Intelligent Edge Solutions",
+  title: "Enable Real-Time Performance at the Edge",
+  link: "/Modernization2ET",
+  hoverText: "Edge computing brings intelligence closer to data sources—reducing latency, improving efficiency, and elevating user experiences."
+},
+{
+  category: "Strategic Cloud Architecture",
+  title: "Design Future-Ready Cloud Strategies",
+  link: "/Modernization4ET",
+  hoverText: "Misaligned cloud strategies drain value. Tailor cloud architectures that support scalability, resilience, and long-term business growth."
+},
+{
+  category: "Cloud Operations & Automation",
+  title: "Streamline Complex IT with Expert Management",
+  link: "/Modernization4ET",
+  hoverText: "82% of high-performing firms rely on managed services to scale operations, ensure resilience, and reduce time-to-value in the cloud."
+},
+{
+  category: "AI-Powered Application Services",
+  title: "Simplify and Scale Your App Ecosystem",
+  link: "/Modernization3ET",
+  hoverText: "As apps grow in complexity, AI and cloud-native tools help manage them at scale—accelerating deployment and improving performance."
+},
 ];
 
 const ConsumerCardSection = () => {

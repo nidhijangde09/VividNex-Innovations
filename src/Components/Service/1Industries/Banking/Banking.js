@@ -22,9 +22,9 @@ function Banking() {
           <img src={FinancialImg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Financial services consulting</h1>
+          <h1>Fintech Innovation</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
+            Redefine banking for a digital-first world with Vividnex. We deliver seamless customer experiences, smarter operations, and agile risk management—empowering banks to innovate and lead.
           </p>
         </div>
       </div>
@@ -34,7 +34,7 @@ function Banking() {
       <BankingCardSection />
       <h1 className='headings'>Segments we support</h1>
       <BankingHoverPanel />
-      <h1 className='headings'>What’s trending in banking</h1>
+      <h1 className='headings'>Reinventing the Digital Core</h1>
       <BankingSlider />
       <h1 className='headings'>Awards & recognition</h1>
       <BankingGridHoverCard />

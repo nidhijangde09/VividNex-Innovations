@@ -2,22 +2,24 @@ import React from 'react';
 import './BankingStats.css';
 
 const stats = [
-  {
-    number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
-  },
-  {
-    number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
-  },
-  {
-    number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
-  },
-  {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
+{
+  number: '60%',
+  text: 'of executives say integrating AI across business functions is a top strategic priority for the next 12 months.',
+},
+{
+  number: '80%',
+  text: 'of digital transformation leaders link AI maturity to improved customer experience and operational efficiency.',
+},
+{
+  number: '50%',
+  text: 'reduction in time-to-market is reported by companies that embed AI into product development cycles.',
+},
+{
+  number: '90%',
+  text: 'of CEOs believe sustainability will be a key differentiator powered by data and AI.',
+}
+
+
 ];
 
 export default function BankingStats() {

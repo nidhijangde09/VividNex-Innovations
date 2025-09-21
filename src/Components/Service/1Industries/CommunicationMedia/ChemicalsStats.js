@@ -2,22 +2,25 @@ import React from 'react';
 import './ChemicalsStats.css';
 
 const stats = [
+[
   {
-    number: '65%',
-    text: 'A majority of chemical executives cite inflation and price volatility as their most urgent challenge.',
+    number: "72%",
+    text: "Of chemical companies are investing heavily in digital transformation to improve operational efficiency."
   },
   {
-    number: '87%',
-    text: 'Many chemical CXOs report that their organizations are in the midst of accelerated transformation.',
+    number: "80%",
+    text: "Of chemical executives prioritize sustainability initiatives as key drivers for future growth."
   },
   {
-    number: '58%',
-    text: 'A significant share of chemical executives have embraced a coordinated, enterprise-wide strategy to reinvent every function and business unit.',
+    number: "69%",
+    text: "Of organizations report improved decision-making through AI-powered analytics and insights."
   },
   {
-    number: '94%',
-    text: 'Many chemical executives feel highly inspired by the new possibilities unlocked through AI foundation models.',
-  },
+    number: "85%",
+    text: "Of chemical leaders believe that innovation ecosystems and partnerships are critical to staying competitive."
+  }
+]
+
 ];
 
 export default function ChemicalsStats() {

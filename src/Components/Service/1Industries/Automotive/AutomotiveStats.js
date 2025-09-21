@@ -2,22 +2,24 @@ import React from 'react';
 import './AutomotiveStats.css';
 
 const stats = [
-  {
-    number: '97%',
-    text: 'of executives agree generative AI will reshape their industry and company operations.',
-  },
-  {
-    number: '67%',
-    text: 'of firms are boosting technology budgets with a strong focus on data and AI.',
-  },
-  {
-    number: '75%',
-    text: 'of leaders cite good quality data as the key to unlocking generative AI’s full potential.',
-  },
-  {
-    number: '10-15%',
-    text: 'higher revenue growth is typical for companies leveraging data-driven strategies..',
-  },
+{
+  number: '82%',
+  text: 'of organizations report faster decision-making when using AI-driven insights across operations.',
+},
+{
+  number: '60%',
+  text: 'of enterprises are prioritizing cloud modernization to accelerate innovation and resilience.',
+},
+{
+  number: '45%',
+  text: 'increase in customer engagement is seen when personalized experiences are powered by AI and analytics.',
+},
+{
+  number: '3x',
+  text: 'higher innovation output is achieved by companies integrating AI with human expertise across projects.',
+},
+
+
 ];
 
 export default function AutomotiveStats() {

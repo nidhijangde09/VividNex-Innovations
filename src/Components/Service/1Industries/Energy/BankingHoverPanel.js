@@ -4,33 +4,33 @@ import './BankingHoverPanel.css';
 
 const items = [
 
-     {
-        label: "Sales and Commerce",
-        title: "Move at the speed of your customers",
-        description:"In a world of instant influence and shifting demand, relevance means delivering seamless experiences that match the pace of life.",
-        image: "https://dynamicmedia.accenture.com/is/image/accenture/Two-man-discussing-drawing:rad-16x9?ts=1749490438465&fit=constrain&dpr=on,0.8999999761581421&wid=480",
-         link: "#",
+      {
+    category: "Customer Experience Acceleration",
+    title: "Move at the Speed of Your Customers",
+    hoverText: "Vividnex helps brands adapt in real time—delivering seamless, personalized commerce experiences that meet rising expectations and fuel business growth.",
+    image: "https://dynamicmedia.accenture.com/is/image/accenture/Two-man-discussing-drawing:rad-16x9?ts=1749490438465&fit=constrain&dpr=on,0.8999999761581421&wid=480",
+    link: "#",
     },
      {
-        label: "Strategy",
-        title: "Lead with purpose. Grow with impact.",
-        description:"Embrace continuous reinvention to achieve sustainable growth—delivering long-term value for your business, your customers, and the world.",
-        image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-utilities-image4:rad-16x9?ts=1749490438491&fit=constrain&dpr=on,0.8999999761581421&wid=480",
-         link: "#",
+    category: "Strategic Reinvention",
+    title: "Lead with Purpose. Grow with Impact.",
+    hoverText: "Vividnex enables continuous reinvention—aligning vision, technology, and execution to drive sustainable growth and long-term value for all stakeholders.",
+    image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-utilities-image4:rad-16x9?ts=1749490438491&fit=constrain&dpr=on,0.8999999761581421&wid=480",
+    link: "#",
     },
      {
-        label: "Supply Chain",
-        title: "Build supply chains that think, adapt, and grow",
-        description:"Supply chains are no longer just operational backbones—they’re strategic drivers of growth. Reinvent your supply chain to be more adaptive, data-driven, and sustainable, ensuring agility and resilience in an unpredictable world",
-        image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-software-platforms-image7:rad-16x9?ts=1749490438519&fit=constrain&dpr=on,0.8999999761581421&wid=480",
-         link: "#",
+    category: "Intelligent Supply Chain",
+    title: "Build Supply Chains That Think, Adapt, and Grow",
+    hoverText: "Vividnex reimagines supply chains as strategic, data-driven networks—enhancing agility, resilience, and sustainability in an unpredictable world.",
+    image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-RAD-software-platforms-image7:rad-16x9?ts=1749490438519&fit=constrain&dpr=on,0.8999999761581421&wid=480",
+    link: "#",
     },
      {
-        label: "Sustainability",
-        title: "Accelerate impact. Drive value.",
-        description:"Sustainability is no longer optional—it’s essential. From environmental responsibility to social equity and governance, organizations must lead with purpose to remain competitive and resilient.",
-        image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-cyber-protection-1707x1138:rad-16x9?ts=1749490438545&fit=constrain&dpr=on,0.8999999761581421&wid=480",
-         link: "#",
+    category: "Sustainable Transformation",
+    title: "Accelerate Impact. Drive Value.",
+    hoverText: "Vividnex empowers organizations to embed sustainability at the core—aligning environmental, social, and governance goals with long-term growth and resilience.",
+    image: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-cyber-protection-1707x1138:rad-16x9?ts=1749490438545&fit=constrain&dpr=on,0.8999999761581421&wid=480",
+    link: "#",
     },
      
     

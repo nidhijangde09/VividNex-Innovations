@@ -12,33 +12,31 @@ import Modernization4DA from './Modernization/Modernization4DA';
 
 const cardData = [
 
-    {
-        category: "Modernization Services",
-        title: "Update your cloud foundation to power AI",
-        link: "/ModernizationDA",
-        hoverText: "25-40% of enterprise cloud spend goes to modernization. Coordinated modernization efforts transform tech to optimize processes, boost security, spark innovation and drive growth."
-    },
-    {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2DA",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
-    },
+{
+    category: "Cloud-Native Transformation",
+    title: "Accelerate Cloud Adoption with Future-Ready Architectures",
+     link: "/ModernizationDA",
+    hoverText: "Migrating to the cloud is just the beginning. Vividnex helps rearchitect workloads to be agile, scalable, and optimized for continuous innovation."
+},
+{
+    category: "Intelligent Automation",
+    title: "Reimagine Operations with AI and Automation",
+    link: "/Modernization2DA",
+    hoverText: "Manual processes limit growth. Streamline workflows with AI-driven automation to enhance efficiency, reduce costs, and elevate customer experience."
+},
+{
+    category: "Cyber Resilience",
+    title: "Secure Your Enterprise for the AI-Driven Future",
+     link: "/Modernization3DA",
+    hoverText: "Modern threats require modern defenses. Vividnex embeds advanced security across cloud and AI ecosystems to protect data, systems, and trust."
+},
+{
+    category: "Sustainable IT",
+    title: "Build Green Tech Foundations with Smart Cloud Strategies",
+    link: "/Modernization2DA",
+    hoverText: "Sustainability is a growth driver. Optimize energy use and reduce carbon footprint with intelligent cloud and data center solutions."
+}
 
-  
-    {
-        category: "Modern App Management at Scale",
-        title: "Simplify Application Landscapes Using AI and Cloud",
-        link: "/Modernization3DA",
-        hoverText: "As application complexity grows, combining traditional managed services with cloud and gen AI accelerates value delivery."
-    },
-
-    {
-        category: "Cloud-Enabled Mainframe Transformation",
-        title: "Modernize your mainframe to integrate with cloud and AI—unlocking new levels of flexibility and innovation.",
-        link: "/Modernization2DA",
-        hoverText: "Companies often struggle with legacy systems. Embracing cloud and generative AI accelerates mainframe modernization and unlocks agility."
-    }
 ];
 
 const BankingCardSection = () => {
