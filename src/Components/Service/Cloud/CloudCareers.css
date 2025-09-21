@@ -2,7 +2,7 @@
 .cloud-sections {
   width: 100%;
   min-height: 70vh;
-  background: url("https://images.pexels.com/photos/10874582/pexels-photo-10874582.jpeg") no-repeat center center;
+  background: url("https://media.istockphoto.com/id/984824408/photo/3d-topographic-map-background-concept-topo-contour-map-rendering-abstract-illustration-valleys.jpg?b=1&s=612x612&w=0&k=20&c=iL7ElKnw-ni1XdeMNCM6WlQQLEurURBB9sZT7JqYVcI=") no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -16,7 +16,6 @@
 .cloud-overlay {
   width: 100%;
   height: 100%;
-
   display: flex;
   align-items: center;
   padding: 80px 100px;
@@ -35,10 +34,11 @@
 }
 
 .cloud-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 30px;
   color: #e0e0e0;
+  font-weight: 400;
 }
 
 .cloud-button {

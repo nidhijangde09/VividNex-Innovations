@@ -87,7 +87,7 @@ const items = [
   },
 
      {
-    label: "Industrial",
+    label: "",
     title: "",
     description:
       "",
@@ -114,8 +114,7 @@ const items = [
      {
     label: "",
     title: "",
-    description:
-      "",
+    description:  "",
     image: "a",
     link: "#",
   },
@@ -123,8 +122,7 @@ const items = [
      {
     label: "",
     title: "",
-    description:
-      "",
+    description:      "",
     image: "a",
     link: "#",
   },
@@ -132,16 +130,14 @@ const items = [
      {
     label: "",
     title: "",
-    description:
-      "",
+    description:     "",
     image: "a",
     link: "#",
   },
      {
     label: "",
     title: "",
-    description:
-      "",
+    description:     "",
     image: "a",
     link: "#",
   },

@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <h2 className="footer-title">Let there be Vividnex</h2>
+        <h2 className="footer-title">Inspiring Digital Excellence</h2>
         <div className="footer-links">
           <ul>
             <li><Link to="/AwardsRecognition">Awards & Recognition</Link></li>
