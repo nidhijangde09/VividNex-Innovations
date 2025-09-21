@@ -1,7 +1,7 @@
 import React from 'react'
 import SalesCommerceImg from '../../../assets/images/SalesCommerce.jpg'; // Renamed here
 import Navbar from '../../Navbar/Navbar';
-import SalesCommerceStats from './SalesCommerceStats';
+import CloudStats from './CloudStats';
 import SalesCommerceCardSection from './SalesCommerceCardSection';
 import SalesCommerceSlider from './SalesCommerceSlider';
 import SalesCommerceViedoSection from './SalesCommerceViedoSection';
@@ -19,14 +19,14 @@ function SalesCommerce() {
           <img src={SalesCommerceImg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Metaverse services</h1>
+          <h1>Sales & Commerce services</h1>
           <p>
             As physical and digital worlds converge, the metaverse empowers organizations to design meaningful, inclusive, and immersive experiences that drive innovation and engagement.
           </p>
         </div>
       </div>
-      <h1 className='headings'>Metaverse now</h1>
-      <SalesCommerceStats />
+      <h1 className='headings'>Sales & Commerce now</h1>
+      <CloudStats />
         <h1 className='headings'>Reinvent with strategy</h1>
       <SalesCommerceCardSection />
             <h1 className='headings'>What’s trending with strategy</h1>

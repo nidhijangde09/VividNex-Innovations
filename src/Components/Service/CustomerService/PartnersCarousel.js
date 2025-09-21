@@ -23,7 +23,7 @@ const data = [
     name: "Salesforce",
     logo: "https://dynamicmedia.accenture.com/is/image/accenture/Accenture-salesforce-logo?qlt=85&ts=1745995389812&&fmt=webp-alpha&dpr=off",
     description: "Securely visualize enterprise-wide operations through an asset model that applies context to real-time processes, alarms, events, and historical data.",
-    link: "/Partnersslidercards"
+    link: "/Partnersslidercards1"
 
   },
 

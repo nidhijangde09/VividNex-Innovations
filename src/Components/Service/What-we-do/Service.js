@@ -6,8 +6,11 @@ import Robot from '../../../assets/images/Robot.jpg';
 import Navbar from '../../Navbar/Navbar';
 import ServiceHoverPanel from './ServiceHoverPanel';
 import InteractiveServicePanel from './InteractiveServicePanel';
-import Simg from '../../../assets/images/Simg.jpg';
+
 import Footer from '../../../Components/Footer/Footer';
+import PartnersSection from './PartnersSection';
+
+
 export default function Service() {
 
   return (
@@ -27,22 +30,13 @@ export default function Service() {
       <h2 className='head-2-s'>Capabilities</h2>
       <h3 className='head-2-p'>Capabilities that drive reinvention</h3>
       <ServiceHoverPanel />
-
+      <h3 className='head-2-p'>350+ partnerships to help accelerate change</h3>
+<PartnersSection />
       <h2 className='head-2-s'>Industries</h2>
       <h3 className='head-2-p'>Unmatched industry expertise</h3>
       <InteractiveServicePanel />
 
-     <div className="head-container-6">
-  <img src={Simg} alt="Background" className="head-2-img" />
-  <div className="head-content">
-    <h1>Reinventing every day</h1>
-    <p>
-      We help clients unlock their full potential through technology, data, AI, and modern ways of working—
-      pushing boundaries to reshape industries and define what’s next.
-    </p>
-    <Link to="/" className="learn-more-btn">Learn More</Link>
-  </div>
-</div>
+    
 
       <div className="award-section">
   <h1 className="award-heading">

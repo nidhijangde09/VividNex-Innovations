@@ -7,7 +7,7 @@ function WellBeingSection() {
       {/* Row 1 */}
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Professional-guidance-challenges%3Arad-2x3?ts=1720594207413&dpr=off"
+          src="https://images.pexels.com/photos/4921081/pexels-photo-4921081.jpeg"
           alt="Employee Assistance"
         />
         <div className="wellbeing-text">

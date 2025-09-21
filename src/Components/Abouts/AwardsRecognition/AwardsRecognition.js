@@ -20,9 +20,9 @@ function AwardsRecognition() {
             <h1 className='Careerheada'>Our brand strength continues to drive value and success</h1>
             <CloudCardSection />
 
-            <h1 className='Careerheada'>Our brand strength continues to drive value and success</h1>
+            <h1 className='Careerheada'>Committed to operating with sustainability at our core</h1>
             <ConductSection />
-            <h1 className='Careerheada'>Our brand strength continues to drive <br></br>value and success</h1>
+            <h1 className='Careerheada'>Empowering our people to learn, grow, and thrive</h1>
             < InsightsGrid />
             <h1 className='Careerheada'>Our brand strength continues to drive <br></br>value and success</h1>
             <CardSection />

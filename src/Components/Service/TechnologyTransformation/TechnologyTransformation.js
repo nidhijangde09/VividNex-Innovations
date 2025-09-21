@@ -1,6 +1,6 @@
 import React from 'react'
 import './TechnologyTransformation.css';
-import TechnologyTransformationStats from './TechnologyTransformationStats';
+import CloudStats from './CloudStats';
 import TechnologyConsultingimg from '../../../assets/images/TechnologyConsultingimg.jpg';
 import TechnologyTransformationCardSection from './TechnologyTransformationCardSection';
 import TechnologyTransformationSlider from './TechnologyTransformationSlider';
@@ -27,7 +27,7 @@ function TechnologyTransformation() {
         </div>
       </div>
       <h1 className='headings'>Technology Transformation Now</h1>
-      <TechnologyTransformationStats />
+      <CloudStats />
       <h1 className='headings'>Reinvent with strategy</h1>
       <TechnologyTransformationCardSection />
       <h1 className='headings'>What’s trending with strategy</h1>
