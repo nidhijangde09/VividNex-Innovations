@@ -18,9 +18,9 @@ function Contact() {
                     <img src={contact} />
                 </div>
                 <div className="service-text">
-                    <h1>Turn every customer interaction into a catalyst for growth.</h1>
+                    <h1>Get in touch</h1>
                     <p>
-                        Inconsistent and impersonal interactions prevent organizations from effectively supporting their customers. Unlocking growth requires delivering seamless, data-driven experiences that feel intuitive, not reactive.
+                        Thank you for your interest in VividNex. Please select from the options below and we will ensure you are connected with the appropriate representative.
                     </p>
                 </div>
             </div>
