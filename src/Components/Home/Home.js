@@ -47,8 +47,7 @@ export default function Home() {
       </div>
       <Slider />
 
-      <h1 className='value'>Leading with vision and experience</h1>
-      <QuoteSection />
+    
 
       <div className="award-section">
         <h1 className="g-name">Global recognition and
