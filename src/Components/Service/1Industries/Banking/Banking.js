@@ -10,7 +10,7 @@ import BankingGridHoverCard from './BankingGridHoverCard';
 import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
-
+import BankingCareer from './BankingCareer';
 
 
 function Banking() {
@@ -28,9 +28,9 @@ function Banking() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Banking  now</h1>
+      <h1 className='headings'>Banking  </h1>
       <BankingStats />
-      <h1 className='headings'>How to reinvent</h1>
+      <h1 className='headings'>Innovate with Banking</h1>
       <BankingCardSection />
       <h1 className='headings'>Segments we support</h1>
       <BankingHoverPanel />
@@ -38,9 +38,8 @@ function Banking() {
       <BankingSlider />
       <h1 className='headings'>Awards & recognition</h1>
       <BankingGridHoverCard />
-      
-     
 
+      <BankingCareer />
       <Footer />
     </div>
   )

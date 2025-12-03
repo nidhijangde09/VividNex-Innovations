@@ -9,7 +9,7 @@ import BankingGridHoverCard from './BankingGridHoverCard';
 import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
-
+import PublicsectorCareer from './PublicsectorCareer';
 
 
 function Publicsector() {
@@ -18,7 +18,7 @@ function Publicsector() {
       <Navbar />
       <div className="service-container">
         <div className="service-image">
-          <img src={Publicsectorimg } alt="Cloud consulting illustration" /> {/* Updated here */}
+          <img src={Publicsectorimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
           <h1>Public Sector consulting</h1>
@@ -31,13 +31,13 @@ function Publicsector() {
       <BankingStats />
       <h1 className='headings'>How to reinvent</h1>
       <BankingCardSection />
-      
+
       <h1 className='headings'>What’s trending in banking</h1>
       <BankingSlider />
       <h1 className='headings'>Awards & recognition</h1>
       <BankingGridHoverCard />
-  
 
+      <PublicsectorCareer />
       <Footer />
     </div>
   )

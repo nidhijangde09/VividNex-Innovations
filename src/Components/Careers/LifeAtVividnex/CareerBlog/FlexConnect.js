@@ -7,18 +7,16 @@ function FlexConnect() {
       {/* Left side text */}
       <div className="flexconnect-text">
         <div className="heading-line"></div>
-        <h2>Flex and connect</h2>
+        <h2>AI is transforming work—are you ready?</h2>
         <p>
-       Vividnex embraces flexibility in work and approach,
-        empowering connections that strengthen relationships
-         and fuel innovation
+      At VividNex, AI is changing how we solve problems, collaborate, and deliver results. It’s redefining careers and enabling us to turn ideas into meaningful impact faster than ever.
         </p>
       </div>
 
       {/* Right side image only */}
       <div className="flexconnect-image">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Check-Clients%3Arad-3x2?ts=1721906763880&dpr=off"
+          src="https://images.pexels.com/photos/2239655/pexels-photo-2239655.jpeg"
           alt="Flex and connect"
         />
       </div>

@@ -18,4 +18,4 @@ function TechnologyTransformationCareer() {
   )
 }
 
-export default TechnologyTransformationCareer
+export default TechnologyTransformationCareer;

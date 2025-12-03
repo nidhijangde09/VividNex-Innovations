@@ -4,15 +4,15 @@ import "./AcquisitionSlider.css";
 const slides = [
   {
     logo: "https://cdn-icons-png.flaticon.com/128/17248/17248469.png",
-   title: "Vividnex Advisory",
-   description: "Delivering strategic advisory and project management solutions to drive efficiency and growth across multiple sectors."
+   title: "Paid Time Off",
+   description: "You’ll receive annual Paid Time Off (PTO) in accordance with the state you work in. PTO encompasses earned leave, sick leave, and casual leave."
 ,
     link: "https://example.com/anser",
   },
   {
     logo: "https://dynamicmedia.accenture.com/is/content/accenture/Client_80x80-1?ts=1741760964920&fit=constrain&dpr=off",
-    title: "Vividnex Comtech",
-    description: "Empowering organizations with advanced project management, digitization, and engineering solutions that drive efficiency and innovation.",
+    title: "Public Holidays",
+    description: "Employees are eligible for ten public holidays annually, consisting of eight fixed and two floating holidays.",
     link: "https://example.com/comtech",
   },
   {

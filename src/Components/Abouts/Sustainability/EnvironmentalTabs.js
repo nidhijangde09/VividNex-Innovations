@@ -4,48 +4,35 @@ import "./SustainabilityTabs.css";
 const tabsData = [
   {
     key: "climate",
-    title: "Climate change mitigation",
-    text: `We continue to work toward our 2025 carbon removal goal by first focusing on 
-    reductions across our Scope 1, 2, and 3 emissions and then removing any remaining emissions 
-    through nature-based carbon removal projects.`,
-    img: "https://images.pexels.com/photos/5240150/pexels-photo-5240150.jpeg",
+    title: "Carbon capture",
+    text: `Our nature-based carbon removal program is designed to remove millions of metric tons of carbon from the atmosphere, supporting our journey toward our SBTi-approved net-zero targets for fiscal 2040. By the end of fiscal 2024, our project portfolio included initiatives in Indonesia, the Philippines, the United Kingdom, and the United States.`,
+    img: "https://media.istockphoto.com/id/1954840203/photo/businessman-holding-green-scrap-paper-ball-with-world-map-and-environment-icon-such-as-carbon.jpg?b=1&s=612x612&w=0&k=20&c=RH3KRhXeEnJxEM838wb716lPQlQnUtLW4BDq1_8E5v0=",
   },
   {
     key: "carbonReduction",
-    title: "Carbon reduction",
-    text: `We are a signatory to the UN Global Compact Business Ambition for 1.5°C Pledge, 
-    committing to do our part to keep global warming below 1.5° Celsius in alignment 
-    with the Paris Agreement and the criteria of the Science Based Targets initiative.`,
+    title: "Pathway to Income",
+    text: `Passport to Earning, an initiative by UNICEF’s Generation Unlimited, founded globally by VividNex and other partners, has reached 2 million young learners in India. Passport to Earning provides free digital learning opportunities in local languages, helping bridge the educational divide for millions of young people.`,
     img: "https://images.pexels.com/photos/7654133/pexels-photo-7654133.jpeg",
   },
   {
     key: "carbonRemoval",
-    title: "Carbon removal",
-    text: `In 2018, we established a SBTi 2025 near-term emissions reduction target, 
-    which we have surpassed. During fiscal 2024, we received approval for net-zero GHG targets.`,
+    title: "Global Child Aid",
+    text: `Through the Equip Today to Thrive Tomorrow program, Save the Children has provided young people across five countries with future-ready skills in fiscal 2024. We also support youth through the Youth Leaders for a Sustainable Future initiative, empowering them to access jobs, launch businesses, or pursue higher education. These programs prioritize gender equality, youth-led advocacy, and leverage technology for digital skills development, while promoting innovation and entrepreneurship in the green economy. Together, these initiatives have equipped more than 100,000 young people, as reported in fiscal 2024.`,
     img: "https://media.istockphoto.com/id/1326251444/photo/portrait-of-a-successful-young-man.jpg?b=1&s=612x612&w=0&k=20&c=W7wYgMYXGTgemW_5BMzBtEDHS_7P3kf4JwErLDjS0tk=",
   },
   {
     key: "zeroWaste",
-    title: "Toward zero waste",
-    text: `We aim to eliminate waste by improving recycling, reusing materials, 
-    and adopting circular economy practices.`,
+    title: "Youth Leadership Alliance",
+    text: `VividNex and World Scouting are partnering to expand educational opportunities for Scouts worldwide, equipping them with leadership, sustainability, and digital skills needed to thrive in today’s fast-paced world and contribute to a more sustainable future. VividNex is supporting the launch of the Impact Innovator Challenge badge, helping young people develop innovation and creative problem-solving skills for life.`,
     img: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg",
   },
   {
     key: "waterRisk",
-    title: "Water risk",
-    text: `We actively manage water risk by implementing efficient water usage 
-    and conservation practices.`,
+    title: "PRO-A Initiative",
+    text: `We have partnered with the NGO Instituto PRO-A in Brazil to help transform the lives of low-income youth by equipping them with workforce-ready skills. Instituto PRO-A aims to reach 300,000 young people by 2027, and we are supporting this goal by leveraging automation and artificial intelligence to make job placement more efficient.`,
     img: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
   },
-  {
-    key: "cleanAir",
-    title: "Alliance for Clean Air",
-    text: `We are proud members of the Alliance for Clean Air, 
-    working to minimize emissions and improve air quality globally.`,
-    img: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
-  },
+ 
 ];
 
 

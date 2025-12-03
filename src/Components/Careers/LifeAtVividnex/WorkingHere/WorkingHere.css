@@ -119,5 +119,10 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: #2600ff;
+
 }
 
+.read-more .arrow {
+  color: #2600ff;
+  margin-left: 5px;
+}

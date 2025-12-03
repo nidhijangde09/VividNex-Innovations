@@ -27,7 +27,7 @@ export default function LearningStats() {
       <div className="cloud-stats-grid">
         {stats.map((item, index) => (
           <div key={index} className="cloud-stat-box">
-            <div className="underline" />
+             <div className="cloud-card-underline"/>
             <h3>{item.number}</h3>
             <p>{item.text}</p>
           </div>

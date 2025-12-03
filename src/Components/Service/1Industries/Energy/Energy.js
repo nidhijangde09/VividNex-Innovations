@@ -11,7 +11,7 @@ import EnergyCardSection from './EnergyCardSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
 import AutomotiveCardSection from '../Automotive/AutomotiveCardSection';
-
+import EnergyCareer from './EnergyCareer';
 function Energy() {
   return (
     <div>
@@ -27,20 +27,20 @@ function Energy() {
           </p>
         </div>
       </div>
-  <h1 className='headings'>Energy now</h1>
+      <h1 className='headings'>Energy now</h1>
       <EnergyStats />
-<h1 className='headings'>How to reinvent</h1>
-      <EnergyCardSection/>
-<h1 className='headings'>Segments we support</h1>
+      <h1 className='headings'>How to reinvent</h1>
+      <EnergyCardSection />
+      <h1 className='headings'>Segments we support</h1>
       <BankingHoverPanel />
-<h1 className='headings'>What’s trending</h1>
+      <h1 className='headings'>What’s trending</h1>
       <BankingSlider />
-<h1 className='headings'>Awards and recognition</h1>
+      <h1 className='headings'>Awards and recognition</h1>
       <EnergyGridHoverCard />
-<h1 className='headings'>Partners in change</h1>
-<PartnersCarouselSection/>
+      <h1 className='headings'>Partners in change</h1>
+      <PartnersCarouselSection />
 
-
+      <EnergyCareer />
       <Footer />
     </div>
   )

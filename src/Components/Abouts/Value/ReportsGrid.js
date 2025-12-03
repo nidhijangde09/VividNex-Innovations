@@ -8,7 +8,7 @@ const reports = [
     size: "tall",
   },
   {
-    title: "360° VALUE REPORT – Delivering value from every angle",
+    title: " VALUE REPORT – Delivering value from every angle",
     img: "https://images.pexels.com/photos/33678100/pexels-photo-33678100.jpeg",
     size: "tall",
   },

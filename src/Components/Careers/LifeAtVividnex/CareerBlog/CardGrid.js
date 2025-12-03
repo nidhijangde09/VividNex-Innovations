@@ -6,30 +6,30 @@ import "./CardGrid.css";
 const cardData = [
   
   {
-    subtitle: "Protecting the Digital World with Vividnex",
+    subtitle: "Embrace curiosity and continuous learning",
     title: "Case Study",
-    description: "With Vividnex’s Protective DNS, hundreds of millions of threats are stopped each month, strengthening digital security for people and organizations alike.",
+    description: "Innovation starts with asking questions. Stay curious, explore new technologies, and seek out learning opportunities—whether through courses, mentorship, or hands-on experimentation. The more you learn, the more ideas you can turn into impact.",
     image: "https://t3.ftcdn.net/jpg/12/53/26/80/360_F_1253268001_JcEeDW4SB2iLba0o6mCQZAeDjJBwX3SB.jpg",
     link: "/ResearchReportcard"
   },
   {
-    subtitle: "Dealmaking in the Age of AI",
+    subtitle: "Think beyond boundaries",
     title: "Research Report",
-    description: "Vividnex research reveals how disciplined AI adoption in M&A enables firms to outperform, delivering strategic advantage and superior returns.",
+    description: "Don’t just solve the problem in front of you—look for opportunities to improve processes, products, or experiences. Collaboration across teams, functions, and disciplines often sparks the most creative solutions.",
     image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/ResearchReportcard"
   },
   {
-   subtitle: "Innovating Payments in the UAE",
+   subtitle: "Be proactive and take ownership",
     title: "Case Study",
-    description: "With Vividnex, the UAE drives digital transformation in financial services, emerging as a global leader in FinTech innovation.",
+    description: "At VividNex, initiative matters. Identify challenges, propose solutions, and take responsibility for delivering results. Ownership drives both personal growth and meaningful impact for the company.",
     image: "https://images.stockcake.com/public/b/5/e/b5e8b748-c1db-416f-af57-d3d05a918c47_medium/neon-tech-nexus-stockcake.jpg",
     link: "/ResearchReportcard"
   },
   {
-    subtitle: "From Preparedness to Transformation",
+    subtitle: "Collaborate and build connections",
     title: "Research Report",
-    description: "Vividnex research shows that thriving in volatile times demands adaptive resilience—helping organizations grow stronger and stay ahead.",
+    description: "Innovation thrives in connected teams. Engage with colleagues, clients, and partners to share ideas, get feedback, and iterate faster. Diverse perspectives lead to smarter, more robust solutions.",
     image: "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
     link: "/ResearchReportcard"
   }

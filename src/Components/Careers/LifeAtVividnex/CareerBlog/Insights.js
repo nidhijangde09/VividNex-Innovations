@@ -16,7 +16,7 @@ const cardData = [
     subtitle: "Dealmaking in the Age of AI",
     title: "Research Report",
     description: "Vividnex research reveals how disciplined AI adoption in M&A enables firms to outperform, delivering strategic advantage and superior returns.",
-    image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
+    image: "https://media.istockphoto.com/id/157686859/photo/abstract-light-blue-background-textured-effect-xxxl.jpg?b=1&s=612x612&w=0&k=20&c=V3FL_S8OcQRSmN2Uee1FBj93wNuB3jdNUeiI9YyP9_Y=",
     link: "/ResearchReportcard"
   },
   {
@@ -30,7 +30,7 @@ const cardData = [
     subtitle: "From Preparedness to Transformation",
     title: "Research Report",
     description: "Vividnex research shows that thriving in volatile times demands adaptive resilience—helping organizations grow stronger and stay ahead.",
-    image: "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
+    image: "https://media.istockphoto.com/id/1287065554/photo/sound-wave.jpg?b=1&s=612x612&w=0&k=20&c=Qbk-qBg1-MueQrxyI1QlNM8SaXsYTv5wS5o46dSqAZU=",
     link: "/ResearchReportcard"
   }
 ];

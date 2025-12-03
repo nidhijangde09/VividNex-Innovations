@@ -8,6 +8,9 @@ import BankingHoverPanel from './BankingHoverPanel';
 import CloudStats from './CloudStats';
 import DataAIGridHoverCard from './DataAIGridHoverCard';
 import Footer from '../../Footer/Footer';
+
+
+
 function WhoWeAre() {
     return (
         <div>
@@ -17,23 +20,23 @@ function WhoWeAre() {
                     <img src={aboutimg} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>About recruiting at <br></br>Accenture</h1>
+                    <h1>About recruiting at <br></br>Vividnex</h1>
                     <p>
                         Here’s what happens after you apply for a role:
                     </p>
                 </div>
             </div>
-            <h1 className='Careerhead'>Creating positive change</h1>
-            <p className='Careerheadcontent'>We’re committed to creating positive change around the world and ensuring we act as<br></br> responsible business leaders for our people, our clients, and the communities we call home.</p>
+            <h1 className='Careerhead'>Driving meaningful impact</h1>
+            <p className='Careerheadcontent'>We’re dedicated to making a meaningful impact globally—acting responsibly toward our people, our clients, and the communities we serve.</p>
             <AccordionSection />
             <h1 className='Careerhead'>Leading with vision and experience</h1>
             <QuoteSection />
-            <h1 className='Careerhead1'>Industry of One</h1>
-            <p className='Careerheadcontent1'>Across industries, we bring together the capabilities needed to help clients change and grow quickly.</p>
+            <h1 className='Careerhead1'>Industry </h1>
+            <p className='Careerheadcontent1'>At VividNex, we bring together technology, strategy, and innovation to help every client transform with speed and confidence. Across industries, we deliver tailored solutions that empower growth and lasting impact.</p>
             <BankingHoverPanel />
             <CloudStats />
 
-             <h1 className='Careerhead'>We’re recognized for the value we <br></br>create together</h1>
+             <h1 className='Careerhead'>Recognized for the difference we make together</h1>
              <DataAIGridHoverCard />
              <Footer />
         </div>
@@ -41,3 +44,15 @@ function WhoWeAre() {
 }
 
 export default WhoWeAre;
+
+
+
+
+
+
+
+
+
+
+
+

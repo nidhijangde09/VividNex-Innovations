@@ -31,9 +31,10 @@ function WorkingHere() {
       <DataAIGridHoverCard />
       <h1 className='Careerhead'>Work with purpose</h1>
       <p className='Careerheadcontent'>Drive change. Improve lives—for our people, clients, and communities worldwide.</p>
-      <a href="/Value" className="read-more">
-        &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;  View all commitments ➔
-      </a>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   <a href="/Value" className="read-more">
+      View all commitments <span className="arrow">➔</span>
+            </a>
+
 
 
       <ValuesSection />

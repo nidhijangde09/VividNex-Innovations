@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa"; // Added FaYoutube
 import { Link } from "react-router-dom";
 import Career from '../Careers/Career';
 import WhoWeAre from '../Abouts/WhoWeAre/WhoWeAre';
@@ -25,7 +25,7 @@ const Footer = () => {
             <li><Link to="/WhoWeAre">About Us</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
             <li><Link to="/Locations">Locations</Link></li>
-            <li><Link to="/Value">360° Value</Link></li>
+            <li><Link to="/Value">Integrated Values</Link></li>
           </ul>
           <ul>
             <li><Link to="/PrivacyStatement">Privacy Statement</Link></li>
@@ -35,21 +35,18 @@ const Footer = () => {
           </ul>
         </div>
 
-
-
         {/* ✅ Social Media after copyright */}
         <div className="footer-social">
-          <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer"><FaTwitter /></a>
+          <a href="https://www.facebook.com/Vividnex" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+          {/* Removed Twitter */}
           <a href="https://www.linkedin.com/company/vividnex/posts/?feedView=all" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
           <a href="https://www.instagram.com/vividnex/" target="_blank" rel="noreferrer"><FaInstagram /></a>
+          <a href="https://www.youtube.com/@VividnexGlobal" target="_blank" rel="noreferrer"><FaYoutube /></a> {/* Added YouTube */}
         </div>
 
         <p className="footer-copy">
           © {new Date().getFullYear()} Vividnex. All Rights Reserved.
         </p>
-
-
       </div>
 
       <div className="footer-right">
@@ -65,3 +62,18 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

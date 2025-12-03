@@ -16,9 +16,7 @@ function LearningDevelopment() {
       <div className="learning-text">
         <h2>Learning and development</h2>
         <p>
-          From certifications to immersive VR experiences, Vividnex
-           provides the tools and programs you need to
-            learn, grow, and excel in your career every year.
+          Each year, we provide opportunities for continuous learning and professional growth, including specialized certifications, technical training, workshops, online games, hackathons, and VR experiences aligned with your role and career goals.
         </p>
         <a href="/Learning" className="read-more">
           Read more <span>➜</span>

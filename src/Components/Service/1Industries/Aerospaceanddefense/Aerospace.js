@@ -12,7 +12,7 @@ import AerospaceSection from './AerospaceSection';
 import './Aerospace.css';
 import { Link } from 'react-router-dom';
 import customer3 from '../../../../assets/images/customer3.jpg';
-
+import AerospaceanddefenseCareer from './AerospaceanddefenseCareer';
 
 
 function Aerospace() {
@@ -30,23 +30,23 @@ function Aerospace() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings'>Financial services now</h1>
+            <h1 className='headings'>Aerospace and defense </h1>
             <AerospaceStats />
-            <h1 className='headings'>How to innovate</h1>
+            <h1 className='headings'> Innovate with Aerospace and defense </h1>
             <AerospaceCardSection />
             <h1 className='headings'>Support That Matters</h1>
             <AerospaceHoverPanel />
 
-            <h1 className='headings'>What’s trending now</h1>
+            <h1 className='headings'>What’s trending </h1>
             <AerospaceSlider />
-            
-            <h1 className='headings'>Powered by our partner ecosystem</h1>
+
+            <h1 className='headings'>our partners </h1>
             <AerospacePartnersSection />
-           
-            <h1 className='headings'>Alliances that accelerate change</h1>
+
+            <h1 className='headings'>Collaborations fueling progress</h1>
             <PartnersCarouselSection />
 
-          
+            <AerospaceanddefenseCareer />
             <Footer />
         </div>
     )

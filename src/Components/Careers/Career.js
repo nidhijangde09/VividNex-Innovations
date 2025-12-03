@@ -13,8 +13,8 @@ function Career() {
   return (
     <div>
       <Navbar />
-      <h1 className='Careerhead1'>Work at the heart<br></br> of change</h1>
-      <p className='Careerheadcontent1'>Here, you can grow, learn, and connect—bringing your whole <br></br>self is not just welcome, it’s celebrated..</p>
+      <h1 className='Careerheads1'>Work at the Heart of Change</h1>
+      <p className='Careerheadcontents1'>At VividNex, you’ll have the opportunity to grow, learn, and make an impact. Here, bringing your true self isn’t just accepted—it’s celebrated as the driving force behind innovation and meaningful change.</p>
 
       <button className="simple-btn">See Open Roles</button>
       <h1 className='Careerhead'>Do what you want. Explore your potential.</h1>
@@ -22,8 +22,8 @@ function Career() {
       <h1 className='Careerhead'>Wherever you are in your career</h1>
       <BankingHoverPanel />
 
-      <h1 className='Careerhead'>You belong here</h1>
-      <p className='Careerheadcontent'>Everyone is unique. Our six areas of well-being ensure an inclusive <br></br>environment where all feel valued, seen, and heard—our Net Better Off promise.</p>
+      <h1 className='Careerhead'>You Belong Here</h1>
+      <p className='Careerheadcontent'>At VividNex, every individual is unique. By focusing on six key areas of well-being, we create an inclusive environment where everyone feels valued, recognized, and empowered—we call this Net Better Off.</p>
       <WellBeingSection />
       <Beign />
 

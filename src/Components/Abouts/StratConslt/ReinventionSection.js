@@ -6,22 +6,16 @@ const ReinventionSection = () => {
     <div className="reinvention-container">
       {/* Left Content */}
       <div className="reinvention-text">
-        <h1>Reinvention starts here</h1>
+        <h1>Reinvention starts </h1>
         <p>
-          An unprecedented rate of change in technology, data and AI—including
-          generative AI, fast-shifting consumer preferences and evolving
-          workforce dynamics call for businesses in every industry to innovate
-          and rapidly transform. How you compete. How you define and deliver
-          value. How you create greater agility and operational excellence. How
-          you define new talent strategies. In short, how you reinvent to be the
-          next best version of yourself.
+          An extraordinary pace of change in technology, data, and AI—including generative AI—combined with rapidly shifting customer expectations and evolving workforce dynamics, requires businesses across all industries to innovate and transform at speed. How you compete. How you deliver value. How you drive agility and operational excellence. How you shape the workforce of tomorrow. In short, how you reinvent to become the next, stronger version of your organization.
         </p>
       </div>
 
       {/* Right Image */}
       <div className="reinvention-image">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Strategy-Consulting-hero-featured-3840px-2160?qlt=85&wid=1600&ts=1756708891564&wid=1200&fit=constrain&dpr=off" 
+          src="https://media.istockphoto.com/id/653506436/photo/lanzarote-night-sky-milky-way.jpg?b=1&s=612x612&w=0&k=20&c=t--4asqvn-gTAUHjQ6JpH54OleTNF7m-Tt6IHeIRLQc="
           alt="Reinvention"
         />
       </div>

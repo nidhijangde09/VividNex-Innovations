@@ -35,13 +35,13 @@ function Benefits() {
       <h1 className="Careerhead">Your time off</h1>
       <AcquisitionSlider />
 
-      <h1 className="Careerhead">Your mental well-being</h1>
+      <h1 className="Careerhead"> Mental well-being</h1>
       <p className="Careerheadcontent">
        Vividnex embraces the whole you—because growth, creativity, and impact happen when you can be yourself fully.
       </p>
 <WellBeingSection />
-  <h1 className='Careerhead'>Work with reach</h1>
-      <p className='Careerheadcontent'>At Vividnex, your creativity and innovation reach every corner of <br></br>the globe—driving impact that lasts.</p>
+  <h1 className='Careerhead'>Family’s Well-being</h1>
+      <p className='Careerheadcontent'>We understand that families come in many forms. As your family grows or your caregiving needs evolve, we’re committed to supporting you through flexible benefits and resources.</p>
       <Slider />
     
      <h1 className='Careerhead'>Work with purpose</h1>

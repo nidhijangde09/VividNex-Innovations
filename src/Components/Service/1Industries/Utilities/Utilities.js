@@ -11,7 +11,7 @@ import AutomotiveGridHoverCard from './AutomotiveGridHoverCard';
 import AutomotiveSection from './AutomotiveSection';
 import { Link } from 'react-router-dom';
 import customer3 from '../../../../assets/images/customer3.jpg';
-
+import UtilitiesCareer from './UtilitiesCareer';
 function Utilities() {
   return (
     <div>
@@ -39,7 +39,7 @@ function Utilities() {
       <AutomotiveGridHoverCard />
       <h1 className='headings'>Partners in change</h1>
       <PartnersCarouselSection />
-     
+     <UtilitiesCareer />
       <Footer />
     </div>
   )

@@ -28,12 +28,31 @@
   max-width: 240px;
 }
 
-.dataaiUnderline {
+/* Underline Highlight */
+.cloud-card-underline {
   width: 40px;
   height: 4px;
-  background-color: #a100ff;
+  background-color: #1100ff;
   margin-bottom: 12px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .cloud-card-underline {
+    width: 30px; /* smaller on mobile */
+    height: 3px; /* thinner on mobile */
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cloud-card-underline {
+    width: 25px; /* even smaller on very small screens */
+    height: 2px;
+    margin-bottom: 6px;
+  }
+}
+
 
 .dataaiStatBox h3 {
   font-size: 32px;

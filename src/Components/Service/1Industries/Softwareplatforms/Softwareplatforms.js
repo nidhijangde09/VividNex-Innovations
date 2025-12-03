@@ -9,6 +9,9 @@ import ChemicalsSection from './ChemicalsSection';
 import ChemicalsGridHoverCard from './ChemicalsGridHoverCard';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
+import SoftwareplatformsCareer from './SoftwareplatformsCareer';
+
+
 function Softwareplatforms() {
   return (
     <div>
@@ -20,20 +23,20 @@ function Softwareplatforms() {
         <div className="service-text">
           <h1>Software Platforms consulting</h1>
           <p>
-           Change is the catalyst in the chemical industry. To capture emerging opportunities—from achieving net zero to launching breakthrough products—chemical companies must embrace innovation at every step.
+            Change is the catalyst in the chemical industry. To capture emerging opportunities—from achieving net zero to launching breakthrough products—chemical companies must embrace innovation at every step.
           </p>
         </div>
       </div>
       <h1 className='headings'>Chemical industry now</h1>
       <ChemicalsStats />
- <h1 className='headings'>How to reinvent </h1>
+      <h1 className='headings'>How to reinvent </h1>
       <ChemicalsCardSection />
- <h1 className='headings'>What’s trending </h1>
+      <h1 className='headings'>What’s trending </h1>
       <ChemicalsSlider />
- <h1 className='headings'>Awards and recognition</h1>
+      <h1 className='headings'>Awards and recognition</h1>
       <ChemicalsGridHoverCard />
 
-      
+      <SoftwareplatformsCareer />
       <Footer />
     </div>
   )

@@ -11,7 +11,7 @@ import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
 import PartnersCarouselSection from './PartnersCarouselSection';
-
+import LifeScienceCareer from './LifeScienceCareer';
 function Lifescience() {
     return (
         <div>
@@ -39,7 +39,7 @@ function Lifescience() {
             <h1 className='headings'>Partners in change</h1>
             <PartnersCarouselSection />
   
-           
+           <LifeScienceCareer />
 
             <Footer />
         </div>

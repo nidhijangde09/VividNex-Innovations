@@ -29,7 +29,7 @@ function CareerBlog() {
           </p>
         </div>
       </div>
-
+<FlexConnect/>
 
       <h1 className="Careerhead">Career advice</h1>
       <CardGrid />

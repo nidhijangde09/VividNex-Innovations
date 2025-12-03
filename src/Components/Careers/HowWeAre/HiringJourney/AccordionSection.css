@@ -1,0 +1,39 @@
+.accordion-section {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 7rem;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #3b0aeb;
+  padding: 20px 0;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.accordion-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.accordion-content {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #ccc;
+ padding: 1rem 0;
+ padding-right: 5rem;
+}

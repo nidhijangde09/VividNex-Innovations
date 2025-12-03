@@ -13,14 +13,14 @@ function Value() {
       <Navbar />
 
       <h1 className='Careerhead'>Every day, we build comprehensive value.</h1>
-      <p className='Careerheadcontent'>Explore the positive change we bring to our clients, people, shareholders, <br></br>partners, and communities.</p>
+      <p className='Careerheadcontent'>Explore how we create lasting value for our clients, employees, partners, investors, and the communities we serve.</p>
 
       <h1 className='Careerhead1'>What is comprehensive Value at Vividnex</h1>
-      <p className='Careerheadcontent1'>At Vividnex, we define 360° Value as delivering not only strong business outcomes but also meaningful impact across every dimension of growth. We partner with our clients to unlock innovation, strengthen digital capabilities, and drive sustainable transformation. Beyond business performance, we focus on fostering inclusion and diversity, enabling continuous reskilling and upskilling, supporting sustainability goals, and creating experiences that inspire both our clients’ people and their customers.</p>
+      <p className='Careerheadcontent1'>At Vividnex, we define  Value as delivering not only strong business outcomes but also meaningful impact across every dimension of growth. We partner with our clients to unlock innovation, strengthen digital capabilities, and drive sustainable transformation. Beyond business performance, we focus on fostering inclusion and diversity, enabling continuous reskilling and upskilling, supporting sustainability goals, and creating experiences that inspire both our clients’ people and their customers.</p>
   
   <div className='ValueContainer'>
     <h1>Stories of comprehensive value in action </h1>
-    <p>Learn more about 360° value in practice by reviewing our case studies.</p>
+    <p>Learn more about  value in practice by reviewing our case studies.</p>
 
   </div>
   

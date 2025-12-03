@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../../../Navbar/Navbar';
 import Footer from '../../../Footer/Footer';
 import Insuranceimg from '../../../../assets/images/InsuranceImg.jpg';
+import InsurancesCareer from './InsurancesCareer';
 import './Insurance.css';
 
 function Insurance() {
@@ -37,6 +38,7 @@ function Insurance() {
 
       <BankingGridHoverCard  />
       
+      <InsurancesCareer />
    
       <Footer />
     </div>

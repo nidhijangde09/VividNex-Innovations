@@ -7,34 +7,26 @@ function WellBeingSection() {
       {/* Row 1 */}
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Professional-guidance-challenges%3Arad-2x3?ts=1720594207413&dpr=off"
+          src="https://images.pexels.com/photos/17774930/pexels-photo-17774930.jpeg"
           alt="Employee Assistance"
         />
         <div className="wellbeing-text">
-          <h3>Employee Assistance Program (EAP)</h3>
+          <h3>Make work work for you</h3>
           <p>
-            You’ll have access to confidential, professional guidance for
-            challenges that may arise including anxiety, depression, grief,
-            relationship challenges, or legal and financial concerns.
+            At VividNex, flexibility can take many forms—whether it’s a formal arrangement outlined in your role or an informal plan created with your team lead to support how you work best.
           </p>
         </div>
       </div>
 
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/The-Calm-app-help-reduce-stress%3Arad-3x2?ts=1720594206322&dpr=off"
+          src="https://media.istockphoto.com/id/1430078498/photo/mature-adult-participants-discussing-in-teams-during-the-workshop.jpg?b=1&s=612x612&w=0&k=20&c=YTjGPyVnNQMZUZrkZSCPNUgSC9mTea_68d5ZGDF_KI0="
           alt="Apps and tools"
         />
         <div className="wellbeing-text">
-          <h3>Apps and tools</h3>
+          <h3>Form connections in real life</h3>
           <p>
-        Access a wide range of tools designed to support your well-being. The Calm 
-        app helps reduce stress and improve sleep, while Nudge offers personalized 
-        financial education. RethinkCare provides resources for parents and guardians,
-        and Thrive Global courses help you build habits that boost resilience,
-         well-being, and belonging. Plus, with Wysa, you’ll have 24/7 private, 
-         anonymous, and clinically validated support—including a confidential 
-         chatbot if you prefer not to speak with a person
+            Your relationships with your local team and the VividNex community are what make working here unique. Everyone at VividNex experiences moments of in-person collaboration—whether daily, monthly, or quarterly—to learn together, share ideas, and strengthen connections with colleagues, leaders, and clients.
           </p>
         </div>
       </div>
@@ -42,14 +34,13 @@ function WellBeingSection() {
       {/* Row 2 */}
       <div className="wellbeing-item2">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Talk-With-Someone-From-Our-Trained-Network%3Arad-3x2?ts=1720594205868&dpr=off"
+          src="https://images.pexels.com/photos/7979439/pexels-photo-7979439.jpeg"
           alt="Mental Health Ally Network"
         />
         <div className="wellbeing-text">
-          <h3>Mental Health Ally Network</h3>
+          <h3>Be present with clients</h3>
           <p>
-           Wherever you are, support is always close at hand. Connect
-            with someone from our trained Accenture network.
+            If you’re in a client-facing role at VividNex, you’ll engage with your clients regularly—at least three days a week, whether in person or virtually. Depending on your project and team location, we encourage prioritizing in-person collaboration to build stronger partnerships and deliver impactful results.
           </p>
         </div>
       </div>

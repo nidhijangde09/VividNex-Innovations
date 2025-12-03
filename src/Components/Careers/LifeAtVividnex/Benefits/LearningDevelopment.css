@@ -38,8 +38,8 @@
 }
 
 .read-more span {
-  background: #a020f0; /* purple background for arrow */
-  color: #fff;
+   /* purple background for arrow */
+  color: #050fa1;
   padding: 0.3rem 0.6rem;
   border-radius: 3px;
   font-size: 0.9rem;

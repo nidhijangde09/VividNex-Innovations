@@ -65,9 +65,7 @@ import MediaRelations from '../Abouts/MediaRelations/MediaRelations';
 import BoardofDirectors from '../Abouts/BoardofDirectors/BoardofDirectors';
 import StratConslt from '../Abouts/StratConslt/StratConslt';
 import Tech from '../Abouts/Tech/Tech';
-import Operation from '../Abouts/Operation/Operation';
-import IndustryX from '../Abouts/IndustryX/IndustryX';
-import Song from '../Abouts/IndustryX/IndustryX';
+
 // ... rest of your code stays same ...
 
 
@@ -141,7 +139,7 @@ const megaMenuData = {
         { label: "Industry Analyst Recognition", path: "/Industries" },
         { label: "Leaders", path: "/Leadership" },
         { label: "Location", path: "/Locations" },
-        { label: "360° Value Report", path: "/Value" },
+        { label: " Value Report", path: "/Value" },
         
       ],
     },
@@ -158,9 +156,9 @@ const megaMenuData = {
       items: [
         { label: "Strategy & consulting", path: "/StratConslt" },
         { label: "Technology", path: "/Tech" },
-        { label: "Operation", path: "/Operation" },
-        { label: "Industry X", path: "/IndustryX" },
-        { label: "Song", path: "/Song" },
+        { label: "Operation", path: "/ManagedServices" },
+        { label: "Industry X", path: "/DigitalE" },
+   
       ],
     },
   ],

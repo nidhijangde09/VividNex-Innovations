@@ -67,7 +67,6 @@ import BoardofDirectors from './Components/Abouts/BoardofDirectors/BoardofDirect
 import InvestorRelation from './Components/Abouts/InvestorRelation/InvestorRelation';
 import StratConslt from './Components/Abouts/StratConslt/StratConslt';
 import Tech from './Components/Abouts/Tech/Tech';
-import Operation from './Components/Abouts/Operation/Operation';
 import Song from './Components/Abouts/Song/Song';
 import Awards from './View/Awards/Awards';
 import Partnersslidercards from './View/Partnersslidercards/Partnersslidercards';
@@ -206,7 +205,8 @@ const App = () => {
         <Route path="/BoardofDirectors" element={<BoardofDirectors />} />
         <Route path="/StratConslt" element={<StratConslt />} />
         <Route path="/Tech" element={<Tech />} />
-        <Route path="/Operation" element={<Operation />} />
+        <Route path="/Operation" element={<ManagedServices/>} />
+           <Route path="/Industry X" element={<DigitalE />} />
         <Route path="/Song" element={<Song />} />
         <Route path="/Awards" element={<Awards />} />
         <Route path="/Partnersslidercards" element={<Partnersslidercards />} />

@@ -4,13 +4,13 @@ import './DataAIGridHoverCard.css';
 const cardData = [
   
    {
-    title: "VLeader in Workday Services – Forrester Wave™ Q2 2024",
-    description: "In the 2024 report, Vividnex was recognized among top Workday service providers...",
+    title: "A Leader in Innovation and Transformation",
+    description: "Our Founder and CEO, Virendra Kamble, is recognized for his visionary leadership and contributions to technology and sustainable innovation. Under his guidance, VividNex Innovations has become a trusted partner for clients seeking transformative solutions, with people and innovation at the heart of everything we do.",
     bgColor: "#045e85", // blue
   },
   {
-    title: "Vividnex named a Leader in Everest Group’s 2024 Marketing Services PEAK Matrix.",
-    description: "Per the report, “Vividnex streamlined its digital and creative units to form Vividnex Spark...",
+    title: "A Great Place to Work®",
+    description: "Ranked among the top companies on the Great Place to Work® list for fostering an engaging and supportive work environment.This recognition reflects feedback from our people, measuring trust, pride, and camaraderie at VividNex Innovations.",
     bgColor: "#d11761", // red
   },
   {

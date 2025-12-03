@@ -9,7 +9,7 @@ import ChemicalsSection from './ChemicalsSection';
 import ChemicalsGridHoverCard from './ChemicalsGridHoverCard';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
-
+import ChemicalsCareer from './ChemicalsCareer';
 function Chemicals() {
   return (
     <div>
@@ -25,23 +25,16 @@ function Chemicals() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Chemical industry now</h1>
+      <h1 className='headings'>Chemical industry </h1>
       <ChemicalsStats />
- <h1 className='headings'>How to reinvent </h1>
+ <h1 className='headings'>Innovate with Chemical</h1>
       <ChemicalsCardSection />
  <h1 className='headings'>What’s trending </h1>
       <ChemicalsSlider />
  <h1 className='headings'>Awards and recognition</h1>
       <ChemicalsGridHoverCard />
 
-      <div className='head-container-6'>
-              <img src={customer3} alt="Logo" className='head-2-img' />
-              <h1>Chemicals careers</h1>
-              <p>
-              Vividnex empowers chemical companies to rethink operations, adopt cleaner technologies, and accelerate product innovation—building a resilient, future-ready business.
-              </p>
-              <Link to="/" className="learn-more-btn">Learn More</Link>
-            </div>
+    <ChemicalsCareer />
       <Footer />
     </div>
   )

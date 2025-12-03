@@ -11,11 +11,12 @@ import AutomotiveGridHoverCard from './AutomotiveGridHoverCard';
 import AutomotiveSection from './AutomotiveSection';
 import { Link } from 'react-router-dom';
 import customer3 from '../../../../assets/images/customer3.jpg';
+import TravelCareer from './TravelCareer';
 
 function Travel() {
   return (
     <div>
-         <Navbar />
+      <Navbar />
       <div className="service-container">
         <div className="service-image">
           <img src={Automotiveimg} alt="Cloud consulting illustration" /> {/* Updated here */}
@@ -39,7 +40,7 @@ function Travel() {
       <AutomotiveGridHoverCard />
       <h1 className='headings'>Partners in change</h1>
       <PartnersCarouselSection />
-   
+      <TravelCareer />
       <Footer />
     </div>
   )

@@ -9,30 +9,21 @@ import Modernization4CS from './Modernization/Modernization3CS'
 const cardData = [
     
     {
-        category: "Application Modernization",
-        title: "Modernize your cloud to accelerate business impact",
-        link: "/ModernizationCS",
-        hoverText: "Modernization accounts for up to 40% of cloud spend—enabling enterprises to streamline operations, improve security, and accelerate innovation."
+        category: "Top 31 on Interbrand Best Global Brands",
+        title: "Ranked No. 31 on Interbrand’s Best Global Brands with a brand value of $21.9B, marking 23 consecutive years on the list.",
+        hoverText: "Proudly ranked No. 31 on Interbrand’s Best Global Brands with a record $21.9B value, celebrating 23 years of global recognition."
     },
     {
-        category: "Edge Technology",
-        title: "Real-time Processing. Localized. Scalable.",
-        link: "/Modernization2CS",
-        hoverText: "Smart devices generate constant data. Edge computing processes it closer to the source—boosting performance, cutting costs, and improving user experience."
+        category: "Brand Finance Most Valuable Brands: No. 1 in Industry, $41.5B Value",
+        title: "$41.5B Brand Value, #1 in Industry 7th Year, #39 Globally, 19 Years on Brand Finance List",
+        hoverText: "#1 in Industry for 7th Year, $41.5B Brand Value, 19 Years on Brand Finance List",
     },
     {
-        category: "Cloud Foundations",
-        title: "Scalable Cloud Infrastructure for Dynamic Business Growth",
-        link: "/Modernization3CS",
-        hoverText: "raditional infrastructure can’t keep up. Modern platforms offer the compute, network, and data power needed to meet today’s demands—and tomorrow’s growth."
-    },
-    {
-        category: "Network Infrastructure for the Future",
-        title: "Secure, Scalable Networks That Move at the Speed of Business",
-        link: "/Modernization4CS",
-        hoverText: "egacy networking can’t keep up with today’s demands. Upgrading enables better performance, stronger security, and smarter collaboration."
+        category: "$103.8B Brand Value – #20 on Kantar BrandZ Top 100, 20 Years on List",
+        title: "Ranked No. 20 on Kantar BrandZ Top 100 Most Valuable Global Brands, valued at $103.8B, marking 20 consecutive years on the list.",
+
+        hoverText: "Proudly valued at $103.8B, ranked #20 on Kantar BrandZ Top 100 for 20 consecutive years."
     }
- 
  
 ];
 
@@ -47,9 +38,7 @@ const CloudCardSection = () => {
                             <div className="cloud-card-underline"></div>
                             <p className="cloud-card-category">{card.category.toUpperCase()}</p>
                             <h3 className="cloud-card-title">{card.title}</h3>
-                            <a href={card.link} className="cloud-card-link">
-                                Learn more <span className="arrow">➤</span>
-                            </a>
+                           
                             <div className="cloud-card-hover-text">
                                 <p>{card.hoverText}</p>
                             </div>

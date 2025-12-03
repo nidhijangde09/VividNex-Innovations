@@ -27,7 +27,7 @@ export default function AutomotiveStats() {
       <div className="dataaiStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="dataaiStatBox">
-            <div className="dataaiUnderline" />
+              <div className="cloud-card-underline"/>
             <h3>{item.number}</h3>
             <p>{item.text}</p>
           </div>

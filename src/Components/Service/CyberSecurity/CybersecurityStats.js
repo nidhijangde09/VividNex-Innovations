@@ -24,7 +24,7 @@ export default function CybersecurityStats() {
       <div className="cybersecurityStatsGrid">
         {stats.map((item, index) => (
           <div key={index} className="cybersecurityStatBox">
-            <div className="cybersecurityUnderline" />
+        <div className="cloud-card-underline"/>
             <h3>{item.number}</h3>
             <p>{item.text}</p>
           </div>

@@ -5,6 +5,7 @@ import aboutimg from '../../../../assets/images/aboutimg.jpg';
 import BankingHoverPanel from './BankingHoverPanel';
 import ConnectSection from './ConnectSection';
 import Footer from '../../../Footer/Footer';
+import AccordionSection from './AccordionSection';
 function HiringJourney() {
     return (
         <div>
@@ -15,13 +16,15 @@ function HiringJourney() {
                     <img src={aboutimg} alt="Cloud consulting illustration" />
                 </div>
                 <div className="service-text">
-                    <h1>About recruiting process <br></br> at Vividnex Accenture</h1>
+                    <h1>About recruiting process <br></br> at Vividnex </h1>
                     <p>
                        After applying, this is what your Vividnex journey looks like:
                     </p>
                 </div>
             </div>
         <BankingHoverPanel />
+  
+<AccordionSection />
 
         <ConnectSection />
 

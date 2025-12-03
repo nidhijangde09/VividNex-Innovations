@@ -7,18 +7,16 @@ function FlexConnect() {
       {/* Left side text */}
       <div className="flexconnect-text">
         <div className="heading-line"></div>
-        <h2>Flex and connect</h2>
+        <h2>Work your way, connect your way</h2>
         <p>
-          Work your way at Vividnex. Flexibility means freedom
-           in how you work and the connections you build—driving
-            stronger relationships and innovation that creates change.
+         Flexibility isn’t just about location—it’s about empowering you to choose how, when, and where you work best. We know that meaningful connections spark creativity and collaboration, helping us drive innovation together.
         </p>
       </div>
 
       {/* Right side image with play button */}
       <div className="flexconnect-video">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Check-Clients%3Arad-3x2?ts=1721906763880&dpr=off"
+          src="https://images.pexels.com/photos/5973966/pexels-photo-5973966.jpeg"
           alt="Flex and connect"
         />
      

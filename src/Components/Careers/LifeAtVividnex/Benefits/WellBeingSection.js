@@ -7,34 +7,26 @@ function WellBeingSection() {
       {/* Row 1 */}
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Professional-guidance-challenges%3Arad-2x3?ts=1720594207413&dpr=off"
+          src="https://images.pexels.com/photos/16249345/pexels-photo-16249345.jpeg"
           alt="Employee Assistance"
         />
         <div className="wellbeing-text">
-          <h3>Employee Assistance Program (EAP)</h3>
+          <h3>Employee Assistance Program </h3>
           <p>
-            You’ll have access to confidential, professional guidance for
-            challenges that may arise including anxiety, depression, grief,
-            relationship challenges, or legal and financial concerns.
+            You will have access to the Employee Assistance Program (EAP), providing confidential, professional support for challenges including stress, anxiety, grief, relationship issues, or financial and legal concerns.
           </p>
         </div>
       </div>
 
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/The-Calm-app-help-reduce-stress%3Arad-3x2?ts=1720594206322&dpr=off"
+          src="https://media.istockphoto.com/id/1033552822/photo/holding-glasses-on-hand-palm.jpg?b=1&s=612x612&w=0&k=20&c=NvQg7zfvqpPdJjywveGi-5H9TldXmOxQ9aAWKRESDQM="
           alt="Apps and tools"
         />
         <div className="wellbeing-text">
           <h3>Apps and tools</h3>
           <p>
-            The Calm app offers stress-reduction and sleep improvement tips.
-            Nudge provides personalized financial education and RethinkCare
-            gives support to parents and guardians. Thrive Global courses help
-            build new habits to boost resilience, well-being, and a sense of
-            belonging. Additionally, you’ll have access to Wysa for 24/7 private,
-            anonymous, and clinically validated support, including a confidential
-            chatbot if you prefer not to speak with a person.
+            You’ll have access to a variety of well-being apps and tools designed to support your mental, emotional, and financial health. The Calm app offers stress reduction and sleep improvement tips; Nudge provides personalized financial education; RethinkCare supports parents and guardians; and Thrive Global courses help build habits that enhance resilience, well-being, and belonging. Additionally, Wysa offers 24/7 private, anonymous, and clinically validated mental health support through a confidential chatbot.
           </p>
         </div>
       </div>
@@ -42,13 +34,13 @@ function WellBeingSection() {
       {/* Row 2 */}
       <div className="wellbeing-item2">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Talk-With-Someone-From-Our-Trained-Network%3Arad-3x2?ts=1720594205868&dpr=off"
+          src="https://images.pexels.com/photos/1428171/pexels-photo-1428171.jpeg"
           alt="Mental Health Ally Network"
         />
         <div className="wellbeing-text">
           <h3>Vividnex Mental Wellness Allies</h3>
           <p>
-            Wherever you are, Vividnex is here. Talk with someone from our 
+            Wherever you are, Vividnex is here. Talk with someone from our
             network of trained professionals to get support and advice.
           </p>
         </div>

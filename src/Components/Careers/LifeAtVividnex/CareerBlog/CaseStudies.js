@@ -6,30 +6,30 @@ import "./CardGrid.css";
 const cardData = [
   
   {
-    subtitle: "Safeguarding the Digital Frontier with Vividnex",
+    subtitle: "Insider Views",
     title: "Case Study",
-    description: "Vividnex’s Protective DNS blocks over 350 million threats each month—enhancing the digital resilience of UK citizens, services, and organizations.",
-    image: "https://t3.ftcdn.net/jpg/12/53/26/80/360_F_1253268001_JcEeDW4SB2iLba0o6mCQZAeDjJBwX3SB.jpg",
+    description: "Go behind the scenes at VividNex. Hear directly from our people about their projects, growth, and how they make an impact every day.",
+    image: "https://media.istockphoto.com/id/1347269944/photo/abstract-technology-background-connection-structure-big-data-visualization-and-business.jpg?b=1&s=612x612&w=0&k=20&c=o0ho1aFFroIDV0fqJxjGDrrQwNcNRjMevyr7yxwmS0k=",
     link: "/ResearchReportcard"
   },
   {
-    subtitle: "Dealmaking in the Age of AI",
+    subtitle: "Life at VividNex",
     title: "Research Report",
-    description: "Vividnex research reveals how disciplined AI adoption in M&A enables firms to outperform, delivering strategic advantage and superior returns.",
+    description: "Discover what it’s like to be part of our innovative teams. Stories, experiences, and insights straight from the people shaping our culture.",
     image: "https://i.pinimg.com/736x/62/85/a9/6285a90254a1290db17306587cf434c1.jpg",
     link: "/ResearchReportcard"
   },
   {
-    subtitle: "Shaping the Future of Payments with Vividnex",
+    subtitle: "From Our People",
     title: "Case Study",
-    description: "Vividnex supports the UAE’s vision for digital innovation, transforming its financial services sector and establishing it as a leading global FinTech hub.",
-    image: "https://images.stockcake.com/public/b/5/e/b5e8b748-c1db-416f-af57-d3d05a918c47_medium/neon-tech-nexus-stockcake.jpg",
+    description: "Learn from the voices of VividNex employees. See how collaboration, creativity, and curiosity drive real-world solutions. ",
+    image: "https://media.istockphoto.com/id/1155516052/photo/marble-colorful-neon-wave-pattern-prism-glitch-effect-abstract-background-dark-purple-blue.jpg?b=1&s=612x612&w=0&k=20&c=XC2eU9MH7p3cbSBxn83exmR62wlKZjep5EDLpblcBxM=",
     link: "/ResearchReportcard"
   },
   {
-    subtitle: "From Preparedness to Transformation",
+    subtitle: "Inside VividNex",
     title: "Research Report",
-    description: "Vividnex research shows that thriving in volatile times demands adaptive resilience—helping organizations grow stronger and stay ahead.",
+    description: "Get a firsthand look at our work environment, culture, and career journeys—through the eyes of those who know it best.",
     image: "https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_960_720.jpg",
     link: "/ResearchReportcard"
   }

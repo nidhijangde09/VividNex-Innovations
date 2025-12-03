@@ -74,3 +74,18 @@
     font-size: 14px;
   }
 }
+.cloud-card-underline {
+  width: 40px;
+  height: 4px;
+  background-color: #1100ff;
+  margin-bottom: 12px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .cloud-card-underline {
+    width: 30px; /* smaller on mobile */
+    height: 3px; /* thinner on mobile */
+    margin-bottom: 8px;
+  }
+}

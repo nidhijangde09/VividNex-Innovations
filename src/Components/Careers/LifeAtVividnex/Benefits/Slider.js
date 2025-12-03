@@ -4,22 +4,22 @@ import "./Slider.css";
 const slides = [
   {
     id: 1,
-    image: "https://media.istockphoto.com/id/858430316/photo/board-room-meeting.jpg?s=612x612&w=0&k=20&c=BdvLkSq7Ytpy69-qv9fqaB9pWMEIlJPDpjsmlzjsU2A=", // replace with your illustration
-    title: "Sam on the Move",
-    description: "Sam drives their Land Rover Sport, a launch powered by Vividnex expertise."
+    image: "https://media.istockphoto.com/id/1025419710/photo/nice-healthy-lunch-for-you-stock-image.jpg?b=1&s=612x612&w=0&k=20&c=gIQ5JmwhirInyX8HQsIYWVJ1MPL6FqbbZBsz89qAasg=", // replace with your illustration
+    title: "Parental Leave",
+    description: "Primary caregivers are entitled to 26 weeks of paid leave, applicable in cases of birth or adoption. Secondary caregivers are eligible for up to 15 working days of paid leave."
 },
   {
     id: 2,
-    image: "https://media.istockphoto.com/id/2214127693/photo/thoughtful-manager-talking-smartphone-working-on-laptop-at-home-office-closeup.jpg?s=612x612&w=0&k=20&c=u1AYR3A4909NByctyfp6hINrZgYhj0GUcm0s4gpy1lA=",
-    title: "Morning Start",
-    description: "Sam begins the day with coffee and the latest updates, supported by Vividnex technology."
+    image: "https://images.pexels.com/photos/3768146/pexels-photo-3768146.jpeg",
+    title: "Care for Dependents",
+    description: "To support your evolving wellness needs, you have access to the Benefits You program. This program offers a range of personalized services at discounted rates across four pillars: Family Care, Financial Well-being, Fitness & Wellness, and Outpatient Coverage (OPD)."
 
   },
   {
     id: 3,
-    image: "https://via.placeholder.com/600x300",
-    title: "Team Collaboration",
-description: "Sam joins their team at the office, solving problems efficiently with Vividnex support."
+    image: "https://images.pexels.com/photos/3756036/pexels-photo-3756036.jpeg",
+    title: "Childcare Center Benefit",
+description: "We provide employees with discounted or subsidized tie-ups with childcare centers."
 
   }
 ];
@@ -38,7 +38,7 @@ const Slider = () => {
   return (
     <div className="slider-container">
       {/* Left Side - Image */}
-      <div className="slider-image">
+      <div className="slider-images">
         <img src={slides[current].image} alt={slides[current].title} />
       </div>
 

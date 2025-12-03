@@ -9,7 +9,7 @@ import ChemicalsGridHoverCard from './ChemicalsGridHoverCard';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
 import CommunicationMediaimg from '../../../../assets/images/CommunicationsMediaImg.jpg'
-
+import CommunicationMediaCareer from './CommunicationMediaCareer';
 function CommunicationMedia() {
   return (
     <div>
@@ -21,16 +21,16 @@ function CommunicationMedia() {
         <div className="service-text">
           <h1>Communication Media consulting</h1>
           <p>
-           "Change is the catalyst driving the chemical industry forward. To seize emerging opportunities—ranging from achieving net zero emissions to developing breakthrough products—chemical companies must embed innovation at every stage of their journey."</p>
+            "Change is the catalyst driving the chemical industry forward. To seize emerging opportunities—ranging from achieving net zero emissions to developing breakthrough products—chemical companies must embed innovation at every stage of their journey."</p>
         </div>
       </div>
       <h1 className='headings-1'>Communication Media now</h1>
       <ChemicalsStats />
       <ContentTabs />
       <ChemicalsSlider />
-      < ChemicalsGridHoverCard  />
+      < ChemicalsGridHoverCard />
       <ChemicalsSection />
-       
+      <CommunicationMediaCareer />
       <Footer />
     </div>
   )

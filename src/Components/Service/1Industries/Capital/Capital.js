@@ -10,7 +10,7 @@ import CapitalGridHoverCard from './CapitalGridHoverCard';
 import CapitalSection from './CapitalSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
-
+import CapitalCareer from './CapitalCareer';
 
 function Capital() {
   return (
@@ -27,9 +27,9 @@ function Capital() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Capital  now</h1>
+      <h1 className='headings'>Capital  </h1>
       <CapitalStats />
-      <h1 className='headings'>How to reinvent</h1>
+      <h1 className='headings'>Innovate with Capital</h1>
       <CapitalCardSection />
       <h1 className='headings'>What’s trending </h1>
       <CapitalSlider />
@@ -37,7 +37,7 @@ function Capital() {
       <CapitalPartnersSection />
       <h1 className='headings'>Awards and recognition</h1>
       <CapitalGridHoverCard />
-    
+    <CapitalCareer />
       
       <Footer />
     </div>

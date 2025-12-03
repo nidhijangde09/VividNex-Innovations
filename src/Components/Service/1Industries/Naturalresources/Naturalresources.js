@@ -10,11 +10,14 @@ import BankingGridHoverCard from './BankingGridHoverCard';
 import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
+import NaturalresourcesCareer from './NaturalresourcesCareer';
+
+
 function Naturalresources() {
   return (
     <div>
       <Navbar />
-       <div className="service-container">
+      <div className="service-container">
         <div className="service-image">
           <img src={Naturalresourcesimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
@@ -36,7 +39,7 @@ function Naturalresources() {
       <h1 className='headings'>Awards & recognition</h1>
       <BankingGridHoverCard />
 
-    
+      <NaturalresourcesCareer />
 
       <Footer />
     </div>

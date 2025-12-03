@@ -13,18 +13,18 @@ function AwardsRecognition() {
     return (
         <div>
             <Navbar />
-            <h1 className='Careerhead'>Industry of One</h1>
-            <p className='Careerheadcontent'>Across industries, we bring together the capabilities needed to help clients change and grow quickly.</p>
-            <h1 className='Careerheada'>Fostering a culture of belonging for<br></br> all our people to thrive</h1>
+            <h1 className='Careerheads'>Awards & Recognition</h1>
+            <p className='Careerheadcontent'>Proud to be acknowledged for our achievements as an industry leader, an employer of choice, and a company committed to responsibility.</p>
+            <h1 className='Careerheada'>Cultivating a community where everyone feels they belong and can reach their potential</h1>
             <DataAIGridHoverCard />
-            <h1 className='Careerheada'>Our brand strength continues to drive value and success</h1>
+            <h1 className='Careerheada'>Our trusted brand delivers success and impact</h1>
             <CloudCardSection />
 
-            <h1 className='Careerheada'>Committed to operating with sustainability at our core</h1>
+            <h1 className='Careerheada'>Operating responsibly with sustainability at our core</h1>
             <ConductSection />
-            <h1 className='Careerheada'>Empowering our people to learn, grow, and thrive</h1>
+            <h1 className='Careerheada'>Empowering our people to learn, grow, and succeed</h1>
             < InsightsGrid />
-            <h1 className='Careerheada'>Our brand strength continues to drive <br></br>value and success</h1>
+            <h1 className='Careerheada'>Dedicated to continuous growth and improvement</h1>
             <CardSection />
             <Footer />
         </div>

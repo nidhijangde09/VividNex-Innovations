@@ -18,7 +18,7 @@
 
 .foresight-btn {
   margin-top: 20px;
-  background-color: #a020f0; /* purple */
+  background-color: #1013ce; /* purple */
   color: white;
   border: none;
   padding: 12px 24px;
@@ -30,7 +30,7 @@
 }
 
 .foresight-btn:hover {
-  background-color: #8b1ce0; /* darker purple */
+  background-color: #480de9; /* darker purple */
 }
 
 /* 📱 Tablet (≤1024px) */

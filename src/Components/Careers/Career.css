@@ -5,21 +5,23 @@ body {
   color: #fff;
 }
 
-.Careerhead1 {
-  padding: 0 7rem;
+.Careerheads1 {
+  padding: 20px 7rem;
   color: white;
-  font-size: 120px;
+  font-size: 4.5rem;
+  font-weight: bolder;
   text-align: center;
 }
 
-.Careerheadcontent1 {
+.Careerheadcontents1 {
   color: white;
   font-size: 30px;
   text-align: center;
+  padding: 30px ;
 }
 
 .simple-btn {
-  background-color: #9700ee;
+  background-color: #1000ee;
   color: white;
   padding: 10px 50px;
   border: none;

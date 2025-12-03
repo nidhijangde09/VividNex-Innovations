@@ -15,9 +15,9 @@ function Industries() {
           <img src={Industriesimg} alt="Cloud consulting illustration" />
         </div>
         <div className="service-text">
-          <h1>About recruiting at <br></br>Accenture</h1>
+          <h1>Industry Analyst</h1>
           <p>
-            Here’s what happens after you apply for a role:
+          Our achievements continue to earn recognition from leading industry analysts, reinforcing our position as a global leader.
           </p>
         </div>
       </div>
@@ -25,7 +25,7 @@ function Industries() {
       <h1 className='Careerhead'>Featured recognition</h1>
       <DataAIGridHoverCard />
  
-      <h1 className='Careerhead'>Leading industry-wide reinvention</h1>
+      <h1 className='Careerhead'>Driving industry transformation</h1>
 <BankingHoverPanel />
 <Footer />
     </div>

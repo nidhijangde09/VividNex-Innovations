@@ -1,0 +1,43 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  padding: 0 6rem; /* desktop padding */
+  box-sizing: border-box;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: blue;   /* play button color */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.play-btn:hover {
+  opacity: 1;
+}
+
+/* Responsive: remove side padding for mobile */
+@media (max-width: 768px) {
+  .video-container {
+    padding: 0; 
+  }
+
+  .play-btn {
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+  }
+}

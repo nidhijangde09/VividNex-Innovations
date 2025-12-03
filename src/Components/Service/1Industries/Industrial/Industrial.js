@@ -3,7 +3,7 @@ import Industrialimg from '../../../../assets/images/IndustrialImg.jpg';
 import BankingHoverPanel from './BankingHoverPanel';
 import BankingSlider from './BankingSlider';
 import EnergyGridHoverCard from './EnergyGridHoverCard';
-
+import IndustrialCareer from './IndustrialCareer';
 import EnergyCardSection from './EnergyCardSection';
 import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
@@ -37,7 +37,7 @@ function Industrial() {
             <BankingSlider />
 
             <EnergyGridHoverCard />
-
+<IndustrialCareer />
           
             <Footer />
         </div>

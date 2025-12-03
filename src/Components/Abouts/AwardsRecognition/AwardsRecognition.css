@@ -3,16 +3,17 @@ body {
   margin: 0;
 }
 
-.Careerhead {
-  padding: 0 7rem;
+.Careerheads {
+  padding: 5px 7rem;
   color: white;
-  font-size: 50px;
+  font-size: 70px;
+ text-align: left;
 }
 
 .Careerheadcontent {
   color: white;
   font-size: 25px;
-  padding: 0 7rem;
+  padding: 10px 7rem;
 }
 
 .Careerheada {

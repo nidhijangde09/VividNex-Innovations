@@ -11,6 +11,7 @@ import AutomotiveGridHoverCard from './AutomotiveGridHoverCard';
 import AutomotiveSection from './AutomotiveSection';
 import { Link } from 'react-router-dom';
 import customer3 from '../../../../assets/images/customer3.jpg';
+import AutomotiveCraeer from './AutomotiveCareer';
 
 function Automotive() {
   return (
@@ -21,16 +22,16 @@ function Automotive() {
           <img src={Automotiveimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Telecommunications & Media</h1>
+          <h1>Automotive consulting</h1>
           <p>
-          As the physical and digital worlds converge, the metaverse opens doors to interactive, innovative, and engaging experiences that are inclusive and transformative.
+           The automotive industry stands at a turning point. What was once traditional manufacturing is now evolving into a broader mobility ecosystem. Progress depends on embracing this shift—collaborating across industries, innovating boldly, and building partnerships that drive shared success.
 
           </p>
         </div>
       </div>
-      <h1 className='headings'>Automotive now</h1>
+      <h1 className='headings'>Automotive </h1>
       <AutomotiveStats />
-      <h1 className='headings'>Shape What’s Next </h1>
+      <h1 className='headings'>Innovate with Automotive</h1>
       <AutomotiveCardSection />
       <h1 className='headings'>Expertise Across Industries</h1>
       <AutomotiveHoverPanel />
@@ -40,7 +41,7 @@ function Automotive() {
       <AutomotiveGridHoverCard />
       <h1 className='headings'>Transformative Partnerships</h1>
       <PartnersCarouselSection />
-  
+      <AutomotiveCraeer />
       <Footer />
     </div>
   )

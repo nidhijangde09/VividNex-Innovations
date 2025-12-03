@@ -3,8 +3,8 @@ import './DataAIGridHoverCard.css';
 
 const cardData = [
   {
-    title: "VLeader in Workday Services – Forrester Wave™ Q2 2024",
-    description: "In the 2024 report, Vividnex was recognized among top Workday service providers...",
+    title: "VividNex Innovations Named a Leader in the 2025 Global Technology Excellence Report",
+    description: "VividNex Innovations was recognized for its strong execution and innovation capabilities in delivering next-generation digital transformation solutions. The report evaluated leading technology service providers worldwide, and VividNex achieved top placement for its ability to execute and commitment to driving client success.",
     bgColor: "#045e85", // blue
   },
   {
@@ -13,13 +13,19 @@ const cardData = [
     bgColor: "#d11761", // red
   },
   {
-    title: "Leader in Life Sciences R&D Innovation Recognized in IDC MarketScape 2024.",
-    description: "Vividnex is recognized as a Leader in both “Strategies” and “Capabilities” in the IDC MarketScape 2024 report...",
+    title: "VividNex Innovations recognized as a Leader in Everest Group’s 2025 Digital Transformation Services PEAK Matrix® Assessment.",
+    description: "Assessment 2025, recognized for strong execution, innovation, and impact. Positioned among the top providers for Vision and Capability, we continue to drive measurable value through advanced technology and sustainable innovation.",
     bgColor: "#4b0076", // purple
   },
-   {
-    title: "VLeader in Workday Services – Forrester Wave™ Q2 2024",
-    description: "In the 2024 report, Vividnex was recognized among top Workday service providers...",
+  {
+    title: "VividNex Innovations is named a Leader in Everest Group’s Digital Transformation Services PEAK Matrix® Assessment 2025",
+    description: "VividNex Innovations is the highest-designated Leader on both the Vision and Capability axis as well as the Market Impact axis in its Digital Transformation Services PEAK Matrix® Assessment 2025.",
+    bgColor: "#4b0076", // purple
+  },
+
+  {
+    title: "VividNex Innovations is named a Leader in Everest Group’s Digital Transformation Services PEAK Matrix® Assessment 2025",
+    description: "As noted in the report, “Leaders demonstrate comprehensive digital transformation capabilities, combining strategy, design, and execution to deliver impactful outcomes across industries with depth and scalability.”",
     bgColor: "#045e85", // blue
   },
   {
@@ -27,12 +33,7 @@ const cardData = [
     description: "Per the report, “Vividnex streamlined its digital and creative units to form Vividnex Spark...",
     bgColor: "#d11761", // red
   },
-  {
-    title: "Leader in Life Sciences R&D Innovation Recognized in IDC MarketScape 2024.",
-    description: "Vividnex is recognized as a Leader in both “Strategies” and “Capabilities” in the IDC MarketScape 2024 report...",
-    bgColor: "#4b0076", // purple
-  },
- 
+
 ];
 
 const DataAIGridHoverCards = () => {

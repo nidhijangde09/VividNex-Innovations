@@ -3,21 +3,16 @@ import './DataAIGridHoverCard.css';
 
 const cardData = [
   {
-    title: "VLeader in Workday Services – Forrester Wave™ Q2 2024",
-    description: "In the 2024 report, Vividnex was recognized among top Workday service providers...",
+    title: "Global Climate Leadership Index",
+    description: "VividNex Innovations has been recognized as a leader in driving sustainable technology solutions, earning repeated acknowledgment for its commitment to climate action and responsible innovation. We continue to be honored for advancing sustainability across our operations and value chain.",
     bgColor: "#045e85", // blue
   },
   {
-    title: "Vividnex named a Leader in Everest Group’s 2024 Marketing Services PEAK Matrix.",
-    description: "Per the report, “Vividnex streamlined its digital and creative units to form Vividnex Spark...",
+    title: "Green Innovation Leadership Seal",
+    description: "In 2023, VividNex Innovations was honored among a select group of companies to receive the Green Innovation Leadership Seal. This recognition highlights organizations that are pioneering sustainable solutions and accelerating progress toward building truly resilient and responsible markets.",
     bgColor: "#d11761", // red
   },
-  {
-    title: "Leader in Life Sciences R&D Innovation Recognized in IDC MarketScape 2024.",
-    description: "Vividnex is recognized as a Leader in both “Strategies” and “Capabilities” in the IDC MarketScape 2024 report...",
-    bgColor: "#4b0076", // purple
-  },
- 
+  
 ];
 
 const DataAIGridHoverCards = () => {

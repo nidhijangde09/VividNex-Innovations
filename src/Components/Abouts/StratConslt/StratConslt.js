@@ -26,6 +26,8 @@ function StratConslt() {
       <ReinventionSection />
 
       <CloudStats />
+      <p className='Careerheadcontent'>VividNex Innovations’ experts are ready to partner with you to navigate your transformation and innovation journey.</p>
+
 
       <h1 className='Careerhead1'>Reinventing across industries</h1>
       <p className='Careerheadcontent'>We believe reinvention requires industry-specific knowledge and insights to happen at the speed required today. </p>

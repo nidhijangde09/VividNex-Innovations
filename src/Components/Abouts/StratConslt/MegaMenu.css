@@ -27,7 +27,7 @@
 
 .mega-item.active::before {
   content: "▪";
-  color: #a020f0; /* purple dot */
+  color: #4d20f0; /* purple dot */
   position: absolute;
   left: -1.2rem;
 }

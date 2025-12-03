@@ -11,7 +11,7 @@ import ConsumerSlider from './ConsumerSlider';
 import ConsumergoodsImg from '../../../../assets/images/ConsumergoodsImg.jpg';
 import customer3 from '../../../../assets/images/customer3.jpg';
 import { Link } from 'react-router-dom';
-
+import ConsumerGoodsServiceCareer from './ConsumerGoodsServiceCareer';
 function ConsumerService() {
   return (
     <div>
@@ -40,7 +40,7 @@ function ConsumerService() {
   <h1 className='headings'>Partners in change</h1>
       <ConsumerPartnersSection />
   
-       
+       <ConsumerGoodsServiceCareer />
       <Footer />
     </div>
   )

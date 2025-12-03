@@ -14,7 +14,7 @@ function CareerArea() {
     <div>
         <Navbar />
       <h1 className='Careerhead'>Where will you lead?</h1>
-      <p className='Careerheadcontent'>From industries to individuals, around the world, your ingenuity <br></br>and innovation will leave a lasting mark</p>
+      <p className='Careerheadcontent'>From industries to individuals, around the world, your ingenuity and innovation will leave a lasting mark</p>
      <h1 className='headings-1'>Areas of interest</h1>
       <ServiceHoverPanel />
   <h1 className='Careerhead'>Find your fit</h1>

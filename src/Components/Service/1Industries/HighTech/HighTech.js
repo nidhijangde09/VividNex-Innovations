@@ -10,13 +10,14 @@ import PartnersCarouselSection from './PartnersCarouselSection';
 import EnergyCardSection from './EnergyCardSection';
 import BankingSection from './BankingSection';
 import customer3 from '../../../../assets/images/customer3.jpg';
+import HighTechCareer from './HighTechCareer';
 import { Link } from 'react-router-dom';
 
 function HighTech() {
   return (
     <div>
       <Navbar />
-         <div className="service-container">
+      <div className="service-container">
         <div className="service-image">
           <img src={energyimg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
@@ -27,20 +28,20 @@ function HighTech() {
           </p>
         </div>
       </div>
-  <h1 className='headings'>HighTech now</h1>
+      <h1 className='headings'>HighTech now</h1>
       <EnergyStats />
-<h1 className='headings'>How to reinvent</h1>
+      <h1 className='headings'>How to reinvent</h1>
       <EnergyCardSection />
-<h1 className='headings'>Segments we support</h1>
+      <h1 className='headings'>Segments we support</h1>
       <BankingHoverPanel />
-<h1 className='headings'>What’s trending</h1>
+      <h1 className='headings'>What’s trending</h1>
       <BankingSlider />
-<h1 className='headings'>Awards and recognition</h1>
+      <h1 className='headings'>Awards and recognition</h1>
       <EnergyGridHoverCard />
-<h1 className='headings'>Partners in change</h1>
-<PartnersCarouselSection/>
-      
-        
+      <h1 className='headings'>Partners in change</h1>
+      <PartnersCarouselSection />
+      <HighTechCareer />
+
       <Footer />
     </div>
   )

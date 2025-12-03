@@ -19,9 +19,9 @@ function IndustryX() {
           <img src={ManagedServicesImg} alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Metaverse services</h1>
+          <h1>Industry Analyst</h1>
           <p>
-            The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.+
+            Our achievements continue to earn recognition from leading industry analysts, reinforcing our position as a global leader.
           </p>
         </div>
       </div>

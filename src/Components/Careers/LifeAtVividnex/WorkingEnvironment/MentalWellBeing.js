@@ -7,32 +7,26 @@ function MentalWellBeing() {
       {/* Row 1 */}
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Professional-guidance-challenges%3Arad-2x3?ts=1720594207413&dpr=off"
+          src="https://images.pexels.com/photos/7108758/pexels-photo-7108758.jpeg"
           alt="Employee Assistance"
         />
         <div className="wellbeing-text">
-          <h3>Employee Assistance Program (EAP)</h3>
+          <h3>Global accommodation support</h3>
           <p>
-            At Vividnex, you’ll have access to confidential, professional
-             guidance for life’s challenges—from anxiety, depression, and 
-             grief to relationship, legal, and financial concerns. We’re here 
-             to support your whole self, every step of the way.
+        Available across multiple countries, the VividNex Accommodation Support Program provides tools and resources—like assistive technologies, flexible work options, sign language interpreters, screen readers, and more—to ensure an accessible and empowering workplace for everyone.
           </p>
         </div>
       </div>
 
       <div className="wellbeing-item">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/The-Calm-app-help-reduce-stress%3Arad-3x2?ts=1720594206322&dpr=off"
+          src="https://images.pexels.com/photos/7979439/pexels-photo-7979439.jpeg"
           alt="Apps and tools"
         />
         <div className="wellbeing-text">
-          <h3>Apps and tools</h3>
+          <h3>Inclusive dress code</h3>
           <p>
-            Vividnex gives you access to well-being tools like Calm for
-             stress relief, Nudge for financial learning, RethinkCare for 
-             parents, and Thrive Global for resilience. For round-the-clock
-              support, Wysa offers private, anonymous, clinically validated guidance.
+          At VividNex, our dress code lets you express yourself. Wear what makes you feel confident, professional, and true to your personal style.
           </p>
         </div>
       </div>
@@ -40,14 +34,13 @@ function MentalWellBeing() {
       {/* Row 2 */}
       <div className="wellbeing-item2">
         <img
-          src="https://dynamicmedia.accenture.com/is/image/accenture/Talk-With-Someone-From-Our-Trained-Network%3Arad-3x2?ts=1720594205868&dpr=off"
+          src="https://images.pexels.com/photos/5710667/pexels-photo-5710667.jpeg"
           alt="Mental Health Ally Network"
         />
         <div className="wellbeing-text">
-          <h3>Mental Health Ally Network</h3>
+          <h3>Supportive spaces</h3>
           <p>
-           We’re here for each other worldwide. Reach out to a trained member of our
-            Accenture network for support whenever you need it.
+          VividNex offices are designed with everyone in mind. From wellness and interfaith rooms to lactation facilities and all-gender restrooms, we create spaces that support comfort, well-being, and inclusion for all.
           </p>
         </div>
       </div>
