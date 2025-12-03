@@ -11,7 +11,7 @@ import CookiePolicy from './CookiePolicy/CookiePolicy'
 import PrivacyStatement from './PrivacyStatement/PrivacyStatement';
 import TermsConditions from './TermsConditions/TermsConditions';
 import AccessibilityStatement from './AccessibilityStatement/AccessibilityStatement';
-
+import Contact from './Contact/Contact';
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
             <li><Link to="/AwardsRecognition">Awards & Recognition</Link></li>
             <li><Link to="/Career">Careers</Link></li>
             <li><Link to="/WhoWeAre">About Us</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/Contact">Contact Us</Link></li>
             <li><Link to="/Locations">Locations</Link></li>
             <li><Link to="/Value">Integrated Values</Link></li>
           </ul>

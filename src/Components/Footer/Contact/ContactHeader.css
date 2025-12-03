@@ -1,0 +1,35 @@
+body {
+  background-color: #000;  /* Full black bg */
+  font-family: "Arial", sans-serif;
+}
+
+.contact-header {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  color: #ffffff;
+  
+}
+
+.contact-header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-header p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .contact-header h1 {
+    font-size: 28px;
+  }
+
+  .contact-header p {
+    font-size: 15px;
+  }
+}

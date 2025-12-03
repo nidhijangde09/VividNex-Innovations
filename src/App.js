@@ -138,6 +138,8 @@ import CookiePolicy from './Components/Footer/CookiePolicy/CookiePolicy';
 import Technology5 from './View/Modernization/Technology5';
 import IndustryX from './Components/Abouts/IndustryX/IndustryX';
 import DigitalE from './Components/Service/Digital/DigitalE';
+
+import Contact from './Components/Footer/Contact/Contact';
 const App = () => {
   return (
     <Router>
@@ -205,8 +207,8 @@ const App = () => {
         <Route path="/BoardofDirectors" element={<BoardofDirectors />} />
         <Route path="/StratConslt" element={<StratConslt />} />
         <Route path="/Tech" element={<Tech />} />
-        <Route path="/Operation" element={<ManagedServices/>} />
-           <Route path="/Industry X" element={<DigitalE />} />
+        <Route path="/Operation" element={<ManagedServices />} />
+        <Route path="/Industry X" element={<DigitalE />} />
         <Route path="/Song" element={<Song />} />
         <Route path="/Awards" element={<Awards />} />
         <Route path="/Partnersslidercards" element={<Partnersslidercards />} />
@@ -272,7 +274,7 @@ const App = () => {
         <Route path="/Modernization3M" element={<Modernization3M />} />
         <Route path="/Modernization4M" element={<Modernization4M />} />
 
-
+        <Route path="/Contact" element={<Contact />} />
         <Route path="/PrivacyStatement" element={<PrivacyStatement />} />
         <Route path="/TermsConditions" element={<TermsConditions />} />
         <Route path="/AccessibilityStatement" element={<AccessibilityStatement />} />
