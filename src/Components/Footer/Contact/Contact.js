@@ -28,11 +28,8 @@ function Contact() {
             <DropdownSelect />
             <AboutYouForm />
             <ConsentForm />
-                        <ContactHeader1 />
-            <div className='contact-header' >
-            <h1 >General Inquiries</h1>
-            </div>
-            <ConductSection />
+            <ContactHeader1 />
+
             <Footer />
 
         </div>
