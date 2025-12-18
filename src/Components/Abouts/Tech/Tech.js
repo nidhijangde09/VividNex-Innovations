@@ -2,7 +2,7 @@ import React from 'react'
 import './Tech.css';
 import Navbar from '../../Navbar/Navbar';
 import Techimg from '../../../assets/images/Tech.jpg';
-import QuoteSection from './QuoteSection';
+
 import ServiceHoverPanel from './ServiceHoverPanel';
 import AiReinvention from './AiReinvention';
 import AISlider from './AISlider';
@@ -22,7 +22,7 @@ function Tech() {
       <h1 className='Careerhead1'>Trusted to innovate and execute</h1>
       <p className='Careerheadcontent'>We help organizations worldwide use technology to reinvent how they work and operate. With global expertise, ever-evolving capabilities and deep industry knowledge, we solve challenges to unlock new possibilities and lasting growth. Together, we’ll make your vision a reality—no matter where you are on your journey.</p>
 
-      <QuoteSection/>
+    
 
       <AiReinvention />
 <h1 className='headings-1'>Our Work</h1>

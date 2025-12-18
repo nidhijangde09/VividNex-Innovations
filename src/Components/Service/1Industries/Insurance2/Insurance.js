@@ -28,14 +28,15 @@ function Insurance() {
           </p>
         </div>
       </div>
+        <h1 className='headings'>Insurance consulting Now</h1>
       <BankingStats />  
-
+        <h1 className='headings'>Insurance consulting</h1>
       <BankingCardSection />
-
+        <h1 className='headings'>Segments we support</h1>
       <BankingHoverPanel />
-
+        <h1 className='headings'>What’s trending in insurance</h1>
       <BankingSlider />
-
+        <h1 className='headings'>Partners in change</h1>
       <BankingGridHoverCard  />
       
       <InsurancesCareer />

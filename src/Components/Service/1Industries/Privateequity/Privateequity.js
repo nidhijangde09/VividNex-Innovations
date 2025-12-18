@@ -22,13 +22,13 @@ function Privateequity() {
           <img src={Privateequityimg } alt="Cloud consulting illustration" /> {/* Updated here */}
         </div>
         <div className="service-text">
-          <h1>Public Sector consulting</h1>
+          <h1>Private equity </h1>
           <p>
             The lines between physical and digital are fading. The metaverse unlocks new opportunities to interact, innovate, and engage. It’s a powerful new space to design inclusive, meaningful, and immersive experiences.
           </p>
         </div>
       </div>
-      <h1 className='headings'>Public Sector  now</h1>
+      <h1 className='headings'>Private equity now</h1>
       <BankingStats />
       <h1 className='headings'>How to reinvent</h1>
       <BankingCardSection />

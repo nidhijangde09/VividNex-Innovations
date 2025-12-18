@@ -38,7 +38,6 @@ import Benefits from '../Careers/LifeAtVividnex/Benefits/Benefits';
 import CareerBlog from '../Careers/LifeAtVividnex/CareerBlog/CareerBlog';
 import Industrial from '../Service/1Industries/Industrial/Industrial';
 import Lifescience from '../Service/1Industries/LifeScience/Lifescience';
-import Naturalresources from '../Service/1Industries/Naturalresources/Naturalresources';
 import Privateequity  from '../Service/1Industries/Privateequity/Privateequity';
 import Insurance from '../Service/1Industries/Insurance2/Insurance';
 import Publicsector from '../Service/1Industries/Publicsector/Publicsector';
@@ -120,7 +119,6 @@ const megaMenuData = {
         { label: "Industrial", path: "/Industrial" },
         { label: "Insurance", path: "/Insurance" },
         { label: "Life Science", path: "/Lifescience" },
-        { label: "Natural Resource", path: "/Naturalresources" },
         { label: "Public Service", path: "/Publicsector" },
         { label: "Private Equity", path: "/Privateequity" },
         { label: "Retail", path: "/Retail" },

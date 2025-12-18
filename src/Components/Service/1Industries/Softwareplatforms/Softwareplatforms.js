@@ -27,7 +27,7 @@ function Softwareplatforms() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Chemical industry now</h1>
+      <h1 className='headings'>Software Platforms now</h1>
       <ChemicalsStats />
       <h1 className='headings'>How to reinvent </h1>
       <ChemicalsCardSection />

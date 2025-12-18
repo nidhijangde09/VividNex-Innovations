@@ -38,7 +38,6 @@ import Health from './Components/Service/1Industries/Health/Health';
 import HighTech from './Components/Service/1Industries/HighTech/HighTech';
 import Industrial from './Components/Service/1Industries/Industrial/Industrial';
 import Lifescience from './Components/Service/1Industries/LifeScience/Lifescience';
-import Naturalresources from './Components/Service/1Industries/Naturalresources/Naturalresources';
 import Publicsector from './Components/Service/1Industries/Publicsector/Publicsector';
 import Retail from './Components/Service/1Industries/Retail/Retail';
 import Softwareplatforms from './Components/Service/1Industries/Softwareplatforms/Softwareplatforms';
@@ -180,7 +179,7 @@ const App = () => {
         <Route path="/Insurance" element={<Insurance />} />
         <Route path="/Privateequity" element={<Privateequity />} />
         <Route path="/Lifescience" element={<Lifescience />} />
-        <Route path="/Naturalresources" element={<Naturalresources />} />
+       
         <Route path="/Publicsector" element={<Publicsector />} />
         <Route path="/Retail" element={<Retail />} />
         <Route path="/Softwareplatforms" element={<Softwareplatforms />} />
@@ -215,7 +214,7 @@ const App = () => {
         <Route path="/Partnersslidercards1" element={<Partnersslidercards1 />} />
         <Route path="/Partnersslidercards2" element={<Partnersslidercards2 />} />
         <Route path="/ResearchReportcard" element={<ResearchReportcard />} />
-
+        
         <Route path="/Modernization" element={<Modernization />} />
         <Route path="/Modernization2" element={<Modernization2 />} />
         <Route path="/Modernization3" element={<Modernization3 />} />

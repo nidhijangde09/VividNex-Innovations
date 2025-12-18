@@ -29,8 +29,7 @@ function WhoWeAre() {
             <h1 className='Careerhead'>Driving meaningful impact</h1>
             <p className='Careerheadcontent'>We’re dedicated to making a meaningful impact globally—acting responsibly toward our people, our clients, and the communities we serve.</p>
             <AccordionSection />
-            <h1 className='Careerhead'>Leading with vision and experience</h1>
-            <QuoteSection />
+           
             <h1 className='Careerhead1'>Industry </h1>
             <p className='Careerheadcontent1'>At VividNex, we bring together technology, strategy, and innovation to help every client transform with speed and confidence. Across industries, we deliver tailored solutions that empower growth and lasting impact.</p>
             <BankingHoverPanel />

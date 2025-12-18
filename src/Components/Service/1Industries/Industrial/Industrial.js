@@ -27,18 +27,18 @@ function Industrial() {
                     </p>
                 </div>
             </div>
-            <h1 className='headings'>Chemical industry now</h1>
+            <h1 className='headings'>Industrial consulting now</h1>
             <EnergyStats />
-
+            <h1 className='headings'>How to reinvent industrial</h1>
             <EnergyCardSection />
-
+            <h1 className='headings'>Segments we support</h1>
             <BankingHoverPanel />
-
+            <h1 className='headings'>What’s trending </h1>
             <BankingSlider />
-
+            <h1 className='headings'>Awards and recognition</h1>
             <EnergyGridHoverCard />
-<IndustrialCareer />
-          
+            <IndustrialCareer />
+
             <Footer />
         </div>
 

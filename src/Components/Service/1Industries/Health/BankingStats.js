@@ -18,10 +18,7 @@ const stats = [
   number: "58%",
   text: "of enterprises struggle to scale AI due to fragmented data and legacy systems."
 },
-{
-  number: "70%",
-  text: "of executives say AI will be critical."
-}
+
 ];
 
 export default function BankingStats() {

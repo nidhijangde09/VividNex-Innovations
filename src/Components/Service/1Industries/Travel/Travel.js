@@ -28,7 +28,7 @@ function Travel() {
           </p>
         </div>
       </div>
-      <h1 className='headings'>Automotive now</h1>
+      <h1 className='headings'>Travel services now</h1>
       <AutomotiveStats />
       <h1 className='headings'>How to reinvent </h1>
       <AutomotiveCardSection />

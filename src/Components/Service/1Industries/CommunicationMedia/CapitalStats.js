@@ -1,5 +1,5 @@
 import React from 'react';
-import './CapitalStats.css';
+import './ChemicalsStats.css';
 
 const stats = [
 {

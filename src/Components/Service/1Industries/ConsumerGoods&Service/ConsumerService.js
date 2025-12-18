@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../../Navbar/Navbar';
 import Footer from '../../../Footer/Footer';
-import ConsumerStats from './ConsumerStats';
+import AutomotiveStats from './AutomotiveStats';
 import ConsumerGridHoverCard from './ConsumerGridHoverCard';
 import ConsumerCardSection from './ConsumerCardSection';
 import ConsumerHoverPanel from './ConsumerHoverPanel';
@@ -28,7 +28,7 @@ function ConsumerService() {
         </div>
       </div>
    <h1 className='headings'>Consumer goods and services now</h1>
-      <ConsumerStats />
+      <AutomotiveStats/>
   <h1 className='headings'>How to reinvent</h1>
       <ConsumerCardSection />
   <h1 className='headings'>Segments we support</h1>
