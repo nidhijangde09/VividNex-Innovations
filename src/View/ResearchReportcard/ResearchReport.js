@@ -19,7 +19,7 @@ const ResearchReport = () => {
         <div className="report-divider"></div>
       </div>
 
-      {/* Right Side */}
+      {/* Right Side
       <div className="report-right">
         <p className="report-label">WRITTEN BY</p>
         <div className="author">
@@ -42,7 +42,7 @@ const ResearchReport = () => {
             <Linkedin size={18} />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -11,8 +11,7 @@ function ResearchReportcard() {
     <div>
       <Navbar />
       <ResearchReport />
-      <h1 className='headings-1'>Why modernize the way capital projects are delivered?</h1>
-      <InsightsSection />
+      
       <h1 className='headings-1'>Why modernize the way capital projects are delivered?</h1>
       <InsightsSection1 />
       <Footer />
